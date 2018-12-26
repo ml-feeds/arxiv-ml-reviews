@@ -39,6 +39,7 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
 }
 
 TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowed.
+    'airline review',
     'app reviews',
     'as a guide to',
     'assisted review',
@@ -54,6 +55,8 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'pediatrics',
     'peer review',
     'peerus review',
+    'review based',
+    'review datasets',
     'review detection',
     'review selection',
     'review scores',
@@ -61,10 +64,11 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'sports',
     'taxonomy generation',
     'taxonomy induction',
+    'taxonomy modification',
     'to guide',
     'tutorial generation',
     'wikipedia',
     'wsdm cup',
 }
 
-YEAR_MIN = 2017  # TODO: Gradually lower to 2014.
+YEAR_MIN = 2016  # TODO: Gradually lower to 2014.
