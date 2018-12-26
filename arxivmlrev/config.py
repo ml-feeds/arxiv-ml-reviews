@@ -32,6 +32,7 @@ TERMS = {  # Lowercase only. Punctuation characters not allowed.
 
 TERM_BLACKLIST = {  # Lowercase only. Punctuation characters not allowed.
     'as a guide to',
+    'assisted review',
     'autonomous driving',
     'cancer',
     'competition',
@@ -42,6 +43,7 @@ TERM_BLACKLIST = {  # Lowercase only. Punctuation characters not allowed.
     'sports',
     'to guide',
     'tutorial generation',
+    'wsdm cup',
 }
 
 YEAR_MIN = 2014
