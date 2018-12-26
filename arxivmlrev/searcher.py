@@ -1,4 +1,4 @@
-from arxivmlrev.config import CATEGORIES, DELAY, ID_BLACKLIST, TERMS, TERMS_BLACKLIST, YEAR_MIN
+import arxivmlrev.config as config
 
 from string import punctuation
 import time
@@ -6,12 +6,12 @@ from types import SimpleNamespace
 
 import arxiv
 
-terms_quoted = {f'"{term}"' if ' ' in term else term for term in TERMS}
-terms_blacklist_quoted = {f'"{term}"' if ' ' in term else term for term in TERMS_BLACKLIST}
+terms_quoted = {f'"{term}"' if ' ' in term else term for term in config.TERMS}
+terms_blacklist_quoted = {f'"{term}"' if ' ' in term else term for term in config.TERMS_BLACKLIST}
 
 title_query = ' OR '.join(f'ti:{term}' for term in sorted(terms_quoted))
 title_query_blacklist = ' OR '.join(f'ti:{term}' for term in sorted(terms_blacklist_quoted))
-cat_query = ' OR '.join(f'cat:{cat}' for cat in sorted(CATEGORIES))
+cat_query = ' OR '.join(f'cat:{cat}' for cat in sorted(config.CATEGORIES))
 search_query = f'({title_query}) AND ({cat_query}) ANDNOT ({title_query_blacklist})'
 print(search_query)
 
@@ -25,29 +25,29 @@ def get_results():
         results = arxiv.query(search_query=search_query, start=start, max_results=max_results, sort_by='submittedDate')
         for result in results:
             id_ = result['id'].rsplit('/')[-1].rsplit('v')[0]
-            if id_ in ID_BLACKLIST:
+            if id_ in config.ID_BLACKLIST:
                 continue
             title = result['title'].replace('\n ', '')
             title_cmp = ''.join(c for c in title.lower() if c not in punctuation)
-            # if any(term in title_cmp for term in TERMS_BLACKLIST):
+            # if any(term in title_cmp for term in config.TERMS_BLACKLIST):
             #     print(f'SKIPPING BLACKLISTED {title}')
             #     continue
-            if all(term not in title_cmp for term in TERMS):
-                print(f'SKIPPING NON-WHITELISTED {title}')
+            if all(f'{term} ' not in f'{title_cmp} ' for term in config.TERMS):
+                # print(f'SKIPPING NON-WHITELISTED {title}')
                 continue
             year = result['published_parsed'].tm_year
-            if year < YEAR_MIN:
+            if year < config.YEAR_MIN:
                 return
             year_updated = result['updated_parsed'].tm_year
             if year != year_updated:
                 year = f'{year}-{year_updated}'
             primary_category = result['arxiv_primary_category']['term']
-            if primary_category not in CATEGORIES:
+            if primary_category not in config.CATEGORIES:
                 continue
             result = {'id': id_, 'title': title, 'cat': primary_category}
             yield result
         start += max_results
-        sleep_time = max(0, DELAY - (time.time() - query_time))
+        sleep_time = max(0, config.DELAY - (time.time() - query_time))
         time.sleep(sleep_time)
 
 
