@@ -39,6 +39,7 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
 }
 
 TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowed.
+    'app reviews',
     'as a guide to',
     'assisted review',
     'automated driving',
@@ -48,6 +49,7 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'electronic health records',
     'heart failure',
     'matlab toolbox',
+    'online reviews',
     'patent',
     'pediatrics',
     'peer review',
