@@ -21,11 +21,16 @@ DELAY = 3  # Per recommendation at https://arxiv.org/help/api/user-manual#paging
 ID_BLACKLIST = set(pd.read_csv(DATA_DIR / 'blacklist.csv', dtype={'ID': str}, usecols=['ID'])['ID'])
 
 TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
+    'critical appraisal',
+    'critical reflection',
     'brief history',
     'contemporary',
+    'discussion',
     'introduction',
     'guide',
+    'guidelines',
     'history of',
+    'mathematics of',
     'overview',
     'review',
     'tour',
@@ -42,6 +47,7 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'peer review',
     'peerus review',
     'review selection',
+    'r package',
     'sports',
     'to guide',
     'tutorial generation',
