@@ -66,9 +66,10 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'taxonomy induction',
     'taxonomy modification',
     'to guide',
+    'tour recommendation',
     'tutorial generation',
     'wikipedia',
     'wsdm cup',
 }
 
-YEAR_MIN = 2016  # TODO: Gradually lower to 2014.
+YEAR_MIN = 2014  # TODO: Gradually lower to 2014.
