@@ -1,10 +1,6 @@
-from pathlib import Path
-
-import data
+from arxivmlrev.config import DATA_DIR
 
 import pandas as pd
-
-DATA_DIR = Path(data.__path__._path[0])
 
 
 def write_md_file() -> None:
