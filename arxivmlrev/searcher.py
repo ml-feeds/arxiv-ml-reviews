@@ -1,4 +1,4 @@
-from arxivmlrev.config import CATEGORIES, DELAY, ID_BLACKLIST, TERMS, TERM_BLACKLIST, YEAR_MIN
+from arxivmlrev.config import CATEGORIES, DELAY, ID_BLACKLIST, TERMS, TERMS_BLACKLIST, YEAR_MIN
 
 from string import punctuation
 import time
@@ -6,15 +6,19 @@ from types import SimpleNamespace
 
 import arxiv
 
-title_query = ' OR '.join(f'ti:{term}' for term in sorted(TERMS))
+terms_quoted = {f'"{term}"' if ' ' in term else term for term in TERMS}
+terms_blacklist_quoted = {f'"{term}"' if ' ' in term else term for term in TERMS_BLACKLIST}
+
+title_query = ' OR '.join(f'ti:{term}' for term in sorted(terms_quoted))
+title_query_blacklist = ' OR '.join(f'ti:{term}' for term in sorted(terms_blacklist_quoted))
 cat_query = ' OR '.join(f'cat:{cat}' for cat in sorted(CATEGORIES))
-search_query = f'({title_query}) AND ({cat_query})'
+search_query = f'({title_query}) AND ({cat_query}) ANDNOT ({title_query_blacklist})'
 print(search_query)
 
 
 def get_results():
     start = 0
-    max_results = 100
+    max_results = 50
     while True:
         print(f'\nstart={start}')
         query_time = time.time()
@@ -25,11 +29,11 @@ def get_results():
                 continue
             title = result['title'].replace('\n ', '')
             title_cmp = ''.join(c for c in title.lower() if c not in punctuation)
-            if any(term in title_cmp for term in TERM_BLACKLIST):
-                print(f'SKIPPING {title}')
-                continue
-            title_terms = set(term for term in title_cmp.split(' '))
-            if not(TERMS & title_terms):
+            # if any(term in title_cmp for term in TERMS_BLACKLIST):
+            #     print(f'SKIPPING BLACKLISTED {title}')
+            #     continue
+            if all(term not in title_cmp for term in TERMS):
+                print(f'SKIPPING NON-WHITELISTED {title}')
                 continue
             year = result['published_parsed'].tm_year
             if year < YEAR_MIN:
