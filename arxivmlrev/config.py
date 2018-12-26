@@ -16,11 +16,11 @@ CATEGORIES = {
     'stat.ML',
 }
 
-DELAY = 3  # Per https://arxiv.org/help/api/user-manual#paging
+DELAY = 3  # Per recommendation at https://arxiv.org/help/api/user-manual#paging
 
 ID_BLACKLIST = set(pd.read_csv(DATA_DIR / 'blacklist.csv', dtype={'ID': str}, usecols=['ID'])['ID'])
 
-TERMS = {  # Punctuation characters not allowed.
+TERMS = {  # Lowercase only. Punctuation characters not allowed.
     'contemporary',
     'introduction',
     'guide',
@@ -30,13 +30,18 @@ TERMS = {  # Punctuation characters not allowed.
     'tutorial',
 }
 
-TERM_BLACKLIST = {  # Punctuation characters not allowed.
-    'agi containment',
+TERM_BLACKLIST = {  # Lowercase only. Punctuation characters not allowed.
     'as a guide to',
     'autonomous driving',
     'cancer',
     'competition',
+    'pediatrics',
+    'peer review',
+    'peerus review',
+    'review selection',
     'sports',
+    'to guide',
+    'tutorial generation',
 }
 
 YEAR_MIN = 2014

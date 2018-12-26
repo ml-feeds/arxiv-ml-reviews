@@ -26,6 +26,7 @@ def get_results():
             title = result['title'].replace('\n ', '')
             title_cmp = ''.join(c for c in title.lower() if c not in punctuation)
             if any(term in title_cmp for term in TERM_BLACKLIST):
+                print(f'SKIPPING {title}')
                 continue
             title_terms = set(term for term in title_cmp.split(' '))
             if not(TERMS & title_terms):
@@ -43,7 +44,6 @@ def get_results():
             yield result
         start += max_results
         sleep_time = max(0, DELAY - (time.time() - query_time))
-        print(f'Sleeping for {sleep_time:.1f} seconds.')
         time.sleep(sleep_time)
 
 
