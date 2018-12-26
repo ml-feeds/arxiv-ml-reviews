@@ -16,7 +16,7 @@ CATEGORIES = {
     'stat.ML',
 }
 
-DELAY = 3  # Per recommendation at https://arxiv.org/help/api/user-manual#paging
+DELAY = 4  # Per recommendation of 3 at https://arxiv.org/help/api/user-manual#paging
 
 ID_BLACKLIST = set(pd.read_csv(DATA_DIR / 'blacklist.csv', dtype={'ID': str}, usecols=['ID'])['ID'])
 
@@ -41,6 +41,7 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
 TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowed.
     'as a guide to',
     'assisted review',
+    'automated driving',
     'autonomous driving',
     'cancer',
     'competition',
@@ -52,9 +53,11 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'review selection',
     'r package',
     'sports',
+    'taxonomy generation',
+    'taxonomy induction',
     'to guide',
     'tutorial generation',
     'wsdm cup',
 }
 
-YEAR_MIN = 2017  # TODO: Gradually lower to 2014.
+YEAR_MIN = 2016  # TODO: Gradually lower to 2014.
