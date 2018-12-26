@@ -54,4 +54,4 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'wsdm cup',
 }
 
-YEAR_MIN = 2014
+YEAR_MIN = 2017  # TODO: Gradually lower to 2014.
