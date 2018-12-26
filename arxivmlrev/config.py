@@ -2,6 +2,10 @@ from pathlib import Path
 
 import data
 
+import pandas as pd
+
+DATA_DIR = Path(data.__path__._path[0])
+
 CATEGORIES = {
     'cs.AI',
     # 'cs.CL',
@@ -12,7 +16,7 @@ CATEGORIES = {
     'stat.ML',
 }
 
-DATA_DIR = Path(data.__path__._path[0])
+ID_BLACKLIST = set(pd.read_csv(DATA_DIR / 'blacklist.csv', dtype={'ID': str}, usecols=['ID'])['ID'])
 
 TERMS = {
     'contemporary',
@@ -24,4 +28,10 @@ TERMS = {
     'tutorial',
 }
 
-TERMS_BLACKLIST = ()
+TERMS_BLACKLIST = {
+    'as a guide to',
+    'java',
+    'autonomous driving'
+}
+
+YEAR_MIN = 2014
