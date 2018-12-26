@@ -2,11 +2,19 @@ from pathlib import Path
 
 import data
 
+CATEGORIES = {
+    'cs.AI',
+    # 'cs.CL',
+    'cs.IR',
+    'cs.LG',
+    'cs.NE',
+    # 'cs.CV',
+    'stat.ML',
+}
+
 DATA_DIR = Path(data.__path__._path[0])
 
-SUBJECTS = ('cs.AI', 'cs.CL', 'cs.LG', 'cs.NE', 'cs.CV', 'stat.ML',)
-
-TERMS = (
+TERMS = {
     'contemporary',
     'introduction',
     'guide',
@@ -14,4 +22,6 @@ TERMS = (
     'review',
     'tour',
     'tutorial',
-)
+}
+
+TERMS_BLACKLIST = ()
