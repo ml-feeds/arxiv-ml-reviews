@@ -47,17 +47,22 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'competition',
     'electronic health records',
     'heart failure',
+    'matlab toolbox',
+    'patent',
     'pediatrics',
     'peer review',
     'peerus review',
+    'review detection',
     'review selection',
+    'review scores',
     'r package',
     'sports',
     'taxonomy generation',
     'taxonomy induction',
     'to guide',
     'tutorial generation',
+    'wikipedia',
     'wsdm cup',
 }
 
-YEAR_MIN = 2016  # TODO: Gradually lower to 2014.
+YEAR_MIN = 2017  # TODO: Gradually lower to 2014.

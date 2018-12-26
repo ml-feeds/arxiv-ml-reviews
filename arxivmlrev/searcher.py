@@ -20,7 +20,7 @@ def get_results():
     start = 0
     max_results = 100
     while True:
-        for _ in range(3):
+        for attempt in range(3):
             print(f'\nstart={start}')
             query_time = time.time()
             results = arxiv.query(search_query=search_query, start=start, max_results=max_results, sort_by='submittedDate')
