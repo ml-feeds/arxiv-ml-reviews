@@ -4,8 +4,15 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
+arxiv==0.3.1
+certifi==2018.11.29       # via requests
+chardet==3.0.4            # via requests
+feedparser==5.2.1         # via arxiv
+idna==2.8                 # via requests
 numpy==1.15.4             # via pandas
 pandas==0.23.4
 python-dateutil==2.7.5    # via pandas
 pytz==2018.7              # via pandas
+requests==2.21.0          # via arxiv
 six==1.12.0               # via python-dateutil
+urllib3==1.24.1           # via requests
