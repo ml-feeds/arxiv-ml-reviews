@@ -33,6 +33,7 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
     'mathematics of',
     'overview',
     'review',
+    'taxonomy',
     'tour',
     'tutorial',
 }
@@ -43,6 +44,8 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'autonomous driving',
     'cancer',
     'competition',
+    'electronic health records',
+    'heart failure',
     'pediatrics',
     'peer review',
     'peerus review',
