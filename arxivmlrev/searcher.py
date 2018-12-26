@@ -18,11 +18,20 @@ print(search_query)
 
 def get_results():
     start = 0
-    max_results = 50
+    max_results = 100
     while True:
-        print(f'\nstart={start}')
-        query_time = time.time()
-        results = arxiv.query(search_query=search_query, start=start, max_results=max_results, sort_by='submittedDate')
+        for _ in range(3):
+            print(f'\nstart={start}')
+            query_time = time.time()
+            results = arxiv.query(search_query=search_query, start=start, max_results=max_results, sort_by='submittedDate')
+            if results:
+                break
+            else:
+                time.sleep(config.DELAY)
+        else:
+            print('Query returned no results.')
+            return
+
         for result in results:
             id_ = result['id'].rsplit('/')[-1].rsplit('v')[0]
             if id_ in config.ID_BLACKLIST:
