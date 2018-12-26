@@ -16,9 +16,11 @@ CATEGORIES = {
     'stat.ML',
 }
 
+DELAY = 3  # Per https://arxiv.org/help/api/user-manual#paging
+
 ID_BLACKLIST = set(pd.read_csv(DATA_DIR / 'blacklist.csv', dtype={'ID': str}, usecols=['ID'])['ID'])
 
-TERMS = {
+TERMS = {  # Punctuation characters not allowed.
     'contemporary',
     'introduction',
     'guide',
@@ -28,10 +30,13 @@ TERMS = {
     'tutorial',
 }
 
-TERMS_BLACKLIST = {
+TERM_BLACKLIST = {  # Punctuation characters not allowed.
+    'agi containment',
     'as a guide to',
-    'java',
-    'autonomous driving'
+    'autonomous driving',
+    'cancer',
+    'competition',
+    'sports',
 }
 
 YEAR_MIN = 2014

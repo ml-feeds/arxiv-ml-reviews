@@ -1,7 +1,7 @@
-from arxivmlrev.config import CATEGORIES, ID_BLACKLIST, TERMS, YEAR_MIN
+from arxivmlrev.config import CATEGORIES, DELAY, ID_BLACKLIST, TERMS, TERM_BLACKLIST, YEAR_MIN
 
 from string import punctuation
-from time import sleep
+import time
 from types import SimpleNamespace
 
 import arxiv
@@ -14,16 +14,20 @@ print(search_query)
 
 def get_results():
     start = 0
-    max_results = 2000
+    max_results = 100
     while True:
         print(f'\nstart={start}')
+        query_time = time.time()
         results = arxiv.query(search_query=search_query, start=start, max_results=max_results, sort_by='submittedDate')
         for result in results:
             id_ = result['id'].rsplit('/')[-1].rsplit('v')[0]
             if id_ in ID_BLACKLIST:
                 continue
             title = result['title'].replace('\n ', '')
-            title_terms = set(term.rstrip(punctuation) for term in title.lower().split(' '))
+            title_cmp = ''.join(c for c in title.lower() if c not in punctuation)
+            if any(term in title_cmp for term in TERM_BLACKLIST):
+                continue
+            title_terms = set(term for term in title_cmp.split(' '))
             if not(TERMS & title_terms):
                 continue
             year = result['published_parsed'].tm_year
@@ -38,7 +42,9 @@ def get_results():
             result = {'id': id_, 'title': title, 'cat': primary_category}
             yield result
         start += max_results
-        sleep(4)
+        sleep_time = max(0, DELAY - (time.time() - query_time))
+        print(f'Sleeping for {sleep_time:.1f} seconds.')
+        time.sleep(sleep_time)
 
 
 for result in get_results():
