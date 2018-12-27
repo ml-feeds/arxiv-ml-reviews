@@ -34,8 +34,9 @@ def get_results():
             return
 
         for result in results:
-            id_ = result['id'].rsplit('/')[-1].rsplit('v')[0]
-            if id_ in config.ID_BLACKLIST:
+            url_id = result['arxiv_url'].replace('http://arxiv.org/abs/', '', 1).rsplit('v', 1)[0]
+            # Note: Unlike result['id'], url_id is actually unique, specifically for results older than 2007.
+            if url_id in config.URL_ID_BLACKLIST:
                 continue
             title = result['title'].replace('\n ', '')
             title_cmp = ''.join(c for c in title.lower() if c not in punctuation)
@@ -52,7 +53,7 @@ def get_results():
             primary_category = result['arxiv_primary_category']['term']
             if primary_category not in config.CATEGORIES:
                 continue
-            result = {'id': id_, 'title': title, 'cat': primary_category, 'year': year}
+            result = {'url_id': url_id, 'cat': primary_category, 'title': title,  'years': year}
             yield result
 
         print(f'num_results={len(results)}')
@@ -66,6 +67,5 @@ def get_results():
 for result in get_results():
     r = SimpleNamespace(**result)
     if ',' in r.title:
-        # assert '"' not in r.title
         r.title = f'"{r.title}"'
-    print(f'{r.id},{r.cat},{r.title}')
+    print(f'{r.url_id},{r.cat},{r.title},{r.years}')
