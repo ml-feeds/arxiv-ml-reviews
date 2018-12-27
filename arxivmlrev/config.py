@@ -45,6 +45,7 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'assisted review',
     'automated driving',
     'autonomous driving',
+    'book review',
     'cancer',
     'competition',
     'conference',
@@ -78,4 +79,4 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'wsdm cup',
 }
 
-YEAR_MIN = 2010  # TODO: Gradually lower.
+YEAR_MIN = 2005  # TODO: Gradually lower.
