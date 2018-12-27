@@ -1,4 +1,8 @@
-ID,Category,Title
+URL_ID,Category,Title
+cs/0611113,cs.CL,"An Anthological Review of Research Utilizing MontyLingua, a Python-Based End-to-End Text Processor"
+cs/0607051,cs.CL,Raisonner avec des diagrammes : perspectives cognitives et computationnelles
+cs/0605120,cs.AI,"Understanding Design Fundamentals: How Synthesis and Analysis Drive Creativity, Resulting in Emergence"
+cs/0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhierarchies, and Taxonomy Algebra"
 1812.03362,cs.LG,Letting symmetry guide visualization: multidimensional scaling on groups
 1812.02580,cs.AI,Selected Qualitative Spatio-temporal Calculi Developed for Constraint Reasoning: A Review
 1811.12787,cs.AI,A Tutorial for Weighted Bipolar Argumentation with Continuous Dynamical Systems and the Java Library Attractor
@@ -57,7 +61,3 @@ ID,Category,Title
 0808.0056,cs.AI,"I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong"
 0709.4015,cs.AI,From Texts to Structured Documents: The Case of Health Practice Guidelines
 0706.1137,cs.AI,Automatically Restructuring Practice Guidelines using the GEM DTD
-0611113,cs.CL,"An Anthological Review of Research Utilizing MontyLingua, a Python-Based End-to-End Text Processor"
-0607051,cs.CL,Raisonner avec des diagrammes : perspectives cognitives et computationnelles
-0605120,cs.AI,"Understanding Design Fundamentals: How Synthesis and Analysis Drive Creativity, Resulting in Emergence"
-0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhierarchies, and Taxonomy Algebra"
