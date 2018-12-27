@@ -48,7 +48,7 @@ def get_results():
             if year != year_updated:
                 year = f'{year}-{year_updated}'
             primary_category = result['arxiv_primary_category']['term']
-            if primary_category in config.CATEGORIES:
+            if primary_category in config.CATEGORIES:  # TODO: Remove condition.
                 continue
             result = {'url_id': url_id, 'cat': primary_category, 'title': title,
                       # 'years': year,
