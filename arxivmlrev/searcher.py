@@ -18,12 +18,12 @@ print(search_query)
 
 def get_results():
     start = 0
-    max_results = 400
     while True:
         for attempt in range(3):
             print(f'\nstart={start}')
             query_time = time.time()
-            results = arxiv.query(search_query=search_query, start=start, max_results=max_results, sort_by='submittedDate')
+            results = arxiv.query(search_query=search_query, start=start, max_results=config.MAX_RESULTS_PER_QUERY,
+                                  sort_by='submittedDate')
             if results:
                 break
             else:
@@ -54,9 +54,9 @@ def get_results():
             yield result
 
         print(f'num_results={len(results)}')
-        if len(results) < max_results:
+        if len(results) < config.MAX_RESULTS_PER_QUERY:
             return
-        start += max_results
+        start += config.MAX_RESULTS_PER_QUERY
         sleep_time = max(0, config.DELAY - (time.time() - query_time))
         time.sleep(sleep_time)
 

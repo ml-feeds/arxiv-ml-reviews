@@ -17,8 +17,8 @@ CATEGORIES = {
 }
 
 DELAY = 4  # Per recommendation of 3 at https://arxiv.org/help/api/user-manual#paging
-
 ID_BLACKLIST = set(pd.read_csv(DATA_DIR / 'blacklist.csv', dtype={'ID': str}, usecols=['ID'])['ID'])
+MAX_RESULTS_PER_QUERY = 400
 
 TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
     'critical appraisal',
