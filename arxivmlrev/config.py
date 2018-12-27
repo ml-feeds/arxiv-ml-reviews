@@ -52,6 +52,7 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'chinese',
     'competition',
     'conference',
+    'conll',
     'discussion forum',
     'discussion threads',
     'eirex',
