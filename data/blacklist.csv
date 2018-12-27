@@ -8,6 +8,8 @@ ID,Category,Title
 1810.13163,stat.ML,A tutorial on MDL hypothesis testing for graph analysis
 1810.09245,cs.AI,A Review on Learning Planning Action Models for Socio-Communicative HRI
 1808.08433,cs.AI,A Tutorial on Modular Ontology Modeling with Ontology Design Patterns: The Cooking Recipes Ontology
+1808.05542,cs.CL,Overview of the CLEF-2018 CheckThat! Lab on Automatic Identification and Verification of Political Claims. Task 1: Check-Worthiness
+1808.02290,cs.CL,How did the discussion go: Discourse act classification in social media conversations
 1808.01690,cs.AI,Error Detection in a Large-Scale Lexical Taxonomy
 1804.07958,cs.IR,Expert Finding in Community Question Answering: A Review
 1804.00038,cs.AI,Overview: A Hierarchical Framework for Plan Generation and Execution in Multi-Robot Systems
@@ -40,3 +42,5 @@ ID,Category,Title
 0902.3623,cs.AI,A Self-Contained and Easily Accessible Discussion of the Method of Descente Infinie and Fermat's Only Explicitly Known Proof by Descente Infinie
 0709.4015,cs.AI,From Texts to Structured Documents: The Case of Health Practice Guidelines
 0706.1137,cs.AI,Automatically Restructuring Practice Guidelines using the GEM DTD
+1801.09036,cs.CL,A Sheaf Model of Contradictions and Disagreements. Preliminary Report and Discussion
+1709.00813,cs.CL,From Review to Rating: Exploring Dependency Measures for Text Classification
