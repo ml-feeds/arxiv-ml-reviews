@@ -24,7 +24,7 @@ def get_results():
             query_time = time.time()
             results = arxiv.query(search_query=search_query, start=start, max_results=config.MAX_RESULTS_PER_QUERY,
                                   sort_by='submittedDate')
-            if (start == 0) and (len(results) == 1):
+            if (start == 0) and (len(results) == 1):  # This is indicative of a bad result set.
                 continue
             if results:
                 break
