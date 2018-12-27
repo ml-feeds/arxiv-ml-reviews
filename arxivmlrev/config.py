@@ -78,5 +78,3 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'wikipedia',
     'wsdm cup',
 }
-
-YEAR_MIN = 2000  # TODO: Gradually lower.

@@ -20,7 +20,7 @@ def get_results():
     start = 0
     max_results = 480
     while True:
-        for attempt in range(3):
+        for attempt in range(2):
             print(f'\nstart={start}')
             query_time = time.time()
             results = arxiv.query(search_query=search_query, start=start, max_results=max_results, sort_by='submittedDate')
@@ -29,7 +29,6 @@ def get_results():
             else:
                 time.sleep(config.DELAY)
         else:
-            print('Query returned no results.')
             return
 
         for result in results:
@@ -45,15 +44,13 @@ def get_results():
                 # print(f'SKIPPING NON-WHITELISTED {title}')
                 continue
             year = result['published_parsed'].tm_year
-            if year < config.YEAR_MIN:
-                return
             year_updated = result['updated_parsed'].tm_year
             if year != year_updated:
                 year = f'{year}-{year_updated}'
             primary_category = result['arxiv_primary_category']['term']
             if primary_category not in config.CATEGORIES:
                 continue
-            result = {'id': id_, 'title': title, 'cat': primary_category}
+            result = {'id': id_, 'title': title, 'cat': primary_category, 'year': year}
             yield result
         start += max_results
         sleep_time = max(0, config.DELAY - (time.time() - query_time))
