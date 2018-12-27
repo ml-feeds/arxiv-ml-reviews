@@ -97,6 +97,8 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'survey data',
     'survey evaluation',
     'survey extraction',
+    'survey problem',
+    'survey propagation',
     'survey questions',
     'taxonomy extraction',
     'taxonomy generation',
