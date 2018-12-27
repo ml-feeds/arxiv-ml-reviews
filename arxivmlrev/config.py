@@ -48,8 +48,9 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'cancer',
     'competition',
     'electronic health records',
-    'heart failure',
+    'heart',
     'matlab toolbox',
+    'myocardial',
     'online reviews',
     'patent',
     'pediatrics',
@@ -66,10 +67,12 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'taxonomy induction',
     'taxonomy modification',
     'to guide',
+    'tour problem',
     'tour recommendation',
     'tutorial generation',
+    'user review',
     'wikipedia',
     'wsdm cup',
 }
 
-YEAR_MIN = 2014  # TODO: Gradually lower to 2014.
+YEAR_MIN = 2012  # TODO: Gradually lower.
