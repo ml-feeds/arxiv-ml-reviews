@@ -24,7 +24,7 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
     'critical reflection',
     'brief history',
     'discussion',
-    'foundations',  # TODO: Review results for "foundations". Also consider "foundation".
+    'foundations',
     'fundamentals',
     'introduction',
     'guide',
