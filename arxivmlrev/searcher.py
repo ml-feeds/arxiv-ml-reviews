@@ -66,6 +66,6 @@ def get_results():
 for result in get_results():
     r = SimpleNamespace(**result)
     if ',' in r.title:
-        assert '"' not in r.title
+        # assert '"' not in r.title
         r.title = f'"{r.title}"'
     print(f'{r.id},{r.cat},{r.title}')
