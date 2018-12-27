@@ -47,9 +47,11 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'autonomous driving',
     'cancer',
     'competition',
+    'conference',
     'eirex',
     'electronic health records',
     'heart',
+    'in a taxonomy',
     'matlab toolbox',
     'myocardial',
     'online reviews',
@@ -76,4 +78,4 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'wsdm cup',
 }
 
-YEAR_MIN = 2012  # TODO: Gradually lower.
+YEAR_MIN = 2010  # TODO: Gradually lower.
