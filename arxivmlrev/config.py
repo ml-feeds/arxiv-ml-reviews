@@ -47,6 +47,7 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'autonomous driving',
     'cancer',
     'competition',
+    'eirex',
     'electronic health records',
     'heart',
     'matlab toolbox',

@@ -18,7 +18,7 @@ print(search_query)
 
 def get_results():
     start = 0
-    max_results = 100
+    max_results = 400
     while True:
         for attempt in range(3):
             print(f'\nstart={start}')
