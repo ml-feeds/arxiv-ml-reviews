@@ -16,7 +16,7 @@ CATEGORIES = {
     'stat.ML',
 }
 
-DELAY = 4  # Per recommendation of 3 at https://arxiv.org/help/api/user-manual#paging
+DELAY_BETWEEN_QUERIES = 4  # Per recommendation of 3 at https://arxiv.org/help/api/user-manual#paging
 ID_BLACKLIST = set(pd.read_csv(DATA_DIR / 'blacklist.csv', dtype={'ID': str}, usecols=['ID'])['ID'])
 MAX_RESULTS_PER_QUERY = 400
 
@@ -25,6 +25,7 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
     'critical reflection',
     'brief history',
     'discussion',
+    'fundamentals',
     'introduction',
     'guide',
     'guidelines',
@@ -50,6 +51,7 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'book review',
     'cancer',
     'case study',
+    'company fundamentals',
     'chinese',
     'competition',
     'conference',

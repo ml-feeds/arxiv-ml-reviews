@@ -29,7 +29,7 @@ def get_results():
             if results:
                 break
             else:
-                time.sleep(config.DELAY)
+                time.sleep(config.DELAY_BETWEEN_QUERIES)
         else:
             return
 
@@ -59,7 +59,7 @@ def get_results():
         if len(results) < config.MAX_RESULTS_PER_QUERY:
             return
         start += config.MAX_RESULTS_PER_QUERY
-        sleep_time = max(0, config.DELAY - (time.time() - query_time))
+        sleep_time = max(0, config.DELAY_BETWEEN_QUERIES - (time.time() - query_time))
         time.sleep(sleep_time)
 
 
