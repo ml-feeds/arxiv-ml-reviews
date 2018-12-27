@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def write_md_file() -> None:
-    df = pd.read_csv(DATA_DIR / 'whitelist.csv', dtype={'ID': str, 'Group': 'category'})
+    df = pd.read_csv(DATA_DIR / 'whitelist.csv', dtype={'ID': str, 'Category': 'category'})
     df = df.sort_values(['Group', 'ID'], ascending=[1, 0])
     with (DATA_DIR / 'articles.md').open('w') as md:
         md.write('# Introductory articles')

@@ -5,8 +5,12 @@ ID,Category,Title
 1811.12455,cs.AI,Unifying Decision-Making: a Review on Evolutionary Theories on Rationality and Cognitive Biases
 1811.11815,cs.LG,Unrepresentative video data: A review and evaluation
 1811.05724,cs.AI,An Introduction to Fuzzy & Annotated Semantic Web Languages
+1811.05321,cs.LG,Correction of AI systems by linear discriminants: Probabilistic foundations
 1810.13163,stat.ML,A tutorial on MDL hypothesis testing for graph analysis
 1810.09245,cs.AI,A Review on Learning Planning Action Models for Socio-Communicative HRI
+1810.06765,cs.AI,A survey of automatic de-identification of longitudinal clinical narratives
+1809.03944,cs.CL,Multilingual Cross-domain Perspectives on Online Hate Speech
+1809.02862,cs.IR,A survey of food recommenders
 1808.08433,cs.AI,A Tutorial on Modular Ontology Modeling with Ontology Design Patterns: The Cooking Recipes Ontology
 1808.05542,cs.CL,Overview of the CLEF-2018 CheckThat! Lab on Automatic Identification and Verification of Political Claims. Task 1: Check-Worthiness
 1808.02290,cs.CL,How did the discussion go: Discourse act classification in social media conversations
@@ -14,24 +18,34 @@ ID,Category,Title
 1804.07958,cs.IR,Expert Finding in Community Question Answering: A Review
 1804.00038,cs.AI,Overview: A Hierarchical Framework for Plan Generation and Execution in Multi-Robot Systems
 1803.06818,cs.AI,Artificial Intelligence Enabled Software Defined Networking: A Comprehensive Overview
-1801.06323,cs.IR,"Plagiarism: Taxonomy, Tools and Detection Techniques"
 1802.04947,cs.LG,Attack RMSE Leaderboard: An Introduction and Case Study
+1801.09036,cs.CL,A Sheaf Model of Contradictions and Disagreements. Preliminary Report and Discussion
+1801.06323,cs.IR,"Plagiarism: Taxonomy, Tools and Detection Techniques"
 1801.00218,cs.AI,Game-theoretic Network Centrality: A Review
 1709.06758,cs.IR,A shared latent space matrix factorisation method for recommending new trial evidence for systematic review updates
+1709.00813,cs.CL,From Review to Rating: Exploring Dependency Measures for Text Classification
 1708.07193,stat.ML,Applications of Trajectory Data from the Perspective of a Road Transportation Agency: Literature Review and Maryland Case Study
 1707.09837,stat.ML,Review of Machine Learning Algorithms in Differential Expression Analysis
 1705.07606,stat.ML,Guide Actor-Critic for Continuous Control
+1705.04009,cs.IR,A survey of Community Question Answering
 1705.03967,cs.LG,GQ($λ$) Quick Reference and Implementation Guide
 1611.01228,cs.IR,URL ordering policies for distributed crawlers: a review
 1610.03793,cs.LG,Introduction to the Industrial Benchmark
 1608.08252,cs.AI,Business Process Deviance Mining: Review and Evaluation
+1608.02441,cs.AI,Proceedings of the Second Summer School on Argumentation: Computational and Linguistic Perspectives (SSA'16)
 1605.09351,cs.LG,Review of Fall Detection Techniques: A Data Availability Perspective
 1605.07912,cs.LG,Review Networks for Caption Generation
 1511.08996,cs.IR,Entity Suggestion by Example using a Conceptual Taxonomy
 1511.03780,cs.IR,A User's Guide to CARSKit
 1507.07147,cs.LG,True Online Emphatic TD($λ$): Quick Reference and Implementation Guide
+1502.07041,cs.IR,"Describing Colors, Textures and Shapes for Content Based Image Retrieval - A Survey"
+1412.0879,cs.CL,Watsonsim: Overview of a Question Answering Engine
 1404.2162,cs.AI,The NNN Formalization: Review and Development of Guideline Specification in the Care Domain
+1403.0052,cs.CL,TBX goes TEI -- Implementing a TBX basic extension for the Text Encoding Initiative guidelines
+1401.3483,cs.AI,Relaxed Survey Propagation for The Weighted Maximum Satisfiability Problem
+1312.4599,cs.LG,Evolution and Computational Learning Theory: A survey on Valiant's paper
 1312.3825,cs.AI,Parkinson's Disease Motor Symptoms in Machine Learning: A Review
+1311.6063,cs.CL,A Short Introduction to NILE
 1310.1863,cs.AI,Empowerment -- an Introduction
 1309.6527,cs.IR,Describing Papers and Reviewers' Competences by Taxonomy of Keywords
 1211.4709,cs.AI,A New Similarity Measure for Taxonomy Based on Edge Counting
@@ -40,23 +54,10 @@ ID,Category,Title
 1010.3177,cs.AI,Introduction to the iDian
 1008.4310,cs.AI,Modélisation d'une analyse pragma-linguistique d'un forum de discussion
 0902.3623,cs.AI,A Self-Contained and Easily Accessible Discussion of the Method of Descente Infinie and Fermat's Only Explicitly Known Proof by Descente Infinie
+0808.0056,cs.AI,"I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong"
 0709.4015,cs.AI,From Texts to Structured Documents: The Case of Health Practice Guidelines
 0706.1137,cs.AI,Automatically Restructuring Practice Guidelines using the GEM DTD
-1801.09036,cs.CL,A Sheaf Model of Contradictions and Disagreements. Preliminary Report and Discussion
-1709.00813,cs.CL,From Review to Rating: Exploring Dependency Measures for Text Classification
-1412.0879,cs.CL,Watsonsim: Overview of a Question Answering Engine
-1403.0052,cs.CL,TBX goes TEI -- Implementing a TBX basic extension for the Text Encoding Initiative guidelines
-1311.6063,cs.CL,A Short Introduction to NILE
 0611113,cs.CL,"An Anthological Review of Research Utilizing MontyLingua, a Python-Based End-to-End Text Processor"
-0808.0056,cs.AI,"I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong"
-0605120,cs.AI,"Understanding Design Fundamentals: How Synthesis and Analysis Drive Creativity, Resulting in Emergence"
-1810.06765,cs.AI,A survey of automatic de-identification of longitudinal clinical narratives
-1809.02862,cs.IR,A survey of food recommenders
-1705.04009,cs.IR,A survey of Community Question Answering
-1502.07041,cs.IR,"Describing Colors, Textures and Shapes for Content Based Image Retrieval - A Survey"
-1401.3483,cs.AI,Relaxed Survey Propagation for The Weighted Maximum Satisfiability Problem
-1312.4599,cs.LG,Evolution and Computational Learning Theory: A survey on Valiant's paper
-1809.03944,cs.CL,Multilingual Cross-domain Perspectives on Online Hate Speech
-1608.02441,cs.AI,Proceedings of the Second Summer School on Argumentation: Computational and Linguistic Perspectives (SSA'16)
 0607051,cs.CL,Raisonner avec des diagrammes : perspectives cognitives et computationnelles
+0605120,cs.AI,"Understanding Design Fundamentals: How Synthesis and Analysis Drive Creativity, Resulting in Emergence"
 0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhierarchies, and Taxonomy Algebra"
