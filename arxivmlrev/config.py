@@ -8,7 +8,7 @@ DATA_DIR = Path(data.__path__._path[0])
 
 CATEGORIES = {
     'cs.AI',
-    # 'cs.CL',
+    'cs.CL',
     'cs.IR',
     'cs.LG',
     'cs.NE',
@@ -79,4 +79,4 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'wsdm cup',
 }
 
-YEAR_MIN = 2005  # TODO: Gradually lower.
+YEAR_MIN = 2000  # TODO: Gradually lower.
