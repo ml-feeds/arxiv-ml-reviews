@@ -41,7 +41,7 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
     'tutorial',
 }
 
-TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowed.
+TERMS_BLACKLIST = {  # Lowercase phrases only.
     'airline review',
     'app reviews',
     'arabic',

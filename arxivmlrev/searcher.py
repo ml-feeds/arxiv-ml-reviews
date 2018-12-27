@@ -40,10 +40,7 @@ def get_results():
                 continue
             title = result['title'].replace('\n ', '')
             title_cmp = ''.join(c for c in title.lower() if c not in punctuation)
-            # if any(term in title_cmp for term in config.TERMS_BLACKLIST):
-            #     print(f'SKIPPING BLACKLISTED {title}')
-            #     continue
-            if all(f'{term} ' not in f'{title_cmp} ' for term in config.TERMS):
+            if all(f' {term} ' not in f' {title_cmp} ' for term in config.TERMS):
                 # print(f'SKIPPING NON-WHITELISTED {title}')
                 continue
             year = result['published_parsed'].tm_year
@@ -51,9 +48,11 @@ def get_results():
             if year != year_updated:
                 year = f'{year}-{year_updated}'
             primary_category = result['arxiv_primary_category']['term']
-            if primary_category not in config.CATEGORIES:
+            if primary_category in config.CATEGORIES:
                 continue
-            result = {'url_id': url_id, 'cat': primary_category, 'title': title,  'years': year}
+            result = {'url_id': url_id, 'cat': primary_category, 'title': title,
+                      # 'years': year,
+                      }
             yield result
 
         print(f'num_results={len(results)}')
