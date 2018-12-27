@@ -25,9 +25,7 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
     'critical reflection',
     'brief history',
     'discussion',
-    #'elements of',
-    #'findings',
-    #'foundations of',
+    'foundations',  # TODO: Review results for "foundations". Also consider "foundation".
     'fundamentals',
     'introduction',
     'guide',
@@ -36,14 +34,12 @@ TERMS = {  # Lowercase phrases only. Punctuation characters not allowed.
     'mathematics of',
     'perspectives',
     'overview',
-    #'progress in',
     'recent advances',
     'review',
     'survey',
     'taxonomy',
     'tour',
     'tutorial',
-    #'universal',
 }
 
 TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowed.
