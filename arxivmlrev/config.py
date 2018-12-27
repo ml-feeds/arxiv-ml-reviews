@@ -61,7 +61,6 @@ TERMS_BLACKLIST = {  # Lowercase phrases only. Punctuation characters not allowe
     'discussion forum',
     'discussion threads',
     'eirex',
-    'electronic health records',
     'empirical',
     'europe',
     'generate review',
