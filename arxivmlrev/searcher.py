@@ -2,9 +2,9 @@ import arxivmlrev.config as config
 
 from string import punctuation
 import time
-from types import SimpleNamespace
 
 import arxiv
+import pandas as pd
 
 terms_quoted = {f'"{term}"' if ' ' in term else term for term in config.TERMS}
 terms_blacklist_quoted = {f'"{term}"' if ' ' in term else term for term in config.TERMS_BLACKLIST}
@@ -65,7 +65,5 @@ def get_results():
 
 
 for result in get_results():
-    r = SimpleNamespace(**result)
-    if ',' in r.title:
-        r.title = f'"{r.title}"'
-    print(f'{r.url_id},{r.cat},{r.title},{r.years}')
+    result = pd.DataFrame([result])[list(result.keys())].to_csv(header=False, index=False, line_terminator='')
+    print(result)
