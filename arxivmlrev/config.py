@@ -47,11 +47,13 @@ TERMS_BLACKLIST = {  # Lowercase phrases only.
     'arabic',
     'as a guide to',
     'assisted review',
-    'automated driving',
-    'autonomous driving',
+    'autism',
+    'automated driving',  # TODO: Consider removing term.
+    'autonomous driving',  # TODO: Consider removing term.
     'blooms taxonomy',
     'book review',
     'cancer',
+    'can guide',
     'case study',
     'company fundamentals',
     'chinese',
@@ -76,6 +78,7 @@ TERMS_BLACKLIST = {  # Lowercase phrases only.
     'medical guidelines',
     'movie review',
     'myocardial',
+    'nips',
     'norwegian',
     'online reviews',
     'patent',
@@ -88,6 +91,7 @@ TERMS_BLACKLIST = {  # Lowercase phrases only.
     'review datasets',
     'review detection',
     'review helpfulness',
+    'review process',
     'review rating',
     'review representations',
     'review selection',
@@ -118,3 +122,5 @@ TERMS_BLACKLIST = {  # Lowercase phrases only.
 }
 
 URL_ID_BLACKLIST = set(pd.read_csv(DATA_DIR / 'blacklist.csv', dtype={'URL_ID': str}, usecols=['URL_ID'])['URL_ID'])
+
+# Reviewed till 1706.05254
