@@ -75,7 +75,8 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Review after 1607.03200
-# TODO: Consider removing "automated driving" from terms blacklist.
-# TODO: Consider removing "autonomous driving" from terms blacklist.
+# TODO: Review after 1212.2129
+# TODO: Consider removing terms from blacklist: automated driving, autonomous driving, heart, cancer, myocardial
+# TODO: Consider implementing a core category set.
+# TODO: Remove unnecessary items from articles_blacklist.
 # TODO: Consider adding category cs.CV.

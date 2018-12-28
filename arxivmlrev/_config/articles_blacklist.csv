@@ -46,25 +46,38 @@ cs/0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhiera
 1702.06677,cs.CY,Discussion quality diffuses in the digital public square
 1611.01228,cs.IR,URL ordering policies for distributed crawlers: a review
 1610.03793,cs.LG,Introduction to the Industrial Benchmark
+1609.08049,cs.DL,Towards Evidence-Based Ontology for Supporting Systematic Literature Review
+1609.03457,cs.DL,Math-Aware Search Engines: Physics Applications and Overview
+1609.00066,stat.ME,A Review of Multivariate Distributions for Count Data Derived from the Poisson Distribution
+1608.06582,q-bio.QM,Approximation and inference methods for stochastic biochemical kinetics - a tutorial review
 1608.02441,cs.AI,Proceedings of the Second Summer School on Argumentation: Computational and Linguistic Perspectives (SSA'16)
 1605.09351,cs.LG,Review of Fall Detection Techniques: A Data Availability Perspective
 1605.07912,cs.LG,Review Networks for Caption Generation
+1512.07454,cs.CY,Evaluation-as-a-Service: Overview and Outlook
 1511.08996,cs.IR,Entity Suggestion by Example using a Conceptual Taxonomy
 1511.03780,cs.IR,A User's Guide to CARSKit
 1511.01960,cs.AI,An Action Language for Multi-Agent Domains: Foundations
 1507.07147,cs.LG,True Online Emphatic TD($λ$): Quick Reference and Implementation Guide
 1502.07041,cs.IR,"Describing Colors, Textures and Shapes for Content Based Image Retrieval - A Survey"
+1412.6597,cs.CV,An Analysis of Unsupervised Pre-training in Light of Recent Advances
 1412.0879,cs.CL,Watsonsim: Overview of a Question Answering Engine
+1406.2963,cs.DB,A machine-compiled macroevolutionary history of Phanerozoic life
 1404.2162,cs.AI,The NNN Formalization: Review and Development of Guideline Specification in the Care Domain
 1403.0052,cs.CL,TBX goes TEI -- Implementing a TBX basic extension for the Text Encoding Initiative guidelines
 1401.3483,cs.AI,Relaxed Survey Propagation for The Weighted Maximum Satisfiability Problem
 1312.4599,cs.LG,Evolution and Computational Learning Theory: A survey on Valiant's paper
 1312.3825,cs.AI,Parkinson's Disease Motor Symptoms in Machine Learning: A Review
 1311.6063,cs.CL,A Short Introduction to NILE
+1311.3674,cs.MA,Evolutionary perspectives on collective decision making: Studying the implications of diversity and social network structure with agent-based simulations
+1310.5777,cs.DL,Exploring Scientists' Working Timetable: A Global Survey
 1310.1863,cs.AI,Empowerment -- an Introduction
 1309.6527,cs.IR,Describing Papers and Reviewers' Competences by Taxonomy of Keywords
 1303.5761,cs.AI,Why Do We Need Foundations for Modelling Uncertainties?
 1211.4709,cs.AI,A New Similarity Measure for Taxonomy Based on Edge Counting
+1211.0817,math.ST,Discussion: Latent variable graphical model selection via convex optimization
+1211.0808,math.ST,Discussion: Latent variable graphical model selection via convex optimization
+1211.0806,math.ST,Discussion: Latent variable graphical model selection via convex optimization
+1211.0801,math.ST,Discussion: Latent variable graphical model selection via convex optimization
 1203.0747,cs.IR,A review of EO image information mining
 1109.5663,cs.AI,The Deterministic Part of IPC-4: An Overview
 1010.3177,cs.AI,Introduction to the iDian
@@ -73,7 +86,3 @@ cs/0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhiera
 0808.0056,cs.AI,"I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong"
 0709.4015,cs.AI,From Texts to Structured Documents: The Case of Health Practice Guidelines
 0706.1137,cs.AI,Automatically Restructuring Practice Guidelines using the GEM DTD
-1609.08049,cs.DL,Towards Evidence-Based Ontology for Supporting Systematic Literature Review
-1609.03457,cs.DL,Math-Aware Search Engines: Physics Applications and Overview
-1609.00066,stat.ME,A Review of Multivariate Distributions for Count Data Derived from the Poisson Distribution
-1608.06582,q-bio.QM,Approximation and inference methods for stochastic biochemical kinetics - a tutorial review
