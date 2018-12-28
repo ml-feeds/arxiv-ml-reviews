@@ -75,8 +75,10 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Review after 1212.2129
+# TODO: Review after 1011.2173
+# TODO: Consider adding terms to blacklist: discussion on, discussion of
 # TODO: Consider removing terms from blacklist: automated driving, autonomous driving, heart, cancer, myocardial
 # TODO: Consider implementing a core category set.
 # TODO: Remove unnecessary items from articles_blacklist.
 # TODO: Consider adding category cs.CV.
+

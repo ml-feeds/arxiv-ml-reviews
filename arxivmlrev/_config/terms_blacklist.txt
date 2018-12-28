@@ -60,6 +60,7 @@ review scores
 review spammers
 r package
 sinographic
+sky survey
 sports
 survey data
 survey evaluation

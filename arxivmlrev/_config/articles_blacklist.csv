@@ -1,8 +1,14 @@
 URL_ID,Category,Title
+cs/9904001,cs.CY,A Proposal for the Establishment of Review Boards - a flexible approach to the selection of academic knowledge
 cs/0611113,cs.CL,"An Anthological Review of Research Utilizing MontyLingua, a Python-Based End-to-End Text Processor"
 cs/0607051,cs.CL,Raisonner avec des diagrammes : perspectives cognitives et computationnelles
 cs/0605120,cs.AI,"Understanding Design Fundamentals: How Synthesis and Analysis Drive Creativity, Resulting in Emergence"
+cs/0408048,cs.CY,Journal of New Democratic Methods: An Introduction
 cs/0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhierarchies, and Taxonomy Algebra"
+cs/0210026,cs.CR,Encoding a Taxonomy of Web Attacks with Different-Length Vectors
+cs/0203012,cs.MA,Interface agents: A review of the field
+cmp-lg/9805004,cmp-lg,Annotation Style Guide for the Blinker Project
+cmp-lg/9506019,cmp-lg,"Review of Charniak's ""Statistical Language Learning"""
 1812.03362,cs.LG,Letting symmetry guide visualization: multidimensional scaling on groups
 1812.02580,cs.AI,Selected Qualitative Spatio-temporal Calculi Developed for Constraint Reasoning: A Review
 1812.01077,cs.SI,Brief survey of Mobility Analyses based on Mobile Phone Datasets
@@ -80,9 +86,12 @@ cs/0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhiera
 1211.0801,math.ST,Discussion: Latent variable graphical model selection via convex optimization
 1203.0747,cs.IR,A review of EO image information mining
 1109.5663,cs.AI,The Deterministic Part of IPC-4: An Overview
+1011.3244,nlin.AO,"""Meaning"" as a sociological concept: A review of the modeling, mapping, and simulation of the communication of knowledge and meaning"
 1010.3177,cs.AI,Introduction to the iDian
 1008.4310,cs.AI,Modélisation d'une analyse pragma-linguistique d'un forum de discussion
+1003.0931,physics.ed-ph,A student's guide to searching the literature using online databases
 0902.3623,cs.AI,A Self-Contained and Easily Accessible Discussion of the Method of Descente Infinie and Fermat's Only Explicitly Known Proof by Descente Infinie
 0808.0056,cs.AI,"I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong"
+0801.2618,cs.SE,Survey of Technologies for Web Application Development
 0709.4015,cs.AI,From Texts to Structured Documents: The Case of Health Practice Guidelines
 0706.1137,cs.AI,Automatically Restructuring Practice Guidelines using the GEM DTD
