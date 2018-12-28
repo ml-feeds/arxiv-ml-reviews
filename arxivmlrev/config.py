@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import List
+from typing import Set
 
 import pandas as pd
 
@@ -7,8 +7,8 @@ CONFIG_DIR = Path(__file__).parent / '_config'
 DATA_DIR = Path(__file__).parents[1] / 'data'
 
 
-def _textfile_list(path: Path) -> List[str]:
-    return sorted(path.read_text().strip().split('\n'))
+def _textfile_list(path: Path) -> Set[str]:
+    return set(path.read_text().strip().split('\n'))
 
 
 CATEGORIES = _textfile_list(Path(CONFIG_DIR) / 'categories.txt')
