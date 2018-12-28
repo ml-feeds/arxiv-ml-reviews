@@ -1,4 +1,4 @@
-import arxivmlrev.config as config
+from arxivmlrev import config
 
 from string import punctuation
 import time
@@ -48,15 +48,13 @@ def get_results():
             if not is_title_whitelisted(title):
                 # print(f'SKIPPING NON-WHITELISTED {title}')
                 continue
-            year = result['published_parsed'].tm_year
+            year_published = result['published_parsed'].tm_year
             year_updated = result['updated_parsed'].tm_year
-            if year != year_updated:
-                year = f'{year}-{year_updated}'
             primary_category = result['arxiv_primary_category']['term']
             if primary_category in config.CATEGORIES:  # TODO: Remove condition.
                 continue
             result = {'url_id': url_id, 'cat': primary_category, 'title': title,
-                      # 'years': year,
+                      # 'year_published': year_published, 'year_updated': year_updated,
                       }
             yield result
 
@@ -76,3 +74,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# TODO: Review after 1701.08269
+# TODO: Consider removing "automated driving" from terms blacklist.
+# TODO: Consider removing "autonomous driving" from terms blacklist.
+# TODO: Consider adding category cs.CV.
