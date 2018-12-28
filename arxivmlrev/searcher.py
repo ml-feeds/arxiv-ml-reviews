@@ -75,7 +75,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Consider removing terms from blacklist: twitter
 # TODO: Consider implementing a core category set.
 # TODO: Remove unnecessary items from articles_blacklist.
 # TODO: Consider adding category cs.CV.

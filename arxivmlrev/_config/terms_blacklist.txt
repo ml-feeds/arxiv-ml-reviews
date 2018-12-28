@@ -69,8 +69,6 @@ to guide
 tour problem
 tour recommendation
 tutorial generation
-twitter
 user review
 wikiconv
-wikipedia
 wsdm cup
