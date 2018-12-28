@@ -54,8 +54,7 @@ def get_results():
             year_published = result['published_parsed'].tm_year
             year_updated = result['updated_parsed'].tm_year
             primary_category = result['arxiv_primary_category']['term']
-            # if primary_category in config.CATEGORIES:  # TODO: Remove condition.
-            #     continue
+            # categories = set(d['term'] for d in result['tags'])
             result = {'url_id': url_id, 'cat': primary_category, 'title': title,
                       # 'year_published': year_published, 'year_updated': year_updated,
                       }
@@ -79,5 +78,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Consider implementing a core category set.
 # TODO: Consider adding category cs.CV.
