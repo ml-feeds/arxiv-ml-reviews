@@ -1,5 +1,6 @@
 cs.AI
 cs.CL
+cs.CV
 cs.IR
 cs.LG
 cs.NE
