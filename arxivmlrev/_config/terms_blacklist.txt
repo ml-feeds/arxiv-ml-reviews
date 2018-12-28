@@ -3,13 +3,9 @@ app reviews
 arabic
 as a guide to
 assisted review
-autism
-automated driving
-autonomous driving
 bengali
 blooms taxonomy
 book review
-cancer
 can guide
 case study
 company fundamentals
@@ -27,7 +23,6 @@ empirical
 europe
 generate review
 harvard business review
-heart
 hindi
 ibm
 in a taxonomy
@@ -37,13 +32,11 @@ learning taxonomy
 matlab toolbox
 medical guidelines
 movie review
-myocardial
 nips
 norwegian
 online discussion
 online reviews
 patent
-pediatrics
 peer review
 peerus review
 product review
