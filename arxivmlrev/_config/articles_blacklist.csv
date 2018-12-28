@@ -28,16 +28,22 @@ cs/0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhiera
 1804.07958,cs.IR,Expert Finding in Community Question Answering: A Review
 1804.00038,cs.AI,Overview: A Hierarchical Framework for Plan Generation and Execution in Multi-Robot Systems
 1803.06818,cs.AI,Artificial Intelligence Enabled Software Defined Networking: A Comprehensive Overview
+1803.02205,cs.SE,Code Review Comments: Language Matters
 1802.04947,cs.LG,Attack RMSE Leaderboard: An Introduction and Case Study
 1801.09036,cs.CL,A Sheaf Model of Contradictions and Disagreements. Preliminary Report and Discussion
 1801.00218,cs.AI,Game-theoretic Network Centrality: A Review
+1712.08865,q-bio.MN,Biological Systems as Heterogeneous Information Networks: A Mini-review and Perspectives
+1712.01930,cs.CY,"Predicting Demographics, Moral Foundations, and Human Values from Digital Behaviors"
 1709.06758,cs.IR,A shared latent space matrix factorisation method for recommending new trial evidence for systematic review updates
 1709.00813,cs.CL,From Review to Rating: Exploring Dependency Measures for Text Classification
 1708.07193,stat.ML,Applications of Trajectory Data from the Perspective of a Road Transportation Agency: Literature Review and Maryland Case Study
 1707.09837,stat.ML,Review of Machine Learning Algorithms in Differential Expression Analysis
+1706.00005,cs.SD,Feature Extraction for Machine Learning Based Crackle Detection in Lung Sounds from a Health Survey
 1705.07606,stat.ML,Guide Actor-Critic for Continuous Control
 1705.04009,cs.IR,A survey of Community Question Answering
 1705.03967,cs.LG,GQ($λ$) Quick Reference and Implementation Guide
+1703.07355,cs.SI,An Army of Me: Sockpuppets in Online Discussion Communities
+1702.06677,cs.CY,Discussion quality diffuses in the digital public square
 1611.01228,cs.IR,URL ordering policies for distributed crawlers: a review
 1610.03793,cs.LG,Introduction to the Industrial Benchmark
 1608.02441,cs.AI,Proceedings of the Second Summer School on Argumentation: Computational and Linguistic Perspectives (SSA'16)
@@ -67,9 +73,3 @@ cs/0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhiera
 0808.0056,cs.AI,"I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong"
 0709.4015,cs.AI,From Texts to Structured Documents: The Case of Health Practice Guidelines
 0706.1137,cs.AI,Automatically Restructuring Practice Guidelines using the GEM DTD
-1803.02205,cs.SE,Code Review Comments: Language Matters
-1712.08865,q-bio.MN,Biological Systems as Heterogeneous Information Networks: A Mini-review and Perspectives
-1712.01930,cs.CY,"Predicting Demographics, Moral Foundations, and Human Values from Digital Behaviors"
-1706.00005,cs.SD,Feature Extraction for Machine Learning Based Crackle Detection in Lung Sounds from a Health Survey
-1703.07355,cs.SI,An Army of Me: Sockpuppets in Online Discussion Communities
-1702.06677,cs.CY,Discussion quality diffuses in the digital public square
