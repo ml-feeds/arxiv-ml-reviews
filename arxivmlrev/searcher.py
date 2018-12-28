@@ -51,8 +51,8 @@ def get_results():
             year_published = result['published_parsed'].tm_year
             year_updated = result['updated_parsed'].tm_year
             primary_category = result['arxiv_primary_category']['term']
-            if primary_category in config.CATEGORIES:  # TODO: Remove condition.
-                continue
+            # if primary_category in config.CATEGORIES:  # TODO: Remove condition.
+            #     continue
             result = {'url_id': url_id, 'cat': primary_category, 'title': title,
                       # 'year_published': year_published, 'year_updated': year_updated,
                       }
@@ -75,10 +75,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Review after 1011.2173
-# TODO: Consider adding terms to blacklist: discussion on, discussion of
 # TODO: Consider removing terms from blacklist: automated driving, autonomous driving, heart, cancer, myocardial
 # TODO: Consider implementing a core category set.
 # TODO: Remove unnecessary items from articles_blacklist.
 # TODO: Consider adding category cs.CV.
-
