@@ -12,7 +12,7 @@ def _textfile_list(path: Path) -> Set[str]:
 
 
 CATEGORIES = _textfile_list(Path(CONFIG_DIR) / 'categories.txt')
-DELAY_BETWEEN_QUERIES = 4  # Per recommendation of 3 at https://arxiv.org/help/api/user-manual#paging
+DELAY_BETWEEN_QUERIES = 8  # Per recommendation of 3 at https://arxiv.org/help/api/user-manual#paging
 MAX_RESULTS_PER_QUERY = 400
 TERMS = _textfile_list(Path(CONFIG_DIR) / 'terms.txt')  # Lowercase phrases without punctuation.
 TERMS_BLACKLIST = _textfile_list(Path(CONFIG_DIR) / 'terms_blacklist.txt')

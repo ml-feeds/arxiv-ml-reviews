@@ -6,6 +6,8 @@ import time
 import arxiv
 import pandas as pd
 
+url_id_blacklist = config.URL_ID_BLACKLIST.copy()
+
 
 def is_title_whitelisted(title: str) -> bool:
     title_cmp = ''.join(c for c in title.lower() if c not in punctuation)
@@ -42,7 +44,8 @@ def get_results():
         for result in results:
             url_id = result['arxiv_url'].replace('http://arxiv.org/abs/', '', 1).rsplit('v', 1)[0]
             # Note: Unlike result['id'], url_id is actually unique, specifically for results older than 2007.
-            if url_id in config.URL_ID_BLACKLIST:
+            if url_id in url_id_blacklist:
+                url_id_blacklist.remove(url_id)
                 continue
             title = result['title'].replace('\n ', '')
             if not is_title_whitelisted(title):
@@ -70,11 +73,11 @@ def main():
     for result in get_results():
         result = pd.DataFrame([result])[list(result.keys())].to_csv(header=False, index=False, line_terminator='')
         print(result)
+    print(f'Unnecessary IDs in articles blacklist: {", ".join(url_id_blacklist)}')
 
 
 if __name__ == '__main__':
     main()
 
 # TODO: Consider implementing a core category set.
-# TODO: Remove unnecessary items from articles_blacklist.
 # TODO: Consider adding category cs.CV.
