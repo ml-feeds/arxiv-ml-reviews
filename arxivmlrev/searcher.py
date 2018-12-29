@@ -82,6 +82,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# TODO: Consider adding category cs.CV.
-# TODO: Consider blacklisting terms: datasets, experimental
