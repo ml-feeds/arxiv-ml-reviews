@@ -1,23 +1,26 @@
-from arxivmlrev import config
-from arxivmlrev.result import Result
-
 import time
+from typing import Set
 
 import arxiv
 import pandas as pd
 
+from arxivmlrev import config
+from arxivmlrev.result import Result
+
 url_id_blacklist = config.URL_ID_BLACKLIST.copy()
 
 
-def get_results():
+def _set_query(set_: Set, prefix: str) -> str:
+    set_ = {f'"{s}"' if ' ' in s else s for s in set_}
+    return ' OR '.join(f'{prefix}:{s}' for s in sorted(set_))
 
-    terms_quoted = {f'"{term}"' if ' ' in term else term for term in config.TERMS}
-    terms_blacklist_quoted = {f'"{term}"' if ' ' in term else term for term in config.TERMS_BLACKLIST}
 
-    title_query = ' OR '.join(f'ti:{term}' for term in sorted(terms_quoted))
-    title_query_blacklist = ' OR '.join(f'ti:{term}' for term in sorted(terms_blacklist_quoted))
-    cat_query = ' OR '.join(f'cat:{cat}' for cat in sorted(config.CATEGORIES))
-    search_query = f'({title_query}) AND ({cat_query}) ANDNOT ({title_query_blacklist})'
+def _get_results():
+    title_whitelist_query = _set_query(config.TERMS_WHITELIST, 'ti')
+    title_blacklist_query = _set_query(config.TERMS_BLACKLIST, 'ti')
+    cat_query = _set_query(config.CATEGORIES, 'cat')
+    # Note: Blacklist has implicit precedence over whitelist in the execution of the search query below.
+    search_query = f'({title_whitelist_query}) AND ({cat_query}) ANDNOT ({title_blacklist_query})'
     print(search_query)
 
     start = 0
@@ -38,7 +41,7 @@ def get_results():
 
         for result in results:
             result = Result(result)
-            # Note: Whitelist has precedence over blacklist.
+            # Note: Whitelist has precedence over blacklist in the checks below.
             if (not result.is_id_whitelisted) and result.is_id_blacklisted:
                 url_id_blacklist.remove(result.url_id)
                 continue
@@ -62,7 +65,7 @@ def get_results():
 
 
 def main():
-    df = pd.DataFrame(get_results())
+    df = pd.DataFrame(_get_results())
     df = df[config.DATA_ARTICLES_COLUMNS]
     df.to_csv(config.DATA_ARTICLES_PATH, index=False)
     if url_id_blacklist:

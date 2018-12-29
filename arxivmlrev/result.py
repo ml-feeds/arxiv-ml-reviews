@@ -45,7 +45,7 @@ class Result:
     @property
     def is_title_whitelisted(self):
         """Return whether the title has one or more terms that are whitelisted."""
-        return any(f' {term} ' in f' {self._title_cmp} ' for term in config.TERMS)
+        return any(f' {term} ' in f' {self._title_cmp} ' for term in config.TERMS_WHITELIST)
 
     @property
     def title(self) -> str:
