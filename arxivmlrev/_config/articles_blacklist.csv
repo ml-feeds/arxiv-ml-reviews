@@ -9,6 +9,7 @@ cs/0210026,cs.CR,Encoding a Taxonomy of Web Attacks with Different-Length Vector
 cs/0203012,cs.MA,Interface agents: A review of the field
 cmp-lg/9805004,cmp-lg,Annotation Style Guide for the Blinker Project
 cmp-lg/9506019,cmp-lg,"Review of Charniak's ""Statistical Language Learning"""
+1812.10111,cs.GR,A Survey on Non-rigid 3D Shape Analysis
 1812.03362,cs.LG,Letting symmetry guide visualization: multidimensional scaling on groups
 1812.02580,cs.AI,Selected Qualitative Spatio-temporal Calculi Developed for Constraint Reasoning: A Review
 1812.01077,cs.SI,Brief survey of Mobility Analyses based on Mobile Phone Datasets
@@ -32,7 +33,9 @@ cmp-lg/9506019,cmp-lg,"Review of Charniak's ""Statistical Language Learning"""
 1808.05542,cs.CL,Overview of the CLEF-2018 CheckThat! Lab on Automatic Identification and Verification of Political Claims. Task 1: Check-Worthiness
 1808.02290,cs.CL,How did the discussion go: Discourse act classification in social media conversations
 1808.01690,cs.AI,Error Detection in a Large-Scale Lexical Taxonomy
+1806.06876,cs.CV,Diving Deep onto Discriminative Ensemble of Histological Hashing & Class-Specific Manifold Learning for Multi-class Breast Carcinoma Taxonomy
 1804.07958,cs.IR,Expert Finding in Community Question Answering: A Review
+1804.00494,cs.CV,A Review on Image Texture Analysis Methods
 1804.00038,cs.AI,Overview: A Hierarchical Framework for Plan Generation and Execution in Multi-Robot Systems
 1803.06818,cs.AI,Artificial Intelligence Enabled Software Defined Networking: A Comprehensive Overview
 1803.05181,cs.HC,Can Autism be Catered with Artificial Intelligence-Assisted Intervention Technology? A Literature Review
@@ -42,14 +45,20 @@ cmp-lg/9506019,cmp-lg,"Review of Charniak's ""Statistical Language Learning"""
 1712.08865,q-bio.MN,Biological Systems as Heterogeneous Information Networks: A Mini-review and Perspectives
 1712.01930,cs.CY,"Predicting Demographics, Moral Foundations, and Human Values from Digital Behaviors"
 1709.06758,cs.IR,A shared latent space matrix factorisation method for recommending new trial evidence for systematic review updates
+1709.05940,cs.CV,Normal Integration: A Survey
+1709.04299,cs.HC,A Survey of Calibration Methods for Optical See-Through Head-Mounted Displays
 1709.00813,cs.CL,From Review to Rating: Exploring Dependency Measures for Text Classification
 1707.09837,stat.ML,Review of Machine Learning Algorithms in Differential Expression Analysis
+1707.05413,cs.CV,Photosensor Oculography: Survey and Parametric Analysis of Designs using Model-Based Simulation
 1706.00005,cs.SD,Feature Extraction for Machine Learning Based Crackle Detection in Lung Sounds from a Health Survey
+1705.08244,cs.CV,On the mathematics of beauty: beautiful images
 1705.07606,stat.ML,Guide Actor-Critic for Continuous Control
 1705.04009,cs.IR,A survey of Community Question Answering
 1705.03967,cs.LG,GQ($λ$) Quick Reference and Implementation Guide
 1702.06677,cs.CY,Discussion quality diffuses in the digital public square
+1701.02664,cs.CV,ChaLearn Looking at People: A Review of Events and Resources
 1701.00991,cs.IR,World Literature According to Wikipedia: Introduction to a DBpedia-Based Framework
+1612.06795,cs.CV,Two decades of local binary patterns: A survey
 1611.01228,cs.IR,URL ordering policies for distributed crawlers: a review
 1610.03793,cs.LG,Introduction to the Industrial Benchmark
 1609.08049,cs.DL,Towards Evidence-Based Ontology for Supporting Systematic Literature Review
@@ -57,26 +66,44 @@ cmp-lg/9506019,cmp-lg,"Review of Charniak's ""Statistical Language Learning"""
 1609.00066,stat.ME,A Review of Multivariate Distributions for Count Data Derived from the Poisson Distribution
 1608.06582,q-bio.QM,Approximation and inference methods for stochastic biochemical kinetics - a tutorial review
 1608.02441,cs.AI,Proceedings of the Second Summer School on Argumentation: Computational and Linguistic Perspectives (SSA'16)
+1607.04760,cs.CV,Design and implementation of image processing system for Lumen social robot-humanoid as an exhibition guide for Electrical Engineering Days 2015
+1607.00331,cs.CV,Machine-based Multimodal Pain Assessment Tool for Infants: A Review
 1605.09351,cs.LG,Review of Fall Detection Techniques: A Data Availability Perspective
 1605.07912,cs.LG,Review Networks for Caption Generation
+1603.06028,cs.CR,"A Survey of Stealth Malware: Attacks, Mitigation Measures, and Steps Toward Autonomous Open World Solutions"
+1602.08855,cs.CV,Pandora: Description of a Painting Database for Art Movement Recognition with Baselines and Perspectives
+1601.05511,cs.CV,RGB-D-based Action Recognition Datasets: A Survey
 1512.07454,cs.CY,Evaluation-as-a-Service: Overview and Outlook
 1511.08996,cs.IR,Entity Suggestion by Example using a Conceptual Taxonomy
 1511.03780,cs.IR,A User's Guide to CARSKit
 1511.01960,cs.AI,An Action Language for Multi-Agent Domains: Foundations
 1511.01259,cs.IR,Transforming Wikipedia into an Ontology-based Information Retrieval Search Engine for Local Experts using a Third-Party Taxonomy
+1510.04585,cs.CV,A Brief Survey of Image Processing Algorithms in Electrical Capacitance Tomography
+1510.01077,math.SP,Nonlinear Spectral Analysis via One-homogeneous Functionals - Overview and Future Prospects
+1509.06939,cs.RO,Enabling Depth-driven Visual Attention on the iCub Humanoid Robot: Instructions for Use and New Perspectives
 1507.07147,cs.LG,True Online Emphatic TD($λ$): Quick Reference and Implementation Guide
+1506.04472,cs.CV,A Survey of Multithreading Image Analysis
+1504.07442,cs.CV,Embedded Platforms for Computer Vision-based Advanced Driver Assistance Systems: a Survey
 1502.07041,cs.IR,"Describing Colors, Textures and Shapes for Content Based Image Retrieval - A Survey"
 1412.6597,cs.CV,An Analysis of Unsupervised Pre-training in Light of Recent Advances
+1412.4031,astro-ph.IM,High-level numerical simulations of noise in CCD and CMOS photosensors: review and tutorial
+1412.1732,physics.med-ph,Statistical models and regularization strategies in statistical image reconstruction of low-dose X-ray CT: a survey
 1412.0879,cs.CL,Watsonsim: Overview of a Question Answering Engine
+1406.7799,cs.MM,Subjective and Objective Quality Assessment of Image: A Survey
 1406.2963,cs.DB,A machine-compiled macroevolutionary history of Phanerozoic life
+1405.6133,cs.CV,A review over the applicability of image entropy in analyses of remote sensing datasets
 1404.2162,cs.AI,The NNN Formalization: Review and Development of Guideline Specification in the Care Domain
+1403.5869,cs.CV,Block Motion Based Dynamic Texture Analysis: A Review
 1403.0052,cs.CL,TBX goes TEI -- Implementing a TBX basic extension for the Text Encoding Initiative guidelines
 1312.4599,cs.LG,Evolution and Computational Learning Theory: A survey on Valiant's paper
 1312.3825,cs.AI,Parkinson's Disease Motor Symptoms in Machine Learning: A Review
 1311.6063,cs.CL,A Short Introduction to NILE
 1311.3674,cs.MA,Evolutionary perspectives on collective decision making: Studying the implications of diversity and social network structure with agent-based simulations
+1311.0124,cs.CV,Reconstruction of Complex-Valued Fractional Brownian Motion Fields Based on Compressive Sampling and Its Application to PSF Interpolation in Weak Lensing Survey
 1310.5777,cs.DL,Exploring Scientists' Working Timetable: A Global Survey
+1310.2053,cs.CV,The role of RGB-D benchmark datasets: an overview
 1310.1863,cs.AI,Empowerment -- an Introduction
+1310.0315,cs.CV,Computer Vision Systems in Road Vehicles: A Review
 1309.6527,cs.IR,Describing Papers and Reviewers' Competences by Taxonomy of Keywords
 1303.5761,cs.AI,Why Do We Need Foundations for Modelling Uncertainties?
 1211.4709,cs.AI,A New Similarity Measure for Taxonomy Based on Edge Counting
@@ -84,7 +111,10 @@ cmp-lg/9506019,cmp-lg,"Review of Charniak's ""Statistical Language Learning"""
 1211.0808,math.ST,Discussion: Latent variable graphical model selection via convex optimization
 1211.0806,math.ST,Discussion: Latent variable graphical model selection via convex optimization
 1211.0801,math.ST,Discussion: Latent variable graphical model selection via convex optimization
+1209.6491,cs.CV,Review of Statistical Shape Spaces for 3D Data with Comparative Analysis for Human Faces
+1209.2515,cs.CV,Wavelet Based Image Coding Schemes : A Recent Survey
 1203.0747,cs.IR,A review of EO image information mining
+1201.1422,cs.CV,Minutiae Extraction from Fingerprint Images - a Review
 1110.5863,cs.DL,A Wikipedia Literature Review
 1109.5663,cs.AI,The Deterministic Part of IPC-4: An Overview
 1011.3244,nlin.AO,"""Meaning"" as a sociological concept: A review of the modeling, mapping, and simulation of the communication of knowledge and meaning"
@@ -97,20 +127,4 @@ cmp-lg/9506019,cmp-lg,"Review of Charniak's ""Statistical Language Learning"""
 0801.2618,cs.SE,Survey of Technologies for Web Application Development
 0709.4015,cs.AI,From Texts to Structured Documents: The Case of Health Practice Guidelines
 0706.1137,cs.AI,Automatically Restructuring Practice Guidelines using the GEM DTD
-1812.10111,cs.GR,A Survey on Non-rigid 3D Shape Analysis
-1812.08577,cs.CV,Computational Anatomy for Multi-Organ Analysis in Medical Imaging: A Review
-1806.06876,cs.CV,Diving Deep onto Discriminative Ensemble of Histological Hashing & Class-Specific Manifold Learning for Multi-class Breast Carcinoma Taxonomy
-1804.05483,cs.CV,Review on Optical Image Hiding and Watermarking Techniques
-1804.00494,cs.CV,A Review on Image Texture Analysis Methods
-1712.03686,stat.AP,A practical guide and software for analysing pairwise comparison experiments
-1711.07829,cs.CV,Discussion among Different Methods of Updating Model Filter in Object Tracking
-1709.05940,cs.CV,Normal Integration: A Survey
-1709.04299,cs.HC,A Survey of Calibration Methods for Optical See-Through Head-Mounted Displays
-1708.05125,cs.CV,"Hyperspectral Unmixing: Ground Truth Labeling, Datasets, Benchmark Performances and Survey"
-1707.05413,cs.CV,Photosensor Oculography: Survey and Parametric Analysis of Designs using Model-Based Simulation
-1705.08244,cs.CV,On the mathematics of beauty: beautiful images
-1702.03600,cs.CV,Underwater Optical Image Processing: A Comprehensive Review
-1702.01636,cs.CV,Slice-to-volume medical image registration: a survey
-1701.02664,cs.CV,ChaLearn Looking at People: A Review of Events and Resources
-1612.06795,cs.CV,Two decades of local binary patterns: A survey
-1611.00939,cs.CV,Recent Advances in Transient Imaging: A Computer Graphics and Vision Perspective
+0704.1267,cs.CV,Text Line Segmentation of Historical Documents: a Survey

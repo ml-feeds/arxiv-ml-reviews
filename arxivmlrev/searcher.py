@@ -54,7 +54,12 @@ def get_results():
             year_published = result['published_parsed'].tm_year
             year_updated = result['updated_parsed'].tm_year
             primary_category = result['arxiv_primary_category']['term']
-            # categories = set(d['term'] for d in result['tags'])
+            # categories = set(d['term'] for d in result['tags']) | set([primary_category])
+            # ignored_categories = config.CATEGORIES - set(('cs.CV',))
+            # if ('cs.CV' in categories) and not(categories & ignored_categories):
+            #     pass
+            # else:
+            #     continue
             result = {'url_id': url_id, 'cat': primary_category, 'title': title,
                       # 'year_published': year_published, 'year_updated': year_updated,
                       }
@@ -79,3 +84,4 @@ if __name__ == '__main__':
     main()
 
 # TODO: Consider adding category cs.CV.
+# TODO: Consider blacklisting terms: datasets, experimental
