@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 from string import punctuation
-from typing import Dict, Set, Union
+from typing import Dict, List, Set, Union
+
+import pandas as pd
 
 from arxivmlrev import config
 
@@ -15,8 +17,17 @@ class Result:
         return ''.join(c for c in self.title.lower() if c not in punctuation)
 
     @property
+    def abstract_multiline(self) -> str:
+        """Return a multiline abstract."""
+        return self.result['summary']
+
+    @property
     def categories(self) -> Set[str]:
         return set(d['term'] for d in self.result['tags']) | set([self.category])
+
+    @property
+    def categories_str(self) -> str:
+        return ', '.join(sorted(self.categories))
 
     @property
     def category(self) -> str:
@@ -56,7 +67,11 @@ class Result:
     def year_updated(self) -> int:
         return self.result['updated_parsed'].tm_year
 
+    def to_csv(self, columns: List[str]) -> str:
+        df = pd.DataFrame([self.to_dict])[columns]
+        return df.to_csv(header=False, index=False, line_terminator='')
+
     @property
-    def as_dict(self) -> Dict[str, Union[str, int]]:
-        return {'URL_ID': self.result.url_id, 'Category': self.result.category, 'Title': self.title,
+    def to_dict(self) -> Dict[str, Union[str, int]]:
+        return {'URL_ID': self.url_id, 'Category': self.category, 'Title': self.title,
                 'Year_Published': self.year_published, 'Year_Updated': self.year_updated}
