@@ -12,15 +12,17 @@ url_id_blacklist = config.URL_ID_BLACKLIST.copy()
 
 def _set_query(strset: Set[str], prefix: str) -> str:
     strset = {f'"{s}"' if ' ' in s else s for s in strset}
-    return ' OR '.join(f'{prefix}:{s}' for s in sorted(strset))
+    strset = ' OR '.join(f'{prefix}:{s}' for s in sorted(strset))
+    return f'({strset})'
 
 
 def _get_results():
     title_whitelist_query = _set_query(config.TERMS_WHITELIST, 'ti')
     title_blacklist_query = _set_query(config.TERMS_BLACKLIST, 'ti')
+    id_whitelist_query = _set_query(config.URL_ID_WHITELIST, 'id')
     cat_query = _set_query(config.CATEGORIES, 'cat')
-    # Note: Blacklist has implicit precedence over whitelist in the execution of the search query below.
-    search_query = f'({title_whitelist_query}) AND ({cat_query}) ANDNOT ({title_blacklist_query})'
+    # Note: Title blacklist has implicit precedence over title whitelist in the execution of the search query below.
+    search_query = f'({title_whitelist_query} AND {cat_query} ANDNOT {title_blacklist_query}) OR {id_whitelist_query}'
     print(search_query)
 
     start = 0

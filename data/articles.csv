@@ -70,6 +70,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1810.08765,cs.IR,Attribute-aware Collaborative Filtering: Survey and Classification,2018,2018
 1810.07862,cs.NI,Applications of Deep Reinforcement Learning in Communications and Networking: A Survey,2018,2018
 1810.07339,cs.LG,Security Matters: A Survey on Adversarial Machine Learning,2018,2018
+1810.06339,cs.LG,Deep Reinforcement Learning,2018,2018
 1810.05587,cs.MA,Is multiagent deep reinforcement learning the answer or the question? A brief survey,2018,2018
 1810.05401,cs.CV,A Gentle Introduction to Deep Learning in Medical Image Processing,2018,2018
 1810.05052,cs.CV,Deep Learning for Image Denoising: A Survey,2018,2018
@@ -140,6 +141,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1807.05284,cs.CV,Survey on Deep Learning Techniques for Person Re-Identification Task,2018,2018
 1807.05196,cs.RO,Artificial Intelligence for Long-Term Robot Autonomy: A Survey,2018,2018
 1807.04800,cs.LG,Feature Selection for Gender Classification in TUIK Life Satisfaction Survey,2018,2018
+1807.11573,cs.CV,State-of-the-art and gaps for deep learning on limited training data in remote sensing,2018,2018
 1807.04639,cs.LG,Moving Objects Analytics: Survey on Future Location & Trajectory Prediction Methods,2018,2018
 1807.02811,stat.ML,A Tutorial on Bayesian Optimization,2018,2018
 1807.02582,stat.ML,Gaussian Processes and Kernel Methods: A Review on Connections and Equivalences,2018,2018
@@ -151,6 +153,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1807.00951,eess.SP,Ballistocardiogram Signal Processing: A Literature Review,2018,2018
 1807.00914,cs.CL,Modeling Language Variation and Universals: A Survey on Typological Linguistics for Natural Language Processing,2018,2018
 1807.00962,cs.ET,Neuro-memristive Circuits for Edge Computing: A review,2018,2018
+1806.11484,hep-ex,Deep Learning and its Application to LHC Physics,2018,2018
 1806.11230,cs.CV,Human Action Recognition and Prediction: A Survey,2018,2018
 1807.03124,cs.CV,An Overview of Perception Methods for Horticultural Robots: From Pollination to Harvest,2018,2018
 1806.09460,math.OC,A Tour of Reinforcement Learning: The View from Continuous Control,2018,2018
@@ -266,6 +269,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1802.02353,cs.AI,Recent Advances in Neural Program Synthesis,2018,2018
 1802.02297,cs.CV,A comprehensive review of 3D point cloud descriptors,2018,2018
 1802.01933,cs.CY,A Survey Of Methods For Explaining Black Box Models,2018,2018
+1802.01528,cs.LG,The Matrix Calculus You Need For Deep Learning,2018,2018
 1802.00939,cs.CV,Recent Advances in Efficient Computation of Deep Convolutional Neural Networks,2018,2018
 1802.00810,q-bio.GN,Deep Learning for Genomics: A Concise Overview,2018,2018
 1802.00614,cs.CV,Visual Interpretability for Deep Learning: a Survey,2018,2018
