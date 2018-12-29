@@ -3,7 +3,7 @@
 This is a mostly auto-generated list of review articles on machine learning that are on arXiv.
 Although some of them are written for a specific technical audience or for a specific application, the techniques
 described are nonetheless generally applicable.
-This list was generated on 2018-12-29.
+The list is sorted reverse chronologically. It was generated on 2018-12-29.
 It includes articles posted in these arXiv categories: cs.AI, cs.CL, cs.CV, cs.IR, cs.LG, cs.NE, stat.ML
 
 * [A Review on The Use of Deep Learning in Android Malware Detection (2018)](https://arxiv.org/abs/1812.10360)
