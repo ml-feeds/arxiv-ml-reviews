@@ -10,9 +10,9 @@ from arxivmlrev.result import Result
 url_id_blacklist = config.URL_ID_BLACKLIST.copy()
 
 
-def _set_query(set_: Set, prefix: str) -> str:
-    set_ = {f'"{s}"' if ' ' in s else s for s in set_}
-    return ' OR '.join(f'{prefix}:{s}' for s in sorted(set_))
+def _set_query(strset: Set[str], prefix: str) -> str:
+    strset = {f'"{s}"' if ' ' in s else s for s in strset}
+    return ' OR '.join(f'{prefix}:{s}' for s in sorted(strset))
 
 
 def _get_results():
