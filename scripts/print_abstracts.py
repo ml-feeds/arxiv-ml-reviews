@@ -19,5 +19,5 @@ results = arxiv.query(id_list=url_ids, max_results=len(url_ids))
 assert len(results) == len(url_ids)
 for result in results:
     result = Result(result)
-    csv = result.to_csv(df_all.columns.tolist())
+    csv = result.to_csv(df_all.columns)
     print(f'{csv}\n{result.categories_str}\n\t{result.abstract_multiline}\n')
