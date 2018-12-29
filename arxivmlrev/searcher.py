@@ -84,4 +84,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Consider term: "you need for"
+# TODO: Use articles whitelist
