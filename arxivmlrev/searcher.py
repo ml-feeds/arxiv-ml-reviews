@@ -77,7 +77,8 @@ def main():
     df = pd.DataFrame(get_results())
     df = df[['URL_ID', 'Category', 'Title', 'Year_Published', 'Year_Updated']]
     df.to_csv(config.ARTICLES_PATH, index=False)
-    print(f'Unnecessary IDs in articles blacklist: {", ".join(url_id_blacklist)}')
+    if url_id_blacklist:
+        print(f'Unnecessary IDs in articles blacklist: {", ".join(url_id_blacklist)}')
 
 
 if __name__ == '__main__':
