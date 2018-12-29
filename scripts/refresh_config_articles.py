@@ -13,7 +13,6 @@ for result in results:
     result = Result(result)
     df.loc[df.URL_ID == result.url_id, ['Category', 'Title']] = result.category, result.title
 
-
-df = df.sort_values(['State', 'URL_ID'], ascending=False).drop_duplicates('URL_ID')
+df = df.sort_values(['Presence', 'URL_ID'], ascending=False).drop_duplicates('URL_ID')
 if not df.equals(config.CONFIG_ARTICLES):
     df.to_csv(config.CONFIG_ARTICLES_PATH, index=False)
