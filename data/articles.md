@@ -1,4 +1,4 @@
-# Introductory articles
+# Review articles
 
 This is a mostly auto-generated list of review articles on machine learning that are on arXiv.
 It includes articles posted in these arXiv categories: cs.AI, cs.CL, cs.CV, cs.IR, cs.LG, cs.NE, stat.ML

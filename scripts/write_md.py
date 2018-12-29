@@ -14,7 +14,7 @@ Updated {date.today()}\n
 def write_md_file() -> None:
     df = pd.read_csv(config.DATA_DIR / 'articles.csv', dtype={'URL_ID': str, 'Category': 'category'})
     with (config.DATA_DIR / 'articles.md').open('w') as md:
-        md.write(f'# Introductory articles\n{prologue}')
+        md.write(f'# Review articles\n{prologue}')
         for _, row in df.iterrows():
             years = row.Year_Published if (row.Year_Published == row.Year_Updated) else f'{row.Year_Published}-{row.Year_Updated}'
             link = f'https://arxiv.org/abs/{row.URL_ID}'
