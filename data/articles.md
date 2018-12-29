@@ -1,8 +1,8 @@
 # Review articles
 
 This is a mostly auto-generated list of review articles on machine learning that are on arXiv.
-Although some of them are written for a specific technical audience or for a specific application, the techniques
-described are nonetheless generally applicable.
+Although some of them are written for a specific technical audience or application, the techniques described are
+nonetheless generally relevant.
 The list is sorted reverse chronologically. It was generated on 2018-12-29.
 It includes articles posted in these arXiv categories: cs.AI, cs.CL, cs.CV, cs.IR, cs.LG, cs.NE, stat.ML
 
