@@ -5,7 +5,7 @@ from arxivmlrev.result import Result
 
 df = config.CONFIG_ARTICLES.copy()
 url_ids = df['URL_ID'].tolist()
-assert len(url_ids) <= 2000
+assert 0 < len(url_ids) <= 2000
 results = arxiv.query(id_list=url_ids, max_results=len(url_ids), sort_by='submittedDate')
 assert len(results) == len(url_ids)
 
