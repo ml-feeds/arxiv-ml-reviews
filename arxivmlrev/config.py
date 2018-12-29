@@ -12,6 +12,7 @@ def _textfile_list(path: Path) -> Set[str]:
     return set(path.read_text().strip().split('\n'))
 
 
+ARTICLES_PATH = DATA_DIR / 'articles.csv'
 CATEGORIES = _textfile_list(Path(CONFIG_DIR) / 'categories.txt')
 MAX_RESULTS_PER_QUERY = 400
 DELAY_BETWEEN_QUERIES = min(3, math.ceil(math.log(MAX_RESULTS_PER_QUERY)))

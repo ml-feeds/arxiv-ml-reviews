@@ -60,8 +60,8 @@ def get_results():
             #     pass
             # else:
             #     continue
-            result = {'url_id': url_id, 'cat': primary_category, 'title': title,
-                      # 'year_published': year_published, 'year_updated': year_updated,
+            result = {'URL_ID': url_id, 'Category': primary_category, 'Title': title,
+                      'Year_Published': year_published, 'Year_Updated': year_updated,
                       }
             yield result
 
@@ -74,11 +74,13 @@ def get_results():
 
 
 def main():
-    for result in get_results():
-        result = pd.DataFrame([result])[list(result.keys())].to_csv(header=False, index=False, line_terminator='')
-        print(result)
+    df = pd.DataFrame(get_results())
+    df = df[['URL_ID', 'Category', 'Title', 'Year_Published', 'Year_Updated']]
+    df.to_csv(config.ARTICLES_PATH, index=False)
     print(f'Unnecessary IDs in articles blacklist: {", ".join(url_id_blacklist)}')
 
 
 if __name__ == '__main__':
     main()
+
+# TODO: Consider term: "you need for"

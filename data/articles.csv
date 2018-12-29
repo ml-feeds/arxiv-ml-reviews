@@ -1,11 +1,1041 @@
-Category,ID,Title
-Deep learning,1603.07249,A Tutorial on Deep Neural Networks for Intelligent Systems
-Deep learning,1404.7828,Deep Learning in Neural Networks: An Overview
-Machine learning,1803.08823,"A high-bias, low-variance introduction to Machine Learning for physicists"
-Machine learning,1712.08523,Contemporary machine learning: a guide for practitioners in the physical sciences
-Machine learning,1710.02913,Machine Learning for Wireless Networks with Artificial Intelligence: A Tutorial on Neural Networks
-Machine learning,1709.02840,A Brief Introduction to Machine Learning for Engineers
-Mathematics,1802.01528,The Matrix Calculus You Need For Deep Learning
-Mathematics,1712.04741,Mathematics of Deep Learning
-Mathematics,1711.10781,Introduction to Tensor Decompositions and their Applications in Machine Learning
-Mathematics,1603.07285,A guide to convolution arithmetic for deep learning
+URL_ID,Category,Title,Year_Published,Year_Updated
+1812.10360,cs.CR,A Review on The Use of Deep Learning in Android Malware Detection,2018,2018
+1812.10265,cs.CV,A Survey to Deep Facial Attribute Analysis,2018,2018
+1812.09449,cs.CL,A Survey on Deep Learning for Named Entity Recognition,2018,2018
+1812.08951,cs.CL,Analysis Methods in Neural Language Processing: A Survey,2018,2018
+1812.08577,cs.CV,Computational Anatomy for Multi-Organ Analysis in Medical Imaging: A Review,2018,2018
+1812.08434,cs.LG,Graph Neural Networks: A Review of Methods and Applications,2018,2018
+1812.08425,cs.CL,A Survey of Hierarchy Identification in Social Networks,2018,2018
+1812.07715,eess.IV,A Tour of Unsupervised Deep Learning for Medical Image Analysis,2018,2018
+1812.08342,cs.LG,Safety and Trustworthiness of Deep Neural Networks: A Survey,2018,2018
+1812.07995,cs.LG,A Review of Meta-Reinforcement Learning for Deep Neural Networks Architecture Search,2018,2018
+1812.06834,cs.CL,A Tutorial on Deep Latent Variable Models of Natural Language,2018,2018
+1812.06292,cs.CR,A short review on Applications of Deep learning for Cyber security,2018,2018
+1812.05944,cs.LG,"A Tutorial on Distance Metric Learning: Mathematical Foundations, Algorithms and Software",2018,2018
+1812.05069,cs.LG,Recent Advances in Autoencoder-Based Representation Learning,2018,2018
+1812.04202,cs.LG,Deep Learning on Graphs: A Survey,2018,2018
+1812.04186,cs.SD,A Functional Taxonomy of Music Generation Systems,2018,2018
+1812.07101,cs.CV,Ophthalmic Diagnosis and Deep Learning -- A Survey,2018,2018
+1812.03288,cs.LG,No Peek: A Survey of private distributed deep learning,2018,2018
+1812.02948,cs.NE,A Survey on Artificial Intelligence Trends in Spacecraft Guidance Dynamics and Control,2018,2018
+1812.02598,stat.ML,Finding the needle in high-dimensional haystack: A tutorial on canonical correlation analysis,2018,2018
+1812.07368,cs.CV,Handcrafted and Deep Trackers: A Review of Recent Object Tracking Approaches,2018,2018
+1812.02736,cs.HC,A Technical Survey on Statistical Modelling and Design Methods for Crowdsourcing Quality Control,2018,2018
+1812.02183,astro-ph.IM,Unsupervised learning and data clustering for the construction of Galaxy Catalogs in the Dark Energy Survey,2018,2018
+1812.01465,cs.CV,Cross-spectral Periocular Recognition: A Survey,2018,2018
+1812.01074,cs.DL,Distilling Information from a Flood: A Possibility for the Use of Meta-Analysis and Systematic Review in Machine Learning Research,2018,2018
+1812.00978,cs.CL,A Survey on Semantic Parsing,2018,2018
+1812.00315,cs.CL,"Fake News: A Survey of Research, Detection Methods, and Opportunities",2018,2018
+1811.12560,cs.LG,An Introduction to Deep Reinforcement Learning,2018,2018
+1811.12044,cs.LG,"A snapshot on nonstandard supervised learning problems: taxonomy, relationships and methods",2018,2018
+1811.11866,cs.IR,A Review on Recommendation Systems: Context-aware to Social-based,2018,2018
+1811.11669,cs.LG,Towards Identifying and Managing Sources of Uncertainty in AI and Machine Learning Models - An Overview,2018,2018
+1811.11597,cs.LG,Automated Algorithm Selection: Survey and Perspectives,2018,2018
+1811.10216,cs.CV,A Survey on Joint Object Detection and Pose Estimation using Monocular Vision,2018,2018
+1811.10052,cs.CV,An overview of deep learning in medical imaging focusing on MRI,2018,2018
+1811.09920,cs.AI,An Unified Intelligence-Communication Model for Multi-Agent System Part-I: Overview,2018,2018
+1811.08581,cs.LG,Recent Advances in Open Set Recognition: A Survey,2018,2018
+1811.07155,cs.AI,"Monotonic classification: an overview on algorithms, performance measures and data sets",2018,2018
+1811.06278,cs.CL,Survey of Computational Approaches to Diachronic Conceptual Change,2018,2018
+1811.06193,cs.CV,From Videos to URLs: A Multi-Browser Guide To Extract User's Behavior with Optical Character Recognition,2018,2018
+1811.06128,cs.LG,Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon,2018,2018
+1811.05553,cs.CL,Corpus Phonetics Tutorial,2018,2018
+1811.05255,cs.CV,Deep Neural Network Concepts for Background Subtraction: A Systematic Review and Comparative Evaluation,2018,2018
+1811.05544,cs.CL,An Introductory Survey on Attention Mechanisms in NLP Problems,2018,2018
+1811.04820,cs.LG,Learning From Positive and Unlabeled Data: A Survey,2018,2018
+1811.05321,cs.LG,Correction of AI systems by linear discriminants: Probabilistic foundations,2018,2018
+1811.04364,cs.LG,A Survey of Mixed Data Clustering Algorithms,2018,2018
+1811.04028,cs.AI,An Overview of Computational Approaches for Analyzing Interpretation,2018,2018
+1811.03822,cs.AI,A Very Brief and Critical Discussion on AutoML,2018,2018
+1811.03653,cs.AI,Stovepiping and Malicious Software: A Critical Review of AGI Containment,2018,2018
+1811.03402,cs.LG,A Survey on Data Collection for Machine Learning: a Big Data - AI Integration Perspective,2018,2018
+1811.02834,stat.ML,Fused Gromov-Wasserstein distance for structured objects: theoretical foundations and mathematical properties,2018,2018
+1811.01945,cs.NE,"Chaotic Quantum Double Delta Swarm Algorithm using Chebyshev Maps: Theoretical Foundations, Performance Analyses and Convergence Issues",2018,2018
+1811.01558,cs.LG,Stochastic Modified Equations and Dynamics of Stochastic Gradient Algorithms I: Mathematical Foundations,2018,2018
+1811.01238,cs.CV,Deep Learning based Computer-Aided Diagnosis Systems for Diabetic Retinopathy: A Survey,2018,2018
+1811.00928,stat.ML,Foundations of Comparison-Based Hierarchical Clustering,2018,2018
+1811.00849,cs.LG,Algorithms for screening of Cervical Cancer: A chronological review,2018,2018
+1811.00770,cs.CL,A Survey on Natural Language Processing for Fake News Detection,2018,2018
+1811.00662,cs.CV,Introduction to the 1st Place Winning Model of OpenImages Relationship Detection Challenge,2018,2018
+1811.00233,cs.CV,Survey on Vision-based Path Prediction,2018,2018
+1810.13306,cs.AI,Taking Human out of Learning Applications: A Survey on Automated Machine Learning,2018,2018
+1810.13163,stat.ML,A tutorial on MDL hypothesis testing for graph analysis,2018,2018
+1810.12399,cs.LG,Big Data Meet Cyber-Physical Systems: A Panoramic Survey,2018,2018
+1810.12368,cs.CL,A Pragmatic Guide to Geoparsing Evaluation,2018,2018
+1810.11787,cs.LG,A Hitchhiker's Guide On Distributed Training of Deep Neural Networks,2018,2018
+1810.11760,cs.LG,Machine Learning in Network Centrality Measures: Tutorial and Outlook,2018,2018
+1810.11614,physics.geo-ph,Deep learning tutorial for denoising,2018,2018
+1810.10597,cs.CV,The speaker-independent lipreading play-off; a survey of lipreading machines,2018,2018
+1810.09583,stat.ML,Model Selection Techniques -- An Overview,2018,2018
+1810.08765,cs.IR,Attribute-aware Collaborative Filtering: Survey and Classification,2018,2018
+1810.07862,cs.NI,Applications of Deep Reinforcement Learning in Communications and Networking: A Survey,2018,2018
+1810.07339,cs.LG,Security Matters: A Survey on Adversarial Machine Learning,2018,2018
+1810.05587,cs.MA,Is multiagent deep reinforcement learning the answer or the question? A brief survey,2018,2018
+1810.05401,cs.CV,A Gentle Introduction to Deep Learning in Medical Image Processing,2018,2018
+1810.05052,cs.CV,Deep Learning for Image Denoising: A Survey,2018,2018
+1810.05534,cs.AI,Conceptual Knowledge Markup Language: An Introduction,2018,2018
+1810.04377,cs.CV,Learning Deep Representations for Semantic Image Parsing: a Comprehensive Overview,2018,2018
+1810.03548,cs.LG,Meta-Learning: A Survey,2018,2018
+1810.03360,cs.CV,A Survey on Periocular Biometrics Research,2018,2018
+1810.04020,cs.CV,A Comprehensive Survey of Deep Learning for Image Captioning,2018,2018
+1810.01989,cs.AI,"Verification for Machine Learning, Autonomy, and Neural Networks Survey",2018,2018
+1810.04144,cs.HC,"A Brief Survey on Autonomous Vehicle Possible Attacks, Exploits and Vulnerabilities",2018,2018
+1810.00329,cs.AI,An Overview of Blockchain Integration with Robotics and Artificial Intelligence,2018,2018
+1810.00069,cs.LG,Adversarial Attacks and Defences: A Survey,2018,2018
+1809.10756,stat.ML,An Introduction to Probabilistic Programming,2018,2018
+1809.10745,cs.IR,A Short Survey of Topological Data Analysis in Time Series and Systems Analysis,2018,2018
+1809.09573,cs.LG,Nonconvex Optimization Meets Low-Rank Matrix Factorization: An Overview,2018,2018
+1809.09337,cs.AI,A Survey of Learning Causality with Data: Problems and Methods,2018,2018
+1809.08748,cs.AI,A Survey of Conventional and Artificial Intelligence / Learning based Resource Allocation and Interference Mitigation Schemes in D2D Enabled Networks,2018,2018
+1809.08034,cs.AI,"Answering the ""why"" in Answer Set Programming - A Survey of Explanation Approaches",2018,2018
+1809.08927,cs.CL,Adversarial Training in Affective Computing and Sentiment Analysis: Recent Advances and Perspectives,2018,2018
+1809.07294,cs.CV,Generative Adversarial Network in Medical Imaging: A Review,2018,2018
+1809.07141,cs.AI,A survey of advances in epistemic logic program solvers,2018,2018
+1809.05929,stat.ML,Solving for multi-class: a survey and synthesis,2018,2018
+1809.04356,cs.LG,Deep learning for time series classification: a review,2018,2018
+1809.03298,cs.CV,A Brief Review of Real-World Color Image Denoising,2018,2018
+1809.03193,cs.CV,Recent Advances in Object Detection in the Age of Deep Convolutional Neural Networks,2018,2018
+1809.02165,cs.CV,Deep Learning for Generic Object Detection: A Survey,2018,2018
+1809.01942,cs.NE,A tutorial on Particle Swarm Optimization Clustering,2018,2018
+1809.00604,cs.CV,Image computing for fibre-bundle endomicroscopy: A review,2018,2018
+1808.08818,cs.NE,A new Taxonomy of Continuous Global Optimization Algorithms,2018,2018
+1808.08794,cs.AI,Theoretical Foundations of the A2RD Project: Part I,2018,2018
+1809.07691,cs.SI,A Survey on Theoretical Advances of Community Detection in Networks,2018,2018
+1808.07530,cs.NE,An Overview of Datatype Quantization Techniques for Convolutional Neural Networks,2018,2018
+1808.07290,cs.CL,The Gap of Semantic Parsing: A Survey on Automatic Math Word Problem Solvers,2018,2018
+1808.07256,cs.CV,A Survey of Modern Object Detection Literature using Deep Learning,2018,2018
+1808.06865,cs.LG,Machine Learning for Spatiotemporal Sequence Forecasting: A Survey,2018,2018
+1808.08271,cs.LG,An elementary introduction to information geometry,2018,2018
+1808.05377,stat.ML,Neural Architecture Search: A Survey,2018,2018
+1808.05322,cs.AI,Decision-Making with Belief Functions: a Review,2018,2018
+1808.04759,cs.LG,An Overview and a Benchmark of Active Learning for One-Class Classification,2018,2018
+1808.04521,cs.CV,A Comprehensive Survey for Low Rank Regularization,2018,2018
+1808.04752,cs.LG,A Survey on Methods and Theories of Quantized Neural Networks,2018,2018
+1808.03591,cs.LG,How Complex is your classification problem? A survey on measuring classification complexity,2018,2018
+1808.03344,cs.CV,Deep Learning for Single Image Super-Resolution: A Brief Review,2018,2018
+1808.03314,cs.LG,Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network,2018,2018
+1808.03137,cs.CL,A Survey on Sentiment and Emotion Analysis for Computational Literary Studies,2018,2018
+1808.05853,cs.HC,Transfer Learning Enhanced Common Spatial Pattern Filtering for Brain Computer Interfaces (BCIs): Overview and a New Approach,2018,2018
+1808.02564,cs.CV,Image Anomalies: a Review and Synthesis of Detection Methods,2018,2018
+1808.02213,stat.ML,Importance of the Mathematical Foundations of Machine Learning Methods for Scientific and Engineering Applications,2018,2018
+1808.01975,cs.LG,A Survey on Surrogate Approaches to Non-negative Matrix Factorization,2018,2018
+1808.01974,cs.LG,A Survey on Deep Transfer Learning,2018,2018
+1808.01630,cs.LG,A Review of Learning with Deep Generative Models from perspective of graphical modeling,2018,2018
+1808.01462,cs.CV,Deep Learning Advances on Different 3D Data Representations: A Survey,2018,2018
+1808.00260,cs.NE,A Review on the Application of Natural Computing in Environmental Informatics,2018,2018
+1808.00022,cs.CV,Understanding human-human interactions: a survey,2018,2018
+1807.11809,cs.LG,Deep learning in agriculture: A survey,2018,2018
+1807.11398,cs.LG,Preference-based Online Learning with Dueling Bandits: A Survey,2018,2018
+1807.11164,cs.CV,ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design,2018,2018
+1807.11023,cs.CR,A Survey of Machine and Deep Learning Methods for Internet of Things (IoT) Security,2018,2018
+1807.10854,cs.CL,A Survey of the Usages of Deep Learning in Natural Language Processing,2018,2018
+1807.08596,cs.LG,Recent Advances in Convolutional Neural Network Acceleration,2018,2018
+1807.08409,stat.ME,Subsampling MCMC - An introduction for the survey statistician,2018,2018
+1807.08169,cs.LG,Recent Advances in Deep Learning: An Overview,2018,2018
+1807.07984,cs.AI,Attention Models in Graphs: A Survey,2018,2018
+1807.06775,cs.CV,Visual Affordance and Function Understanding: A Survey,2018,2018
+1807.05771,cs.CV,An Extensive Review on Spectral Imaging in Biometric Systems: Challenges and Advancements,2018,2018
+1807.05540,cs.SI,A Survey on Expert Recommendation in Community Question Answering,2018,2018
+1807.05511,cs.CV,Object Detection with Deep Learning: A Review,2018,2018
+1807.05284,cs.CV,Survey on Deep Learning Techniques for Person Re-Identification Task,2018,2018
+1807.05196,cs.RO,Artificial Intelligence for Long-Term Robot Autonomy: A Survey,2018,2018
+1807.04800,cs.LG,Feature Selection for Gender Classification in TUIK Life Satisfaction Survey,2018,2018
+1807.04639,cs.LG,Moving Objects Analytics: Survey on Future Location & Trajectory Prediction Methods,2018,2018
+1807.02811,stat.ML,A Tutorial on Bayesian Optimization,2018,2018
+1807.02582,stat.ML,Gaussian Processes and Kernel Methods: A Review on Connections and Equivalences,2018,2018
+1807.02303,cs.RO,A survey on policy search algorithms for learning robot controllers in a handful of trials,2018,2018
+1807.02192,cs.RO,A Survey of Knowledge Representation and Retrieval for Learning in Service Robotics,2018,2018
+1807.02471,cs.IR,A Review of Different Word Embeddings for Sentiment Classification using Deep Learning,2018,2018
+1807.01605,cs.CV,"Sensors, SLAM and Long-term Autonomy: A Review",2018,2018
+1807.01065,stat.ML,When Gaussian Process Meets Big Data: A Review of Scalable GPs,2018,2018
+1807.00951,eess.SP,Ballistocardiogram Signal Processing: A Literature Review,2018,2018
+1807.00914,cs.CL,Modeling Language Variation and Universals: A Survey on Typological Linguistics for Natural Language Processing,2018,2018
+1807.00962,cs.ET,Neuro-memristive Circuits for Edge Computing: A review,2018,2018
+1806.11230,cs.CV,Human Action Recognition and Prediction: A Survey,2018,2018
+1807.03124,cs.CV,An Overview of Perception Methods for Horticultural Robots: From Pollination to Harvest,2018,2018
+1806.09460,math.OC,A Tour of Reinforcement Learning: The View from Continuous Control,2018,2018
+1806.08894,cs.LG,Deep Reinforcement Learning: An Overview,2018,2018
+1806.08874,cs.AI,The Foundations of Deep Learning with a Path Towards General Intelligence,2018,2018
+1806.08212,stat.ML,A Review of Network Inference Techniques for Neural Activation Time Series,2018,2018
+1806.07757,cs.SI,How to Maximize the Spread of Social Influence: A Survey,2018,2018
+1806.07974,cs.CL,A Survey of Recent DNN Architectures on the TIMIT Phone Recognition Task,2018,2018
+1806.07066,cs.LG,Restricted Boltzmann Machines: Introduction and Review,2018,2018
+1806.06877,cs.LG,"A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress",2018,2018
+1806.06321,eess.IV,Comparative survey of visual object classifiers,2018,2018
+1806.06172,cs.CV,Semantic Video Segmentation: A Review on Recent Approaches,2018,2018
+1806.05781,cs.CV,"A Survey of Automatic Facial Micro-expression Analysis: Databases, Methods and Challenges",2018,2018
+1806.05599,cs.CL,A Survey on Open Information Extraction,2018,2018
+1806.04563,cs.NE,Benchmarking Evolutionary Algorithms For Single Objective Real-valued Constrained Optimization - A Critical Review,2018,2018
+1806.04509,stat.ML,A review on distance based time series classification,2018,2018
+1806.04169,cs.LG,Defense Against the Dark Arts: An overview of adversarial example security research and future research directions,2018,2018
+1806.03600,cs.SE,ML + FV = $\heartsuit$? A Survey on the Application of Machine Learning to Formal Verification,2018,2018
+1806.03577,cs.IR,Generative Adversarial Nets for Information Retrieval: Fundamentals and Advances,2018,2018
+1806.03537,cs.CL,Diachronic word embeddings and semantic shifts: a survey,2018,2018
+1806.03517,cs.CR,"A Taxonomy and Survey of Intrusion Detection System Design Techniques, Network Threats and Datasets",2018,2018
+1806.03982,cs.CV,Quantitative Phase Imaging and Artificial Intelligence: A Review,2018,2018
+1806.01180,cs.SD,Revisiting Singing Voice Detection: a Quantitative Review and the Future Outlook,2018,2018
+1806.00899,cs.CV,Recent advances and opportunities in scene classification of aerial images with deep models,2018,2018
+1806.00696,cs.SE,NLP-assisted software testing: a systematic review,2018,2018
+1806.00674,cs.CL,Emotion Detection in Text: a Review,2018,2018
+1806.00258,cs.CL,A Survey of Domain Adaptation for Neural Machine Translation,2018,2018
+1806.00186,cs.CV,"Video Description: A Survey of Methods, Datasets and Evaluation Metrics",2018,2018
+1805.11824,cs.CL,Anaphora and Coreference Resolution: A Review,2018,2018
+1805.11773,cs.RO,Autonomous Vehicles that Interact with Pedestrians: A Survey of Theory and Practice,2018,2018
+1805.11519,cs.CV,Face Recognition in Low Quality Images: A Survey,2018,2018
+1805.11236,cs.NE,Review of Applications of Generalized Regression Neural Networks in Identification and Control of Dynamic Systems,2018,2018
+1806.01683,cs.DC,Accelerating CNN inference on FPGAs: A Survey,2018,2018
+1805.09938,cs.AI,"Automated Verification of Neural Networks: Advances, Challenges and Perspectives",2018,2018
+1805.09749,cs.CV,Mobile Face Tracking: A Survey and Benchmark,2018,2018
+1805.07696,cs.CV,RGB-Depth SLAM Review,2018,2018
+1805.06051,cs.IR,Graph-based Ontology Summarization: A Survey,2018,2018
+1805.05563,cs.CV,Facial Landmark Detection: a Literature Survey,2018,2018
+1805.04032,cs.CL,From Word to Sense Embeddings: A Survey on Vector Representations of Meaning,2018,2018
+1805.03714,cs.LG,Foundations of Sequence-to-Sequence Modeling for Time Series,2018,2018
+1805.02896,cs.AI,Survey and cross-benchmark comparison of remaining time prediction methods in business process monitoring,2018,2018
+1805.02397,cs.CV,"A Review on Facial Micro-Expressions Analysis: Datasets, Features and Metrics",2018,2018
+1805.02290,cs.AI,The State of the Art in Developing Fuzzy Ontologies: A Survey,2018,2018
+1805.03138,cs.AI,A review of neuro-fuzzy systems based on intelligent control,2018,2018
+1805.01745,stat.ML,A brief introduction to the Grey Machine Learning,2018,2018
+1805.01109,cs.AI,AGI Safety Literature Review,2018,2018
+1805.00909,cs.LG,Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review,2018,2018
+1805.00327,cs.LG,A Taxonomy for Neural Memory Networks,2018,2018
+1805.00020,hep-ph,A Guide to Constraining Effective Field Theories with Machine Learning,2018,2018
+1804.11192,cs.IR,Explainable Recommendation: A Survey and New Perspectives,2018,2018
+1804.11191,cs.CV,How convolutional neural network see the world - A survey of convolutional neural network visualization methods,2018,2018
+1804.09849,cs.CL,The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation,2018,2018
+1804.08559,cs.SI,False Information on Web and Social Media: A Survey,2018,2018
+1804.08348,cs.CV,Deep Facial Expression Recognition: A Survey,2018,2018
+1804.08186,cs.CL,Automatic Language Identification in Texts: A Survey,2018,2018
+1804.08046,cs.CV,First Impressions: A Survey on Computer Vision-Based Apparent Personality Trait Analysis,2018,2018
+1804.07805,cs.AI,Inseparability and Conservative Extensions of Description Logic Ontologies: A Survey,2018,2018
+1804.07362,cs.CV,Survey of Face Detection on Low-quality Images,2018,2018
+1804.06748,cs.AI,State-Space Abstractions for Probabilistic Inference: A Systematic Review,2018,2018
+1804.06655,cs.CV,Deep Face Recognition: A Survey,2018,2018
+1804.06353,cs.CV,"Not-so-supervised: a survey of semi-supervised, multi-instance, and transfer learning in medical image analysis",2018,2018
+1804.05483,cs.CV,Review on Optical Image Hiding and Watermarking Techniques,2018,2018
+1804.05319,cs.NE,Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives,2018,2018
+1804.04577,cs.LG,Feature-Based Aggregation and Deep Reinforcement Learning: A Survey and Some New Implementations,2018,2018
+1804.03928,cs.CV,Deep Learning For Computer Vision Tasks: A review,2018,2018
+1804.02969,stat.ML,A review of possible effects of cognitive biases on interpretation of rule-based machine learning models,2018,2018
+1804.01961,q-bio.NC,Machine learning of neuroimaging to diagnose cognitive impairment and dementia: a systematic review and comparative analysis,2018,2018
+1804.01653,cs.LG,Review of Deep Learning,2018,2018
+1804.01144,nlin.AO,Self-Organization and Artificial Life: A Review,2018,2018
+1803.11544,cs.CV,Guide Me: Interacting with Deep Networks,2018,2018
+1804.00540,cs.CL,A Systematic Review of Automated Grammar Checking in English Language,2018,2018
+1803.10981,cs.AI,A Review of Literature on Parallel Constraint Solving,2018,2018
+1803.10862,cs.CV,A Survey on Deep Learning Methods for Robot Vision,2018,2018
+1803.10311,cs.LG,How Developers Iterate on Machine Learning Workflows -- A Survey of the Applied Machine Learning Literature,2018,2018
+1803.09156,cs.CR,An Overview of Vulnerabilities of Voice Controlled Systems,2018,2018
+1803.08823,physics.comp-ph,"A high-bias, low-variance introduction to Machine Learning for physicists",2018,2018
+1803.07976,cs.NI,An Overview on Application of Machine Learning Techniques in Optical Networks,2018,2018
+1803.07608,cs.CV,A Survey of Deep Learning Techniques for Mobile Robot Applications,2018,2018
+1803.07288,cs.CV,Face Recognition Techniques: A Survey,2018,2018
+1803.07278,cs.CV,Text Detection and Recognition in images: A survey,2018,2018
+1804.04589,cs.CL,A Survey on Neural Network-Based Summarization Methods,2018,2018
+1803.06917,q-fin.ST,Universal features of price formation in financial markets: perspectives from Deep Learning,2018,2018
+1803.05900,cs.CV,Toolflows for Mapping Convolutional Neural Networks on FPGAs: A Survey and Future Directions,2018,2018
+1803.04818,cs.HC,A Survey on Deep Learning Toolkits and Libraries for Intelligent User Interfaces,2018,2018
+1803.04706,cs.LG,Policy Search in Continuous Action Domains: an Overview,2018,2018
+1803.04469,cs.CV,An Introduction to Image Synthesis with Generative Adversarial Nets,2018,2018
+1803.04311,cs.NI,Deep Learning in Mobile and Wireless Networking: A Survey,2018,2018
+1803.03391,cs.CV,Review of Visual Saliency Detection with Comprehensive Information,2018,2018
+1803.03352,cs.CV,Indoor Scene Understanding in 2.5/3D: A Survey,2018,2018
+1803.02129,cs.CV,A Non-Technical Survey on Deep Convolutional Neural Network Architectures,2018,2018
+1803.01164,cs.CV,The History Began from AlexNet: A Comprehensive Survey on Deep Learning Approaches,2018,2018
+1803.01013,cs.LG,An Overview of Robust Subspace Recovery,2018,2018
+1803.00651,cs.IT,Static and Dynamic Robust PCA and Matrix Completion: A Review,2018,2018
+1802.09720,stat.CO,Overview of Approximate Bayesian Computation,2018,2018
+1802.09669,cs.AI,A Multi-Disciplinary Review of Knowledge Acquisition Methods: From Human to Autonomous Eliciting Agents,2018,2018
+1802.09924,cs.AI,Introduction to the SP theory of intelligence,2018,2018
+1802.08784,cs.CV,Facial Expression Analysis under Partial Occlusion: A Survey,2018,2018
+1802.08701,cs.CV,Machine learning based hyperspectral image analysis: A survey,2018,2018
+1802.07569,cs.LG,Continual Lifelong Learning with Neural Networks: A Review,2018,2018
+1802.06971,cs.CV,A survey on trajectory clustering analysis,2018,2018
+1802.06305,cs.LG,Machine learning for Internet of Things data analysis: A survey,2018,2018
+1802.06068,cs.AI,Artificial intelligence and pediatrics: A synthetic mini review,2018,2018
+1802.05968,cs.IT,Information Theory: A Tutorial Introduction,2018,2018
+1802.04894,cs.CV,Computer-Aided Knee Joint Magnetic Resonance Image Segmentation - A Survey,2018,2018
+1802.04744,cs.CL,A Short Survey on Sense-Annotated Corpora for Diverse Languages and Resources,2018,2018
+1802.04636,cs.CV,Modeling of Facial Aging and Kinship: A Survey,2018,2018
+1802.04181,cs.AI,State Representation Learning for Control: An Overview,2018,2018
+1802.03601,cs.CV,Deep Visual Domain Adaptation: A Survey,2018,2018
+1802.08717,cs.CV,Deep learning in radiology: an overview of the concepts and a survey of the state of the art,2018,2018
+1802.03098,cs.CV,Tracking Noisy Targets: A Review of Recent Object Tracking Approaches,2018,2018
+1802.03086,cs.CV,"Automatic segmenting teeth in X-ray images: Trends, a novel data set, benchmarking and future perspectives",2018,2018
+1802.02871,cs.LG,Online Learning: A Comprehensive Survey,2018,2018
+1802.02353,cs.AI,Recent Advances in Neural Program Synthesis,2018,2018
+1802.02297,cs.CV,A comprehensive review of 3D point cloud descriptors,2018,2018
+1802.01933,cs.CY,A Survey Of Methods For Explaining Black Box Models,2018,2018
+1802.00939,cs.CV,Recent Advances in Efficient Computation of Deep Convolutional Neural Networks,2018,2018
+1802.00810,q-bio.GN,Deep Learning for Genomics: A Concise Overview,2018,2018
+1802.00614,cs.CV,Visual Interpretability for Deep Learning: a Survey,2018,2018
+1801.10087,cs.NE,The Benefits of Population Diversity in Evolutionary Algorithms: A Survey of Rigorous Runtime Analyses,2018,2018
+1801.09961,cs.IR,Modeling Influence with Semantics in Social Networks: a Survey,2018,2018
+1801.09065,stat.CO,A Review of Multiple Try MCMC algorithms for Signal Processing,2018,2018
+1801.08829,cs.AI,Symbol Emergence in Cognitive Developmental Systems: a Survey,2018,2018
+1801.08268,cs.CV,A Tutorial on Modeling and Inference in Undirected Graphical Models for Hyperspectral Image Analysis,2018,2018
+1801.07883,cs.CL,Deep Learning for Sentiment Analysis : A Survey,2018,2018
+1801.08863,cs.CV,3D Scanning: A Comprehensive Survey,2018,2018
+1801.07481,cs.CV,Survey on Emotional Body Gesture Recognition,2018,2018
+1802.02207,cs.CV,Automated dataset generation for image recognition using the example of taxonomy,2018,2018
+1801.06889,cs.HC,Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers,2018,2018
+1802.08729,cs.NE,Review: Metaheuristic Search-Based Fuzzy Clustering Algorithms,2018,2018
+1801.09536,cs.CL,A Survey of Word Embeddings Evaluation Methods,2018,2018
+1801.06503,stat.ML,Global overview of Imitation Learning,2018,2018
+1802.01415,cs.NI,Big Data Analytics for Wireless and Wired Network Design: A Survey,2018,2018
+1801.06480,cs.CL,A Practitioners' Guide to Transfer Learning for Text Classification using Convolutional Neural Networks,2018,2018
+1801.06323,cs.IR,"Plagiarism: Taxonomy, Tools and Detection Techniques",2018,2018
+1801.05927,cs.LG,An Overview of Machine Teaching,2018,2018
+1801.05894,math.HO,Deep Learning: An Introduction for Applied Mathematicians,2018,2018
+1801.04405,cs.PL,A Survey on Compiler Autotuning using Machine Learning,2018,2018
+1801.03421,cs.LG,Blessing of dimensionality: mathematical foundations of the statistical physics of data,2018,2018
+1801.03149,cs.CV,An overview of deep learning based methods for unsupervised and semi-supervised anomaly detection in videos,2018,2018
+1801.01937,cs.IR,A Comprehensive Survey of Ontology Summarization: Measures and Methods,2018,2018
+1801.01704,cs.AI,Artificial Intelligence (AI) Methods in Optical Networks: A Comprehensive Survey,2018,2018
+1801.01586,cs.LG,"A practical tutorial on autoencoders for nonlinear feature fusion: Taxonomy, models, software and guidelines",2018,2018
+1801.00631,cs.AI,Deep Learning: A Critical Appraisal,2018,2018
+1801.00553,cs.CV,Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey,2018,2018
+1801.00454,cs.CV,Quality assessment metrics for edge detection and edge-aware filtering: A tutorial review,2018,2018
+1801.01078,cs.NE,Recent Advances in Recurrent Neural Networks,2017,2018
+1712.08941,cs.IR,Comparative Opinion Mining: A Review,2017,2017
+1712.08523,physics.comp-ph,Contemporary machine learning: a guide for practitioners in the physical sciences,2017,2017
+1712.07691,cs.IR,Inferring User Interests in Microblogging Social Networks: A Survey,2017,2018
+1712.06246,cs.LG,A Survey on Multi-View Clustering,2017,2018
+1712.06120,stat.ML,Hypothesis Testing for High-Dimensional Multinomials: A Selective Review,2017,2017
+1712.05191,cs.CL,Relation Extraction : A Survey,2017,2017
+1712.04741,cs.LG,Mathematics of Deep Learning,2017,2017
+1712.04391,cs.CV,Review. Machine learning techniques for traffic sign detection,2017,2017
+1712.04323,cs.LG,Deep Echo State Network (DeepESN): A Brief Survey,2017,2018
+1712.03747,cs.CV,Deep convolutional neural networks for brain image analysis on magnetic resonance imaging: a review,2017,2018
+1712.03686,stat.AP,A practical guide and software for analysing pairwise comparison experiments,2017,2017
+1712.04301,cs.NI,Deep Learning for IoT Big Data and Streaming Analytics: A Survey,2017,2018
+1712.04307,cs.AI,AI Safety and Reproducibility: Establishing Robust Foundations for the Neuropsychology of Human Values,2017,2018
+1712.02162,stat.ML,A trans-disciplinary review of deep learning research for water resources scientists,2017,2018
+1801.05852,cs.SI,Network Representation Learning: A Survey,2017,2018
+1712.00646,cs.AI,From knowledge-based to data-driven modeling of fuzzy rule-based systems: A critical reflection,2017,2017
+1711.10781,stat.ML,Introduction to Tensor Decompositions and their Applications in Machine Learning,2017,2017
+1712.07540,cs.CV,Image Registration Techniques: A Survey,2017,2017
+1711.09577,cs.CV,Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?,2017,2018
+1711.09534,cs.CL,Neural Text Generation: A Practical Guide,2017,2017
+1711.09482,stat.ML,An Introduction to Deep Visual Explanation,2017,2018
+1711.09476,cs.CL,Machine Translation using Semantic Web Technologies: A Survey,2017,2018
+1711.09057,cs.AI,Cooperative Multi-Agent Planning: A Survey,2017,2017
+1711.08421,cs.DS,Relief-Based Feature Selection: Introduction and Review,2017,2018
+1711.07829,cs.CV,Discussion among Different Methods of Updating Model Filter in Object Tracking,2017,2017
+1711.07561,stat.ML,Review on Parameter Estimation in HMRF,2017,2017
+1711.05914,cs.LG,How Generative Adversarial Networks and Their Variants Work: An Overview,2017,2018
+1711.06552,cs.LG,Introduction to intelligent computing unit 1,2017,2017
+1711.04710,cs.LG,Spatio-Temporal Data Mining: A Survey of Problems and Methods,2017,2017
+1711.04305,cs.IR,"Latent Dirichlet Allocation (LDA) and Topic modeling: models, applications, a survey",2017,2018
+1711.04101,cs.IR,Recommender Systems with Random Walks: A Survey,2017,2017
+1711.03902,cs.AI,Neural-Symbolic Learning and Reasoning: A Survey and Interpretation,2017,2017
+1711.03810,cs.RO,Robotic Tactile Perception of Object Properties: A Review,2017,2017
+1711.03846,cs.CY,"""Dave...I can assure you...that it's going to be all right..."" -- A definition, case for, and survey of algorithmic assurances in human-autonomy trust relationships",2017,2018
+1711.02441,eess.IV,A Survey on Hardware Implementations of Visual Object Trackers,2017,2017
+1711.02391,cs.LG,A Tutorial on Canonical Correlation Methods,2017,2017
+1711.01731,cs.CL,A Survey on Dialogue Systems: Recent Advances and New Frontiers,2017,2018
+1711.08362,cs.CV,RGB-D-based Human Motion Recognition with Deep Learning: A Survey,2017,2018
+1710.10686,cs.LG,Regularization for Deep Learning: A Taxonomy,2017,2017
+1710.09230,cs.LG,Supervised Classification: Quite a Brief Overview,2017,2017
+1710.09282,cs.LG,A Survey of Model Compression and Acceleration for Deep Neural Networks,2017,2017
+1710.07035,cs.CV,Generative Adversarial Networks: An Overview,2017,2017
+1710.04837,cs.CV,Recent Advances in Zero-shot Recognition,2017,2017
+1710.04019,math.ST,An introduction to Topological Data Analysis: fundamental and practical aspects for data scientists,2017,2017
+1710.04011,eess.IV,A Review of Convolutional Neural Networks for Inverse Problems in Imaging,2017,2017
+1710.03959,cs.CV,Deep learning in remote sensing: a review,2017,2017
+1710.02913,cs.IT,Machine Learning for Wireless Networks with Artificial Intelligence: A Tutorial on Neural Networks,2017,2017
+1710.05703,cs.CV,A Survey on Optical Character Recognition System,2017,2017
+1710.00794,cs.AI,What Does Explainable AI Really Mean? A New Conceptualization of Perspectives,2017,2017
+1710.00372,cs.CL,Mathematical foundations of matrix syntax,2017,2017
+1709.08992,cs.NE,Embodied Evolution in Collective Robotics: A Review,2017,2018
+1709.08203,cs.CV,Survey of Recent Advances in Visual Question Answering,2017,2017
+1709.08071,cs.AI,Autonomous Agents Modelling Other Agents: A Comprehensive Survey and Open Problems,2017,2018
+1709.07604,cs.AI,"A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications",2017,2018
+1709.06182,cs.SE,A Survey of Machine Learning for Big Code and Naturalness,2017,2018
+1709.05601,cs.AI,Markov Brains: A Technical Introduction,2017,2017
+1709.05563,cs.CL,Data Innovation for International Development: An overview of natural language processing for qualitative data analysis,2017,2017
+1709.05454,stat.ME,Statistical inference on random dot product graphs: a survey,2017,2017
+1709.04734,cs.AI,Perspectives for Evaluating Conversational AI,2017,2017
+1709.04409,cs.CL,A Review of Evaluation Techniques for Social Dialogue Systems,2017,2017
+1709.04396,cs.CV,A Tutorial on Deep Learning for Music Information Retrieval,2017,2018
+1709.03806,cs.CV,Can Deep Neural Networks Match the Related Objects?: A Survey on ImageNet-trained Classification Models,2017,2017
+1709.02893,cs.LG,Convolutional Dictionary Learning: A Comparative Review and New Algorithms,2017,2018
+1709.02840,cs.LG,A Brief Introduction to Machine Learning for Engineers,2017,2018
+1709.01620,cs.SD,Deep Learning Techniques for Music Generation - A Survey,2017,2018
+1709.01412,stat.ML,Deep learning: Technical introduction,2017,2017
+1709.00911,cs.SE,"Neural Networks for Safety-Critical Applications - Challenges, Experiments and Perspectives",2017,2017
+1709.02250,cs.CV,Medical Image Analysis using Convolutional Neural Networks: A Review,2017,2017
+1709.00848,cs.NE,Neural Distributed Autoassociative Memories: A Survey,2017,2017
+1710.02553,cs.DC,"Artificial life, complex systems and cloud computing: a short review",2017,2017
+1709.02246,cs.CV,A Survey of Efficient Regression of General-Activity Human Poses from Depth Images,2017,2017
+1709.00308,cs.CV,"A Comprehensive Survey of Deep Learning in Remote Sensing: Theories, Tools and Challenges for the Community",2017,2017
+1709.00084,cs.RO,Behavior Trees in Robotics and AI: An Introduction,2017,2018
+1708.09165,cs.NA,Tensor Networks for Dimensionality Reduction and Large-Scale Optimizations. Part 2 Applications and Future Perspectives,2017,2017
+1708.08813,cs.LG,Anomaly Detection: Review and preliminary Entropy method tests,2017,2017
+1708.07524,cs.CL,Supervised Speech Separation Based on Deep Learning: An Overview,2017,2018
+1708.07455,cs.CV,Review on Computer Vision Techniques in Emergency Situation,2017,2018
+1708.07281,cs.CV,Recent Advances in the Applications of Convolutional Neural Networks to Medical Image Contour Detection,2017,2017
+1708.07129,cs.AI,A Survey of Human Activity Recognition Using WiFi CSI,2017,2017
+1708.06401,stat.ML,A Tutorial on Hawkes Processes for Events in Social Media,2017,2017
+1708.05872,cs.SI,Agent-based computing from multi-agent systems to agent-based Models: a visual survey,2017,2017
+1708.05866,cs.LG,A Brief Survey of Deep Reinforcement Learning,2017,2017
+1708.05125,cs.CV,"Hyperspectral Unmixing: Ground Truth Labeling, Datasets, Benchmark Performances and Survey",2017,2017
+1708.05296,cs.AI,A Survey of Parallel A*,2017,2017
+1708.04649,cs.LG,Machine Learning for Survival Analysis: A Survey,2017,2017
+1708.04321,cs.LG,Distance and Similarity Measures Effect on the Performance of K-Nearest Neighbor Classifier - A Review,2017,2017
+1708.05069,stat.ME,A causation coefficient and taxonomy of correlation/causation relationships,2017,2017
+1708.01636,cs.GT,Game theory models for communication between agents: a review,2017,2017
+1708.00495,cs.CY,"""I can assure you [$\ldots$] that it's going to be all right"" -- A definition, case for, and survey of algorithmic assurances in human-autonomy trust relationships",2017,2017
+1708.00247,cs.IR,Query Expansion Techniques for Information Retrieval: a Survey,2017,2017
+1708.00192,cs.DB,A Survey on Visual Query Systems in the Web Era (extended version),2017,2017
+1707.09183,cs.MA,A Survey of Learning in Multiagent Environments: Dealing with Non-Stationarity,2017,2017
+1707.08114,cs.LG,A Survey on Multi-Task Learning,2017,2018
+1707.08476,cs.AI,Guidelines for Artificial Intelligence Containment,2017,2017
+1707.07435,cs.IR,Deep Learning based Recommender System: A Survey and New Perspectives,2017,2018
+1707.07425,stat.ML,Health Analytics: a systematic review of approaches to detect phenotype cohorts using electronic health records,2017,2017
+1707.07184,cs.CV,A survey of exemplar-based texture synthesis,2017,2017
+1707.06766,cs.AI,Outcome-Oriented Predictive Process Monitoring: Review and Benchmark,2017,2018
+1707.06436,cs.CV,"cvpaper.challenge in 2016: Futuristic Computer Vision through 1,600 Papers Survey",2017,2017
+1707.05850,cs.CL,A Short Survey of Biomedical Relation Extraction Techniques,2017,2017
+1707.04957,cs.AI,Improving Adherence to Heart Failure Management Guidelines via Abductive Reasoning,2017,2017
+1707.03538,stat.ML,An Introduction to the Practical and Theoretical Aspects of Mixture-of-Experts Modeling,2017,2017
+1707.03502,cs.CV,Deep Learning for Sensor-based Activity Recognition: A Survey,2017,2017
+1707.03184,cs.AI,A Survey on Resilient Machine Learning,2017,2017
+1707.02919,cs.CL,"A Brief Survey of Text Mining: Classification, Clustering and Extraction Techniques",2017,2017
+1707.02432,stat.ML,"Deep Semantic Segmentation for Automated Driving: Taxonomy, Roadmap and Challenges",2017,2017
+1707.02268,cs.CL,Text Summarization Techniques: A Brief Survey,2017,2017
+1707.02051,cs.CV,Image Segmentation Algorithms Overview,2017,2017
+1707.02038,cs.LG,A Tutorial on Thompson Sampling,2017,2017
+1707.01202,cs.CV,A Survey of Recent Advances in CNN-based Single Image Crowd Counting and Density Estimation,2017,2017
+1706.08162,cs.CL,Automated text summarisation and evidence-based medicine: A survey of two domains,2017,2017
+1706.08137,stat.ML,A Contemporary Overview of Probabilistic Latent Variable Models,2017,2017
+1706.06064,cs.MM,Recent Advance in Content-based Image Retrieval: A Literature Survey,2017,2017
+1707.03470,cs.CV,Place recognition: An Overview of Vision Perspective,2017,2017
+1706.05098,cs.LG,An Overview of Multi-Task Learning in Deep Neural Networks,2017,2017
+1706.04902,cs.CL,A Survey Of Cross-lingual Word Embedding Models,2017,2017
+1706.04371,cs.LG,A survey of dimensionality reduction techniques based on random projection,2017,2018
+1706.05254,cs.MA,Collaborative vehicle routing: a survey,2017,2017
+1706.03446,cs.LG,Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis,2017,2018
+1706.03285,cs.CV,Recovering 6D Object Pose: A Review and Multi-modal Analysis,2017,2018
+1706.00636,stat.ML,"WiFi based trajectory alignment, calibration and easy site survey using smart phones and foot-mounted IMUs",2017,2017
+1705.10874,cs.SD,Deep Learning for Environmentally Robust Speech Recognition: An Overview of Recent Developments,2017,2018
+1705.10557,cs.AI,Universal Reinforcement Learning Algorithms: Survey and Experiments,2017,2017
+1705.09406,cs.LG,Multimodal Machine Learning: A Survey and Taxonomy,2017,2017
+1705.06963,cs.NE,A Survey of Neuromorphic Computing and Neural Networks in Hardware,2017,2017
+1705.06927,cs.AI,Foundations of Declarative Data Analysis Using Limit Datalog Programs,2017,2017
+1705.06270,math.OC,A Review on Bilevel Optimization: From Classical to Evolutionary Approaches and Applications,2017,2017
+1705.05584,cs.NE,Metaheuristic Design of Feedforward Neural Networks: A Review of Two Decades of Research,2017,2017
+1705.05172,cs.LG,Emotion in Reinforcement Learning Agents and Robots: A Survey,2017,2017
+1705.04396,cs.CV,Transfer Learning for Cross-Dataset Recognition: A Survey,2017,2017
+1705.04378,cs.NE,An overview and comparative analysis of Recurrent Neural Networks for Short Term Load Forecasting,2017,2018
+1705.04058,cs.CV,Neural Style Transfer: A Review,2017,2018
+1705.03865,cs.CL,Survey of Visual Question Answering: Datasets and Techniques,2017,2017
+1705.04530,cs.AI,A Survey of Question Answering for Math and Science Problem,2017,2017
+1705.03751,cs.AI,A Survey of Distant Supervision Methods using PGMs,2017,2017
+1705.03645,cs.CL,A Survey of Deep Learning Methods for Relation Extraction,2017,2017
+1705.03172,cs.SI,A Survey of Location Prediction on Twitter,2017,2018
+1705.02908,cs.AI,Machine Learning with World Knowledge: The Position and Survey,2017,2017
+1705.02801,cs.SI,"Graph Embedding Techniques, Applications, and Performance: A Survey",2017,2017
+1704.08531,cs.CL,A Survey of Neural Network Techniques for Feature Extraction from Text,2017,2017
+1704.06857,cs.CV,A Review on Deep Learning Techniques Applied to Semantic Segmentation,2017,2017
+1704.06825,cs.CV,"Deep Learning for Medical Image Processing: Overview, Challenges and Future",2017,2017
+1704.03402,cs.AI,Next Generation Business Intelligence and Analytics: A Survey,2017,2017
+1704.03801,cs.CV,Ensemble classifier approach in breast cancer detection and malignancy grading- A review,2017,2017
+1704.03242,cs.CL,Automatic Keyword Extraction for Text Summarization: A Survey,2017,2017
+1704.02370,stat.ML,A Brief Introduction to the Temporal Group LASSO and its Potential Applications in Healthcare,2017,2017
+1704.02134,cs.CL,Adposition and Case Supersenses v2: Guidelines for English,2017,2018
+1704.01472,cs.CV,Automatic Breast Ultrasound Image Segmentation: A Survey,2017,2018
+1704.00853,cs.AI,A History of Metaheuristics,2017,2017
+1704.00656,cs.CL,Detection and Resolution of Rumours in Social Media: A Survey,2017,2018
+1703.10090,cs.CL,A Short Review of Ethical Challenges in Clinical Natural Language Processing,2017,2017
+1703.09902,cs.CL,"Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation",2017,2018
+1703.09891,cs.CV,LabelBank: Revisiting Global Perspectives for Semantic Segmentation,2017,2017
+1703.09199,cs.CV,Introduction To The Monogenic Signal,2017,2017
+1703.09039,cs.CV,Efficient Processing of Deep Neural Networks: A Tutorial and Survey,2017,2017
+1703.08098,cs.CL,An overview of embedding models of entities and relationships for knowledge base completion,2017,2018
+1703.06815,cs.AI,Foundations for a Probabilistic Event Calculus,2017,2017
+1703.06376,cs.CV,Recent Advances in Features Extraction and Description Algorithms: A Comprehensive Survey,2017,2017
+1703.02819,cs.IR,Introduction to Formal Concept Analysis and Its Applications in Information Retrieval and Related Fields,2017,2017
+1703.02192,cs.AI,A Gentle Introduction to Epistemic Planning: The DEL Approach,2017,2017
+1703.01619,cs.CL,Neural Machine Translation and Sequence-to-sequence Models: A Tutorial,2017,2017
+1703.00663,cs.NA,Introduction to Nonnegative Matrix Factorization,2017,2017
+1702.05747,cs.CV,A Survey on Deep Learning in Medical Image Analysis,2017,2017
+1702.05515,cs.AI,Overview: Generalizations of Multi-Agent Path Finding to Real-World Scenarios,2017,2017
+1702.05376,cs.AI,Towards a Unified Taxonomy of Biclustering Methods,2017,2017
+1702.05374,cs.CV,Domain Adaptation for Visual Applications: A Comprehensive Survey,2017,2017
+1702.06186,cs.LG,Survey of reasoning using Neural networks,2017,2017
+1702.03600,cs.CV,Underwater Optical Image Processing: A Comprehensive Review,2017,2017
+1702.03515,cs.CV,Sparse Representation based Multi-sensor Image Fusion: A Review,2017,2017
+1702.03180,cs.NE,Stochastic Configuration Networks: Fundamentals and Algorithms,2017,2017
+1702.03222,cs.IR,Mining Electronic Health Records: A Survey,2017,2017
+1702.02277,cs.NE,A Historical Review of Forty Years of Research on CMAC,2017,2017
+1702.01636,cs.CV,Slice-to-volume medical image registration: a survey,2017,2017
+1702.01510,cs.AI,Survey of modern Fault Diagnosis methods in networks,2017,2017
+1702.00832,cs.IT,An Introduction to Deep Learning for the Physical Layer,2017,2017
+1702.00764,cs.CL,"Symbolic, Distributed and Distributional Representations for Natural Language Processing in the Era of Deep Learning: a Survey",2017,2017
+1701.08756,cs.RO,A Review of Methodologies for Natural-Language-Facilitated Human-Robot Cooperation,2017,2017
+1701.08546,cs.AI,Survey on Models and Techniques for Root-Cause Analysis,2017,2017
+1701.08493,cs.CV,A Survey of Structure from Motion,2017,2017
+1701.08269,cs.RO,Systems of natural-language-facilitated human-robot cooperation: A review,2017,2017
+1701.07761,stat.ML,Theoretical Foundations of Forward Feature Selection Methods based on Mutual Information,2017,2018
+1701.07274,cs.LG,Deep Reinforcement Learning: An Overview,2017,2018
+1701.07179,cs.LG,Malicious URL Detection using Machine Learning: A Survey,2017,2017
+1701.06806,quant-ph,A Survey of Quantum Learning Theory,2017,2017
+1701.05549,cs.NE,Deep Neural Networks - A Brief History,2017,2017
+1701.04465,cs.NE,The Incredible Shrinking Neural Network: New Perspectives on Learning Representations Through The Lens of Pruning,2017,2017
+1701.02470,cs.CV,Methods for Mapping Forest Disturbance and Degradation from Optical Earth Observation Data: a Review,2017,2017
+1701.02145,cs.CR,Shallow and Deep Networks Intrusion Detection System: A Taxonomy and Survey,2017,2017
+1701.01582,stat.ML,Learning Sparse Structural Changes in High-dimensional Markov Networks: A Review on Methodologies and Theories,2017,2017
+1701.01214,cs.SY,A Review of Neural Network Based Machine Learning Approaches for Rotor Angle Stability Control,2017,2017
+1612.07139,cs.RO,A Survey of Deep Network Solutions for Learning Control in Robotics: From Reinforcement to Imitation,2016,2018
+1612.06259,cs.CV,Photo-Quality Evaluation based on Computational Aesthetics: Review of Feature Extraction Techniques,2016,2016
+1612.07640,cs.LG,Deep Learning and Its Applications to Machine Health Monitoring: A Survey,2016,2016
+1612.05299,cs.LG,A Survey of Inductive Biases for Factorial Representation-Learning,2016,2016
+1612.04883,cs.IR,Graph Summarization Methods and Applications: A Survey,2016,2018
+1612.03365,cs.CV,Multiple Instance Learning: A Survey of Problem Characteristics and Applications,2016,2016
+1612.02590,cs.CV,Scene Flow Estimation: A Survey,2016,2017
+1612.02893,cs.LG,A Review of Intelligent Practices for Irrigation Prediction,2016,2016
+1612.01556,cs.CL,"The Evolution of Sentiment Analysis - A Review of Research Topics, Venues, and Top Cited Papers",2016,2017
+1611.09811,cs.CV,3D Ultrasound image segmentation: A Survey,2016,2016
+1611.09345,cs.LG,Unifying Multi-Domain Multi-Task Learning: Tensor and Neural Network Perspectives,2016,2016
+1611.08374,cs.AI,Decision Support Systems in Fisheries and Aquaculture: A systematic review,2016,2016
+1611.08331,cs.LG,An Overview on Data Representation Learning: From Traditional Feature Learning to Recent Deep Learning,2016,2016
+1611.08083,stat.ML,Survey of Expressivity in Deep Neural Networks,2016,2016
+1611.06439,cs.CR,A Survey of Credit Card Fraud Detection Techniques: Data and Technique Oriented Perspective,2016,2016
+1611.06216,cs.CL,Generative Deep Neural Networks for Dialogue: A Short Review,2016,2016
+1611.06203,cs.CV,Ear Recognition: More Than a Survey,2016,2016
+1611.06792,cs.IR,Neural Information Retrieval: A Literature Review,2016,2017
+1611.05842,cs.CV,Video Processing from Electro-optical Sensors for Object Detection and Tracking in Maritime Environment: A Survey,2016,2016
+1611.04535,cs.DS,Learning-Theoretic Foundations of Algorithm Configuration for Combinatorial Partitioning Problems,2016,2018
+1611.03977,cs.AI,A Review on Algorithms for Constraint-based Causal Discovery,2016,2016
+1611.03969,stat.CO,An Introduction to MM Algorithms for Machine Learning and Statistical,2016,2016
+1611.03186,cs.CR,SoK: Applying Machine Learning in Security - A Survey,2016,2016
+1611.01919,cs.DB,Decision Tree Classification with Differential Privacy: A Survey,2016,2016
+1611.00939,cs.CV,Recent Advances in Transient Imaging: A Computer Graphics and Vision Perspective,2016,2016
+1611.00740,cs.LG,Why and When Can Deep -- but Not Shallow -- Networks Avoid the Curse of Dimensionality: a Review,2016,2017
+1610.09882,cs.AI,A Survey of Brain Inspired Technologies for Engineering,2016,2016
+1610.09087,cs.CV,Recent advances in content based video copy detection,2016,2016
+1610.08602,cs.AI,A Review of 40 Years of Cognitive Architecture Research: Core Cognitive Abilities and Practical Applications,2016,2018
+1610.08375,cs.CL,Content Selection in Data-to-Text Systems: A Survey,2016,2016
+1610.07365,cs.CL,Introduction: Cognitive Issues in Natural Language Processing,2016,2016
+1610.06906,cs.CV,Review of Action Recognition and Detection Methods,2016,2016
+1610.03934,cs.CL,A Survey of Voice Translation Methodologies - Acoustic Dialect Decoder,2016,2016
+1610.03660,cs.CV,Image Based Camera Localization: an Overview,2016,2018
+1610.03349,cs.CL,Survey on the Use of Typological Information in Natural Language Processing,2016,2016
+1610.02583,cs.LG,A Gentle Tutorial of Recurrent Neural Network with Error Backpropagation,2016,2018
+1610.01076,cs.CV,Tutorial on Answering Questions about Images with Deep Learning,2016,2016
+1610.00782,cs.SI,"Network Structure Inference, A Survey: Motivations, Methods, and Applications",2016,2018
+1610.01206,cs.LG,A Survey of Multi-View Representation Learning,2016,2018
+1610.01178,cs.LG,A Tour of TensorFlow,2016,2016
+1609.09341,cs.GT,Machine Learning Techniques for Stackelberg Security Games: a Survey,2016,2016
+1609.07537,math.OC,"A Tutorial on Distributed (Non-Bayesian) Learning: Problem, Algorithms and Results",2016,2016
+1609.06146,cs.LG,mlr Tutorial,2016,2016
+1609.05401,cs.AI,Applications of Data Mining (DM) in Science and Engineering: State of the art and perspectives,2016,2016
+1610.05267,cs.CV,Rule Extraction Algorithm for Deep Neural Networks: A Review,2016,2016
+1609.04846,cs.NE,A Tutorial about Random Neural Networks in Supervised Learning,2016,2016
+1609.04747,cs.LG,An overview of gradient descent optimization algorithms,2016,2017
+1609.04436,cs.AI,Bayesian Reinforcement Learning: A Survey,2016,2016
+1609.01915,cs.CV,Polyp Detection and Segmentation from Video Capsule Endoscopy: A Review,2016,2016
+1608.09014,cs.LG,A Tutorial on Online Supervised Learning with Applications to Node Classification in Social Networks,2016,2016
+1608.08252,cs.AI,Business Process Deviance Mining: Review and Evaluation,2016,2016
+1608.06048,stat.AP,Survey of resampling techniques for improving classification performance in unbalanced datasets,2016,2016
+1608.04188,cs.CV,Face Alignment In-the-Wild: A Survey,2016,2016
+1608.03811,stat.ML,Content-based image retrieval tutorial,2016,2016
+1608.03240,cs.CV,Fractional Calculus In Image Processing: A Review,2016,2016
+1608.01807,cs.CV,SIFT Meets CNN: A Decade Survey of Instance Retrieval,2016,2017
+1608.01017,cs.CV,Automated X-ray Image Analysis for Cargo Security: Critical Review and Future Promise,2016,2016
+1608.00700,cs.CV,A Survey of Visual Analysis of Human Motion and Its Applications,2016,2016
+1608.00163,physics.soc-ph,Community detection in networks: A user guide,2016,2016
+1607.08864,cs.CL,The DLVHEX System for Knowledge Representation: Recent Advances (System Description),2016,2016
+1607.08368,cs.CV,"Local Feature Detectors, Descriptors, and Image Representations: A Survey",2016,2016
+1607.06235,cs.CV,Haze Visibility Enhancement: A Survey and Quantitative Benchmarking,2016,2016
+1607.06215,cs.MM,A Comprehensive Survey on Cross-modal Retrieval,2016,2016
+1607.05910,cs.CV,Visual Question Answering: A Survey of Methods and Datasets,2016,2016
+1607.01232,cs.CV,A probabilistic tour of visual attention and gaze shift computational models,2016,2016
+1607.01092,cs.CV,Incorporating prior knowledge in medical image segmentation: a survey,2016,2016
+1607.00647,cs.IR,A Survey of Point-of-interest Recommendation in Location-based Social Networks,2016,2016
+1607.00623,cs.CL,Visualizing Natural Language Descriptions: A Survey,2016,2016
+1607.00470,cs.CV,"Keyframe-based monocular SLAM: design, survey, and future directions",2016,2018
+1606.09140,cs.AI,Algebraic foundations for qualitative calculi and networks,2016,2017
+1606.08906,cs.AI,Exploring high-level Perspectives on Self-Configuration Capabilities of Systems,2016,2016
+1606.07993,cs.CL,Learning for Biomedical Information Extraction: Methodological Review of Recent Advances,2016,2016
+1606.07757,cs.CV,A Taxonomy and Library for Visualizing Learned Features in Convolutional Neural Networks,2016,2016
+1606.05908,stat.ML,Tutorial on Variational Autoencoders,2016,2016
+1606.05703,cs.CV,A Survey of Pansharpening Methods with A New Band-Decoupled Variational Model,2016,2016
+1606.05201,stat.ML,"Assessing and tuning brain decoders: cross-validation, caveats, and guidelines",2016,2016
+1606.04450,cs.CV,Multiple Human Tracking in RGB-D Data: A Survey,2016,2016
+1606.04316,stat.ML,Time for a change: a tutorial for comparing multiple classifiers through Bayesian analysis,2016,2017
+1606.03237,cs.CV,"Survey on RGB, 3D, Thermal, and Multimodal Approaches for Facial Expression Recognition: History, Trends, and Affect-related Applications",2016,2016
+1606.02032,cs.AI,Human vs. Computer Go: Review and Prospect,2016,2016
+1606.00626,cs.AI,The Challenge of Non-Technical Loss Detection using Artificial Intelligence: A Survey,2016,2017
+1606.00185,cs.CV,A Survey on Learning to Hash,2016,2017
+1606.00133,cs.AI,A Survey of Qualitative Spatial and Temporal Calculi -- Algebraic and Computational Properties,2016,2016
+1605.09522,stat.ML,Kernel Mean Embedding of Distributions: A Review and Beyond,2016,2017
+1605.08247,cs.CV,cvpaper.challenge in 2015 - A review of CVPR2015 and DeepSurvey,2016,2016
+1605.08150,cs.AI,Cognitive Dynamic Systems: A Technical Review of Cognitive Radar,2016,2016
+1605.07895,cs.AI,Automatic Extraction of Causal Relations from Natural Language Texts: A Comprehensive Survey,2016,2016
+1605.07574,cs.AI,"Towards Bin Packing (preliminary problem survey, models with multiset estimates)",2016,2016
+1605.04988,cs.CV,Going Deeper into Action Recognition: A Survey,2016,2017
+1605.04515,cs.CL,Machine Translation Evaluation Resources and Methods: A Survey,2016,2018
+1605.04232,cs.AI,Review of state-of-the-arts in artificial intelligence with application to AI safety problem,2016,2016
+1605.03506,cs.AI,Characterizing Quantifier Fuzzification Mechanisms: a behavioral guide for practical applications,2016,2016
+1605.00316,stat.ML,Directional Statistics in Machine Learning: a Brief Review,2016,2016
+1604.08268,cs.AI,Quantum Cognition Beyond Hilbert Space I: Fundamentals,2016,2016
+1604.07090,cs.CV,"A Review of Co-saliency Detection Technique: Fundamentals, Applications, and Challenges",2016,2017
+1604.06195,cs.CV,Articulated Hand Pose Estimation Review,2016,2016
+1604.04727,cs.MA,"Tasks for agent-based negotiation teams: Analysis, review, and challenges",2016,2016
+1604.01662,stat.ML,Towards Bayesian Deep Learning: A Survey,2016,2016
+1604.00772,cs.LG,The CMA Evolution Strategy: A Tutorial,2016,2016
+1603.08767,cs.DC,Machine Learning and Cloud Computing: Survey of Distributed and SaaS Solutions,2016,2016
+1603.08458,cs.CL,Longitudinal Analysis of Discussion Topics in an Online Breast Cancer Community using Convolutional Neural Networks,2016,2016
+1603.07285,stat.ML,A guide to convolution arithmetic for deep learning,2016,2018
+1603.07249,cs.NE,A Tutorial on Deep Neural Networks for Intelligent Systems,2016,2016
+1603.06201,cs.CV,A Survey on Object Detection in Optical Remote Sensing Images,2016,2016
+1604.00921,cs.CY,A Review of Theoretical and Practical Challenges of Trusted Autonomy in Big Data,2016,2016
+1604.00970,cs.CV,"Extended Object Tracking: Introduction, Overview and Applications",2016,2017
+1603.03089,stat.ML,Blind Source Separation: Fundamentals and Recent Advances (A Tutorial Overview Presented at SBrT-2001),2016,2016
+1602.08254,cs.DS,Theoretical Analysis of the $k$-Means Algorithm - A Survey,2016,2016
+1602.07884,cs.NE,Firefly Algorithm for optimization problems with non-continuous variables: A Review and Analysis,2016,2016
+1602.07637,cs.SE,A Survey on Domain-Specific Languages for Machine Learning in Big Data,2016,2016
+1602.07017,cs.CV,A survey of sparse representation: algorithms and applications,2016,2016
+1602.07618,cs.CL,From quantum foundations via natural language meaning to a theory of everything,2016,2016
+1602.06541,cs.CV,A Survey of Semantic Segmentation,2016,2016
+1602.06347,cs.AI,Distributed Constraint Optimization Problems and Applications: A Survey,2016,2018
+1602.05753,cs.CL,Overview of Annotation Creation: Processes & Tools,2016,2016
+1602.05124,physics.data-an,Practical Introduction to Clustering Data,2016,2016
+1602.04593,cs.CV,Edge Detection for Pattern Recognition: A Survey,2016,2016
+1602.04227,stat.ML,Scale-free network optimization: foundations and algorithms,2016,2016
+1602.03426,cs.CL,Automatic Sarcasm Detection: A Survey,2016,2016
+1602.02999,cs.CV,Face Recognition: Perspectives from the Real-World,2016,2016
+1602.02009,cs.NE,Computing with hardware neurons: spiking or classical? Perspectives of applied Spiking Neural Networks from the hardware side,2016,2016
+1602.00198,cs.AI,Discussion on Mechanical Learning and Learning Machine,2016,2016
+1601.07843,cs.CV,An Overview of Melanoma Detection in Dermoscopy Images Using Image Processing and Machine Learning,2016,2016
+1601.06971,cs.CL,Sentiment Analysis of Twitter Data: A Survey of Techniques,2016,2016
+1601.06862,cs.AI,A Survey on Artificial Intelligence and Data Mining for MOOCs,2016,2016
+1601.06823,cs.CV,Survey on the attention based RNN model and its applications in computer vision,2016,2016
+1601.06615,cs.CV,A Taxonomy of Deep Convolutional Neural Nets for Computer Vision,2016,2016
+1601.04692,cs.LG,Spectral Theory of Unsigned and Signed Graphs. Applications to Graph Clustering: a Survey,2016,2016
+1601.03896,cs.CL,"Automatic Description Generation from Images: A Survey of Models, Datasets, and Evaluation Measures",2016,2017
+1601.01102,cs.LG,A Survey on Social Media Anomaly Detection,2016,2016
+1601.01006,cs.CV,Space-Time Representation of People Based on 3D Skeletal Data: A Review,2016,2017
+1601.00670,stat.CO,Variational Inference: A Review for Statisticians,2016,2018
+1601.00087,cs.CL,Sentiment/Subjectivity Analysis Survey for Languages other than English,2016,2016
+1512.08710,cs.AI,On the Foundations of the Brussels Operational-Realistic Approach to Cognition,2015,2015
+1512.08204,cs.LG,New Perspectives on $k$-Support and Cluster Norms,2015,2015
+1512.07108,cs.CV,Recent Advances in Convolutional Neural Networks,2015,2017
+1512.05742,cs.CL,A Survey of Available Corpora for Building Data-Driven Dialogue Systems,2015,2017
+1512.03131,cs.CV,Deep Learning Algorithms with Applications to Video Analytics for A Smart City: A Survey,2015,2015
+1512.01325,cs.CV,Toward a Taxonomy and Computational Models of Abnormalities in Images,2015,2015
+1512.00939,cs.CV,A Literature Survey of various Fingerprint De-noising Techniques to justify the need of a new De-noising model based upon Pixel Component Analysis,2015,2015
+1512.00355,cs.AI,Taxonomy grounded aggregation of classifiers with different label sets,2015,2015
+1511.09142,cs.SI,Sentiment Analysis on YouTube: A Brief Survey,2015,2015
+1511.08458,cs.NE,An Introduction to Convolutional Neural Networks,2015,2015
+1511.09123,cs.DS,A Short Survey on Data Clustering Algorithms,2015,2015
+1511.07569,cs.SI,A Survey of Signed Network Mining in Social Media,2015,2016
+1511.06586,cs.CV,Crowd Behavior Analysis: A Review where Physics meets Biology,2015,2015
+1511.06252,cs.IR,Network-based recommendation algorithms: A review,2015,2015
+1511.05741,math.ST,A Random Forest Guided Tour,2015,2015
+1511.05506,cs.AI,Neurocontrol methods review,2015,2015
+1511.05263,cs.SE,The Use of Machine Learning Algorithms in Recommender Systems: A Systematic Review,2015,2016
+1511.03607,cs.IT,Complete Dictionary Recovery over the Sphere I: Overview and the Geometric Picture,2015,2016
+1511.03246,cs.AI,Taxonomy of Pathways to Dangerous AI,2015,2015
+1511.02407,cs.CV,A Survey of the Trends in Facial and Expression Recognition Databases and Methods,2015,2015
+1610.06085,cs.SI,The survey of sentiment and opinion mining for behavior analysis of social media,2015,2015
+1511.02319,cs.CV,Review of Person Re-identification Techniques,2015,2015
+1511.01245,cs.CV,Decomposition into Low-rank plus Additive Matrices for Background/Foreground Separation: A Review for a Comparative Evaluation with a Large-Scale Dataset,2015,2016
+1510.07439,cs.SE,Object Oriented Analysis using Natural Language Processing concepts: A Review,2015,2015
+1510.04781,cs.LG,A Survey: Time Travel in Deep Learning Space: An Introduction to Deep Learning Models and How Deep Learning Models Evolved from the Initial Ideas,2015,2015
+1510.04420,cs.AI,Narrative Science Systems: A Review,2015,2015
+1510.04183,cs.AI,Mathematical Foundations for Designing and Development of Intelligent Systems of Information Analysis,2015,2015
+1510.03820,cs.CL,A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification,2015,2016
+1510.02892,cs.LG,Survey on Feature Selection,2015,2015
+1510.00757,stat.ML,A Survey of Online Experiment Design with the Stochastic Multi-Armed Bandit,2015,2015
+1509.08973,cs.AI,Symbol Emergence in Robotics: A Survey,2015,2015
+1509.08880,stat.ML,Foundations of Coupled Nonlinear Dimensionality Reduction,2015,2015
+1509.07577,cs.LG,A Review of Feature Selection Methods Based on Mutual Information,2015,2015
+1509.07093,cs.LG,A review of learning vector quantization classifiers,2015,2015
+1509.06585,cs.CL,A Review of Features for the Discrimination of Twitter Users: Application to the Prediction of Offline Influence,2015,2016
+1601.03483,cs.LG,A survey on feature weighting based K-Means algorithms,2015,2015
+1509.05472,cs.LG,Learning to Hash for Indexing Big Data - A Survey,2015,2015
+1509.05434,cs.AI,A Study Investigating Typical Concepts and Guidelines for Ontology Building,2015,2015
+1509.04238,cs.DB,A Practioner's Guide to Evaluating Entity Resolution Results,2015,2015
+1509.01074,cs.CV,A Novice Guide towards Human Motion Analysis and Understanding,2015,2015
+1508.07544,cs.CL,Computational Sociolinguistics: A Survey,2015,2016
+1508.06574,stat.ML,A review of homomorphic encryption and software tools for encrypted statistical machine learning,2015,2015
+1508.04904,stat.ML,Review and Perspective for Distance Based Trajectory Clustering,2015,2015
+1508.03326,cs.LG,A Survey on Contextual Multi-armed Bandits,2015,2016
+1508.02496,cs.CV,A Practical Guide to CNNs and Fisher Vectors for Image Instance Retrieval,2015,2015
+1508.01819,math.ST,Spectral Clustering and Block Models: A Review And A New Algorithm,2015,2015
+1508.01346,cs.CL,Word sense disambiguation: a survey,2015,2015
+1508.01023,cs.LG,A review of heterogeneous data mining for brain disorders,2015,2015
+1508.00457,cs.NE,Evolutionary Multimodal Optimization: A Short Survey,2015,2015
+1507.07909,cs.CV,Offline Handwritten Signature Verification - Literature Review,2015,2017
+1507.06120,cs.CV,Towards Storytelling from Visual Lifelogging: An Overview,2015,2016
+1507.05722,cs.NI,A Review of Network Traffic Analysis and Prediction Techniques,2015,2015
+1603.09728,cs.AI,A Survey of League Championship Algorithm: Prospects and Challenges,2015,2015
+1507.05122,cs.AI,Human Gender Classification: A Review,2015,2016
+1507.03194,stat.ML,A Review of Nonnegative Matrix Factorization Methods for Clustering,2015,2015
+1507.01701,cs.CL,A Survey and Classification of Controlled Natural Languages,2015,2015
+1507.01122,cs.AI,Modeling the Mind: A brief review,2015,2016
+1506.07194,physics.data-an,Advanced statistical methods for eye movement analysis and modeling: a gentle introduction,2015,2017
+1506.06962,stat.ML,Graphs in machine learning: an introduction,2015,2015
+1506.04002,cs.NE,Knowledge Representation in Learning Classifier Systems: A Review,2015,2015
+1506.05082,cs.NE,A review of landmark articles in the field of co-evolutionary computing,2015,2015
+1508.05342,cs.NE,Genetic Algorithms for multimodal optimization: a review,2015,2015
+1506.00768,cs.NE,Soft Computing Techniques for Change Detection in remotely sensed images : A Review,2015,2018
+1506.00097,cs.CV,A Review of Feature and Data Fusion with Medical Images,2015,2015
+1506.00019,cs.LG,A Critical Review of Recurrent Neural Networks for Sequence Learning,2015,2015
+1505.07872,cs.AI,Towards combinatorial clustering: preliminary research survey,2015,2015
+1505.07570,cs.MS,A Practical Guide to Randomized Matrix Computations with MATLAB Implementations,2015,2015
+1505.07008,stat.ML,An Overview of the Asymptotic Performance of the Family of the FastICA Algorithms,2015,2015
+1505.06659,stat.ML,Statistical and Algorithmic Perspectives on Randomized Sketching for Ordinary Least-Squares -- ICML,2015,2015
+1505.06646,cs.IR,A Survey on Retrieval of Mathematical Knowledge,2015,2015
+1505.06537,cs.AI,A survey of SMS based Information Systems,2015,2015
+1505.04813,cs.AI,What is Learning? A primary discussion about information and Representation,2015,2015
+1505.03489,cs.CV,A Review Paper: Noise Models in Digital Image Processing,2015,2015
+1505.01658,cs.LG,A Survey of Predictive Modelling under Imbalanced Distributions,2015,2015
+1505.01393,cs.DL,Mining Scientific Papers for Bibliometrics: a (very) Brief Survey of Methods and Tools,2015,2015
+1505.00523,cs.CV,Modeling Representation of Videos for Anomaly Detection using Deep Learning: A Review,2015,2015
+1504.04531,cs.CV,Hyperspectral pansharpening: a review,2015,2015
+1504.03068,cs.IR,Review Mining for Feature Based Opinion Summarization and Visualization,2015,2015
+1503.08289,cs.AI,Recent advances on inconsistency indices for pairwise comparisons - a commentary,2015,2016
+1503.08248,cs.IR,"Socializing the Semantic Gap: A Comparative Survey on Image Tag Assignment, Refinement and Retrieval",2015,2016
+1503.07477,cs.LG,A Survey of Classification Techniques in the Area of Big Data,2015,2015
+1503.07475,cs.IR,Role of Matrix Factorization Model in Collaborative Filtering Algorithm: A Survey,2015,2015
+1503.07297,cs.CV,A Brief Survey of Recent Edge-Preserving Smoothing Algorithms on Digital Images,2015,2015
+1503.05296,cs.LG,Efficient Machine Learning for Big Data: A Review,2015,2015
+1503.00843,cs.MM,A Survey On Video Forgery Detection,2015,2015
+1503.00806,cs.AI,An Introduction to Logics of Knowledge and Belief,2015,2015
+1503.00759,stat.ML,A Review of Relational Machine Learning for Knowledge Graphs,2015,2015
+1503.00687,cs.LG,A review of mean-shift algorithms for clustering,2015,2015
+1502.06811,cs.SD,A Review of Audio Features and Statistical Models Exploited for Voice Pattern Design,2015,2015
+1502.05928,cs.CV,Supervised Dictionary Learning and Sparse Representation-A Review,2015,2015
+1502.05888,cs.AI,"A partial taxonomy of judgment aggregation rules, and their properties",2015,2016
+1502.05767,cs.SC,Automatic differentiation in machine learning: a survey,2015,2018
+1502.05752,cs.CV,Pairwise Constraint Propagation: A Survey,2015,2015
+1502.04938,cs.CL,A Survey of Word Reordering in Statistical Machine Translation: Computational Models and Language Phenomena,2015,2016
+1502.04383,cs.CV,A Comprehensive Survey on Pose-Invariant Face Recognition,2015,2016
+1502.04252,cs.CV,Cardiac MR Image Segmentation Techniques: an overview,2015,2015
+1502.03552,cs.AI,Applications of Artificial Intelligence Techniques to Combating Cyber Crimes: A Review,2015,2015
+1502.02160,cs.CV,"A Survey on Hough Transform, Theory, Techniques and Applications",2015,2015
+1502.01812,cs.CV,Crowded Scene Analysis: A Survey,2015,2015
+1502.00717,cs.CV,Beyond Pixels: A Comprehensive Survey from Bottom-up to Semantic Image Segmentation and Cosegmentation,2015,2015
+1501.05964,cs.CV,Advances in Human Action Recognition: A Survey,2015,2015
+1501.04244,cs.LG,Generalised Random Forest Space Overview,2015,2015
+1501.03861,stat.ML,Bayesian Nonparametrics in Topic Modeling: A Brief Tutorial,2015,2015
+1501.02825,cs.CV,A Survey on Recent Advances of Computer Vision Algorithms for Egocentric Video,2015,2015
+1501.02218,stat.ML,Survey schemes for stochastic gradient descent with applications to M-estimation,2015,2015
+1501.01571,math.PR,An Introduction to Matrix Concentration Inequalities,2015,2015
+1501.00604,stat.ML,A Taxonomy of Big Data for Optimal Predictive Machine Learning and Data Mining,2015,2015
+1412.8704,cs.AI,Quantum Structure in Cognition and the Foundations of Human Reasoning,2014,2014
+1412.7584,cs.LG,Differential Privacy and Machine Learning: a Survey and Review,2014,2014
+1412.6264,cs.CL,"Supertagging: Introduction, learning, and application",2014,2014
+1412.4183,cs.CV,A survey of modern optical character recognition techniques,2014,2014
+1412.3421,cs.CV,Multi-Atlas Segmentation of Biomedical Images: A Survey,2014,2015
+1412.3684,cs.CV,Object Recognition Using Deep Neural Networks: A Survey,2014,2014
+1412.1193,cs.LG,New insights and perspectives on the natural gradient method,2014,2017
+1412.0439,cs.CV,Fuzzy human motion analysis: A review,2014,2014
+1412.0650,cs.ET,"A review of ""Mem-computing NP-complete problems in polynomial time using polynomial resources"" (arXiv:1411.4798)",2014,2015
+1411.5878,cs.CV,Salient Object Detection: A Survey,2014,2018
+1411.5014,cs.DB,Music Data Analysis: A State-of-the-art Survey,2014,2014
+1411.4194,cs.AI,ROSS User's Guide and Reference Manual (Version 1.0),2014,2014
+1411.4192,cs.AI,Introduction to ROSS: A New Representational Scheme,2014,2014
+1410.7654,cs.IR,XML Information Retrieval:An overview,2014,2014
+1410.5894,cs.CV,Vehicle Detection and Tracking Techniques: A Concise Review,2014,2014
+1410.5330,cs.LG,An Overview of General Performance Metrics of Binary Classifier Systems,2014,2014
+1410.5329,cs.LG,Naive Bayes and Text Classification I - Introduction and Theory,2014,2017
+1410.1037,cs.CV,Facial Feature Point Detection: A Comprehensive Survey,2014,2014
+1409.7787,cs.SD,Audio Surveillance: a Systematic Review,2014,2014
+1409.7618,cs.CV,Multiple Object Tracking: A Literature Review,2014,2017
+1409.5616,cs.LG,A Survey on Soft Subspace Clustering,2014,2016
+1409.5114,cs.CV,"A Survey on Heterogeneous Face Recognition: Sketch, Infra-red, 3D and Low-resolution",2014,2014
+1409.3021,cs.IR,Semantic web service discovery approaches: overview and limitations,2014,2014
+1409.2762,cs.IR,Parallel and Distributed Collaborative Filtering: A Survey,2014,2014
+1409.1484,cs.CV,The Evolution of First Person Vision Methods: A Survey,2014,2015
+1409.0703,cs.AI,On computable abstractions (a conceptual introduction),2014,2015
+1408.6930,cs.IR,Mobile recommender systems: An overview of technologies and challenges,2014,2014
+1408.5343,math.OC,Cuckoo Search: A Brief Literature Review,2014,2014
+1408.5316,math.OC,Cuckoo Search: Recent Advances and Applications,2014,2014
+1408.4908,stat.ME,Theoretical Foundations of Equitability and the Maximal Information Coefficient,2014,2015
+1408.4576,cs.LG,Introduction to Clustering Algorithms and Applications,2014,2014
+1408.3985,cs.CV,Offline Signature-Based Fuzzy Vault (OSFV: Review and New Results,2014,2014
+1408.3264,cs.CV,A brief survey on deep belief networks and introducing a new object oriented toolbox (DeeBNet),2014,2016
+1408.2927,cs.DS,Hashing for Similarity Search: A Survey,2014,2014
+1408.1377,cs.LO,"The Mathematical Abstraction Theory, The Fundamentals for Knowledge Representation and Self-Evolving Autonomous Problem Solving Systems",2014,2014
+1408.0090,cs.DL,Genesis of Altmetrics or Article-level Metrics for Measuring Efficacy of Scholarly Communications: Current Perspectives,2014,2014
+1407.7626,cs.CV,A Survey on Two Dimensional Cellular Automata and Its Application in Image Processing,2014,2014
+1407.7390,cs.CV,A discussion on the validation tests employed to compare human action recognition methods using the MSR Action3D dataset,2014,2015
+1407.7314,cs.CY,"A Preliminary Survey of Knowledge Discovery on Smartphone Applications (apps): Principles, Techniques and Research Directions for E-health",2014,2014
+1407.2776,cs.CV,What you need to know about the state-of-the-art computational models of object-vision: A tour through the models,2014,2014
+1406.5598,cs.CL,A survey on phrase structure learning methods for text classification,2014,2014
+1406.5429,cs.NA,Playing with Duality: An Overview of Recent Primal-Dual Approaches for Solving Large-Scale Optimization Problems,2014,2014
+1406.2823,cs.SE,A Hitchhiker's Guide to Search-Based Software Engineering for Software Product Lines,2014,2014
+1406.2671,cs.NE,Conceptors: an easy introduction,2014,2014
+1406.2000,cs.AI,Introduction to Neutrosophic Statistics,2014,2014
+1406.0873,stat.ML,"Linear Dimensionality Reduction: Survey, Insights, and Generalizations",2014,2016
+1405.4390,cs.CV,Real Time Object Tracking Based on Inter-frame Coding: A Review,2014,2014
+1405.2584,cs.IR,Sentiment Analysis: A Survey,2014,2014
+1405.2539,cs.CV,A Review of Image Mosaicing Techniques,2014,2014
+1405.2227,cs.CV,An Overview of Face Liveness Detection,2014,2014
+1405.0749,cs.IR,A Brief History of Web Crawlers,2014,2014
+1405.0580,cs.IR,Web Content Classification: A Survey,2014,2014
+1404.7828,cs.NE,Deep Learning in Neural Networks: An Overview,2014,2014
+1404.4088,cs.LG,Ensemble Classifiers and Their Applications: A Review,2014,2014
+1404.2986,cs.LG,A Tutorial on Independent Component Analysis,2014,2014
+1404.1514,cs.IR,Text Based Approach For Indexing And Retrieval Of Image And Video: A Review,2014,2014
+1404.1100,cs.LG,A Tutorial on Principal Component Analysis,2014,2014
+1404.0554,cs.NE,"From ADP to the Brain: Foundations, Roadmap, Challenges and Research Priorities",2014,2014
+1404.0453,cs.CE,Cellular Automata and Its Applications in Bioinformatics: A Review,2014,2014
+1403.7426,cs.AI,An Overview of Hierarchical Task Network Planning,2014,2014
+1403.7373,cs.AI,Difficulty Rating of Sudoku Puzzles: An Overview and Evaluation,2014,2014
+1403.7162,cs.IR,Information Retrieval (IR) through Semantic Web (SW): An Overview,2014,2014
+1404.1292,cs.CV,Review of Face Detection Systems Based Artificial Neural Networks Algorithms,2014,2014
+1403.3465,cs.LG,A Survey of Algorithms and Analysis for Adaptive Online Learning,2014,2015
+1403.2877,stat.ML,A survey of dimensionality reduction techniques,2014,2014
+1403.1481,stat.ML,New Perspectives on k-Support and Cluster Norms,2014,2014
+1402.7265,cs.CL,"Semantics, Modelling, and the Problem of Representation of Meaning -- a Brief Survey of Recent Literature",2014,2014
+1402.5205,cs.DC,A Survey on Dynamic Job Scheduling in Grid Environment Based on Heuristic Algorithms,2014,2014
+1402.4888,cs.IR,Survey on Sparse Coded Features for Content Based Face Image Retrieval,2014,2014
+1402.4645,cs.LG,A Survey on Semi-Supervised Learning Techniques,2014,2014
+1402.4283,cs.DB,Discretization of Temporal Data: A Survey,2014,2014
+1405.6177,cs.CV,Automated Fabric Defect Inspection: A Survey of Classifiers,2014,2014
+1402.1931,cs.NE,MCA Learning Algorithm for Incident Signals Estimation: A Review,2014,2014
+1402.1412,stat.ML,Variational Inference in Sparse Gaussian Process Regression and Latent Variable Models - a Gentle Tutorial,2014,2014
+1402.0590,cs.AI,A Survey of Multi-Objective Sequential Decision-Making,2014,2014
+1402.0585,cs.AI,AI Methods in Algorithmic Composition: A Comprehensive Survey,2014,2014
+1402.0577,cs.LG,A Survey on Latent Tree Models and Applications,2014,2014
+1401.8261,cs.CV,Infrared face recognition: a comprehensive review of methodologies and databases,2014,2014
+1405.5208,cs.CL,A Tutorial on Dual Decomposition and Lagrangian Relaxation for Inference in Natural Language Processing,2014,2014
+1401.4994,cs.RO,A Review of Verbal and Non-Verbal Human-Robot Interactive Communication,2014,2014
+1401.3858,cs.LO,Logical Foundations of RDF(S) with Datatypes,2014,2014
+1401.3607,cs.NE,A Brief History of Learning Classifier Systems: From CS-1 to XCS,2014,2014
+1401.3443,cs.AI,Computational Logic Foundations of KGP Agents,2014,2014
+1401.3358,stat.ML,Survey On The Estimation Of Mutual Information Methods as a Measure of Dependency Versus Correlation Analysis,2014,2014
+1401.2937,cs.CL,A survey of methods to ease the development of highly multilingual text mining applications,2014,2014
+1401.2651,cs.NE,An Overview of Schema Theory,2014,2014
+1401.2610,cs.DL,A Survey of Volunteered Open Geo-Knowledge Bases in the Semantic Web,2014,2014
+1401.2229,cs.IR,A Survey on optimization approaches to text document clustering,2014,2014
+1401.0569,cs.CL,Natural Language Processing in Biomedicine: A Unified System Architecture Overview,2014,2014
+1401.0245,cs.AI,A Review: Expert System for Diagnosis of Myocardial Infarction,2014,2014
+1401.0166,cs.CV,Medical Image Fusion: A survey of the state of the art,2013,2013
+1312.6609,cs.NE,A comprehensive review of firefly algorithms,2013,2013
+1312.6565,cs.IR,Mobile Multimedia Recommendation in Smart Communities: A Survey,2013,2013
+1312.6410,cs.CV,A Survey on Eye-Gaze Tracking Techniques,2013,2013
+1312.4640,cs.HC,A Review of Temporal Aspects of Hand Gesture Analysis Applied to Discourse Analysis and Natural Conversation,2013,2013
+1312.4617,cs.SI,A Survey of Data Mining Techniques for Social Media Analysis,2013,2014
+1312.6150,cs.CV,A Review on Automated Brain Tumor Detection and Segmentation from MRI of Brain,2013,2013
+1312.4132,cs.NE,An introduction to synchronous self-learning Pareto strategy,2013,2013
+1312.2366,cs.NE,A preliminary survey on optimized multiobjective metaheuristic methods for data clustering using evolutionary approaches,2013,2013
+1312.0049,cs.LG,One-Class Classification: Taxonomy of Study and Review of Techniques,2013,2013
+1311.7139,cs.AI,"Introduction to Neutrosophic Measure, Neutrosophic Integral, and Neutrosophic Probability",2013,2013
+1311.6881,cs.CV,Color and Shape Content Based Image Classification using RBF Network and PSO Technique: A Survey,2013,2013
+1311.3001,stat.ML,Informed Source Separation: A Bayesian Tutorial,2013,2013
+1310.5089,stat.ML,Kernel Multivariate Analysis Framework for Supervised Subspace Learning: A Tutorial on Linear and Kernel Multivariate Methods,2013,2013
+1310.0317,cs.CV,An Overview and Evaluation of Various Face and Eyes Detection Algorithms for Driver Fatigue Monitoring Systems,2013,2013
+1309.6226,cs.AI,Automation of Mathematical Induction as part of the History of Logic,2013,2014
+1309.4844,stat.ML,Network Anomaly Detection: A Survey and Comparative Analysis of Stochastic and Deterministic Methods,2013,2013
+1308.4008,cs.AI,A Literature Survey of Benchmark Functions For Global Optimization Problems,2013,2013
+1308.3900,cs.AI,Bat Algorithm: Literature Review and Applications,2013,2013
+1308.3898,math.OC,Firefly Algorithm: Recent Advances and Applications,2013,2013
+1308.2443,cs.AI,Fighting Sample Degeneracy and Impoverishment in Particle Filters: A Review of Intelligent Approaches,2013,2014
+1308.0971,cs.SI,Clustering and Community Detection in Directed Networks: A Survey,2013,2013
+1307.7286,cs.LG,A Review of Machine Learning based Anomaly Detection Techniques,2013,2013
+1307.5748,cs.CV,Appearance Descriptors for Person Re-identification: a Comprehensive Review,2013,2013
+1307.4186,cs.NE,A Brief Review of Nature-Inspired Algorithms for Optimization,2013,2013
+1307.3490,stat.CO,On-line Bayesian parameter estimation in general non-linear state-space models: A tutorial and new results,2013,2013
+1307.3336,cs.CL,Opinion Mining and Analysis: A survey,2013,2013
+1307.3091,cs.AI,Artificial Intelligence MArkup Language: A Brief Tutorial,2013,2013
+1307.2118,cs.LG,A PAC-Bayesian Tutorial with A Dropout Bound,2013,2013
+1307.1024,cs.IR,Overview of Web Content Mining Tools,2013,2013
+1306.6709,cs.LG,A Survey on Metric Learning for Feature Vectors and Structured Data,2013,2014
+1306.4345,cs.CV,An Overview of the Research on Texture Based Plant Leaf Classification,2013,2013
+1306.4134,cs.CL,Dialogue System: A Brief Review,2013,2013
+1306.3862,stat.ML,Bayesian methods for low-rank matrix estimation: short survey and theoretical study,2013,2018
+1306.3888,cs.AI,The SP theory of intelligence: an overview,2013,2015
+1306.1676,cs.CV,Algebraic foundations of split hypercomplex nonlinear adaptive filtering,2013,2013
+1306.1603,cs.CV,Infrared face recognition: a literature review,2013,2013
+1305.7144,cs.CR,Immune System Approaches to Intrusion Detection - A Review (ICARIS),2013,2013
+1305.1787,cs.IR,Evolution of the user's content: An Overview of the state of the art,2013,2013
+1305.1745,cs.IR,Mobile Recommender Systems Methods: An Overview,2013,2013
+1305.1707,cs.LG,Class Imbalance Problem in Data Mining Review,2013,2013
+1305.5506,cs.AI,Introduction to Judea Pearl's Do-Calculus,2013,2013
+1304.5634,cs.LG,A Survey on Multi-view Learning,2013,2013
+1304.4965,cs.AI,Improvement/Extension of Modular Systems as Combinatorial Reengineering (Survey),2013,2013
+1304.4520,cs.CL,Sentiment Analysis : A Literature Survey,2013,2013
+1304.3999,cs.AI,Off-policy Learning with Eligibility Traces: A Survey,2013,2013
+1304.3563,cs.IR,"Data, text and web mining for business intelligence: a survey",2013,2013
+1304.1233,cs.CV,Shadow Detection: A Survey and Comparative Evaluation of Recent Methods,2013,2013
+1304.3424,cs.AI,Foundations of Probability Theory for AI - The Application of Algorithmic Probability to Problems in Artificial Intelligence,2013,2013
+1304.3077,cs.AI,"Taxonomy, Structure, and Implementation of Evidential Reasoning",2013,2013
+1303.4803,cs.CV,A Survey of Appearance Models in Visual Object Tracking,2013,2013
+1303.3605,cs.RO,A survey on sensing methods and feature extraction algorithms for SLAM problem,2013,2013
+1303.2438,cs.IR,A Taxonomy of Hyperlink Hiding Techniques,2013,2014
+1303.2292,cs.HC,Intelligent Approaches to interact with Machines using Hand Gesture Recognition in Natural way: A Survey,2013,2013
+1302.4947,cs.AI,Plausibility Measures: A User's Guide,2013,2013
+1302.3581,cs.AI,Theoretical Foundations for Abstraction-Based Probabilistic Planning,2013,2013
+1302.1326,cs.CV,Cloud Computing framework for Computer Vision Research:An Introduction,2013,2013
+1302.0446,cs.CV,Sparse Camera Network for Visual Surveillance -- A Comprehensive Survey,2013,2013
+1301.7410,cs.AI,Decision Theoretic Foundations of Graphical Model Selection,2013,2013
+1301.7390,cs.LG,Hierarchical Mixtures-of-Experts for Exponential Family Regression Models with Generalized Linear Mean Functions: A Survey of Approximation and Consistency Results,2013,2013
+1301.4916,cs.IR,Solutions to Detect and Analyze Online Radicalization : A Survey,2013,2013
+1301.2774,cs.AI,Crowd Labeling: a survey,2013,2014
+1212.3900,stat.ML,A Tutorial on Probabilistic Latent Semantic Analysis,2012,2012
+1212.2129,q-fin.CP,Online Portfolio Selection: A Survey,2012,2013
+1212.2065,cs.IR,"A Survey on Information Retrieval, Text Categorization, and Web Crawling",2012,2012
+1212.1735,math.OC,Towards Design of System Hierarchy (research survey),2012,2012
+1211.5723,cs.DB,The Survey of Data Mining Applications And Feature Scope,2012,2012
+1211.4798,stat.ML,A survey of non-exchangeable priors for Bayesian nonparametric models,2012,2012
+1211.4866,cs.DB,A Brief Review of Data Mining Application Involving Protein Sequence Classification,2012,2012
+1211.1127,cs.CV,Visual Transfer Learning: Informal Introduction and Literature Overview,2012,2012
+1211.1119,cs.NE,A Survey on Techniques of Improving Generalization Ability of Genetic Programming Solutions,2012,2012
+1210.8099,cs.CC,An Atypical Survey of Typical-Case Heuristic Algorithms,2012,2012
+1210.7959,cs.AI,Algorithm Selection for Combinatorial Search Problems: A Survey,2012,2012
+1210.5560,cs.IR,Wikipedia Vandalism Detection Through Machine Learning: Feature Review and New Proposals: Lab Report for PAN at CLEF 2010,2012,2012
+1210.4657,cs.LG,Mean-Field Learning: a Survey,2012,2012
+1210.3131,cs.IR,A Survey on Web Spam Detection Methods: Taxonomy,2012,2012
+1210.0829,cs.CV,A Survey of Multibiometric Systems,2012,2012
+1209.6238,cs.CL,Natural Language Processing - A Survey,2012,2012
+1209.5494,cs.CV,Segmentation of Breast Regions in Mammogram Based on Density: A Review,2012,2012
+1209.0125,cs.DL,A History of Cluster Analysis Using the Classification Society's Bibliography Over Four Decades,2012,2013
+1208.4942,cs.AI,"A Unifying Survey of Reinforced, Sensitive and Stigmergic Agent-Based Approaches for E-GTSP",2012,2014
+1208.1750,cs.SE,Guidelines for a Dynamic Ontology - Integrating Tools of Evolution and Versioning in Ontology,2012,2012
+1208.3670,cs.CV,A Survey of Recent View-based 3D Model Retrieval Methods,2012,2012
+1208.0153,cs.IR,Personalization in Geographic information systems: A survey,2012,2012
+1207.6774,cs.CV,A Survey Of Activity Recognition And Understanding The Behavior In Video Survelliance,2012,2012
+1207.1257,cs.LO,Generalizing Redundancy in Propositional Logic: Foundations and Hitting Sets Duality,2012,2012
+1207.0246,cs.IR,"Web Data Extraction, Applications and Techniques: A Survey",2012,2014
+1206.6867,cs.AI,Axiomatic Foundations for a Class of Generalized Expected Utility: Algebraic Expected Utility,2012,2012
+1206.5582,cs.IR,A Survey on Web Service Discovery Approaches,2012,2012
+1206.5538,cs.LG,Representation Learning: A Review and New Perspectives,2012,2014
+1206.3975,cs.GR,The Ultrasound Visualization Pipeline - A Survey,2012,2012
+1206.0976,cs.AI,Loopy Belief Propagation in Bayesian Networks : origin and possibilistic perspectives,2012,2012
+1205.2282,stat.ML,A Discussion on Parallelization Schemes for Stochastic Vector Quantization Algorithms,2012,2012
+1204.6725,cs.CV,OCT Segmentation Survey and Summary Reviews and a Novel 3D Segmentation Algorithm and a Proof of Concept Implementation,2012,2012
+1204.6441,cs.CY,"""I Wanted to Predict Elections with Twitter and all I got was this Lousy Paper"" -- A Balanced Survey on Election Prediction using Twitter Data",2012,2012
+1204.1611,cs.CV,Vision-based Human Gender Recognition: A Survey,2012,2012
+1203.4788,cs.LG,Very Short Literature Survey From Supervised Learning To Surrogate Modeling,2012,2012
+1203.2000,cs.DB,Overview of streaming-data algorithms,2012,2012
+1203.1858,cs.CL,Distributional Measures of Semantic Distance: A Survey,2012,2012
+1202.6294,physics.data-an,"Hyperspectral Unmixing Overview: Geometrical, Statistical, and Sparse Regression-Based Approaches",2012,2012
+1202.5820,cs.IR,Tag-Aware Recommender Systems: A State-of-the-art Survey,2012,2012
+1202.2523,cs.AI,Evolutionary Computation in Astronomy and Astrophysics: A Review,2012,2012
+1202.0216,cs.CV,The watershed concept and its use in segmentation : a brief history,2012,2012
+1201.2711,cs.AI,"Ultrametric Model of Mind, I: Review",2012,2012
+1112.4323,cs.NE,Between theory and practice: guidelines for an optimization scheme with genetic algorithms - Part I: single-objective continuous global optimization,2011,2011
+1112.1489,cs.AI,Multi-granular Perspectives on Covering,2011,2011
+1111.6925,stat.ML,Structure Learning of Probabilistic Graphical Models: A Comprehensive Survey,2011,2011
+1111.6349,cs.IR,XML Information Retrieval Systems: A Survey,2011,2011
+1110.5688,astro-ph.IM,"Discussion on ""Techniques for Massive-Data Machine Learning in Astronomy"" by A. Gray",2011,2011
+1110.0725,cs.DC,A Survey of Distributed Data Aggregation Algorithms,2011,2011
+1109.1062,cs.CE,Review on Feature Selection Techniques and the Impact of SVM for Cancer Classification using Gene Expression Profile,2011,2011
+1109.0621,cs.AI,Visual Inference Specification Methods for Modularized Rulebases. Overview and Integration Proposal,2011,2011
+1108.2283,cs.AI,A survey on independence-based Markov networks learning,2011,2013
+1107.4966,cs.AI,Lifted Graphical Models: A Survey,2011,2011
+1107.4570,cs.DB,Consistent Query Answering via ASP from Different Perspectives: Theory and Practice,2011,2011
+1107.3298,cs.AI,"From decision to action : intentionality, a guide for the specification of intelligent agents' behaviour",2011,2011
+1107.2822,cs.LO,A Survey on how Description Logic Ontologies Benefit from Formal Concept Analysis,2011,2011
+1107.0040,cs.AI,Generalizing Boolean Satisfiability I: Background and Survey of Existing Work,2011,2011
+1106.6251,stat.ML,Kernels for Vector-Valued Functions: a Review,2011,2012
+1106.2697,stat.ML,A Tutorial on Bayesian Nonparametric Models,2011,2011
+1105.4058,cs.CV,Human Identity Verification based on Heart Sounds: Recent Advances and Future Directions,2011,2011
+1105.1306,cs.IT,Excess entropy in natural language: present state and perspectives,2011,2011
+1104.3344,cs.AI,Quantum Structure in Cognition: Fundamentals and Applications,2011,2011
+1104.2825,cs.LO,Foundations for Uniform Interpolation and Forgetting in Expressive Description Logics,2011,2011
+1103.1625,cs.CG,A Gentle Introduction to the Kernel Distance,2011,2011
+1102.3680,cs.AI,Foundations for Understanding and Building Conscious Systems using Stable Parallel Looped Dynamics,2011,2011
+1102.1465,stat.ML,An Introduction to Artificial Prediction Markets for Classification,2011,2012
+1102.0831,cs.AI,Intelligent Semantic Web Search Engines: A Brief Survey,2011,2011
+1101.3354,cs.CV,Introduction to the Bag of Features Paradigm for Image Classification and Retrieval,2011,2011
+1101.2987,cs.CV,Support vector machines/relevance vector machine for remote sensing classification: A review,2011,2011
+1101.2320,cs.AI,Review and Evaluation of Feature Selection Algorithms in Synthetic Problems,2011,2011
+1012.5813,cs.AI,Neural Network Influence in Group Technology: A Chronological Survey and Critical Analysis,2010,2012
+1012.4051,cs.LG,Survey & Experiment: Towards the Learning Accuracy,2010,2010
+1012.2599,cs.LG,"A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning",2010,2010
+1012.0084,cs.AI,Survey on Various Gesture Recognition Techniques for Interfacing Machines Based on Ambient Intelligence,2010,2010
+1011.4088,stat.ML,An Introduction to Conditional Random Fields,2010,2010
+1010.4784,cs.AI,Learning under Concept Drift: an Overview,2010,2010
+1010.4609,cs.AI,A Partial Taxonomy of Substitutability and Interchangeability,2010,2010
+1010.4466,cs.LG,On the Foundations of Adversarial Single-Class Classification,2010,2010
+1010.4207,cs.LG,Convex Analysis and Optimization with Submodular Functions: a Tutorial,2010,2010
+1010.3425,math.ST,Identifying the consequences of dynamic treatment strategies: A decision-theoretic overview,2010,2010
+1011.1841,cs.RO,Fundamentals of Mathematical Theory of Emotional Robots,2010,2010
+1010.1609,cs.DS,Algorithmic and Statistical Perspectives on Large-Scale Data Analysis,2010,2010
+1009.6119,cs.AI,A Comprehensive Survey of Data Mining-based Fraud Detection Research,2010,2010
+1008.4831,math.PR,Foundations of Inference,2010,2012
+1007.2449,cs.LG,A Brief Introduction to Temporality and Causality,2010,2010
+1007.1075,stat.ML,Clustering Stability: An Overview,2010,2010
+1007.0085,cs.CV,Survey of Nearest Neighbor Techniques,2010,2010
+1006.5278,cs.IR,A Survey Paper on Recommender Systems,2010,2010
+1005.4270,cs.IR,Clustering Time Series Data Stream - A Literature Survey,2010,2010
+1005.2364,cs.LG,"A Short Introduction to Model Selection, Kolmogorov Complexity and Minimum Description Length (MDL)",2010,2010
+1005.1252,math.NA,"Universal algorithms, mathematics of semirings and parallel computations",2010,2010
+1005.1036,stat.ML,Introduction to Graphical Modelling,2010,2011
+1005.0957,cs.NE,ECG Feature Extraction Techniques - A Survey Approach,2010,2010
+1004.1257,cs.IR,A Survey on Preprocessing Methods for Web Usage Data,2010,2010
+1003.4394,cs.CL,Mathematical Foundations for a Compositional Distributional Model of Meaning,2010,2010
+1003.4053,cs.CV,A Comprehensive Review of Image Enhancement Techniques,2010,2010
+1003.1795,cs.LG,A Survey of Naïve Bayes Machine Learning approach in Text Document Classification,2010,2010
+1001.2267,cs.CL,"Speech Recognition by Machine, A Review",2010,2010
+0912.5410,stat.ME,A survey of statistical network models,2009,2009
+0912.3747,cs.CL,A Survey of Paraphrasing and Textual Entailment Methods,2009,2010
+0911.2865,cs.NE,Neural Networks for Dynamic Shortest Path Routing Problems - A Survey,2009,2010
+0910.2276,cs.CE,State of the Art Review for Applying Computational Intelligence and Machine Learning Techniques to Portfolio Optimisation,2009,2009
+0908.0704,cs.IR,A Taxonomy of Collaboration in Online Information Seeking,2009,2009
+0907.4728,math.ST,A survey of cross-validation procedures for model selection,2009,2009
+0907.3867,cs.AI,Artificial Dendritic Cells: Multi-faceted Perspectives,2009,2009
+0904.3664,cs.LG,Introduction to Machine Learning: Class Notes 67577,2009,2009
+0903.0279,cs.AI,An introduction to DSmT,2009,2009
+0812.4332,physics.data-an,Content-based and Algorithmic Classifications of Journals: Perspectives on the Dynamics of Scientific Communication and Indexer Effects,2008,2008
+0810.3724,stat.ML,Foundations of a Multi-way Spectral Clustering Framework for Hybrid Linear Modeling,2008,2009
+0810.1732,cs.IR,Introduction to Searching with Regular Expressions,2008,2008
+0809.0406,cs.AI,Foundations of the Pareto Iterated Local Search Metaheuristic,2008,2008
+0806.3787,cs.CL,Computational Approaches to Measuring the Similarity of Short Contexts : A Review of Applications and Methods,2008,2010
+0806.0250,cs.AI,Checking the Quality of Clinical Guidelines using Automated Reasoning Tools,2008,2008
+0804.4682,cs.LG,Introduction to Relational Networks for Classification,2008,2008
+0804.1266,cs.NE,Immune System Approaches to Intrusion Detection - A Review,2008,2008
+0803.3912,cs.NE,Artificial Immune Systems Tutorial,2008,2008
+0803.3905,cs.NE,Introduction to Multi-Agent Simulation,2008,2008
+0802.3746,cs.CR,Information Hiding Techniques: A Tutorial Review,2008,2008
+0802.0964,stat.ME,Least angle and $\ell_1$ penalized regression: A review,2008,2008
+0712.3973,cs.NE,GUIDE: Unifying Evolutionary Engines through a Graphical User Interface,2007,2007
+0712.1027,stat.ME,Kernels and Ensembles: Perspectives on Statistical Learning,2007,2007
+0711.0189,cs.DS,A Tutorial on Spectral Clustering,2007,2007
+0706.3188,cs.LG,A tutorial on conformal prediction,2007,2007
+cs/0608002,cs.AI,"An Introduction to the DSm Theory for the Combination of Paradoxical, Uncertain, and Imprecise Sources of Information",2006,2006
+cs/0606006,cs.CL,Foundations of Modern Language Resource Archives,2006,2006
+cs/0605009,cs.LG,On the Foundations of Universal Sequence Prediction,2006,2006
+cs/0604015,cs.NI,Revealing the Autonomous System Taxonomy: The Machine Learning Approach,2006,2006
+cs/0511073,cs.AI,Stochastic Process Semantics for Dynamical Grammar Syntax: An Overview,2005,2005
+cs/0511042,cs.AI,Dimensions of Neural-symbolic Integration - A Structured Survey,2005,2005
+cs/0504061,cs.CL,Summarization from Medical Documents: A Survey,2005,2005
+cs/0504054,cs.NE,Learning from Web: Review of Approaches,2005,2005
+cs/0504037,cs.CV,Bayesian Restoration of Digital Images Employing Markov Chain Monte Carlo a Review,2005,2006
+cs/0503033,cs.CL,An Introduction to the Summarization of Evolving Events: Linear and Non-linear Evolution,2005,2005
+cs/0502060,cs.AI,Perspectives for Strong Artificial Life,2005,2005
+cs/0501079,cs.DB,Data Mining for Actionable Knowledge: A Survey,2005,2005
+cs/0412015,cs.CL,A Tutorial on the Expectation-Maximization Algorithm Including Maximum-Likelihood Estimation and EM Training of Probabilistic Context-Free Grammars,2004,2005
+math/0406077,math.ST,A tutorial introduction to the minimum description length principle,2004,2004
+cs/0405009,cs.AI,Intelligent Systems: Architectures and Perspectives,2004,2004
+cs/0311050,cs.CY,Data mining and Privacy in Public Sector using Intelligent Agents (discussion paper),2003,2003
+cs/0308030,cs.MA,Learning in Multiagent Systems: An Introduction from a Game-Theoretic Perspective,2003,2003
+cs/0307070,cs.AI,"Modeling Belief in Dynamic Systems, Part I: Foundations",2003,2003
+cs/0307010,cs.AI,"Probabilistic Reasoning as Information Compression by Multiple Alignment, Unification and Search: An Introduction and Overview",2003,2003
+cs/0212037,cs.LG,The Management of Context-Sensitive Features: A Review of Strategies,2002,2002
+cs/0205059,cs.IR,A Connection-Centric Survey of Recommender Systems Research,2002,2003
+cs/0201019,cs.CV,Structure from Motion: Theoretical Foundations of a Novel Approach Using Custom Built Invariants,2002,2002
+math/0105235,math.PR,Mathematics of learning,2001,2001
+cs/0105015,cs.PL,The alldifferent Constraint: A Survey,2001,2001
+cs/0011033,cs.LG,Web Mining Research: A Survey,2000,2000
+cs/0008036,cs.CL,Probabilistic Constraint Logic Programming. Formal Foundations of Quantitative and Statistical Inference in Constraint-Based Natural Language Processing,2000,2000
+cs/9909009,cs.AI,The Rough Guide to Constraint Propagation,1999,1999
+cs/9908014,cs.LG,An Introduction to Collective Intelligence,1999,1999
+cs/9902026,cs.LG,Probabilistic Inductive Inference:a Survey,1999,1999
+cmp-lg/9809003,cmp-lg,A Comparison of WordNet and Roget's Taxonomy for Measuring Semantic Similarity,1998,1998
+cmp-lg/9709008,cmp-lg,Semantic Similarity Based on Corpus Statistics and Lexical Taxonomy,1997,1997
+cmp-lg/9708002,cmp-lg,Natural Language Generation in Healthcare: Brief Review,1997,1997
+cmp-lg/9702006,cmp-lg,Information Extraction - A User Guide,1997,1997
+cmp-lg/9611003,cmp-lg,Data-Oriented Language Processing. An Overview,1996,1996
+cs/9605103,cs.AI,Reinforcement Learning: A Survey,1996,1996
+cmp-lg/9602002,cmp-lg,Situations and Computation: An Overview of Recent Research,1996,1996
+cs/9512104,cs.AI,Decision-Theoretic Foundations for Causal Reasoning,1995,1995
+cmp-lg/9503016,cmp-lg,Natural Language Interfaces to Databases - An Introduction,1995,1995
