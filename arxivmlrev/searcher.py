@@ -1,17 +1,12 @@
 from arxivmlrev import config
+from arxivmlrev.result import Result
 
-from string import punctuation
 import time
 
 import arxiv
 import pandas as pd
 
 url_id_blacklist = config.URL_ID_BLACKLIST.copy()
-
-
-def is_title_whitelisted(title: str) -> bool:
-    title_cmp = ''.join(c for c in title.lower() if c not in punctuation)
-    return any(f' {term} ' in f' {title_cmp} ' for term in config.TERMS)
 
 
 def get_results():
@@ -42,28 +37,21 @@ def get_results():
             return
 
         for result in results:
-            url_id = result['arxiv_url'].replace('http://arxiv.org/abs/', '', 1).rsplit('v', 1)[0]
-            # Note: Unlike result['id'], url_id is actually unique, specifically for results older than 2007.
-            if url_id in url_id_blacklist:
-                url_id_blacklist.remove(url_id)
+            result = Result(result)
+            # Note: Whitelist has precedence over blacklist.
+            if (not result.is_id_whitelisted) and result.is_id_blacklisted:
+                url_id_blacklist.remove(result.url_id)
                 continue
-            title = result['title'].replace('\n ', '')
-            if not is_title_whitelisted(title):
-                # print(f'SKIPPING NON-WHITELISTED {title}')
+            if (not result.is_id_whitelisted) and (not result.is_title_whitelisted):
                 continue
-            year_published = result['published_parsed'].tm_year
-            year_updated = result['updated_parsed'].tm_year
-            primary_category = result['arxiv_primary_category']['term']
-            # categories = set(d['term'] for d in result['tags']) | set([primary_category])
+
             # ignored_categories = config.CATEGORIES - set(('cs.CV',))
             # if ('cs.CV' in categories) and not(categories & ignored_categories):
             #     pass
             # else:
             #     continue
-            result = {'URL_ID': url_id, 'Category': primary_category, 'Title': title,
-                      'Year_Published': year_published, 'Year_Updated': year_updated,
-                      }
-            yield result
+
+            yield result.to_dict
 
         print(f'num_results={len(results)}')
         if len(results) < config.MAX_RESULTS_PER_QUERY:
@@ -75,8 +63,8 @@ def get_results():
 
 def main():
     df = pd.DataFrame(get_results())
-    df = df[['URL_ID', 'Category', 'Title', 'Year_Published', 'Year_Updated']]
-    df.to_csv(config.ARTICLES_PATH, index=False)
+    df = df[config.DATA_ARTICLES_COLUMNS]
+    df.to_csv(config.DATA_ARTICLES_PATH, index=False)
     if url_id_blacklist:
         print(f'Unnecessary IDs in articles blacklist: {", ".join(url_id_blacklist)}')
 
@@ -84,4 +72,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Use articles whitelist
+# TODO: Use config articles whitelist.
