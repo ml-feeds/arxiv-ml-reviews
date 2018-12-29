@@ -6,8 +6,10 @@ import pandas as pd
 
 prologue = f"""
 This is a mostly auto-generated list of review articles on machine learning that are on arXiv.
+Although some of them are written for a specific technical audience or for a specific application, the techniques
+described are nonetheless generally applicable.
+This list was generated on {date.today()}.
 It includes articles posted in these arXiv categories: {', '.join(sorted(config.CATEGORIES))}\n
-Updated {date.today()}\n
 """
 
 
