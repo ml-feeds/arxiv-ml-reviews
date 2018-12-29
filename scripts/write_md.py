@@ -1,19 +1,24 @@
-from arxivmlrev.config import DATA_DIR
+from datetime import date
+
+from arxivmlrev import config
 
 import pandas as pd
 
+prologue = f"""
+This is a mostly auto-generated list of review articles on machine learning that are on arXiv.
+It includes articles posted in these arXiv categories: {', '.join(sorted(config.CATEGORIES))}\n
+Updated {date.today()}\n
+"""
+
 
 def write_md_file() -> None:
-    df = pd.read_csv(DATA_DIR / 'whitelist.csv', dtype={'ID': str, 'Category': 'category'})
-    df = df.sort_values(['Group', 'ID'], ascending=[1, 0])
-    with (DATA_DIR / 'articles.md').open('w') as md:
-        md.write('# Introductory articles')
-        for group_name, group in df.groupby('Group'):
-            md.write(f'\n## {group_name}\n')
-            for _, row in group.iterrows():
-                year = f'20{row.ID[:2]}'
-                link = f'https://arxiv.org/abs/{row.ID}'
-                md.write(f'* [{row.Title} ({year})]({link})\n')
+    df = pd.read_csv(config.DATA_DIR / 'articles.csv', dtype={'URL_ID': str, 'Category': 'category'})
+    with (config.DATA_DIR / 'articles.md').open('w') as md:
+        md.write(f'# Introductory articles\n{prologue}')
+        for _, row in df.iterrows():
+            years = row.Year_Published if (row.Year_Published == row.Year_Updated) else f'{row.Year_Published}-{row.Year_Updated}'
+            link = f'https://arxiv.org/abs/{row.URL_ID}'
+            md.write(f'* [{row.Title} ({years})]({link})\n')
 
 
 if __name__ == '__main__':
