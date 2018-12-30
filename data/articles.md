@@ -4,7 +4,7 @@ This is a mostly auto-generated list of review articles on machine learning that
 Although some of them are written for a specific technical audience or application, the techniques described are
 nonetheless generally relevant.
 The list is sorted reverse chronologically. It was generated on 2018-12-29.
-It includes articles posted in these arXiv categories: cs.AI, cs.CL, cs.CV, cs.IR, cs.LG, cs.NE, stat.ML
+It includes articles posted in these arXiv categories: [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), [stat.ML](https://arxiv.org/list/stat.ML/recent)
 
 * [A Review on The Use of Deep Learning in Android Malware Detection (2018)](https://arxiv.org/abs/1812.10360)
 * [A Survey to Deep Facial Attribute Analysis (2018)](https://arxiv.org/abs/1812.10265)
@@ -77,6 +77,7 @@ It includes articles posted in these arXiv categories: cs.AI, cs.CL, cs.CV, cs.I
 * [Attribute-aware Collaborative Filtering: Survey and Classification (2018)](https://arxiv.org/abs/1810.08765)
 * [Applications of Deep Reinforcement Learning in Communications and Networking: A Survey (2018)](https://arxiv.org/abs/1810.07862)
 * [Security Matters: A Survey on Adversarial Machine Learning (2018)](https://arxiv.org/abs/1810.07339)
+* [Deep Reinforcement Learning (2018)](https://arxiv.org/abs/1810.06339)
 * [Is multiagent deep reinforcement learning the answer or the question? A brief survey (2018)](https://arxiv.org/abs/1810.05587)
 * [A Gentle Introduction to Deep Learning in Medical Image Processing (2018)](https://arxiv.org/abs/1810.05401)
 * [Deep Learning for Image Denoising: A Survey (2018)](https://arxiv.org/abs/1810.05052)
@@ -147,6 +148,7 @@ It includes articles posted in these arXiv categories: cs.AI, cs.CL, cs.CV, cs.I
 * [Survey on Deep Learning Techniques for Person Re-Identification Task (2018)](https://arxiv.org/abs/1807.05284)
 * [Artificial Intelligence for Long-Term Robot Autonomy: A Survey (2018)](https://arxiv.org/abs/1807.05196)
 * [Feature Selection for Gender Classification in TUIK Life Satisfaction Survey (2018)](https://arxiv.org/abs/1807.04800)
+* [State-of-the-art and gaps for deep learning on limited training data in remote sensing (2018)](https://arxiv.org/abs/1807.11573)
 * [Moving Objects Analytics: Survey on Future Location & Trajectory Prediction Methods (2018)](https://arxiv.org/abs/1807.04639)
 * [A Tutorial on Bayesian Optimization (2018)](https://arxiv.org/abs/1807.02811)
 * [Gaussian Processes and Kernel Methods: A Review on Connections and Equivalences (2018)](https://arxiv.org/abs/1807.02582)
@@ -158,6 +160,7 @@ It includes articles posted in these arXiv categories: cs.AI, cs.CL, cs.CV, cs.I
 * [Ballistocardiogram Signal Processing: A Literature Review (2018)](https://arxiv.org/abs/1807.00951)
 * [Modeling Language Variation and Universals: A Survey on Typological Linguistics for Natural Language Processing (2018)](https://arxiv.org/abs/1807.00914)
 * [Neuro-memristive Circuits for Edge Computing: A review (2018)](https://arxiv.org/abs/1807.00962)
+* [Deep Learning and its Application to LHC Physics (2018)](https://arxiv.org/abs/1806.11484)
 * [Human Action Recognition and Prediction: A Survey (2018)](https://arxiv.org/abs/1806.11230)
 * [An Overview of Perception Methods for Horticultural Robots: From Pollination to Harvest (2018)](https://arxiv.org/abs/1807.03124)
 * [A Tour of Reinforcement Learning: The View from Continuous Control (2018)](https://arxiv.org/abs/1806.09460)
@@ -273,6 +276,7 @@ It includes articles posted in these arXiv categories: cs.AI, cs.CL, cs.CV, cs.I
 * [Recent Advances in Neural Program Synthesis (2018)](https://arxiv.org/abs/1802.02353)
 * [A comprehensive review of 3D point cloud descriptors (2018)](https://arxiv.org/abs/1802.02297)
 * [A Survey Of Methods For Explaining Black Box Models (2018)](https://arxiv.org/abs/1802.01933)
+* [The Matrix Calculus You Need For Deep Learning (2018)](https://arxiv.org/abs/1802.01528)
 * [Recent Advances in Efficient Computation of Deep Convolutional Neural Networks (2018)](https://arxiv.org/abs/1802.00939)
 * [Deep Learning for Genomics: A Concise Overview (2018)](https://arxiv.org/abs/1802.00810)
 * [Visual Interpretability for Deep Learning: a Survey (2018)](https://arxiv.org/abs/1802.00614)
