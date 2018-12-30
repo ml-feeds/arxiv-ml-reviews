@@ -82,5 +82,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Try adding terms: present and future, comparative study, a primer on
+# TODO: Try adding terms: comparative study, a primer on
 # TODO: Consider category cs.RO or whitelisting ID 1707.07217

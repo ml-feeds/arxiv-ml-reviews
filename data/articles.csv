@@ -35,6 +35,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1811.10052,cs.CV,An overview of deep learning in medical imaging focusing on MRI,2018,2018
 1811.09920,cs.AI,An Unified Intelligence-Communication Model for Multi-Agent System Part-I: Overview,2018,2018
 1811.08581,cs.LG,Recent Advances in Open Set Recognition: A Survey,2018,2018
+1811.07749,cs.CV,"Past, Present, and Future Approaches Using Computer Vision for Animal Re-Identification from Camera Trap Data",2018,2018
 1811.07155,cs.AI,"Monotonic classification: an overview on algorithms, performance measures and data sets",2018,2018
 1811.06278,cs.CL,Survey of Computational Approaches to Diachronic Conceptual Change,2018,2018
 1811.06193,cs.CV,From Videos to URLs: A Multi-Browser Guide To Extract User's Behavior with Optical Character Recognition,2018,2018
@@ -60,6 +61,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1811.00233,cs.CV,Survey on Vision-based Path Prediction,2018,2018
 1810.13306,cs.AI,Taking Human out of Learning Applications: A Survey on Automated Machine Learning,2018,2018
 1810.13163,stat.ML,A tutorial on MDL hypothesis testing for graph analysis,2018,2018
+1810.12850,cs.AI,Computational Intelligence in Sports: A Systematic Literature Review,2018,2018
 1810.12399,cs.LG,Big Data Meet Cyber-Physical Systems: A Panoramic Survey,2018,2018
 1810.12368,cs.CL,A Pragmatic Guide to Geoparsing Evaluation,2018,2018
 1810.11787,cs.LG,A Hitchhiker's Guide On Distributed Training of Deep Neural Networks,2018,2018
@@ -213,6 +215,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1804.08348,cs.CV,Deep Facial Expression Recognition: A Survey,2018,2018
 1804.08186,cs.CL,Automatic Language Identification in Texts: A Survey,2018,2018
 1804.08046,cs.CV,First Impressions: A Survey on Computer Vision-Based Apparent Personality Trait Analysis,2018,2018
+1804.07999,cs.NE,"Swarm Intelligence: Past, Present and Future",2018,2018
 1804.07805,cs.AI,Inseparability and Conservative Extensions of Description Logic Ontologies: A Survey,2018,2018
 1804.07362,cs.CV,Survey of Face Detection on Low-quality Images,2018,2018
 1804.06748,cs.AI,State-Space Abstractions for Probabilistic Inference: A Systematic Review,2018,2018
@@ -419,6 +422,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1707.02051,cs.CV,Image Segmentation Algorithms Overview,2017,2017
 1707.02038,cs.LG,A Tutorial on Thompson Sampling,2017,2017
 1707.01202,cs.CV,A Survey of Recent Advances in CNN-based Single Image Crowd Counting and Density Estimation,2017,2017
+1706.09673,cs.CL,Improving Distributed Representations of Tweets - Present and Future,2017,2017
 1706.09077,cs.CV,Super-Resolution via Deep Learning,2017,2017
 1706.08162,cs.CL,Automated text summarisation and evidence-based medicine: A survey of two domains,2017,2017
 1706.08137,stat.ML,A Contemporary Overview of Probabilistic Latent Variable Models,2017,2017
@@ -472,6 +476,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1703.02819,cs.IR,Introduction to Formal Concept Analysis and Its Applications in Information Retrieval and Related Fields,2017,2017
 1703.02192,cs.AI,A Gentle Introduction to Epistemic Planning: The DEL Approach,2017,2017
 1703.01619,cs.CL,Neural Machine Translation and Sequence-to-sequence Models: A Tutorial,2017,2017
+1703.01170,cs.CV,A Survey on Content-Aware Video Analysis for Sports,2017,2017
 1703.00663,cs.NA,Introduction to Nonnegative Matrix Factorization,2017,2017
 1702.07800,cs.LG,On the Origin of Deep Learning,2017,2017
 1702.05747,cs.CV,A Survey on Deep Learning in Medical Image Analysis,2017,2017
@@ -540,6 +545,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1610.03934,cs.CL,A Survey of Voice Translation Methodologies - Acoustic Dialect Decoder,2016,2016
 1610.03660,cs.CV,Image Based Camera Localization: an Overview,2016,2018
 1610.03349,cs.CL,Survey on the Use of Typological Information in Natural Language Processing,2016,2016
+1610.02984,cs.CV,"Person Re-identification: Past, Present and Future",2016,2016
 1610.02583,cs.LG,A Gentle Tutorial of Recurrent Neural Network with Error Backpropagation,2016,2018
 1610.01076,cs.CV,Tutorial on Answering Questions about Images with Deep Learning,2016,2016
 1610.00782,cs.SI,"Network Structure Inference, A Survey: Motivations, Methods, and Applications",2016,2018
@@ -664,6 +670,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1511.02407,cs.CV,A Survey of the Trends in Facial and Expression Recognition Databases and Methods,2015,2015
 1610.06085,cs.SI,The survey of sentiment and opinion mining for behavior analysis of social media,2015,2015
 1511.02319,cs.CV,Review of Person Re-identification Techniques,2015,2015
+1511.01543,cs.SY,"Regularization and Bayesian Learning in Dynamical Systems: Past, Present and Future",2015,2015
 1511.01245,cs.CV,Decomposition into Low-rank plus Additive Matrices for Background/Foreground Separation: A Review for a Comparative Evaluation with a Large-Scale Dataset,2015,2016
 1510.07439,cs.SE,Object Oriented Analysis using Natural Language Processing concepts: A Review,2015,2015
 1510.04781,cs.LG,A Survey: Time Travel in Deep Learning Space: An Introduction to Deep Learning Models and How Deep Learning Models Evolved from the Initial Ideas,2015,2015
@@ -776,6 +783,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1409.1484,cs.CV,The Evolution of First Person Vision Methods: A Survey,2014,2015
 1409.0703,cs.AI,On computable abstractions (a conceptual introduction),2014,2015
 1408.6930,cs.IR,Mobile recommender systems: An overview of technologies and challenges,2014,2014
+1408.6908,cs.AI,"AI Evaluation: past, present and future",2014,2016
 1408.5343,math.OC,Cuckoo Search: A Brief Literature Review,2014,2014
 1408.5316,math.OC,Cuckoo Search: Recent Advances and Applications,2014,2014
 1408.4908,stat.ME,Theoretical Foundations of Equitability and the Maximal Information Coefficient,2014,2015
@@ -918,6 +926,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1210.0829,cs.CV,A Survey of Multibiometric Systems,2012,2012
 1209.6238,cs.CL,Natural Language Processing - A Survey,2012,2012
 1209.5494,cs.CV,Segmentation of Breast Regions in Mammogram Based on Density: A Review,2012,2012
+1209.3916,cs.CE,"Qualitative Modelling via Constraint Programming: Past, Present and Future",2012,2012
 1209.0125,cs.DL,A History of Cluster Analysis Using the Classification Society's Bibliography Over Four Decades,2012,2013
 1208.4942,cs.AI,"A Unifying Survey of Reinforced, Sensitive and Stigmergic Agent-Based Approaches for E-GTSP",2012,2014
 1208.1750,cs.SE,Guidelines for a Dynamic Ontology - Integrating Tools of Evolution and Versioning in Ontology,2012,2012
