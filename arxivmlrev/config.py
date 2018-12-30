@@ -21,7 +21,7 @@ DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Category', 'Title', 'Year_Published', 'Y
 DATA_ARTICLES_CSV_PATH = DATA_DIR / 'articles.csv'
 DATA_ARTICLES_MD_PATH = DATA_DIR / 'articles.md'
 MAX_RESULTS_PER_QUERY = 800
-DELAY_BETWEEN_QUERIES = min(3, math.ceil(math.log(MAX_RESULTS_PER_QUERY)))
+MIN_INTERVAL_BETWEEN_QUERIES = max(3., math.log(MAX_RESULTS_PER_QUERY))
 TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])
 TERMS_WHITELIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 1]['Term'])  # Lowercase phrases without punctuation.
 URL_ID_BLACKLIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 0]['URL_ID'])

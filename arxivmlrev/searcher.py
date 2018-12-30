@@ -1,5 +1,5 @@
 import time
-from typing import Set
+from typing import Set, Union
 
 import arxiv
 import pandas as pd
@@ -8,6 +8,15 @@ from arxivmlrev import config
 from arxivmlrev.result import Result
 
 url_id_blacklist = config.URL_ID_BLACKLIST.copy()
+
+
+def verbose_sleep(seconds: Union[int, float]) -> None:
+    print(f'Sleeping for {seconds:.1f}s')
+    time.sleep(seconds)
+
+
+class ArxivResultsInsufficient(Exception):
+    pass
 
 
 def _set_query(strset: Set[str], prefix: str) -> str:
@@ -34,21 +43,22 @@ def _get_results():
     print(search_query)
     search_query = search_query.replace('\n', ' ')
 
+    interval = config.MIN_INTERVAL_BETWEEN_QUERIES
     start = 0
     while True:
         for attempt in range(3):
             print(f'start={start}')
-            query_time = time.time()
             results = arxiv.query(search_query=search_query, start=start, max_results=config.MAX_RESULTS_PER_QUERY,
                                   sort_by='submittedDate')
-            if (start == 0) and (len(results) in (1, 10)):  # This is indicative of a bad result set.
-                continue
-            if results:
+            query_completion_time = time.time()
+            min_num_expected_results = config.MAX_RESULTS_PER_QUERY if start == 0 else 1
+            # Note: If start > 0, there can actually genuinely be 0 results, but the chances of this are too low.
+            if len(results) >= min_num_expected_results:
                 break
-            else:
-                time.sleep(config.DELAY_BETWEEN_QUERIES)
+            verbose_sleep(interval)
+            interval *= 1.3678794411714423  # 1 + (1/e) == 1.3678794411714423
         else:
-            return
+            raise ArxivResultsInsufficient
 
         for result in results:
             result = Result(result)
@@ -69,8 +79,8 @@ def _get_results():
         if len(results) < config.MAX_RESULTS_PER_QUERY:
             return
         start += config.MAX_RESULTS_PER_QUERY
-        sleep_time = max(0, config.DELAY_BETWEEN_QUERIES - (time.time() - query_time))
-        time.sleep(sleep_time)
+        sleep_time = max(0, interval - (time.time() - query_completion_time))
+        verbose_sleep(sleep_time)
 
 
 def main():
@@ -82,5 +92,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Try adding terms: comparative study, a primer on
+# TODO: Try adding terms: a primer on
 # TODO: Consider category cs.RO or whitelisting ID 1707.07217
