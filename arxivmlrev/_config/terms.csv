@@ -1,17 +1,17 @@
 Presence,Term
+1,brief history
 1,critical appraisal
 1,critical reflection
-1,brief history
 1,discussion
 1,foundations
 1,fundamentals
-1,introduction
 1,guide
 1,guidelines
 1,history of
+1,introduction
 1,mathematics of
-1,perspectives
 1,overview
+1,perspectives
 1,recent advances
 1,review
 1,survey
@@ -29,23 +29,23 @@ Presence,Term
 0,book review
 0,can guide
 0,case study
-0,company fundamentals
 0,chinese
 0,comments on
+0,company fundamentals
 0,competition
 0,conference
 0,conll
 0,devnagari
 0,discussion boards
 0,discussion forum
-0,discussion threads
 0,discussion points
+0,discussion threads
 0,domain taxonomy
 0,eirex
 0,empirical
+0,europe
 0,exhibition guide
 0,experimental survey
-0,europe
 0,french
 0,generate review
 0,harvard business review
@@ -69,6 +69,7 @@ Presence,Term
 0,peerus review
 0,product review
 0,punjabi
+0,r package
 0,review based
 0,review datasets
 0,review detection
@@ -76,10 +77,9 @@ Presence,Term
 0,review process
 0,review rating
 0,review representations
-0,review selection
 0,review scores
+0,review selection
 0,review spammers
-0,r package
 0,sinographic
 0,sky survey
 0,sports
@@ -94,9 +94,9 @@ Presence,Term
 0,taxonomy induction
 0,taxonomy modification
 0,to guide
-0,transient survey
 0,tour problem
 0,tour recommendation
+0,transient survey
 0,tutorial generation
 0,user review
 0,wikiconv
