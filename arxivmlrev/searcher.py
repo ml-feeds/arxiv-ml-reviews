@@ -32,7 +32,7 @@ def _get_results():
         OR {id_whitelist_query}
     '''
     print(search_query)
-    search_query = search_query.replace('\n', '')
+    search_query = search_query.replace('\n', ' ')
 
     start = 0
     while True:
@@ -41,7 +41,7 @@ def _get_results():
             query_time = time.time()
             results = arxiv.query(search_query=search_query, start=start, max_results=config.MAX_RESULTS_PER_QUERY,
                                   sort_by='submittedDate')
-            if (start == 0) and (len(results) == 1):  # This is indicative of a bad result set.
+            if (start == 0) and (len(results) in (1, 10)):  # This is indicative of a bad result set.
                 continue
             if results:
                 break
@@ -82,6 +82,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Try adding terms: Past, Present and Future, Comparative Study, A Primer on
-# TODO: Try removing term: sports
+# TODO: Try adding terms: present and future, comparative study, a primer on
 # TODO: Consider category cs.RO or whitelisting ID 1707.07217
