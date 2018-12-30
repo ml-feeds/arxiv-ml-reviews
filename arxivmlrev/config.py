@@ -19,6 +19,7 @@ CONFIG_TERMS_PATH = CONFIG_DIR / 'terms.csv'
 CONFIG_TERMS = pd.read_csv(CONFIG_TERMS_PATH)
 DATA_ARTICLES_COLUMNS = ['URL_ID', 'Category', 'Title', 'Year_Published', 'Year_Updated']
 DATA_ARTICLES_PATH = DATA_DIR / 'articles.csv'
+DATA_ARTICLES_MD_PATH = DATA_DIR / 'articles.md'
 MAX_RESULTS_PER_QUERY = 800
 DELAY_BETWEEN_QUERIES = min(3, math.ceil(math.log(MAX_RESULTS_PER_QUERY)))
 TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])
