@@ -9,10 +9,10 @@ categories = ', '.join(f'[{cat}](https://arxiv.org/list/{cat}/recent)' for cat i
 
 prologue = f"""
 This is a mostly auto-generated list of review articles on machine learning that are on arXiv.
-Although some of them are written for a specific technical audience or application, the techniques described are
+Although some of them were written for a specific technical audience or application, the techniques described are
 nonetheless generally relevant.
 The list is sorted reverse chronologically. It was generated on {date.today()}.
-It includes articles posted in these arXiv categories: {categories}\n
+It includes articles from these arXiv categories: {categories}\n
 """
 
 df = pd.read_csv(config.DATA_DIR / 'articles.csv', dtype={'URL_ID': str, 'Category': 'category'})

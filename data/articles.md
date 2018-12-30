@@ -1,10 +1,10 @@
 # Review articles
 
 This is a mostly auto-generated list of review articles on machine learning that are on arXiv.
-Although some of them are written for a specific technical audience or application, the techniques described are
+Although some of them were written for a specific technical audience or application, the techniques described are
 nonetheless generally relevant.
 The list is sorted reverse chronologically. It was generated on 2018-12-29.
-It includes articles posted in these arXiv categories: [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), [stat.ML](https://arxiv.org/list/stat.ML/recent)
+It includes articles from these arXiv categories: [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), [stat.ML](https://arxiv.org/list/stat.ML/recent)
 
 * [A Review on The Use of Deep Learning in Android Malware Detection (2018)](https://arxiv.org/abs/1812.10360)
 * [A Survey to Deep Facial Attribute Analysis (2018)](https://arxiv.org/abs/1812.10265)
