@@ -20,22 +20,19 @@ def _get_results():
     title_whitelist_query = _set_query(config.TERMS_WHITELIST, 'ti')
     title_blacklist_query = _set_query(config.TERMS_BLACKLIST, 'ti')
     id_whitelist_query = _set_query(config.URL_ID_WHITELIST, 'id')
-    id_blacklist_query = _set_query(config.URL_ID_BLACKLIST, 'id')
+    # Note: Specifying a long ID blacklist clause causes the query to return no results, and so this check is local.
     category_query = _set_query(config.CATEGORIES, 'cat')
-    # Note: Blacklists have precedence over whitelists in the query below.
+    # Note: Title blacklist has precedence over title whitelist in the query below.
     search_query = f'''
-    (
         (
             {category_query}
             AND {title_whitelist_query}
             ANDNOT {title_blacklist_query}
         )
         OR {id_whitelist_query}
-    )
-    ANDNOT {id_blacklist_query}
     '''
     print(search_query)
-    search_query = search_query.replace('\n', ' ')
+    search_query = search_query.replace('\n', '')
 
     start = 0
     while True:
@@ -55,8 +52,10 @@ def _get_results():
 
         for result in results:
             result = Result(result)
-            if not (result.is_id_whitelisted or result.is_title_whitelisted):
-                continue  # Skip erroneous match, e.g. having "tours" in title for search term "tour".
+            if not result.is_id_whitelisted:
+                if result.is_id_blacklisted or not result.is_title_whitelisted:
+                    # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
+                    continue
 
             # ignored_categories = config.CATEGORIES - set(('cs.CV',))
             # if ('cs.CV' in categories) and not(categories & ignored_categories):
@@ -82,3 +81,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# TODO: Try adding terms: Past, Present and Future, Comparative Study, A Primer on
+# TODO: Try removing term: sports
+# TODO: Consider category cs.RO or whitelisting ID 1707.07217

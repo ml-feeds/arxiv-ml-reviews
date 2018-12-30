@@ -102,6 +102,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1808.08818,cs.NE,A new Taxonomy of Continuous Global Optimization Algorithms,2018,2018
 1808.08794,cs.AI,Theoretical Foundations of the A2RD Project: Part I,2018,2018
 1809.07691,cs.SI,A Survey on Theoretical Advances of Community Detection in Networks,2018,2018
+1808.08497,cs.AI,FinBrain: When Finance Meets AI 2.0,2018,2018
 1808.07530,cs.NE,An Overview of Datatype Quantization Techniques for Convolutional Neural Networks,2018,2018
 1808.07290,cs.CL,The Gap of Semantic Parsing: A Survey on Automatic Math Word Problem Solvers,2018,2018
 1808.07256,cs.CV,A Survey of Modern Object Detection Literature using Deep Learning,2018,2018
@@ -155,6 +156,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1807.00962,cs.ET,Neuro-memristive Circuits for Edge Computing: A review,2018,2018
 1806.11484,hep-ex,Deep Learning and its Application to LHC Physics,2018,2018
 1806.11230,cs.CV,Human Action Recognition and Prediction: A Survey,2018,2018
+1806.10897,cs.LG,"Deep learning in business analytics and operations research: Models, applications and managerial implications",2018,2018
 1807.03124,cs.CV,An Overview of Perception Methods for Horticultural Robots: From Pollination to Harvest,2018,2018
 1806.09460,math.OC,A Tour of Reinforcement Learning: The View from Continuous Control,2018,2018
 1806.08894,cs.LG,Deep Reinforcement Learning: An Overview,2018,2018
@@ -176,6 +178,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1806.03537,cs.CL,Diachronic word embeddings and semantic shifts: a survey,2018,2018
 1806.03517,cs.CR,"A Taxonomy and Survey of Intrusion Detection System Design Techniques, Network Threats and Datasets",2018,2018
 1806.03982,cs.CV,Quantitative Phase Imaging and Artificial Intelligence: A Review,2018,2018
+1806.02308,cs.AI,"Model-free, Model-based, and General Intelligence",2018,2018
 1806.01180,cs.SD,Revisiting Singing Voice Detection: a Quantitative Review and the Future Outlook,2018,2018
 1806.00899,cs.CV,Recent advances and opportunities in scene classification of aerial images with deep models,2018,2018
 1806.00696,cs.SE,NLP-assisted software testing: a systematic review,2018,2018
@@ -314,6 +317,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1712.03686,stat.AP,A practical guide and software for analysing pairwise comparison experiments,2017,2017
 1712.04301,cs.NI,Deep Learning for IoT Big Data and Streaming Analytics: A Survey,2017,2018
 1712.04307,cs.AI,AI Safety and Reproducibility: Establishing Robust Foundations for the Neuropsychology of Human Values,2017,2018
+1712.03141,cs.CV,Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning,2017,2018
 1712.02162,stat.ML,A trans-disciplinary review of deep learning research for water resources scientists,2017,2018
 1801.05852,cs.SI,Network Representation Learning: A Survey,2017,2018
 1712.00646,cs.AI,From knowledge-based to data-driven modeling of fuzzy rule-based systems: A critical reflection,2017,2017
@@ -338,6 +342,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1711.02441,eess.IV,A Survey on Hardware Implementations of Visual Object Trackers,2017,2017
 1711.02391,cs.LG,A Tutorial on Canonical Correlation Methods,2017,2017
 1711.01731,cs.CL,A Survey on Dialogue Systems: Recent Advances and New Frontiers,2017,2018
+1711.01134,cs.AI,Accountability of AI Under the Law: The Role of Explanation,2017,2017
 1711.08362,cs.CV,RGB-D-based Human Motion Recognition with Deep Learning: A Survey,2017,2018
 1710.10686,cs.LG,Regularization for Deep Learning: A Taxonomy,2017,2017
 1710.09230,cs.LG,Supervised Classification: Quite a Brief Overview,2017,2017
@@ -365,6 +370,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1709.03806,cs.CV,Can Deep Neural Networks Match the Related Objects?: A Survey on ImageNet-trained Classification Models,2017,2017
 1709.02893,cs.LG,Convolutional Dictionary Learning: A Comparative Review and New Algorithms,2017,2018
 1709.02840,cs.LG,A Brief Introduction to Machine Learning for Engineers,2017,2018
+1709.02779,quant-ph,Machine learning \& artificial intelligence in the quantum domain,2017,2017
 1709.01620,cs.SD,Deep Learning Techniques for Music Generation - A Survey,2017,2018
 1709.01412,stat.ML,Deep learning: Technical introduction,2017,2017
 1709.00911,cs.SE,"Neural Networks for Safety-Critical Applications - Challenges, Experiments and Perspectives",2017,2017
@@ -376,6 +382,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1709.00084,cs.RO,Behavior Trees in Robotics and AI: An Introduction,2017,2018
 1708.09165,cs.NA,Tensor Networks for Dimensionality Reduction and Large-Scale Optimizations. Part 2 Applications and Future Perspectives,2017,2017
 1708.08813,cs.LG,Anomaly Detection: Review and preliminary Entropy method tests,2017,2017
+1708.07902,cs.AI,Deep Learning for Video Game Playing,2017,2017
 1708.07524,cs.CL,Supervised Speech Separation Based on Deep Learning: An Overview,2017,2018
 1708.07455,cs.CV,Review on Computer Vision Techniques in Emergency Situation,2017,2018
 1708.07281,cs.CV,Recent Advances in the Applications of Convolutional Neural Networks to Medical Image Contour Detection,2017,2017
@@ -393,6 +400,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1708.00247,cs.IR,Query Expansion Techniques for Information Retrieval: a Survey,2017,2017
 1708.00192,cs.DB,A Survey on Visual Query Systems in the Web Era (extended version),2017,2017
 1707.09183,cs.MA,A Survey of Learning in Multiagent Environments: Dealing with Non-Stationarity,2017,2017
+1707.08561,quant-ph,Quantum machine learning: a classical perspective,2017,2018
 1707.08114,cs.LG,A Survey on Multi-Task Learning,2017,2018
 1707.08476,cs.AI,Guidelines for Artificial Intelligence Containment,2017,2017
 1707.07435,cs.IR,Deep Learning based Recommender System: A Survey and New Perspectives,2017,2018
@@ -411,6 +419,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1707.02051,cs.CV,Image Segmentation Algorithms Overview,2017,2017
 1707.02038,cs.LG,A Tutorial on Thompson Sampling,2017,2017
 1707.01202,cs.CV,A Survey of Recent Advances in CNN-based Single Image Crowd Counting and Density Estimation,2017,2017
+1706.09077,cs.CV,Super-Resolution via Deep Learning,2017,2017
 1706.08162,cs.CL,Automated text summarisation and evidence-based medicine: A survey of two domains,2017,2017
 1706.08137,stat.ML,A Contemporary Overview of Probabilistic Latent Variable Models,2017,2017
 1706.06064,cs.MM,Recent Advance in Content-based Image Retrieval: A Literature Survey,2017,2017
@@ -440,6 +449,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1705.03172,cs.SI,A Survey of Location Prediction on Twitter,2017,2018
 1705.02908,cs.AI,Machine Learning with World Knowledge: The Position and Survey,2017,2017
 1705.02801,cs.SI,"Graph Embedding Techniques, Applications, and Performance: A Survey",2017,2017
+1705.01509,cs.IR,Neural Models for Information Retrieval,2017,2017
 1704.08531,cs.CL,A Survey of Neural Network Techniques for Feature Extraction from Text,2017,2017
 1704.06857,cs.CV,A Review on Deep Learning Techniques Applied to Semantic Segmentation,2017,2017
 1704.06825,cs.CV,"Deep Learning for Medical Image Processing: Overview, Challenges and Future",2017,2017
@@ -463,6 +473,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1703.02192,cs.AI,A Gentle Introduction to Epistemic Planning: The DEL Approach,2017,2017
 1703.01619,cs.CL,Neural Machine Translation and Sequence-to-sequence Models: A Tutorial,2017,2017
 1703.00663,cs.NA,Introduction to Nonnegative Matrix Factorization,2017,2017
+1702.07800,cs.LG,On the Origin of Deep Learning,2017,2017
 1702.05747,cs.CV,A Survey on Deep Learning in Medical Image Analysis,2017,2017
 1702.05515,cs.AI,Overview: Generalizations of Multi-Agent Path Finding to Real-World Scenarios,2017,2017
 1702.05376,cs.AI,Towards a Unified Taxonomy of Biclustering Methods,2017,2017
@@ -489,6 +500,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1701.04465,cs.NE,The Incredible Shrinking Neural Network: New Perspectives on Learning Representations Through The Lens of Pruning,2017,2017
 1701.02470,cs.CV,Methods for Mapping Forest Disturbance and Degradation from Optical Earth Observation Data: a Review,2017,2017
 1701.02145,cs.CR,Shallow and Deep Networks Intrusion Detection System: A Taxonomy and Survey,2017,2017
+1701.01887,cs.LG,Deep Learning for Time-Series Analysis,2017,2017
 1701.01582,stat.ML,Learning Sparse Structural Changes in High-dimensional Markov Networks: A Review on Methodologies and Theories,2017,2017
 1701.01214,cs.SY,A Review of Neural Network Based Machine Learning Approaches for Rotor Angle Stability Control,2017,2017
 1612.07139,cs.RO,A Survey of Deep Network Solutions for Learning Control in Robotics: From Reinforcement to Imitation,2016,2018
@@ -501,9 +513,11 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1612.02893,cs.LG,A Review of Intelligent Practices for Irrigation Prediction,2016,2016
 1612.01556,cs.CL,"The Evolution of Sentiment Analysis - A Review of Research Topics, Venues, and Top Cited Papers",2016,2017
 1611.09811,cs.CV,3D Ultrasound image segmentation: A Survey,2016,2016
+1611.09347,quant-ph,Quantum Machine Learning,2016,2018
 1611.09345,cs.LG,Unifying Multi-Domain Multi-Task Learning: Tensor and Neural Network Perspectives,2016,2016
 1611.08374,cs.AI,Decision Support Systems in Fisheries and Aquaculture: A systematic review,2016,2016
 1611.08331,cs.LG,An Overview on Data Representation Learning: From Traditional Feature Learning to Recent Deep Learning,2016,2016
+1611.08097,cs.CV,Geometric deep learning: going beyond Euclidean data,2016,2017
 1611.08083,stat.ML,Survey of Expressivity in Deep Neural Networks,2016,2016
 1611.06439,cs.CR,A Survey of Credit Card Fraud Detection Techniques: Data and Technique Oriented Perspective,2016,2016
 1611.06216,cs.CL,Generative Deep Neural Networks for Dialogue: A Short Review,2016,2016
@@ -566,7 +580,9 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1606.07757,cs.CV,A Taxonomy and Library for Visualizing Learned Features in Convolutional Neural Networks,2016,2016
 1606.05908,stat.ML,Tutorial on Variational Autoencoders,2016,2016
 1606.05703,cs.CV,A Survey of Pansharpening Methods with A New Band-Decoupled Variational Model,2016,2016
+1606.05386,stat.ML,Model-Agnostic Interpretability of Machine Learning,2016,2016
 1606.05201,stat.ML,"Assessing and tuning brain decoders: cross-validation, caveats, and guidelines",2016,2016
+1606.04838,stat.ML,Optimization Methods for Large-Scale Machine Learning,2016,2018
 1606.04450,cs.CV,Multiple Human Tracking in RGB-D Data: A Survey,2016,2016
 1606.04316,stat.ML,Time for a change: a tutorial for comparing multiple classifiers through Bayesian analysis,2016,2017
 1606.03237,cs.CV,"Survey on RGB, 3D, Thermal, and Multimodal Approaches for Facial Expression Recognition: History, Trends, and Affect-related Applications",2016,2016
@@ -594,6 +610,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1603.08458,cs.CL,Longitudinal Analysis of Discussion Topics in an Online Breast Cancer Community using Convolutional Neural Networks,2016,2016
 1603.07285,stat.ML,A guide to convolution arithmetic for deep learning,2016,2018
 1603.07249,cs.NE,A Tutorial on Deep Neural Networks for Intelligent Systems,2016,2016
+1603.06430,cs.LG,Deep Learning in Bioinformatics,2016,2016
 1603.06201,cs.CV,A Survey on Object Detection in Optical Remote Sensing Images,2016,2016
 1604.00921,cs.CY,A Review of Theoretical and Practical Challenges of Trusted Autonomy in Big Data,2016,2016
 1604.00970,cs.CV,"Extended Object Tracking: Introduction, Overview and Applications",2016,2017
@@ -608,6 +625,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1602.05753,cs.CL,Overview of Annotation Creation: Processes & Tools,2016,2016
 1602.05124,physics.data-an,Practical Introduction to Clustering Data,2016,2016
 1602.04593,cs.CV,Edge Detection for Pattern Recognition: A Survey,2016,2016
+1602.04283,cs.DC,"Deep Learning on FPGAs: Past, Present, and Future",2016,2016
 1602.04227,stat.ML,Scale-free network optimization: foundations and algorithms,2016,2016
 1602.03426,cs.CL,Automatic Sarcasm Detection: A Survey,2016,2016
 1602.02999,cs.CV,Face Recognition: Perspectives from the Real-World,2016,2016
