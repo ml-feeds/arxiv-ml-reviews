@@ -75,8 +75,8 @@ def _get_results():
 
 def main():
     df = pd.DataFrame(_get_results())
-    df = df[config.DATA_ARTICLES_COLUMNS]
-    df.to_csv(config.DATA_ARTICLES_PATH, index=False)
+    df = df[config.DATA_ARTICLES_CSV_COLUMNS]
+    df.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
 
 
 if __name__ == '__main__':

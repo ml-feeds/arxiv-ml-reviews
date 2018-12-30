@@ -17,7 +17,7 @@ The list is sorted reverse chronologically. It was generated on {date.today()}. 
 It includes articles from these arXiv categories: {categories}
 """
 
-df = pd.read_csv(config.DATA_ARTICLES_PATH, dtype={'URL_ID': str, 'Category': 'category'})
+df = pd.read_csv(config.DATA_ARTICLES_CSV_PATH, dtype={'URL_ID': str, 'Category': 'category'})
 with config.DATA_ARTICLES_MD_PATH.open('w') as md:
     md.write(f'# Review articles\n{prologue}\n')
     for _, row in df.iterrows():
