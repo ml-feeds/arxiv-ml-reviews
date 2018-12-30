@@ -98,6 +98,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1809.04356,cs.LG,Deep learning for time series classification: a review,2018,2018
 1809.03298,cs.CV,A Brief Review of Real-World Color Image Denoising,2018,2018
 1809.03193,cs.CV,Recent Advances in Object Detection in the Age of Deep Convolutional Neural Networks,2018,2018
+1809.02408,stat.AP,A Primer on Causality in Data Science,2018,2018
 1809.02165,cs.CV,Deep Learning for Generic Object Detection: A Survey,2018,2018
 1809.01942,cs.NE,A tutorial on Particle Swarm Optimization Clustering,2018,2018
 1809.00604,cs.CV,Image computing for fibre-bundle endomicroscopy: A review,2018,2018
@@ -181,6 +182,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1806.03517,cs.CR,"A Taxonomy and Survey of Intrusion Detection System Design Techniques, Network Threats and Datasets",2018,2018
 1806.03982,cs.CV,Quantitative Phase Imaging and Artificial Intelligence: A Review,2018,2018
 1806.02308,cs.AI,"Model-free, Model-based, and General Intelligence",2018,2018
+1806.01488,cs.LG,A Primer on Causal Analysis,2018,2018
 1806.01180,cs.SD,Revisiting Singing Voice Detection: a Quantitative Review and the Future Outlook,2018,2018
 1806.00899,cs.CV,Recent advances and opportunities in scene classification of aerial images with deep models,2018,2018
 1806.00696,cs.SE,NLP-assisted software testing: a systematic review,2018,2018
@@ -551,6 +553,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1610.00782,cs.SI,"Network Structure Inference, A Survey: Motivations, Methods, and Applications",2016,2018
 1610.01206,cs.LG,A Survey of Multi-View Representation Learning,2016,2018
 1610.01178,cs.LG,A Tour of TensorFlow,2016,2016
+1610.00040,math.OC,A Primer on Coordinate Descent Algorithms,2016,2017
 1609.09341,cs.GT,Machine Learning Techniques for Stackelberg Security Games: a Survey,2016,2016
 1609.07537,math.OC,"A Tutorial on Distributed (Non-Bayesian) Learning: Problem, Algorithms and Results",2016,2016
 1609.06146,cs.LG,mlr Tutorial,2016,2016
@@ -620,6 +623,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1603.06201,cs.CV,A Survey on Object Detection in Optical Remote Sensing Images,2016,2016
 1604.00921,cs.CY,A Review of Theoretical and Practical Challenges of Trusted Autonomy in Big Data,2016,2016
 1604.00970,cs.CV,"Extended Object Tracking: Introduction, Overview and Applications",2016,2017
+1603.03788,stat.ML,A Primer on the Signature Method in Machine Learning,2016,2016
 1603.03089,stat.ML,Blind Source Separation: Fundamentals and Recent Advances (A Tutorial Overview Presented at SBrT-2001),2016,2016
 1602.08254,cs.DS,Theoretical Analysis of the $k$-Means Algorithm - A Survey,2016,2016
 1602.07884,cs.NE,Firefly Algorithm for optimization problems with non-continuous variables: A Review and Analysis,2016,2016
@@ -679,6 +683,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1510.03820,cs.CL,A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification,2015,2016
 1510.02892,cs.LG,Survey on Feature Selection,2015,2015
 1510.00757,stat.ML,A Survey of Online Experiment Design with the Stochastic Multi-Armed Bandit,2015,2015
+1510.00726,cs.CL,A Primer on Neural Network Models for Natural Language Processing,2015,2015
 1509.08973,cs.AI,Symbol Emergence in Robotics: A Survey,2015,2015
 1509.08880,stat.ML,Foundations of Coupled Nonlinear Dimensionality Reduction,2015,2015
 1509.07577,cs.LG,A Review of Feature Selection Methods Based on Mutual Information,2015,2015
@@ -1038,6 +1043,7 @@ cs/0605009,cs.LG,On the Foundations of Universal Sequence Prediction,2006,2006
 cs/0604015,cs.NI,Revealing the Autonomous System Taxonomy: The Machine Learning Approach,2006,2006
 cs/0511073,cs.AI,Stochastic Process Semantics for Dynamical Grammar Syntax: An Overview,2005,2005
 cs/0511042,cs.AI,Dimensions of Neural-symbolic Integration - A Structured Survey,2005,2005
+cs/0508100,cs.AI,A primer on Answer Set Programming,2005,2005
 cs/0504061,cs.CL,Summarization from Medical Documents: A Survey,2005,2005
 cs/0504054,cs.NE,Learning from Web: Review of Approaches,2005,2005
 cs/0504037,cs.CV,Bayesian Restoration of Digital Images Employing Markov Chain Monte Carlo a Review,2005,2006

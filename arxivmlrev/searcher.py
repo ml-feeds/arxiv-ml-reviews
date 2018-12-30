@@ -92,5 +92,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: Try adding terms: a primer on
+# TODO: Try adding terms: primer
 # TODO: Consider category cs.RO or whitelisting ID 1707.07217
