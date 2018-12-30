@@ -62,17 +62,9 @@ def _get_results():
 
         for result in results:
             result = Result(result)
-            if not result.is_id_whitelisted:
-                if result.is_id_blacklisted or not result.is_title_whitelisted:
-                    # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
-                    continue
-
-            # ignored_categories = config.CATEGORIES - set(('cs.CV',))
-            # if ('cs.CV' in categories) and not(categories & ignored_categories):
-            #     pass
-            # else:
-            #     continue
-
+            if (not result.is_id_whitelisted) and (result.is_id_blacklisted or (not result.is_title_whitelisted)):
+                # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
+                continue
             yield result.to_dict
 
         print(f'num_results={len(results)}')
@@ -91,5 +83,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# TODO: Consider category cs.RO or whitelisting ID 1707.07217
