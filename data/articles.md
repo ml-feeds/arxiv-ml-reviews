@@ -1,6 +1,6 @@
 # Review articles
 
-This is a mostly auto-generated list of review articles on machine learning and artificial intelligence that are on [arXiv](https://arxiv.org/). Although some of them were written for a specific technical audience or application, the techniques described are nonetheless generally relevant. The list is sorted reverse chronologically. It was generated on 2018-12-30. It includes articles mainly from the arXiv categories [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), and [stat.ML](https://arxiv.org/list/stat.ML/recent).
+This is a mostly auto-generated list of review articles on machine learning and artificial intelligence that are on [arXiv](https://arxiv.org/). Although some of them were written for a specific technical audience or application, the techniques described are nonetheless generally relevant. The list is sorted reverse chronologically. It was generated on 2018-12-30. It includes articles mainly from the arXiv categories [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), [eess.IV](https://arxiv.org/list/eess.IV/recent), and [stat.ML](https://arxiv.org/list/stat.ML/recent). A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews).
 
 * [A Review on The Use of Deep Learning in Android Malware Detection (2018)](https://arxiv.org/abs/1812.10360) ([cs.CR](https://arxiv.org/list/cs.CR/recent))
 * [A Survey to Deep Facial Attribute Analysis (2018)](https://arxiv.org/abs/1812.10265) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
@@ -26,6 +26,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [A Technical Survey on Statistical Modelling and Design Methods for Crowdsourcing Quality Control (2018)](https://arxiv.org/abs/1812.02736) ([cs.HC](https://arxiv.org/list/cs.HC/recent))
 * [Unsupervised learning and data clustering for the construction of Galaxy Catalogs in the Dark Energy Survey (2018)](https://arxiv.org/abs/1812.02183) ([astro-ph.IM](https://arxiv.org/list/astro-ph.IM/recent))
 * [Cross-spectral Periocular Recognition: A Survey (2018)](https://arxiv.org/abs/1812.01465) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
+* [Feature Extraction for Temporal Signal Recognition: An Overview (2018)](https://arxiv.org/abs/1812.01780) ([eess.AS](https://arxiv.org/list/eess.AS/recent))
 * [Distilling Information from a Flood: A Possibility for the Use of Meta-Analysis and Systematic Review in Machine Learning Research (2018)](https://arxiv.org/abs/1812.01074) ([cs.DL](https://arxiv.org/list/cs.DL/recent))
 * [A Survey on Semantic Parsing (2018)](https://arxiv.org/abs/1812.00978) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [Fake News: A Survey of Research, Detection Methods, and Opportunities (2018)](https://arxiv.org/abs/1812.00315) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
@@ -109,6 +110,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Theoretical Foundations of the A2RD Project: Part I (2018)](https://arxiv.org/abs/1808.08794) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
 * [A Survey on Theoretical Advances of Community Detection in Networks (2018)](https://arxiv.org/abs/1809.07691) ([cs.SI](https://arxiv.org/list/cs.SI/recent))
 * [FinBrain: When Finance Meets AI 2.0 (2018)](https://arxiv.org/abs/1808.08497) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
+* [A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving (2018)](https://arxiv.org/abs/1808.08413) ([eess.IV](https://arxiv.org/list/eess.IV/recent))
 * [An Overview of Datatype Quantization Techniques for Convolutional Neural Networks (2018)](https://arxiv.org/abs/1808.07530) ([cs.NE](https://arxiv.org/list/cs.NE/recent))
 * [The Gap of Semantic Parsing: A Survey on Automatic Math Word Problem Solvers (2018)](https://arxiv.org/abs/1808.07290) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [A Survey of Modern Object Detection Literature using Deep Learning (2018)](https://arxiv.org/abs/1808.07256) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
@@ -173,6 +175,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Restricted Boltzmann Machines: Introduction and Review (2018)](https://arxiv.org/abs/1806.07066) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress (2018)](https://arxiv.org/abs/1806.06877) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Comparative survey of visual object classifiers (2018)](https://arxiv.org/abs/1806.06321) ([eess.IV](https://arxiv.org/list/eess.IV/recent))
+* [Comparative survey: People detection, tracking and multi-sensor Fusion in a video sequence (2018)](https://arxiv.org/abs/1806.06261) ([eess.IV](https://arxiv.org/list/eess.IV/recent))
 * [Semantic Video Segmentation: A Review on Recent Approaches (2018)](https://arxiv.org/abs/1806.06172) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [A Survey of Automatic Facial Micro-expression Analysis: Databases, Methods and Challenges (2018)](https://arxiv.org/abs/1806.05781) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [A Survey on Open Information Extraction (2018)](https://arxiv.org/abs/1806.05599) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
@@ -228,6 +231,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Not-so-supervised: a survey of semi-supervised, multi-instance, and transfer learning in medical image analysis (2018)](https://arxiv.org/abs/1804.06353) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Review on Optical Image Hiding and Watermarking Techniques (2018)](https://arxiv.org/abs/1804.05483) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives (2018)](https://arxiv.org/abs/1804.05319) ([cs.NE](https://arxiv.org/list/cs.NE/recent))
+* [Target detection in synthetic aperture radar imagery: a state-of-the-art survey (2018)](https://arxiv.org/abs/1804.04719) ([eess.IV](https://arxiv.org/list/eess.IV/recent))
 * [Feature-Based Aggregation and Deep Reinforcement Learning: A Survey and Some New Implementations (2018)](https://arxiv.org/abs/1804.04577) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Deep Learning For Computer Vision Tasks: A review (2018)](https://arxiv.org/abs/1804.03928) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [A review of possible effects of cognitive biases on interpretation of rule-based machine learning models (2018)](https://arxiv.org/abs/1804.02969) ([stat.ML](https://arxiv.org/list/stat.ML/recent))
@@ -274,6 +278,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [State Representation Learning for Control: An Overview (2018)](https://arxiv.org/abs/1802.04181) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
 * [Deep Visual Domain Adaptation: A Survey (2018)](https://arxiv.org/abs/1802.03601) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Deep learning in radiology: an overview of the concepts and a survey of the state of the art (2018)](https://arxiv.org/abs/1802.08717) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
+* [A Practical Guide to Multi-image Alignment (2018)](https://arxiv.org/abs/1802.03280) ([eess.IV](https://arxiv.org/list/eess.IV/recent))
 * [Tracking Noisy Targets: A Review of Recent Object Tracking Approaches (2018)](https://arxiv.org/abs/1802.03098) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Automatic segmenting teeth in X-ray images: Trends, a novel data set, benchmarking and future perspectives (2018)](https://arxiv.org/abs/1802.03086) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Online Learning: A Comprehensive Survey (2018)](https://arxiv.org/abs/1802.02871) ([cs.LG](https://arxiv.org/list/cs.LG/recent))

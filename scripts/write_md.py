@@ -27,7 +27,8 @@ This is a mostly auto-generated list of review articles on machine learning and 
 Although some of them were written for a specific technical audience or application, the techniques described are \
 nonetheless generally relevant. \
 The list is sorted reverse chronologically. It was generated on {date.today()}. \
-It includes articles mainly from the arXiv categories {categories}.
+It includes articles mainly from the arXiv categories {categories}. \
+A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews).
 """
 
 df = pd.read_csv(config.DATA_ARTICLES_CSV_PATH, dtype={'URL_ID': str, 'Category': 'category'})
