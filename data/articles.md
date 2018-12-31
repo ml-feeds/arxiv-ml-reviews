@@ -26,7 +26,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Finding the needle in high-dimensional haystack: A tutorial on canonical correlation analysis (2018)](https://arxiv.org/abs/1812.02598) ([stat.ML](https://arxiv.org/list/stat.ML/recent))
 * [Handcrafted and Deep Trackers: A Review of Recent Object Tracking Approaches (2018)](https://arxiv.org/abs/1812.07368) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [A Technical Survey on Statistical Modelling and Design Methods for Crowdsourcing Quality Control (2018)](https://arxiv.org/abs/1812.02736) ([cs.HC](https://arxiv.org/list/cs.HC/recent))
-* [Unsupervised learning and data clustering for the construction of Galaxy Catalogs in the Dark Energy Survey (2018)](https://arxiv.org/abs/1812.02183) ([astro-ph.IM](https://arxiv.org/list/astro-ph.IM/recent))
 * [Cross-spectral Periocular Recognition: A Survey (2018)](https://arxiv.org/abs/1812.01465) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Feature Extraction for Temporal Signal Recognition: An Overview (2018)](https://arxiv.org/abs/1812.01780) ([eess.AS](https://arxiv.org/list/eess.AS/recent))
 * [Distilling Information from a Flood: A Possibility for the Use of Meta-Analysis and Systematic Review in Machine Learning Research (2018)](https://arxiv.org/abs/1812.01074) ([cs.DL](https://arxiv.org/list/cs.DL/recent))
