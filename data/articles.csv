@@ -23,6 +23,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1812.02736,cs.HC,A Technical Survey on Statistical Modelling and Design Methods for Crowdsourcing Quality Control,2018,2018
 1812.02183,astro-ph.IM,Unsupervised learning and data clustering for the construction of Galaxy Catalogs in the Dark Energy Survey,2018,2018
 1812.01465,cs.CV,Cross-spectral Periocular Recognition: A Survey,2018,2018
+1812.01780,eess.AS,Feature Extraction for Temporal Signal Recognition: An Overview,2018,2018
 1812.01074,cs.DL,Distilling Information from a Flood: A Possibility for the Use of Meta-Analysis and Systematic Review in Machine Learning Research,2018,2018
 1812.00978,cs.CL,A Survey on Semantic Parsing,2018,2018
 1812.00315,cs.CL,"Fake News: A Survey of Research, Detection Methods, and Opportunities",2018,2018
@@ -106,6 +107,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1808.08794,cs.AI,Theoretical Foundations of the A2RD Project: Part I,2018,2018
 1809.07691,cs.SI,A Survey on Theoretical Advances of Community Detection in Networks,2018,2018
 1808.08497,cs.AI,FinBrain: When Finance Meets AI 2.0,2018,2018
+1808.08413,eess.IV,A Brief Survey and an Application of Semantic Image Segmentation for Autonomous Driving,2018,2018
 1808.07530,cs.NE,An Overview of Datatype Quantization Techniques for Convolutional Neural Networks,2018,2018
 1808.07290,cs.CL,The Gap of Semantic Parsing: A Survey on Automatic Math Word Problem Solvers,2018,2018
 1808.07256,cs.CV,A Survey of Modern Object Detection Literature using Deep Learning,2018,2018
@@ -170,6 +172,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1806.07066,cs.LG,Restricted Boltzmann Machines: Introduction and Review,2018,2018
 1806.06877,cs.LG,"A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress",2018,2018
 1806.06321,eess.IV,Comparative survey of visual object classifiers,2018,2018
+1806.06261,eess.IV,"Comparative survey: People detection, tracking and multi-sensor Fusion in a video sequence",2018,2018
 1806.06172,cs.CV,Semantic Video Segmentation: A Review on Recent Approaches,2018,2018
 1806.05781,cs.CV,"A Survey of Automatic Facial Micro-expression Analysis: Databases, Methods and Challenges",2018,2018
 1806.05599,cs.CL,A Survey on Open Information Extraction,2018,2018
@@ -225,6 +228,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1804.06353,cs.CV,"Not-so-supervised: a survey of semi-supervised, multi-instance, and transfer learning in medical image analysis",2018,2018
 1804.05483,cs.CV,Review on Optical Image Hiding and Watermarking Techniques,2018,2018
 1804.05319,cs.NE,Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives,2018,2018
+1804.04719,eess.IV,Target detection in synthetic aperture radar imagery: a state-of-the-art survey,2018,2018
 1804.04577,cs.LG,Feature-Based Aggregation and Deep Reinforcement Learning: A Survey and Some New Implementations,2018,2018
 1804.03928,cs.CV,Deep Learning For Computer Vision Tasks: A review,2018,2018
 1804.02969,stat.ML,A review of possible effects of cognitive biases on interpretation of rule-based machine learning models,2018,2018
@@ -271,6 +275,7 @@ URL_ID,Category,Title,Year_Published,Year_Updated
 1802.04181,cs.AI,State Representation Learning for Control: An Overview,2018,2018
 1802.03601,cs.CV,Deep Visual Domain Adaptation: A Survey,2018,2018
 1802.08717,cs.CV,Deep learning in radiology: an overview of the concepts and a survey of the state of the art,2018,2018
+1802.03280,eess.IV,A Practical Guide to Multi-image Alignment,2018,2018
 1802.03098,cs.CV,Tracking Noisy Targets: A Review of Recent Object Tracking Approaches,2018,2018
 1802.03086,cs.CV,"Automatic segmenting teeth in X-ray images: Trends, a novel data set, benchmarking and future perspectives",2018,2018
 1802.02871,cs.LG,Online Learning: A Comprehensive Survey,2018,2018
