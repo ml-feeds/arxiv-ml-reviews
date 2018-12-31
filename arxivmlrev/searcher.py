@@ -2,9 +2,11 @@ import time
 from typing import Set, Union
 
 import arxiv
+from humanize import naturalsize
 import pandas as pd
 
 from arxivmlrev import config
+from arxivmlrev.util.resource import get_resident_set_size
 from arxivmlrev.result import Result
 
 url_id_blacklist = config.URL_ID_BLACKLIST.copy()
@@ -45,6 +47,7 @@ def _get_results():
 
     interval = config.MIN_INTERVAL_BETWEEN_QUERIES
     start = 0
+    rss_start = get_resident_set_size()
     while True:
         for attempt in range(3):
             print(f'start={start}')
@@ -67,7 +70,8 @@ def _get_results():
                 continue
             yield result.to_dict
 
-        print(f'num_results={len(results)}')
+        rss_excess = naturalsize(get_resident_set_size() - rss_start, binary=True)
+        print(f'num_results={len(results)} rss_excess={rss_excess}')
         if len(results) < config.MAX_RESULTS_PER_QUERY:
             return
         start += config.MAX_RESULTS_PER_QUERY

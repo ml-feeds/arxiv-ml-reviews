@@ -8,6 +8,7 @@ arxiv==0.3.1
 certifi==2018.11.29       # via requests
 chardet==3.0.4            # via requests
 feedparser==5.2.1         # via arxiv
+humanize==0.5.1
 idna==2.8                 # via requests
 numpy==1.15.4             # via pandas
 pandas==0.23.4
