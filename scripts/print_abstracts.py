@@ -4,12 +4,10 @@ import pandas as pd
 from arxivmlrev.result import Result
 
 ARTICLES = """
-URL_ID,Category,Title
-1807.11573,cs.CV,State-of-the-art and gaps for deep learning on limited training data in remote sensing
-1810.06339,cs.LG,Deep Reinforcement Learning
-1802.01528,cs.LG,The Matrix Calculus You Need For Deep Learning
-1806.11484,hep-ex,Deep Learning and its Application to LHC Physics
-"""  # Update list as needed.
+URL_ID,Category,Title,Year_Published,Year_Updated
+1812.01259,eess.IV,"Camera Based Optical Communications, Localization, Navigation, and Motion Capture: A Survey",2018,2018
+1812.01780,eess.AS,Feature Extraction for Temporal Signal Recognition: An Overview,2018,2018
+"""  # Update list as needed, e.g. using:  git diff -U0 -- data/articles.csv | grep ^+ | sed s/+//
 
 df_all = pd.read_csv(pd.compat.StringIO(ARTICLES), dtype={'URL_ID': str, 'Category': 'category'})
 url_ids = df_all['URL_ID'].tolist()
