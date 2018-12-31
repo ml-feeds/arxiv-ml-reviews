@@ -17,6 +17,10 @@ class Result:
         return ''.join(c for c in self.title.lower() if c not in punctuation)
 
     @property
+    def abstract(self) -> str:
+        return self.abstract_multiline.replace('\n', ' ')
+
+    @property
     def abstract_multiline(self) -> str:
         """Return a multiline abstract."""
         return self.result['summary']
@@ -74,4 +78,6 @@ class Result:
     @property
     def to_dict(self) -> Dict[str, Union[str, int]]:
         return {'URL_ID': self.url_id, 'Category': self.category, 'Title': self.title,
-                'Year_Published': self.year_published, 'Year_Updated': self.year_updated}
+                'Year_Published': self.year_published, 'Year_Updated': self.year_updated,
+                'Abstract': self.abstract,
+                }
