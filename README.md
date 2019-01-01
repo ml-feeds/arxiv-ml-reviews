@@ -35,3 +35,5 @@ running `scripts/write_md.py`. The script also copies the generated markdown fil
 * Improve code quality.
 * Implement an option to run an incremental update rather than a full rerun.
 This option assumes an unchanged configuration.
+The addition of this option would also require changing the code to sort the results by *lastUpdatedDate* rather than by
+*submittedDate*.
