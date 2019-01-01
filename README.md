@@ -20,7 +20,7 @@ pip install -r requirements.in
 For better or worse, the script currently refreshes the entire file, and doesn't just update the latest results.
 Use git to check if the diff of this file looks acceptable.
 If the file is smaller for any reason, it means the search query failed, in which case it should be rerun.
-As a **warning**, this step should not be run excessively as it burdens the arXiv search server.
+**As a warning, this step should not be run excessively** as it burdens the arXiv search server.
 
 1. If there is any extraneous new entry in `data/articles.csv`, update either `arxivmlrev/_config/articles.csv` and/or
 `arxivmlrev/_config/terms.csv` with a new blacklist entry. This is expected to be be done rarely.
