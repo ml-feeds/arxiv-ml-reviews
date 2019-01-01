@@ -1,6 +1,7 @@
 # arxiv-ml-reviews
-This uses a [keyword](arxivmlrev/_config/terms.csv)-based search to extract a list of review articles on machine
-learning and artificial intelligence from [arXiv](https://arxiv.org/).
+This uses a [keyword](arxivmlrev/_config/terms.csv)-based search to extract a list of review articles from the
+[arXiv's](https://arxiv.org/) various [categories](arxivmlrev/_config/categories.txt)
+on machine learning and artificial intelligence.
 
 The code is admittedly research-grade; it is currently not polished for general use.
 
