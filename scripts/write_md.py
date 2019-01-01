@@ -28,7 +28,8 @@ Although some of them were written for a specific technical audience or applicat
 nonetheless generally relevant. \
 The list is sorted reverse chronologically. It was generated on {date.today()}. \
 It includes articles mainly from the arXiv categories {categories}. \
-A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews).
+A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews). \
+The source code for generating this file is [here](https://github.com/impredicative/arxiv-ml-reviews).
 """
 
 df = pd.read_csv(config.DATA_ARTICLES_CSV_PATH, dtype={'URL_ID': str, 'Category': 'category'})
