@@ -20,6 +20,9 @@ CONFIG_TERMS = pd.read_csv(CONFIG_TERMS_PATH)
 DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Category', 'Title', 'Year_Published', 'Year_Updated', 'Abstract']
 DATA_ARTICLES_CSV_PATH = DATA_DIR / 'articles.csv'
 DATA_ARTICLES_MD_PATH = DATA_DIR / 'articles.md'
+GITHUB_ACCESS_TOKEN_PATH = Path('~/.config/github').expanduser()
+GITHUB_MD_PUBLISH_PATH = 'Resources/ArticlesReview.md'
+GITHUB_PUBLISH_REPO = 'freenode-machinelearning/freenode-machinelearning.github.io'
 MAX_RESULTS_PER_QUERY = 800
 MIN_INTERVAL_BETWEEN_QUERIES = max(3., math.log(MAX_RESULTS_PER_QUERY))
 TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])
