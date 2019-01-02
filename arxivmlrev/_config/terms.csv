@@ -16,6 +16,9 @@ Presence,Term
 1,primer
 1,recent advances
 1,review
+1,summary and
+1,summary description
+1,summary of
 1,survey
 1,taxonomy
 1,tour
@@ -102,4 +105,5 @@ Presence,Term
 0,tutorial generation
 0,user review
 0,wikiconv
+0,workshop
 0,wsdm cup
