@@ -3,10 +3,10 @@ import time
 from typing import Set, Union
 
 import arxiv
-from humanize import naturalsize
 import pandas as pd
 
 from arxivmlrev import config
+from arxivmlrev.util.humanize import humanize_bytes
 from arxivmlrev.util.resource import get_resident_set_size
 from arxivmlrev.util.string import readable_list
 from arxivmlrev.result import Result
@@ -58,10 +58,10 @@ def _get_results():
     interval = config.MIN_INTERVAL_BETWEEN_QUERIES
     start = 0
     rss_start = get_resident_set_size()
-    log.info('Memory used before query is %s.', naturalsize(rss_start))
+    log.info('Memory used before query is %s.', humanize_bytes(rss_start))
     while True:
         for attempt in range(3):
-            log.info('Starting query with start=%s.', start);
+            log.info('Starting query at offset %s.', start)
             results = arxiv.query(search_query=search_query, start=start, max_results=config.MAX_RESULTS_PER_QUERY,
                                   sort_by='submittedDate')
             query_completion_time = time.time()
@@ -87,7 +87,7 @@ def _get_results():
             yield result.to_dict
         log.info('Completed processing results.')
 
-        rss_excess = naturalsize(get_resident_set_size() - rss_start, binary=True)
+        rss_excess = humanize_bytes(get_resident_set_size() - rss_start)
         log.info('Additional memory used since first query is %s.', rss_excess)
         if len(results) < config.MAX_RESULTS_PER_QUERY:
             log.info('Completed all queries.')
