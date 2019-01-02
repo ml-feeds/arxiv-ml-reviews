@@ -1,25 +1,17 @@
 from datetime import date
-from typing import Any, List
 
 from arxivmlrev import config
+from arxivmlrev.util.string import readable_list
 
 import pandas as pd
 import pyperclip
-
-
-def _readable_list(seq: List[Any]) -> str:
-    # Ref: https://stackoverflow.com/a/53981846/
-    seq = [str(s) for s in seq]
-    if len(seq) < 3:
-        return ' and '.join(seq)
-    return ', '.join(seq[:-1]) + ', and ' + seq[-1]
 
 
 def _linked_category(cat: str) -> str:
     return f'[{cat}](https://arxiv.org/list/{cat}/recent)'
 
 
-categories = _readable_list(_linked_category(cat) for cat in sorted(config.CATEGORIES))
+categories = readable_list(_linked_category(cat) for cat in sorted(config.CATEGORIES))
 
 prologue = f"""
 This is a mostly auto-generated list of review articles on machine learning and artificial intelligence that are on \
