@@ -100,7 +100,7 @@ def _get_results():
 def main():
     df = pd.DataFrame(_get_results())
     df = df[config.DATA_ARTICLES_CSV_COLUMNS]
-    log.info('Writing CSV.')
+    log.info('Writing CSV with %s rows.', len(df))
     df.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
 
 
