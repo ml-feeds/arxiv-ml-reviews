@@ -88,7 +88,7 @@ def _get_results():
         log.info('Completed processing results.')
 
         rss_excess = naturalsize(get_resident_set_size() - rss_start, binary=True)
-        log.info('Memory used since first query is %s.', rss_excess)
+        log.info('Additional memory used since first query is %s.', rss_excess)
         if len(results) < config.MAX_RESULTS_PER_QUERY:
             log.info('Completed all queries.')
             return
