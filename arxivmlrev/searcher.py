@@ -14,8 +14,6 @@ from arxivmlrev.result import Result
 
 log = logging.getLogger(__name__)
 
-url_id_blacklist = config.URL_ID_BLACKLIST.copy()
-
 
 class Searcher:
 
