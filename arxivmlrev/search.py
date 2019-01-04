@@ -36,7 +36,6 @@ class Searcher:
             yield result.to_dict
         log.info('Completed filtering results.')
 
-    @property
     def _form_query(self) -> str:
         title_whitelist_query = self._set_to_query(config.TERMS_WHITELIST, 'ti')
         title_blacklist_query = self._set_to_query(config.TERMS_BLACKLIST, 'ti')
@@ -52,17 +51,17 @@ class Searcher:
             )
             OR {id_whitelist_query}
         '''
-        log.info('Search query (multiline version): %s', self._query)
+        log.info('Search query (multiline version): %s', query)
         return query.replace('\n', ' ')
 
     @staticmethod
     def _log_state():
-        log.info('The %s enabled categories are: %s', len(config.CATEGORIES), readable_list(sorted(config.CATEGORIES)))
+        log.info('The %s enabled categories are %s.', len(config.CATEGORIES), readable_list(sorted(config.CATEGORIES)))
         log.info('The number of terms whitelisted and blacklisted are %s and %s respectively.',
                  len(config.TERMS_WHITELIST), len(config.TERMS_BLACKLIST))
         log.info('The number of IDs whitelisted and blacklisted are %s and %s respectively.',
                  len(config.URL_ID_WHITELIST), len(config.URL_ID_BLACKLIST))
-        log.info('Max results per query is %s.', config.MAX_RESULTS_PER_QUERY)
+        log.info('Max results per query is set to %s.', config.MAX_RESULTS_PER_QUERY)
 
     def _run_query(self, start: int) -> List[dict]:
         for attempt in range(3):

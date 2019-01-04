@@ -11,7 +11,7 @@ log = logging.getLogger(__name__)
 
 def main():
     df_results_old = pd.read_csv(config.DATA_ARTICLES_CSV_PATH)
-    log.info('Preexisting data file has %s rows.', len(df_results_old))
+    log.info('Preexisting CSV data file has %s rows.', len(df_results_old))
     df_results_new = Searcher().search()
     num_increase = len(df_results_new) - len(df_results_old)
     log.info('Updated dataframe has %s rows. This is a difference of %+d rows since the last update.',
