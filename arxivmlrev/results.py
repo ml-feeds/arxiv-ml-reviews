@@ -1,33 +1,44 @@
 from datetime import date
 import logging
-from typing import Optional
 
 from github import Github
 import pandas as pd
 
 from arxivmlrev import config
+from arxivmlrev.search import Searcher
 from arxivmlrev.util.string import readable_list
 
 log = logging.getLogger(__name__)
 
 
 class Results:
-    def __init__(self, df_results: Optional[pd.DataFrame]):
-        self._df_results = df_results
-        if self._df_results is None:
-            self._df_results = pd.read_csv(config.DATA_ARTICLES_CSV_PATH,
-                                           # dtype={'URL_ID': str, 'Category': 'category'}
-                                           )
-
-    def write(self):
-        self._write_csv()
-        self._write_md()
+    def __init__(self):
+        self._df_results = pd.read_csv(config.DATA_ARTICLES_CSV_PATH,
+                                       # dtype={'URL_ID': str, 'Category': 'category'}
+                                       )
 
     def _write_csv(self) -> None:
         self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
         log.info('Finished writing CSV file with %s rows.', len(self._df_results))
 
-    def _write_md(self) -> None:
+    def refresh(self):
+        df_results_old = self._df_results
+        log.info('Preexisting CSV data file has %s rows.', len(df_results_old))
+        df_results_new = self._df_results = Searcher().search()
+        num_increase = len(df_results_new) - len(df_results_old)
+        log.info('Updated dataframe has %s rows. This is a difference of %+d rows since the last update.',
+                 len(df_results_new), num_increase)
+        self._write_csv()
+        self.write_md()
+        log.info('Any newly written data files can be checked into the remote repository.')
+        if num_increase > 0:
+            self.publish_md()
+        else:
+            msg = 'Considering the difference in the number of rows is not positive, the updated markdown file is ' \
+                  'not being published to GitHub.'
+            log.info(msg)
+
+    def write_md(self) -> None:
         def _linked_category(cat: str) -> str:
             return f'[{cat}](https://arxiv.org/list/{cat}/recent)'
 
@@ -44,7 +55,7 @@ class Results:
         [raw data](https://raw.githubusercontent.com/impredicative/arxiv-ml-reviews/master/data/articles.csv) for \
         generating this page are linked. \
         This page is currently not automatically updated.
-        """
+        """.strip()
 
         with config.DATA_ARTICLES_MD_PATH.open('w') as md:
             md.write(f'# Review articles\n{prologue}\n')
