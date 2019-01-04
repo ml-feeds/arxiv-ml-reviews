@@ -113,13 +113,3 @@ class Searcher:
         df = pd.DataFrame(results)
         df = df[config.DATA_ARTICLES_CSV_COLUMNS]
         return df
-
-
-def main():
-    df_results_new = Searcher().search()
-    log.info('Writing CSV with %s rows.', len(df_results_new))
-    df_results_new.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
-
-
-if __name__ == '__main__':
-    main()
