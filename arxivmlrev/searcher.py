@@ -1,6 +1,6 @@
 import logging
 import time
-from typing import Set, Union
+from typing import Set
 
 import arxiv
 import pandas as pd
@@ -9,6 +9,7 @@ from arxivmlrev import config
 from arxivmlrev.util.humanize import humanize_bytes
 from arxivmlrev.util.resource import get_resident_set_size
 from arxivmlrev.util.string import readable_list
+from arxivmlrev.util.time import verbose_sleep
 from arxivmlrev.result import Result
 
 log = logging.getLogger(__name__)
@@ -21,27 +22,22 @@ log.info('The number of IDs whitelisted and blacklisted are %s and %s respective
 url_id_blacklist = config.URL_ID_BLACKLIST.copy()
 
 
-def verbose_sleep(seconds: Union[int, float]) -> None:
-    log.info(f'Sleeping for {seconds:.1f}s')
-    time.sleep(seconds)
-
-
 class ArxivResultsInsufficient(Exception):
     pass
 
 
-def _set_query(strset: Set[str], prefix: str) -> str:
+def _set_to_query(strset: Set[str], prefix: str) -> str:
     strset = {f'"{s}"' if ' ' in s else s for s in strset}
     strset = ' OR '.join(f'{prefix}:{s}' for s in sorted(strset))
     return f'({strset})'
 
 
 def _get_results():
-    title_whitelist_query = _set_query(config.TERMS_WHITELIST, 'ti')
-    title_blacklist_query = _set_query(config.TERMS_BLACKLIST, 'ti')
-    id_whitelist_query = _set_query(config.URL_ID_WHITELIST, 'id')
+    title_whitelist_query = _set_to_query(config.TERMS_WHITELIST, 'ti')
+    title_blacklist_query = _set_to_query(config.TERMS_BLACKLIST, 'ti')
+    id_whitelist_query = _set_to_query(config.URL_ID_WHITELIST, 'id')
     # Note: Specifying a long ID blacklist clause causes the query to return no results, and so this check is local.
-    category_query = _set_query(config.CATEGORIES, 'cat')
+    category_query = _set_to_query(config.CATEGORIES, 'cat')
     # Note: Title blacklist has precedence over title whitelist in the query below.
     search_query = f'''
         (
@@ -75,8 +71,9 @@ def _get_results():
             verbose_sleep(interval)
             interval *= 1.3678794411714423  # 1 + (1/e) == 1.3678794411714423
         else:
-            log.error('Despite multiple attempts, query failed with insufficient results.')
-            raise ArxivResultsInsufficient
+            msg = 'Despite multiple attempts, query failed with insufficient results.'
+            log.error(msg)
+            raise ArxivResultsInsufficient(msg)
 
         log.info('Processing %s results.', len(results))
         for result in results:
