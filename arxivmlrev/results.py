@@ -21,7 +21,8 @@ class Results:
         self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
         log.info('Finished writing CSV file with %s rows.', len(self._df_results))
 
-    def refresh(self):
+    def refresh(self) -> None:
+        """Refresh search results, write them locally, and conditionally publish them."""
         df_results_old = self._df_results
         log.info('Preexisting CSV data file has %s rows.', len(df_results_old))
         df_results_new = self._df_results = Searcher().search()
@@ -39,6 +40,7 @@ class Results:
             log.info(msg)
 
     def write_md(self) -> None:
+        """Write the search results to a markdown file locally."""
         def _linked_category(cat: str) -> str:
             return f'[{cat}](https://arxiv.org/list/{cat}/recent)'
 
@@ -69,6 +71,7 @@ class Results:
 
     @staticmethod
     def publish_md() -> None:
+        """Conditionally publish the markdown file to GitHub."""
         log.info('The currently existing markdown file will conditionally be published to GitHub.')
         github_token = config.GITHUB_ACCESS_TOKEN_PATH.read_text().strip()
         log.info('GitHub access token was read.')
