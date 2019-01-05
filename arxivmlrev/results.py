@@ -21,7 +21,7 @@ class Results:
         self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
         log.info('Finished writing CSV file with %s rows.', len(self._df_results))
 
-    def full_refresh(self, publish=True) -> None:
+    def full_refresh(self, *, publish=True) -> None:
         """Refresh search results, write them locally, and conditionally publish them."""
         df_results_old = self._df_results
         log.info('Preexisting CSV data file has %s rows.', len(df_results_old))
