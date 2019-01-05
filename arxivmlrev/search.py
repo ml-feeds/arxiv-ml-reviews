@@ -62,7 +62,7 @@ class Searcher:
         return query
 
     @staticmethod
-    def _log_state():
+    def _log_state() -> None:
         log.info('The %s enabled categories are %s.', len(config.CATEGORIES), readable_list(sorted(config.CATEGORIES)))
         log.info('The number of terms whitelisted and blacklisted are %s and %s respectively.',
                  len(config.TERMS_WHITELIST), len(config.TERMS_BLACKLIST))
