@@ -52,7 +52,12 @@ class Searcher:
             OR {id_whitelist_query}
         '''
         log.info('Search query (multiline version): %s', query)
-        return query.strip().replace('\n', ' ')
+        query = query.strip().replace('\n', ' ')
+        while '  ' in query:
+            query = query.replace('  ', ' ')
+        log.debug('Search query (actual single-line version):\n%s', query)
+        log.info('Search query length is %s characters.', len(query))
+        return query
 
     @staticmethod
     def _log_state():
