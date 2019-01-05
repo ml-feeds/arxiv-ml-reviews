@@ -18,11 +18,11 @@ pip install -r requirements.in
 ### full-refresh
 Running `python -m arxivmlrev full-refresh --publish=False` will:
 1. Rerun the full search and write the results to `data/articles.csv` and `data/articles.md`.
-2. If the `data/results.csv` file increased in its number of rows, the command will publish the written markdown file
+2. If the `data/results.csv` file increased in its number of rows, the command can publish the written markdown file
 to GitHub per the GitHub-specific configuration in `config.py`. To enable this step, run the command without
 `--publish=False`.
 
-Use git to check if the diff of this updated CSV file looks acceptable.
+Use git to discern whether the diff of this updated CSV file looks acceptable.
 If the CSV file is smaller for any reason, it means the search query failed, in which case it should be rerun.
 **As a warning, this command should not be run excessively** as it burdens the arXiv search server.
 
