@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-python -m arxivmlrev full-refresh --publish=True
+python -m arxivmlrev full-refresh --publish=False
