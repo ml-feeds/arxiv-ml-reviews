@@ -27,8 +27,9 @@ class Results:
         log.info('Preexisting CSV data file has %s rows.', len(df_results_old))
         df_results_new = self._df_results = Searcher().search()
         num_increase = len(df_results_new) - len(df_results_old)
-        log.info('Updated dataframe has %s rows. This is a difference of %+d rows since the last update.',
-                 len(df_results_new), num_increase)
+        logger = log.info if num_increase >= 0 else log.warning
+        logger('Updated dataframe has %s rows. This is a difference of %+d rows since the last update.',
+               len(df_results_new), num_increase)
         self._write_csv()
         self.write_md()
         log.info('Any newly written data files can be checked into the remote repository.')
