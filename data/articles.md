@@ -214,6 +214,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [RGB-Depth SLAM Review (2018)](https://arxiv.org/abs/1805.07696) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Graph-based Ontology Summarization: A Survey (2018)](https://arxiv.org/abs/1805.06051) ([cs.IR](https://arxiv.org/list/cs.IR/recent))
 * [Facial Landmark Detection: a Literature Survey (2018)](https://arxiv.org/abs/1805.05563) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
+* [Machine Learning: Basic Principles (2018)](https://arxiv.org/abs/1805.05052) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [From Word to Sense Embeddings: A Survey on Vector Representations of Meaning (2018)](https://arxiv.org/abs/1805.04032) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [Foundations of Sequence-to-Sequence Modeling for Time Series (2018)](https://arxiv.org/abs/1805.03714) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Survey and cross-benchmark comparison of remaining time prediction methods in business process monitoring (2018)](https://arxiv.org/abs/1805.02896) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
