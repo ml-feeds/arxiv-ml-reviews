@@ -32,6 +32,8 @@ Blacklisted entries are those with *Presence* = 0.
 Before committing these updated configuration files to revision control, consider running
 `scripts/sort_config_articles.py` and/or `scripts/sort_config_terms.py` respectively.
 If a configuration file was updated, rerun the command.
+**Be warned that a sufficiently longer query can very possibly lead to arXiv returning incomplete results,** and this
+will require a rearchitecture of the search.
 
 ### write-md
 Running `python -m arxivmlrev write-md` will only refresh the markdown file `data/articles.md` from `data/articles.csv`.
