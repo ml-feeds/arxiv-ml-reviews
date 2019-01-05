@@ -52,7 +52,7 @@ class Searcher:
             OR {id_whitelist_query}
         '''
         log.info('Search query (multiline version): %s', query)
-        return query.replace('\n', ' ')
+        return query.strip().replace('\n', ' ')
 
     @staticmethod
     def _log_state():
