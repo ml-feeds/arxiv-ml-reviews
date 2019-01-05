@@ -27,14 +27,14 @@ class Searcher:
 
     @staticmethod
     def _filter_results(results: List[dict]) -> Iterable[dict]:
-        log.info('Filtering %s results.', len(results))
+        log.debug('Filtering %s results.', len(results))
         for result in results:
             result = Result(result)
             if (not result.is_id_whitelisted) and (result.is_id_blacklisted or (not result.is_title_whitelisted)):
                 # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
                 continue
             yield result.to_dict
-        log.info('Completed filtering results.')
+        log.debug('Completed filtering results.')
 
     def _form_query(self) -> str:
         title_whitelist_query = self._set_to_query(config.TERMS_WHITELIST, 'ti')
