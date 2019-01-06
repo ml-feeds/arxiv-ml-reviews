@@ -76,7 +76,7 @@ class Results:
         """Conditionally publish the markdown file to GitHub."""
         log.info('The currently existing markdown file will conditionally be published to GitHub.')
         github_token = config.GITHUB_ACCESS_TOKEN_PATH.read_text().strip()
-        log.info('GitHub access token was read.')
+        log.debug('GitHub access token was read.')
         log.info('The target GitHub repo is "%s" and markdown file path is "%s".',
                  config.GITHUB_PUBLISH_REPO, config.GITHUB_MD_PUBLISH_PATH)
 
@@ -86,17 +86,17 @@ class Results:
         content_new = config.DATA_ARTICLES_MD_PATH.read_text()
 
         try:
-            log.info('Attempting to read existing markdown file on GitHub.')
+            log.debug('Attempting to read existing markdown file on GitHub.')
             contents = repo.get_contents(config.GITHUB_MD_PUBLISH_PATH)
             log.info('Read existing GitHub file.')
         except github.GithubException.UnknownObjectException:
             log.info('Unable to read existing markdown file on GitHub.')
-            log.info('Creating new markdown file on GitHub.')
+            log.debug('Creating new markdown file on GitHub.')
             repo.create_file(path=config.GITHUB_MD_PUBLISH_PATH, message='Publish reviews', content=content_new)
             log.info('Created new GitHub markdown file on GitHub.')
         else:
             if contents.decoded_content.decode() != content_new:
-                log.info('Updating existing markdown file on GitHub.')
+                log.debug('Updating existing markdown file on GitHub.')
                 repo.update_file(path=config.GITHUB_MD_PUBLISH_PATH, message='Refresh reviews', content=content_new,
                                  sha=contents.sha)
                 log.info('Updated existing markdown file on GitHub.')
