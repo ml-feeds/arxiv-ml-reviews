@@ -337,6 +337,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Hypothesis Testing for High-Dimensional Multinomials: A Selective Review (2017)](https://arxiv.org/abs/1712.06120) ([stat.ML](https://arxiv.org/list/stat.ML/recent))
 * [Relation Extraction : A Survey (2017)](https://arxiv.org/abs/1712.05191) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [Mathematics of Deep Learning (2017)](https://arxiv.org/abs/1712.04741) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
+* [Regularization and Optimization strategies in Deep Convolutional Neural Network (2017)](https://arxiv.org/abs/1712.04711) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Review. Machine learning techniques for traffic sign detection (2017)](https://arxiv.org/abs/1712.04391) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Deep Echo State Network (DeepESN): A Brief Survey (2017-2018)](https://arxiv.org/abs/1712.04323) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [AI Safety and Reproducibility: Establishing Robust Foundations for the Neuropsychology of Human Values (2017-2018)](https://arxiv.org/abs/1712.04307) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
