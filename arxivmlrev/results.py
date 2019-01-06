@@ -38,7 +38,7 @@ class Results:
                 self.publish_md()
             else:
                 msg = 'Considering the difference in the number of rows is not positive, the updated markdown file ' \
-                      'is not being published to GitHub.'
+                      'is not being published to GitHub. As needed, it can independently be published to GitHub.'
                 log.info(msg)
 
     def write_md(self) -> None:
