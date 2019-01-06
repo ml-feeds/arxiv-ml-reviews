@@ -17,13 +17,22 @@ log = logging.getLogger(__name__)
 
 class Searcher:
 
+    _NUM_QUERY_ATTEMPTS = 3
+
+    # Ref: https://arxiv.org/help/api/user-manual
+
+    class QueryTypeInvalid(Exception):
+        pass
+
     class ArxivResultsInsufficient(Exception):
         pass
 
     def __init__(self):
         self._log_state()
-        self._query = self._form_query()
+        self._title_query = self._form_title_query()
         self._interval = config.MIN_INTERVAL_BETWEEN_QUERIES
+        self._rss_start = get_resident_set_size()
+        log.debug('Memory used is %s.', humanize_bytes(self._rss_start))
 
     @staticmethod
     def _filter_results(results: List[dict]) -> Iterable[dict]:
@@ -34,75 +43,79 @@ class Searcher:
                 # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
                 continue
             yield result.to_dict
-        log.debug('Completed filtering results.')
+        # log.debug('Completed filtering %s results.', len(results))
 
-    def _form_query(self) -> str:
+    def _form_title_query(self) -> str:
+        category_query = self._set_to_query(config.CATEGORIES, 'cat')
         title_whitelist_query = self._set_to_query(config.TERMS_WHITELIST, 'ti')
         title_blacklist_query = self._set_to_query(config.TERMS_BLACKLIST, 'ti')
-        id_whitelist_query = self._set_to_query(config.URL_ID_WHITELIST, 'id')
-        # Note: Specifying a long ID blacklist clause causes the query to return no results, and so this check is local.
-        category_query = self._set_to_query(config.CATEGORIES, 'cat')
         # Note: Title blacklist has precedence over title whitelist in the query below.
         query = f'''
-            (
-                {category_query}
-                AND {title_whitelist_query}
-                ANDNOT {title_blacklist_query}
-            )
-            OR {id_whitelist_query}
+            {category_query}
+            AND {title_whitelist_query}
+            ANDNOT {title_blacklist_query}
         '''
-        log.info('Search query (multiline version): %s', query)
+        log.info('Title search query (multiline version): %s', query)
         query = query.strip().replace('\n', ' ')
         while '  ' in query:
             query = query.replace('  ', ' ')
         query = query.replace('( ', '(').replace(' )', ')')
         # Note: A sufficiently longer query can very possibly lead to arXiv returning incomplete results.
-        log.debug('Search query (actual single-line version):\n%s', query)
-        log.info('Search query length is %s characters.', len(query))
+        log.debug('Title search query (actual single-line version):\n%s', query)
+        log.info('Title search query length is %s characters.', len(query))
         return query
 
     @staticmethod
     def _log_state() -> None:
         log.info('The %s enabled categories are %s.', len(config.CATEGORIES), readable_list(sorted(config.CATEGORIES)))
-        log.info('The number of terms whitelisted and blacklisted are %s and %s respectively.',
+        log.info('The number of title search terms whitelisted and blacklisted are %s and %s respectively.',
                  len(config.TERMS_WHITELIST), len(config.TERMS_BLACKLIST))
-        log.info('The number of IDs whitelisted and blacklisted are %s and %s respectively.',
+        log.info('The number of search IDs whitelisted and blacklisted are %s and %s respectively.',
                  len(config.URL_ID_WHITELIST), len(config.URL_ID_BLACKLIST))
         log.info('Max results per query is set to %s.', config.MAX_RESULTS_PER_QUERY)
+        log.info('Memory used is %s.', humanize_bytes(get_resident_set_size()))
 
-    def _run_query(self, start: int) -> List[dict]:
-        for attempt in range(3):
-            log.info('Starting query at offset %s.', start)
-            results = arxiv.query(search_query=self._query, start=start,
-                                  max_results=config.MAX_RESULTS_PER_QUERY, sort_by='submittedDate')
-            min_num_expected_results = config.MAX_RESULTS_PER_QUERY if start == 0 else 1
-            # Note: If start > 0, there can actually genuinely be 0 results, but the chances of this are too low.
+    def _run_query(self, *, query_type: str, start: int) -> List[dict]:
+        for attempt in range(self._NUM_QUERY_ATTEMPTS):
+            log.info('Starting %s query at offset %s.', query_type, start)
+            if query_type == 'title':
+                results = arxiv.query(search_query=self._title_query, start=start,
+                                      max_results=config.MAX_RESULTS_PER_QUERY, sort_by='submittedDate')
+                min_num_expected_results = config.MAX_RESULTS_PER_QUERY if start == 0 else 1
+                # Note: If start > 0, there can actually genuinely be 0 results, but the chances of this are too low.
+            elif query_type == 'ID':
+                results = arxiv.query(id_list=sorted(config.URL_ID_WHITELIST), start=start,
+                                      max_results=config.MAX_RESULTS_PER_QUERY, sort_by='submittedDate')
+                min_num_expected_results = min(len(config.URL_ID_WHITELIST) - start, config.MAX_RESULTS_PER_QUERY)
+            else:
+                msg = f'The query type "{query_type}" is invalid.'
+                log.error(msg)
+                raise self.QueryTypeInvalid(msg)
             if len(results) >= min_num_expected_results:
-                log.info('Query returned sufficient (%s) results.', len(results))
+                log.info('The %s query returned %s results which is a sufficient number.', query_type, len(results))
                 break
-            log.warning('Query returned insufficient (%s) results with an expectation of at least %s. '
-                        'It will be rerun.', len(results), min_num_expected_results)
+            log.warning('The %s query returned %s results which is an insufficient number relative to an expectation '
+                        'of at least %s. The query will be rerun.',
+                        query_type, len(results), min_num_expected_results)
             verbose_sleep(self._interval)
             self._interval *= 1.3678794411714423  # 1 + (1/e) == 1.3678794411714423
         else:
-            msg = 'Despite multiple attempts, query failed with insufficient results.'
+            msg = f'Despite multiple attempts, the {query_type} query failed with insufficient results.'
             log.error(msg)
             raise self.ArxivResultsInsufficient(msg)
         return results
 
-    def _run_search(self) -> Iterable[Result]:
+    def _run_search(self, *, search_type: str) -> Iterable[Result]:
         start = 0
-        rss_start = get_resident_set_size()
-        log.info('Memory used before query is %s.', humanize_bytes(rss_start))
         while True:
-            results = self._run_query(start)
+            results = self._run_query(query_type=search_type, start=start)
             query_completion_time = time.time()
             yield from self._filter_results(results)
 
-            rss_excess = humanize_bytes(get_resident_set_size() - rss_start)
+            rss_excess = humanize_bytes(get_resident_set_size() - self._rss_start)
             log.info('Additional memory used since first query is %s.', rss_excess)
             if len(results) < config.MAX_RESULTS_PER_QUERY:
-                log.info('Completed all queries.')
+                log.info('Completed all %s queries.', search_type)
                 return
             start += config.MAX_RESULTS_PER_QUERY
             sleep_time = max(0, self._interval - (time.time() - query_completion_time))
@@ -114,8 +127,13 @@ class Searcher:
         strset = ' OR '.join(f'{prefix}:{s}' for s in sorted(strset))
         return f'({strset})'
 
-    def search(self) -> pd.DataFrame:
-        results = self._run_search()
+    def _search(self, *, search_type: str) -> pd.DataFrame:
+        results = self._run_search(search_type=search_type)
         df = pd.DataFrame(results)
         df = df[config.DATA_ARTICLES_CSV_COLUMNS]
         return df
+
+    def search(self) -> pd.DataFrame:
+        df_results_for_title_search = self._search(search_type='title')
+        df_results_for_id_search = self._search(search_type='ID')
+        return df_results_for_title_search
