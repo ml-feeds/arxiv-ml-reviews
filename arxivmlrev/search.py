@@ -7,7 +7,7 @@ import pandas as pd
 
 from arxivmlrev import config
 from arxivmlrev.util.humanize import humanize_bytes
-from arxivmlrev.util.resource import get_resident_set_size
+from arxivmlrev.util.resource import humanized_rss, resident_set_size
 from arxivmlrev.util.string import readable_list
 from arxivmlrev.util.time import verbose_sleep
 from arxivmlrev.result import Result
@@ -31,7 +31,7 @@ class Searcher:
         self._log_state()
         self._title_query = self._form_title_query()
         self._interval = config.MIN_INTERVAL_BETWEEN_QUERIES
-        self._rss_start = get_resident_set_size()
+        self._rss_start = resident_set_size()
         log.debug('Memory used is %s.', humanize_bytes(self._rss_start))
 
     @staticmethod
@@ -43,7 +43,7 @@ class Searcher:
                 # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
                 continue
             yield result.to_dict
-        # log.debug('Completed filtering %s results.', len(results))
+        log.info('Completed filtering %s results.', len(results))
 
     def _form_title_query(self) -> str:
         category_query = self._set_to_query(config.CATEGORIES, 'cat')
@@ -61,7 +61,7 @@ class Searcher:
             query = query.replace('  ', ' ')
         query = query.replace('( ', '(').replace(' )', ')')
         # Note: A sufficiently longer query can very possibly lead to arXiv returning incomplete results.
-        log.debug('Title search query (actual single-line version):\n%s', query)
+        log.info('Title search query (actual single-line version):\n%s', query)
         log.info('Title search query length is %s characters.', len(query))
         return query
 
@@ -73,7 +73,7 @@ class Searcher:
         log.info('The number of search IDs whitelisted and blacklisted are %s and %s respectively.',
                  len(config.URL_ID_WHITELIST), len(config.URL_ID_BLACKLIST))
         log.info('Max results per query is set to %s.', config.MAX_RESULTS_PER_QUERY)
-        log.info('Memory used is %s.', humanize_bytes(get_resident_set_size()))
+        log.info('Memory used is %s.', humanized_rss())
 
     def _run_query(self, *, query_type: str, start: int) -> List[dict]:
         for attempt in range(self._NUM_QUERY_ATTEMPTS):
@@ -112,7 +112,7 @@ class Searcher:
             query_completion_time = time.time()
             yield from self._filter_results(results)
 
-            rss_excess = humanize_bytes(get_resident_set_size() - self._rss_start)
+            rss_excess = humanize_bytes(resident_set_size() - self._rss_start)
             log.info('Additional memory used since first query is %s.', rss_excess)
             if len(results) < config.MAX_RESULTS_PER_QUERY:
                 log.info('Completed all %s queries.', search_type)
@@ -135,5 +135,21 @@ class Searcher:
 
     def search(self) -> pd.DataFrame:
         df_results_for_title_search = self._search(search_type='title')
+        verbose_sleep(self._interval)
         df_results_for_id_search = self._search(search_type='ID')
-        return df_results_for_title_search
+
+        unnecessary_whitelisted_ids = df_results_for_title_search['URL_ID'][df_results_for_title_search['URL_ID'].isin(
+            df_results_for_id_search['URL_ID'])]
+        if not unnecessary_whitelisted_ids.empty:
+            csv = unnecessary_whitelisted_ids.to_csv(index=False).rstrip().replace('\n', ', ')
+            log.warning('URL ID whitelist has %s unnecessary IDs which are already present in the title search '
+                        'results: %s', len(unnecessary_whitelisted_ids), csv)
+
+        df_results = df_results_for_title_search.append(df_results_for_id_search, ignore_index=True)
+        df_results.sort_values(['Year_Published', 'URL_ID'], ascending=False, inplace=True)
+        df_results.drop_duplicates('URL_ID', inplace=True)  # In case duplicated from ID whitelist.
+        log.info('Concatenated %s title and %s ID search result dataframes into a single dataframe with %s results.',
+                 len(df_results_for_title_search), len(df_results_for_id_search), len(df_results))
+
+        log.info('Memory used is %s.', humanized_rss())
+        return df_results
