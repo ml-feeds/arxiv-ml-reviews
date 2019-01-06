@@ -36,14 +36,16 @@ class Searcher:
 
     @staticmethod
     def _filter_results(results: List[dict]) -> Iterable[dict]:
-        log.debug('Filtering %s results.', len(results))
+        log.debug('Processing %s results.', len(results))
+        num_yielded = 0
         for result in results:
             result = Result(result)
             if (not result.is_id_whitelisted) and (result.is_id_blacklisted or (not result.is_title_whitelisted)):
                 # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
                 continue
             yield result.to_dict
-        log.info('Completed filtering %s results.', len(results))
+            num_yielded += 1
+        log.info('Processed %s results and yielded %s.', len(results), num_yielded)
 
     def _form_title_query(self) -> str:
         category_query = self._set_to_query(config.CATEGORIES, 'cat')
@@ -138,8 +140,12 @@ class Searcher:
         verbose_sleep(self._interval)
         df_results_for_id_search = self._search(search_type='ID')
 
-        unnecessary_whitelisted_ids = df_results_for_title_search['URL_ID'][df_results_for_title_search['URL_ID'].isin(
-            df_results_for_id_search['URL_ID'])]
+        mask = df_results_for_title_search['URL_ID'].isin(df_results_for_id_search['URL_ID'])
+        unnecessary_whitelisted_ids = df_results_for_title_search['URL_ID'][mask]
+        mask = ~unnecessary_whitelisted_ids.isin(config.URL_ID_WHITELIST_INTERSECTION_IGNORED)
+        unnecessary_whitelisted_ids = unnecessary_whitelisted_ids[mask]
+        # Note: df_results_for_title_search doesn't reliably include URL_ID_WHITELIST_INTERSECTION_IGNORED. The reason
+        # for this unpredictability is unknown.
         if not unnecessary_whitelisted_ids.empty:
             csv = unnecessary_whitelisted_ids.to_csv(index=False).rstrip().replace('\n', ', ')
             log.warning('URL ID whitelist has %s unnecessary IDs which are already present in the title search '

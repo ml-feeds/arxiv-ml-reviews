@@ -31,6 +31,7 @@ TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])
 TERMS_WHITELIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 1]['Term'])  # Lowercase phrases without punctuation.
 URL_ID_BLACKLIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 0]['URL_ID'])
 URL_ID_WHITELIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 1]['URL_ID'])
+URL_ID_WHITELIST_INTERSECTION_IGNORED = ['1707.08561']
 
 logging.config.fileConfig(LOGGING_CONF_PATH)
 logging.getLogger(__name__).info('Logging is configured.')
