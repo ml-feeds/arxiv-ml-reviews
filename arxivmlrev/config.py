@@ -25,7 +25,7 @@ GITHUB_ACCESS_TOKEN_PATH = Path('~/.config/github').expanduser()
 GITHUB_MD_PUBLISH_PATH = 'Resources/ArticlesReview.md'
 GITHUB_PUBLISH_REPO = 'freenode-machinelearning/freenode-machinelearning.github.io'
 LOGGING_CONF_PATH = CONFIG_DIR / 'logging.conf'
-MAX_RESULTS_PER_QUERY = 800
+MAX_RESULTS_PER_QUERY = 900
 MIN_INTERVAL_BETWEEN_QUERIES = max(3., math.log(MAX_RESULTS_PER_QUERY))
 TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])
 TERMS_WHITELIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 1]['Term'])  # Lowercase phrases without punctuation.
