@@ -154,7 +154,7 @@ class Searcher:
         df_results = df_results_for_title_search.append(df_results_for_id_search, ignore_index=True)
         df_results.sort_values(['Year_Published', 'URL_ID'], ascending=False, inplace=True)
         df_results.drop_duplicates('URL_ID', inplace=True)  # In case duplicated from ID whitelist.
-        log.info('Concatenated %s title and %s ID search result dataframes into a single dataframe with %s results.',
+        log.info('Concatenated %s title and %s ID search results dataframes into a single dataframe with %s results.',
                  len(df_results_for_title_search), len(df_results_for_id_search), len(df_results))
 
         log.info('Memory used is %s.', humanized_rss())
