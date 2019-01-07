@@ -32,7 +32,7 @@ If a configuration file was updated, rerun the command.
 **Be warned that a sufficiently longer query can very possibly lead to arXiv returning incomplete results,** and this
 will require a rearchitecture of the search.
 
-## refresh-and-publish
+### refresh-and-publish
 Running `python -m arxivmlrev refresh-and-publish` will refresh and also conditionally publish the results.
 Specifically, if the `data/results.csv` file increased in its number of rows, the command will publish the written
 markdown file to GitHub per the GitHub-specific configuration in `config.py`.
