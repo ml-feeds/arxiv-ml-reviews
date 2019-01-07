@@ -14,13 +14,10 @@ pip install -U pip
 pip install -r requirements.in
 ```
 
-## Usage
-### full-refresh
-Running `python -m arxivmlrev full-refresh --publish=False` will:
-1. Rerun the full search and write the results to `data/articles.csv` and `data/articles.md`.
-2. If the `data/results.csv` file increased in its number of rows, the command can publish the written markdown file
-to GitHub per the GitHub-specific configuration in `config.py`. To enable this step, run the command without
-`--publish=False`.
+## Usage commands
+### refresh
+Running `python -m arxivmlrev refresh` will rerun the full online search and write the results to `data/articles.csv`
+and `data/articles.md`.
 
 Use git to discern whether the diff of this updated CSV file looks acceptable.
 If the CSV file is smaller for any reason, it means the search query failed, in which case it should be rerun.
@@ -35,12 +32,20 @@ If a configuration file was updated, rerun the command.
 **Be warned that a sufficiently longer query can very possibly lead to arXiv returning incomplete results,** and this
 will require a rearchitecture of the search.
 
+## refresh-and-publish
+Running `python -m arxivmlrev refresh-and-publish` will refresh and also conditionally publish the results.
+Specifically, if the `data/results.csv` file increased in its number of rows, the command will publish the written
+markdown file to GitHub per the GitHub-specific configuration in `config.py`.
+In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
+
 ### write-md
-Running `python -m arxivmlrev write-md` will only refresh the markdown file `data/articles.md` from `data/articles.csv`.
+Running `python -m arxivmlrev write-md` will perform an offline refresh of the markdown file `data/articles.md` from
+`data/articles.csv`.
 
 ### publish-md
-Running `python -m arxivmlrev publish-md` will only publish the markdown file `data/articles.md` to GitHub.
+Running `python -m arxivmlrev publish-md` will publish the markdown file `data/articles.md` to GitHub.
 This requires GitHub-specific configuration in `config.py`.
+In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
 
 ## To do
 * By default, run an incremental update, and provide an option to do a full rerun.

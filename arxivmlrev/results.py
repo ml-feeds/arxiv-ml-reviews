@@ -21,8 +21,8 @@ class Results:
         self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
         log.info('Finished writing CSV file with %s rows.', len(self._df_results))
 
-    def full_refresh(self, *, publish=True) -> None:
-        """Refresh search results, write them locally, and conditionally publish them."""
+    def refresh(self) -> int:
+        """Refresh search results locally."""
         df_results_old = self._df_results
         log.info('Preexisting CSV data file has %s rows.', len(df_results_old))
         df_results_new = self._df_results = Searcher().search()
@@ -33,13 +33,17 @@ class Results:
         self._write_csv()
         self.write_md()
         log.info('Any newly written data files can be checked into the remote repository.')
-        if publish:
-            if num_increase > 0:
-                self.publish_md()
-            else:
-                msg = 'Considering the difference in the number of rows is not positive, the updated markdown file ' \
-                      'is not being published to GitHub. As needed, it can independently be published to GitHub.'
-                log.info(msg)
+        return num_increase
+
+    def refresh_and_publish(self) -> None:
+        """Refresh search results locally, and conditionally publish them."""
+        num_increase = self.refresh()
+        if num_increase > 0:
+            self.publish_md()
+        else:
+            msg = 'Considering the difference in the number of rows is not positive, the updated markdown file ' \
+                  'is not being published to GitHub. As needed, it can independently be published to GitHub.'
+            log.info(msg)
 
     def write_md(self) -> None:
         """Write the search results to a markdown file locally."""

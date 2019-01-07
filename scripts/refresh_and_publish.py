@@ -1,3 +1,3 @@
 from arxivmlrev.results import Results
 
-Results().full_refresh(publish=False)
+Results().refresh_and_publish()
