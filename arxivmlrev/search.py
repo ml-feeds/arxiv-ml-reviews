@@ -74,7 +74,7 @@ class Searcher:
                  len(config.TERMS_WHITELIST), len(config.TERMS_BLACKLIST))
         log.info('The number of search IDs whitelisted and blacklisted are %s and %s respectively.',
                  len(config.URL_ID_WHITELIST), len(config.URL_ID_BLACKLIST))
-        log.info('Max results per query is set to %s.', config.MAX_RESULTS_PER_QUERY)
+        log.debug('Max results per query is set to %s.', config.MAX_RESULTS_PER_QUERY)
         log.info('Memory used is %s.', humanized_rss())
 
     def _run_query(self, *, query_type: str, start: int) -> List[dict]:
