@@ -78,7 +78,7 @@ class Searcher:
         log.info('Memory used is %s.', humanized_rss())
 
     def _run_query(self, *, query_type: str, start: int) -> List[dict]:
-        for attempt in range(self._NUM_QUERY_ATTEMPTS):
+        for num_query_attempt in range(1, self._NUM_QUERY_ATTEMPTS + 1):
             log.info('Starting %s query at offset %s.', query_type, start)
             if query_type == 'title':
                 results = arxiv.query(search_query=self._title_query, start=start,
@@ -96,11 +96,12 @@ class Searcher:
             if len(results) >= min_num_expected_results:
                 log.info('The %s query returned %s results which is a sufficient number.', query_type, len(results))
                 break
-            log.warning('The %s query returned %s results which is an insufficient number relative to an expectation '
-                        'of at least %s. The query will be rerun.',
-                        query_type, len(results), min_num_expected_results)
-            verbose_sleep(self._interval)
-            self._interval *= 1.3678794411714423  # 1 + (1/e) == 1.3678794411714423
+            if num_query_attempt != self._NUM_QUERY_ATTEMPTS:
+                log.warning('The %s query returned %s results which is an insufficient number relative to an '
+                            'expectation of at least %s. The query will be rerun.',
+                            query_type, len(results), min_num_expected_results)
+                verbose_sleep(self._interval)
+                self._interval *= 1.3678794411714423  # 1 + (1/e) == 1.3678794411714423
         else:
             msg = f'Despite multiple attempts, the {query_type} query failed with insufficient results.'
             log.error(msg)
