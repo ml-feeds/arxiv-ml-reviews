@@ -1,5 +1,8 @@
 # Review articles
 This is a mostly auto-generated list of review articles on machine learning and artificial intelligence that         are on [arXiv](https://arxiv.org/).         Although some of them were written for a specific technical audience or application, the techniques described         are nonetheless generally relevant.         The list is sorted reverse chronologically. It was generated on 2019-01-14.         It includes articles mainly from the arXiv categories [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), [eess.IV](https://arxiv.org/list/eess.IV/recent), and [stat.ML](https://arxiv.org/list/stat.ML/recent).         A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews).         The [source code](https://github.com/impredicative/arxiv-ml-reviews) along with         [raw data](https://raw.githubusercontent.com/impredicative/arxiv-ml-reviews/master/data/articles.csv) for         generating this page are linked.         This page is currently not automatically updated.
+* [Natural Disasters Detection in Social Media and Satellite imagery: a survey (2019)](https://arxiv.org/abs/1901.04277) ([cs.IR](https://arxiv.org/list/cs.IR/recent))
+* [Image Based Review Text Generation with Emotional Guidance (2019)](https://arxiv.org/abs/1901.04140) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
+* [Hybrid Recommender Systems: A Systematic Literature Review (2019)](https://arxiv.org/abs/1901.03888) ([cs.IR](https://arxiv.org/list/cs.IR/recent))
 * [A survey on acoustic sensing (2019)](https://arxiv.org/abs/1901.03450) ([cs.SD](https://arxiv.org/list/cs.SD/recent))
 * [Deep Learning for Anomaly Detection: A Survey (2019)](https://arxiv.org/abs/1901.03407) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [A Comprehensive guide to Bayesian Convolutional Neural Network with Variational Inference (2019)](https://arxiv.org/abs/1901.02731) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
@@ -15,7 +18,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [A Survey on Multi-output Learning (2019)](https://arxiv.org/abs/1901.00248) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [FPGA-based Accelerators of Deep Learning Networks for Learning and Classification: A Review (2019)](https://arxiv.org/abs/1901.00121) ([cs.NE](https://arxiv.org/list/cs.NE/recent))
 * [Machine Translation: A Literature Review (2018)](https://arxiv.org/abs/1901.01122) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
-* [An introduction to domain adaptation and transfer learning (2018)](https://arxiv.org/abs/1812.11806) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
+* [An introduction to domain adaptation and transfer learning (2018-2019)](https://arxiv.org/abs/1812.11806) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Deep Reinforcement Learning for Multi-Agent Systems: A Review of Challenges, Solutions and Applications (2018)](https://arxiv.org/abs/1812.11794) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Knowledge Representation Learning: A Quantitative Review (2018)](https://arxiv.org/abs/1812.10901) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [A Summary of Adaptation of Techniques from Search-based Optimal Multi-Agent Path Finding Solvers to Compilation-based Approach (2018)](https://arxiv.org/abs/1812.10851) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
@@ -23,7 +26,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [A Review on The Use of Deep Learning in Android Malware Detection (2018)](https://arxiv.org/abs/1812.10360) ([cs.CR](https://arxiv.org/list/cs.CR/recent))
 * [A Survey to Deep Facial Attribute Analysis (2018)](https://arxiv.org/abs/1812.10265) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [A Survey on Deep Learning for Named Entity Recognition (2018)](https://arxiv.org/abs/1812.09449) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
-* [Analysis Methods in Neural Language Processing: A Survey (2018)](https://arxiv.org/abs/1812.08951) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
+* [Analysis Methods in Neural Language Processing: A Survey (2018-2019)](https://arxiv.org/abs/1812.08951) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [Computational Anatomy for Multi-Organ Analysis in Medical Imaging: A Review (2018)](https://arxiv.org/abs/1812.08577) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Graph Neural Networks: A Review of Methods and Applications (2018-2019)](https://arxiv.org/abs/1812.08434) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [A Survey of Hierarchy Identification in Social Networks (2018)](https://arxiv.org/abs/1812.08425) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
