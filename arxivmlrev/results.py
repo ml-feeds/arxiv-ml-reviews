@@ -38,12 +38,12 @@ class Results:
     def refresh_and_publish(self) -> None:
         """Refresh search results locally, and conditionally publish them."""
         num_increase = self.refresh()
-        if num_increase > 0:
+        if num_increase >= 0:
             self.publish_md()
         else:
-            msg = 'Considering the difference in the number of rows is not positive, the updated markdown file ' \
-                  'is not being published to GitHub. As needed, it can independently be published to GitHub.'
-            log.info(msg)
+            msg = 'Considering the difference in the number of rows is negative, the updated markdown file ' \
+                  'is not being published to GitHub.'
+            log.error(msg)
 
     def write_md(self) -> None:
         """Write the search results to a markdown file locally."""
