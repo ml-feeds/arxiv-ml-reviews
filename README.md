@@ -34,8 +34,8 @@ will require a rearchitecture of the search.
 
 ### refresh-and-publish
 Running `python -m arxivmlrev refresh-and-publish` will refresh and also conditionally publish the results.
-Specifically, if the `data/results.csv` file increased in its number of rows, the command will publish the written
-markdown file to GitHub per the GitHub-specific configuration in `config.py`.
+Specifically, if the `data/results.csv` file changed but didn't decrease in its number of rows, the command will publish
+the written markdown file to GitHub per the GitHub-specific configuration in `config.py`.
 In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
 
 ### write-md
@@ -48,6 +48,7 @@ This requires GitHub-specific configuration in `config.py`.
 In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
 
 ## To do
+* Refactor to deploy as a RSS feed with the most recently updated 20 results.
 * By default, run an incremental update, and provide an option to do a full rerun.
 An incremental update assumes an unchanged configuration.
 This also require changing the code to sort the results by *lastUpdatedDate* rather than by *submittedDate*.
