@@ -21,7 +21,7 @@ jinja2==2.10              # via flask
 lxml==4.3.0               # via feedgen
 markupsafe==1.1.0         # via jinja2
 numpy==1.16.0             # via pandas
-pandas==0.23.4
+pandas==0.24.0
 pygithub==1.43.4
 pyjwt==1.7.1              # via pygithub
 python-dateutil==2.7.5    # via feedgen, pandas
