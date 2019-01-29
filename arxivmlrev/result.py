@@ -1,8 +1,6 @@
 from dataclasses import dataclass
 from string import punctuation
-from typing import Dict, List, Set, Union
-
-import pandas as pd
+from typing import Dict, Set, Union
 
 from arxivmlrev import config
 
@@ -70,10 +68,6 @@ class Result:
     @property
     def year_updated(self) -> int:
         return self.result['updated_parsed'].tm_year
-
-    def to_csv(self, columns: List[str]) -> str:
-        df = pd.DataFrame([self.to_dict])[columns]
-        return df.to_csv(header=False, index=False, line_terminator='')
 
     @property
     def to_dict(self) -> Dict[str, Union[str, int]]:
