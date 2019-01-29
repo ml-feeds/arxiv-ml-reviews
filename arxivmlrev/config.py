@@ -31,9 +31,11 @@ DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Category', 'Title', 'Year_Published', 'Y
 DATA_ARTICLES_CSV_PATH = DATA_DIR / 'articles.csv'
 DATA_ARTICLES_MD_PATH = DATA_DIR / 'articles.md'
 FEED_CACHE_TTL = datetime.timedelta(hours=23).total_seconds()
-FEED_DESCRIPTION = 'Review articles on machine learning and artificial intelligence that are on arXiv'
+FEED_DESCRIPTION = 'Review articles on machine learning and artificial intelligence that are on arXiv. ' \
+                   'As a disclaimer, this feed has no affiliation with arXiv.'
 FEED_NUM_ITEMS = 20
-FEED_TITLE = 'ArXiv ML/AI reviews'
+FEED_SOURCE_URL = 'https://arxiv.org/'
+FEED_TITLE = 'arXiv ML/AI reviews'
 GITHUB_ACCESS_TOKEN_PATH = Path('~/.config/github').expanduser()
 GITHUB_MD_PUBLISH_PATH = 'Resources/ArticlesReview.md'
 GITHUB_PUBLISH_REPO = 'freenode-machinelearning/freenode-machinelearning.github.io'
