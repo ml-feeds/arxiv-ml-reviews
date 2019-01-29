@@ -82,12 +82,12 @@ class Searcher:
             log.info('Starting %s query at offset %s.', query_type, start)
             if query_type == 'title':
                 results = arxiv.query(search_query=self._title_query, start=start,
-                                      max_results=config.MAX_RESULTS_PER_QUERY, sort_by='submittedDate')
+                                      max_results=config.MAX_RESULTS_PER_QUERY, sort_by='lastUpdatedDate')
                 min_num_expected_results = config.MAX_RESULTS_PER_QUERY if start == 0 else 1
                 # Note: If start > 0, there can actually genuinely be 0 results, but the chances of this are too low.
             elif query_type == 'ID':
                 results = arxiv.query(id_list=sorted(config.URL_ID_WHITELIST), start=start,
-                                      max_results=config.MAX_RESULTS_PER_QUERY, sort_by='submittedDate')
+                                      max_results=config.MAX_RESULTS_PER_QUERY, sort_by='lastUpdatedDate')
                 min_num_expected_results = min(len(config.URL_ID_WHITELIST) - start, config.MAX_RESULTS_PER_QUERY)
             else:
                 msg = f'The query type "{query_type}" is invalid.'
