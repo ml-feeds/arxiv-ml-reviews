@@ -55,23 +55,40 @@ class Result:
 
     @property
     def url_id(self) -> str:
-        """Return the unique URL ID.
+        """Return the unique version-agnostic URL ID.
 
-        Unlike `self.result['id']`, the URL ID is actually unique, especially for results older than 2007.
+        Unlike `self.result['id']`, this version-agnostic URL ID is actually unique, especially for results older than
+        2007.
         """
         return self.result['arxiv_url'].replace('http://arxiv.org/abs/', '', 1).rsplit('v', 1)[0]
 
     @property
-    def year_published(self) -> int:
-        return self.result['published_parsed'].tm_year
+    def url_id_versioned(self) -> str:
+        """Return the unique versioned URL ID.
+
+        Unlike `self.result['id']`, this versioned URL ID is actually unique, especially for results older than 2007.
+        """
+        return self.result['arxiv_url'].replace('http://arxiv.org/abs/', '', 1)
 
     @property
-    def year_updated(self) -> int:
-        return self.result['updated_parsed'].tm_year
+    def published(self) -> int:
+        return self.result['published_parsed']
+
+    @property
+    def updated(self) -> int:
+        return self.result['updated_parsed']
+
+    @property
+    def published_year(self) -> int:
+        return self.published.tm_year
+
+    @property
+    def updated_year(self) -> int:
+        return self.updated.tm_year
 
     @property
     def to_dict(self) -> Dict[str, Union[str, int]]:
-        return {'URL_ID': self.url_id, 'Category': self.category, 'Title': self.title,
+        return {'URL_ID': self.url_id, 'Category': self.category, 'Title': self.title, 'Abstract': self.abstract,
+                'Published': self.published, 'Updated': self.updated,
                 'Year_Published': self.year_published, 'Year_Updated': self.year_updated,
-                'Abstract': self.abstract,
                 }
