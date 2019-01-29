@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from string import punctuation
-from typing import Dict, Set, Union
+from typing import Dict, List, Union
 
 from arxivmlrev import config
 
@@ -24,12 +24,24 @@ class Result:
         return self.result['summary']
 
     @property
-    def categories(self) -> Set[str]:
-        return set(d['term'] for d in self.result['tags']) | set([self.category])
+    def categories(self) -> List[str]:
+        categories = [tag['term'] for tag in self.result['tags']]
+        categories = [c for c in categories if ' ' not in c]  # Example of invalid category: 'A.1; I.2.7'
+        categories.sort()
+
+        # Ensure primary category is first
+        primary = self.category
+        try:
+            categories.remove(primary)
+        except ValueError:
+            pass
+        categories.insert(0, primary)
+
+        return categories
 
     @property
     def categories_str(self) -> str:
-        return ', '.join(sorted(self.categories))
+        return ', '.join(self.categories)
 
     @property
     def category(self) -> str:
@@ -60,7 +72,7 @@ class Result:
         Unlike `self.result['id']`, this version-agnostic URL ID is actually unique, especially for results older than
         2007.
         """
-        return self.result['arxiv_url'].replace('http://arxiv.org/abs/', '', 1).rsplit('v', 1)[0]
+        return self.url_id_versioned.rsplit('v', 1)[0]
 
     @property
     def url_id_versioned(self) -> str:
@@ -69,6 +81,10 @@ class Result:
         Unlike `self.result['id']`, this versioned URL ID is actually unique, especially for results older than 2007.
         """
         return self.result['arxiv_url'].replace('http://arxiv.org/abs/', '', 1)
+
+    @property
+    def version(self) -> str:
+        return self.url_id_versioned.rsplit('v', 1)[1]
 
     @property
     def published(self) -> int:
@@ -88,7 +104,10 @@ class Result:
 
     @property
     def to_dict(self) -> Dict[str, Union[str, int]]:
-        return {'URL_ID': self.url_id, 'Category': self.category, 'Title': self.title, 'Abstract': self.abstract,
+        assert self.categories_str.startswith(self.category)
+        return {'URL_ID': self.url_id, 'Version': self.version,
+                'Category': self.category, 'Categories': self.categories_str,
+                'Title': self.title, 'Abstract': self.abstract,
                 'Published': self.published, 'Updated': self.updated,
-                'Year_Published': self.year_published, 'Year_Updated': self.year_updated,
+                'Year_Published': self.published_year, 'Year_Updated': self.updated_year,
                 }
