@@ -40,6 +40,7 @@ GITHUB_PUBLISH_REPO = 'freenode-machinelearning/freenode-machinelearning.github.
 LOGGING_CONF_PATH = CONFIG_DIR / 'logging.conf'
 MAX_RESULTS_PER_QUERY = 2000 - 2
 MIN_INTERVAL_BETWEEN_QUERIES = max(3., math.log(MAX_RESULTS_PER_QUERY))
+SOURCE_TZ_NAME = 'US/Eastern'
 TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])
 TERMS_WHITELIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 1]['Term'])  # Lowercase phrases without punctuation.
 URL_ID_BLACKLIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 0]['URL_ID'])
