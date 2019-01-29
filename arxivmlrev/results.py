@@ -5,6 +5,7 @@ from github import Github
 import pandas as pd
 
 from arxivmlrev import config
+from arxivmlrev.feed import Feed
 from arxivmlrev.search import Searcher
 from arxivmlrev.util.string import readable_list
 
@@ -20,6 +21,11 @@ class Results:
     def _write_csv(self) -> None:
         self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
         log.info('Finished writing CSV file with %s rows.', len(self._df_results))
+
+    @staticmethod
+    def feed() -> bytes:
+        """Query and return a RSS feed of the most recently updated search results."""
+        return Feed().feed()
 
     def refresh(self) -> int:
         """Refresh search results locally."""
