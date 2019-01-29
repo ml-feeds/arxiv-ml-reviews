@@ -2,6 +2,8 @@ from dataclasses import dataclass
 from string import punctuation
 from typing import Dict, List, Union
 
+from dateutil.parser import parse as dateutil_parse
+
 from arxivmlrev import config
 
 
@@ -88,23 +90,22 @@ class Result:
 
     @property
     def published(self) -> int:
-        return self.result['published_parsed']
+        return dateutil_parse(self.result['published'])  # tz aware
 
     @property
     def updated(self) -> int:
-        return self.result['updated_parsed']
+        return dateutil_parse(self.result['updated'])  # tz aware
 
     @property
     def published_year(self) -> int:
-        return self.published.tm_year
+        return self.published.year
 
     @property
     def updated_year(self) -> int:
-        return self.updated.tm_year
+        return self.updated.year
 
     @property
     def to_dict(self) -> Dict[str, Union[str, int]]:
-        assert self.categories_str.startswith(self.category)
         return {'URL_ID': self.url_id, 'Version': self.version,
                 'Category': self.category, 'Categories': self.categories_str,
                 'Title': self.title, 'Abstract': self.abstract,
