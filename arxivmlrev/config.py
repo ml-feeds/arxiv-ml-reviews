@@ -35,7 +35,7 @@ FEED_DESCRIPTION = 'Review articles on machine learning and artificial intellige
                    'As a disclaimer, this feed has no affiliation with arXiv.'
 FEED_NUM_ITEMS = 20
 FEED_SOURCE_URL = 'https://arxiv.org/'
-FEED_TITLE = 'arXiv ML/AI reviews'
+FEED_TITLE = 'arXiv ML/AI reviews (unaffiliated)'
 GITHUB_ACCESS_TOKEN_PATH = Path('~/.config/github').expanduser()
 GITHUB_MD_PUBLISH_PATH = 'Resources/ArticlesReview.md'
 GITHUB_PUBLISH_REPO = 'freenode-machinelearning/freenode-machinelearning.github.io'
