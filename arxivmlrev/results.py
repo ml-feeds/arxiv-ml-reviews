@@ -20,15 +20,6 @@ class Results:
         self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
         log.info('Finished writing CSV file with %s rows.', len(self._df_results))
 
-    @staticmethod
-    def feed() -> bytes:
-        """Return the XML of a RSS feed of the most recently updated search results."""
-        feed = Feed().feed()
-        feed_path = config.DATA_DIR / 'feed.xml'
-        feed_path.write_bytes(feed)
-        log.info('Feed was written to %s.', feed_path)
-        return feed
-
     def refresh(self) -> int:
         """Refresh search results locally."""
         df_results_old = self._df_results
@@ -52,6 +43,15 @@ class Results:
             msg = 'Considering the difference in the number of rows is negative, the updated markdown file ' \
                   'is not being published to GitHub.'
             log.error(msg)
+
+    @staticmethod
+    def write_feed() -> bytes:
+        """Return the XML of a RSS feed of the most recently updated search results."""
+        feed = Feed().feed()
+        feed_path = config.DATA_DIR / 'feed.xml'
+        feed_path.write_bytes(feed)
+        log.info('Feed was written to %s.', feed_path)
+        return feed
 
     def write_md(self) -> None:
         """Write the search results to a markdown file locally."""

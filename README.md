@@ -36,6 +36,10 @@ Specifically, if the `data/results.csv` file changed but didn't decrease in its 
 the written markdown file to GitHub per the GitHub-specific configuration in `config.py`.
 In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
 
+### write-feed
+Running `python -m arxivmlrev write-feed` will perform an online search to write the XML file `data/feed.xml`.
+This file is excluded from git.
+
 ### write-md
 Running `python -m arxivmlrev write-md` will perform an offline refresh of the markdown file `data/articles.md` from
 `data/articles.csv`.
@@ -46,7 +50,6 @@ This requires GitHub-specific configuration in `config.py`.
 In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
 
 ## To do
-* Refactor to deploy as a RSS feed with the most recently updated 20 results.
 * By default, run an incremental update, and provide an option to do a full rerun.
 An incremental update assumes an unchanged configuration.
 This also require changing the code to sort the results by *lastUpdatedDate* rather than by *submittedDate*.

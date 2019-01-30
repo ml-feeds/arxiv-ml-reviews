@@ -1,3 +1,3 @@
 from arxivmlrev.results import Results
 
-Results().feed()
+Results().write_feed()
