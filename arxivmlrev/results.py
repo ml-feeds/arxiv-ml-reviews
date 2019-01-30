@@ -68,8 +68,8 @@ class Results:
         It was generated on {date.today()}. \
         It includes articles mainly from the arXiv categories {categories}. \
         A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews). \
-        The [source code](https://github.com/impredicative/arxiv-ml-reviews) along with \
-        [raw data](https://raw.githubusercontent.com/impredicative/arxiv-ml-reviews/master/data/articles.csv) for \
+        The [source code](https://github.com/ml-feeds/arxiv-ml-reviews) along with \
+        [raw data](https://raw.githubusercontent.com/ml-feeds/arxiv-ml-reviews/master/data/articles.csv) for \
         generating this page are linked. \
         This page is currently not automatically updated.
         """.strip()
