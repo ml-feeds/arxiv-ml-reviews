@@ -1,160 +1,161 @@
-Presence,URL_ID,Category,Title
-1,1901.01341,cs.LG,Sheaves: A Topological Approach to Big Data
-1,1810.06339,cs.LG,Deep Reinforcement Learning
-1,1808.08497,cs.AI,FinBrain: When Finance Meets AI 2.0
-1,1807.11573,cs.CV,State-of-the-art and gaps for deep learning on limited training data in remote sensing
-1,1806.11484,hep-ex,Deep Learning and its Application to LHC Physics
-1,1806.10897,cs.LG,"Deep learning in business analytics and operations research: Models, applications and managerial implications"
-1,1806.02308,cs.AI,"Model-free, Model-based, and General Intelligence"
-1,1804.08150,cs.NE,Deep Learning in Spiking Neural Networks
-1,1804.06458,cs.AI,Deep Probabilistic Programming Languages: A Qualitative Study
-1,1802.01528,cs.LG,The Matrix Calculus You Need For Deep Learning
-1,1712.04711,cs.CV,Regularization and Optimization strategies in Deep Convolutional Neural Network
-1,1712.03141,cs.CV,Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning
-1,1711.01134,cs.AI,Accountability of AI Under the Law: The Role of Explanation
-1,1709.02779,quant-ph,Machine learning \& artificial intelligence in the quantum domain
-1,1708.07902,cs.AI,Deep Learning for Video Game Playing
-1,1707.08561,quant-ph,Quantum machine learning: a classical perspective
-1,1707.07217,cs.RO,Deep Learning in Robotics: A Review of Recent Research
-1,1706.09077,cs.CV,Super-Resolution via Deep Learning
-1,1705.01509,cs.IR,Neural Models for Information Retrieval
-1,1702.07800,cs.LG,On the Origin of Deep Learning
-1,1701.01887,cs.LG,Deep Learning for Time-Series Analysis
-1,1611.09347,quant-ph,Quantum Machine Learning
-1,1611.08097,cs.CV,Geometric deep learning: going beyond Euclidean data
-1,1606.05386,stat.ML,Model-Agnostic Interpretability of Machine Learning
-1,1606.04838,stat.ML,Optimization Methods for Large-Scale Machine Learning
-1,1603.06430,cs.LG,Deep Learning in Bioinformatics
-0,cs/9904001,cs.CY,A Proposal for the Establishment of Review Boards - a flexible approach to the selection of academic knowledge
-0,cs/0611113,cs.CL,"An Anthological Review of Research Utilizing MontyLingua, a Python-Based End-to-End Text Processor"
-0,cs/0607051,cs.CL,Raisonner avec des diagrammes : perspectives cognitives et computationnelles
-0,cs/0605120,cs.AI,"Understanding Design Fundamentals: How Synthesis and Analysis Drive Creativity, Resulting in Emergence"
-0,cs/0408048,cs.CY,Journal of New Democratic Methods: An Introduction
-0,cs/0312059,cs.AI,"Polyhierarchical Classifications Induced by Criteria Polyhierarchies, and Taxonomy Algebra"
-0,cs/0210026,cs.CR,Encoding a Taxonomy of Web Attacks with Different-Length Vectors
-0,cs/0203012,cs.MA,Interface agents: A review of the field
-0,cmp-lg/9805004,cmp-lg,Annotation Style Guide for the Blinker Project
-0,cmp-lg/9506019,cmp-lg,"Review of Charniak's ""Statistical Language Learning"""
-0,1812.10111,cs.GR,A Survey on Non-rigid 3D Shape Analysis
-0,1812.08102,cs.CV,The Random Forest Classifier in WEKA: Discussion and New Developments for Imbalanced Data
-0,1812.03362,cs.LG,Letting symmetry guide visualization: multidimensional scaling on groups
-0,1812.02580,cs.AI,Selected Qualitative Spatio-temporal Calculi Developed for Constraint Reasoning: A Review
-0,1812.01259,eess.IV,"Camera Based Optical Communications, Localization, Navigation, and Motion Capture: A Survey"
-0,1812.01077,cs.SI,Brief survey of Mobility Analyses based on Mobile Phone Datasets
-0,1811.12787,cs.AI,A Tutorial for Weighted Bipolar Argumentation with Continuous Dynamical Systems and the Java Library Attractor
-0,1811.12455,cs.AI,Unifying Decision-Making: a Review on Evolutionary Theories on Rationality and Cognitive Biases
-0,1811.11815,cs.LG,Unrepresentative video data: A review and evaluation
-0,1811.11277,cs.AI,"Is it Safe to Drive? An Overview of Factors, Challenges, and Datasets for Driveability Assessment in Autonomous Driving"
-0,1811.10120,cs.HC,A Survey of Mobile Computing for the Visually Impaired
-0,1811.07988,cs.CV,Automated Pain Detection from Facial Expressions using FACS: A Review
-0,1811.05724,cs.AI,An Introduction to Fuzzy & Annotated Semantic Web Languages
-0,1810.09729,cs.RO,"Design Challenges of Multi-UAV Systems in Cyber-Physical Applications: A Comprehensive Survey, and Future Directions"
-0,1810.09440,astro-ph.IM,Deep multi-survey classification of variable stars
-0,1810.09245,cs.AI,A Review on Learning Planning Action Models for Socio-Communicative HRI
-0,1810.08649,cs.NE,The Optimal ANN Model for Predicting Bearing Capacity of Shallow Foundations Trained on Scarce Data
-0,1810.06765,cs.AI,A survey of automatic de-identification of longitudinal clinical narratives
-0,1810.02529,q-fin.CP,An Introduction to fast-Super Paramagnetic Clustering
-0,1809.10959,cs.CY,"Overview of PicTropes, a film trope dataset"
-0,1809.03944,cs.CL,Multilingual Cross-domain Perspectives on Online Hate Speech
-0,1809.02862,cs.IR,A survey of food recommenders
-0,1808.08433,cs.AI,A Tutorial on Modular Ontology Modeling with Ontology Design Patterns: The Cooking Recipes Ontology
-0,1808.05542,cs.CL,Overview of the CLEF-2018 CheckThat! Lab on Automatic Identification and Verification of Political Claims. Task 1: Check-Worthiness
-0,1808.02290,cs.CL,How did the discussion go: Discourse act classification in social media conversations
-0,1808.01690,cs.AI,Error Detection in a Large-Scale Lexical Taxonomy
-0,1806.06876,cs.CV,Diving Deep onto Discriminative Ensemble of Histological Hashing & Class-Specific Manifold Learning for Multi-class Breast Carcinoma Taxonomy
-0,1805.07663,cs.CV,An Evaluation of Trajectory Prediction Approaches and Notes on the TrajNet Benchmark
-0,1804.07958,cs.IR,Expert Finding in Community Question Answering: A Review
-0,1804.00494,cs.CV,A Review on Image Texture Analysis Methods
-0,1804.00038,cs.AI,Overview: A Hierarchical Framework for Plan Generation and Execution in Multi-Robot Systems
-0,1803.06818,cs.AI,Artificial Intelligence Enabled Software Defined Networking: A Comprehensive Overview
-0,1803.05181,cs.HC,Can Autism be Catered with Artificial Intelligence-Assisted Intervention Technology? A Literature Review
-0,1803.02205,cs.SE,Code Review Comments: Language Matters
-0,1801.09036,cs.CL,A Sheaf Model of Contradictions and Disagreements. Preliminary Report and Discussion
-0,1801.00218,cs.AI,Game-theoretic Network Centrality: A Review
-0,1712.08865,q-bio.MN,Biological Systems as Heterogeneous Information Networks: A Mini-review and Perspectives
-0,1712.01930,cs.CY,"Predicting Demographics, Moral Foundations, and Human Values from Digital Behaviors"
-0,1709.06758,cs.IR,A shared latent space matrix factorisation method for recommending new trial evidence for systematic review updates
-0,1709.05940,cs.CV,Normal Integration: A Survey
-0,1709.04299,cs.HC,A Survey of Calibration Methods for Optical See-Through Head-Mounted Displays
-0,1709.00813,cs.CL,From Review to Rating: Exploring Dependency Measures for Text Classification
-0,1707.09837,stat.ML,Review of Machine Learning Algorithms in Differential Expression Analysis
-0,1707.05413,cs.CV,Photosensor Oculography: Survey and Parametric Analysis of Designs using Model-Based Simulation
-0,1706.00005,cs.SD,Feature Extraction for Machine Learning Based Crackle Detection in Lung Sounds from a Health Survey
-0,1705.08244,cs.CV,On the mathematics of beauty: beautiful images
-0,1705.07606,stat.ML,Guide Actor-Critic for Continuous Control
-0,1705.04009,cs.IR,A survey of Community Question Answering
-0,1705.03967,cs.LG,GQ($λ$) Quick Reference and Implementation Guide
-0,1702.06677,cs.CY,Discussion quality diffuses in the digital public square
-0,1701.02664,cs.CV,ChaLearn Looking at People: A Review of Events and Resources
-0,1701.00991,cs.IR,World Literature According to Wikipedia: Introduction to a DBpedia-Based Framework
-0,1612.06795,cs.CV,Two decades of local binary patterns: A survey
-0,1611.01228,cs.IR,URL ordering policies for distributed crawlers: a review
-0,1610.03793,cs.LG,"Introduction to the ""Industrial Benchmark"""
-0,1609.08049,cs.DL,Towards Evidence-Based Ontology for Supporting Systematic Literature Review
-0,1609.03457,cs.DL,Math-Aware Search Engines: Physics Applications and Overview
-0,1609.00066,stat.ME,A Review of Multivariate Distributions for Count Data Derived from the Poisson Distribution
-0,1608.06582,q-bio.QM,Approximation and inference methods for stochastic biochemical kinetics - a tutorial review
-0,1608.02441,cs.AI,Proceedings of the Second Summer School on Argumentation: Computational and Linguistic Perspectives (SSA'16)
-0,1607.00331,cs.CV,Machine-based Multimodal Pain Assessment Tool for Infants: A Review
-0,1605.09351,cs.LG,Review of Fall Detection Techniques: A Data Availability Perspective
-0,1605.07912,cs.LG,Review Networks for Caption Generation
-0,1604.00999,cs.CV,"RGBD Datasets: Past, Present and Future"
-0,1603.06028,cs.CR,"A Survey of Stealth Malware: Attacks, Mitigation Measures, and Steps Toward Autonomous Open World Solutions"
-0,1602.08855,cs.CV,Pandora: Description of a Painting Database for Art Movement Recognition with Baselines and Perspectives
-0,1601.05511,cs.CV,RGB-D-based Action Recognition Datasets: A Survey
-0,1512.07454,cs.CY,Evaluation-as-a-Service: Overview and Outlook
-0,1511.08996,cs.IR,Entity Suggestion by Example using a Conceptual Taxonomy
-0,1511.03780,cs.IR,A User's Guide to CARSKit
-0,1511.01960,cs.AI,An Action Language for Multi-Agent Domains: Foundations
-0,1511.01259,cs.IR,Transforming Wikipedia into an Ontology-based Information Retrieval Search Engine for Local Experts using a Third-Party Taxonomy
-0,1510.04585,cs.CV,A Brief Survey of Image Processing Algorithms in Electrical Capacitance Tomography
-0,1510.01077,math.SP,Nonlinear Spectral Analysis via One-homogeneous Functionals - Overview and Future Prospects
-0,1509.06939,cs.RO,Enabling Depth-driven Visual Attention on the iCub Humanoid Robot: Instructions for Use and New Perspectives
-0,1507.07147,cs.LG,True Online Emphatic TD($λ$): Quick Reference and Implementation Guide
-0,1506.06833,cs.CL,A Survey of Current Datasets for Vision and Language Research
-0,1506.04472,cs.CV,A Survey of Multithreading Image Analysis
-0,1504.07442,cs.CV,Embedded Platforms for Computer Vision-based Advanced Driver Assistance Systems: a Survey
-0,1502.07041,cs.IR,"Describing Colors, Textures and Shapes for Content Based Image Retrieval - A Survey"
-0,1412.6597,cs.CV,An Analysis of Unsupervised Pre-training in Light of Recent Advances
-0,1412.4031,astro-ph.IM,High-level numerical simulations of noise in CCD and CMOS photosensors: review and tutorial
-0,1412.1732,physics.med-ph,Statistical models and regularization strategies in statistical image reconstruction of low-dose X-ray CT: a survey
-0,1412.0879,cs.CL,Watsonsim: Overview of a Question Answering Engine
-0,1406.7799,cs.MM,Subjective and Objective Quality Assessment of Image: A Survey
-0,1406.2963,cs.DB,A machine-compiled macroevolutionary history of Phanerozoic life
-0,1405.6133,cs.CV,A review over the applicability of image entropy in analyses of remote sensing datasets
-0,1404.2162,cs.AI,The NNN Formalization: Review and Development of Guideline Specification in the Care Domain
-0,1403.5869,cs.CV,Block Motion Based Dynamic Texture Analysis: A Review
-0,1403.0052,cs.CL,TBX goes TEI -- Implementing a TBX basic extension for the Text Encoding Initiative guidelines
-0,1312.4599,cs.LG,Evolution and Computational Learning Theory: A survey on Valiant's paper
-0,1312.3825,cs.AI,Parkinson's Disease Motor Symptoms in Machine Learning: A Review
-0,1311.6063,cs.CL,A Short Introduction to NILE
-0,1311.3674,cs.MA,Evolutionary perspectives on collective decision making: Studying the implications of diversity and social network structure with agent-based simulations
-0,1311.0124,cs.CV,Reconstruction of Complex-Valued Fractional Brownian Motion Fields Based on Compressive Sampling and Its Application to PSF Interpolation in Weak Lensing Survey
-0,1310.5777,cs.DL,Exploring Scientists' Working Timetable: A Global Survey
-0,1310.2053,cs.CV,The role of RGB-D benchmark datasets: an overview
-0,1310.1863,cs.AI,Empowerment -- an Introduction
-0,1310.0315,cs.CV,Computer Vision Systems in Road Vehicles: A Review
-0,1309.6527,cs.IR,Describing Papers and Reviewers' Competences by Taxonomy of Keywords
-0,1303.5761,cs.AI,Why Do We Need Foundations for Modelling Uncertainties?
-0,1211.4709,cs.AI,A New Similarity Measure for Taxonomy Based on Edge Counting
-0,1211.0817,math.ST,Discussion: Latent variable graphical model selection via convex optimization
-0,1211.0808,math.ST,Discussion: Latent variable graphical model selection via convex optimization
-0,1211.0806,math.ST,Discussion: Latent variable graphical model selection via convex optimization
-0,1211.0801,math.ST,Discussion: Latent variable graphical model selection via convex optimization
-0,1209.6491,cs.CV,Review of Statistical Shape Spaces for 3D Data with Comparative Analysis for Human Faces
-0,1209.2515,cs.CV,Wavelet Based Image Coding Schemes : A Recent Survey
-0,1203.0747,cs.IR,A review of EO image information mining
-0,1201.1422,cs.CV,Minutiae Extraction from Fingerprint Images - a Review
-0,1110.5863,cs.DL,A Wikipedia Literature Review
-0,1109.5663,cs.AI,The Deterministic Part of IPC-4: An Overview
-0,1011.3244,nlin.AO,"""Meaning"" as a sociological concept: A review of the modeling, mapping, and simulation of the communication of knowledge and meaning"
-0,1011.0057,stat.CO,"Discussion of ""Riemann manifold Langevin and Hamiltonian Monte Carlo methods'' by M. Girolami and B. Calderhead"
-0,1010.3177,cs.AI,Introduction to the iDian
-0,1008.4310,cs.AI,Modélisation d'une analyse pragma-linguistique d'un forum de discussion
-0,1003.0931,physics.ed-ph,A student's guide to searching the literature using online databases
-0,0902.3623,cs.AI,A Self-Contained and Easily Accessible Discussion of the Method of Descente Infinie and Fermat's Only Explicitly Known Proof by Descente Infinie
-0,0808.0056,cs.AI,"I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong"
-0,0801.2618,cs.SE,Survey of Technologies for Web Application Development
-0,0709.4015,cs.AI,From Texts to Structured Documents: The Case of Health Practice Guidelines
-0,0706.1137,cs.AI,Automatically Restructuring Practice Guidelines using the GEM DTD
-0,0704.1267,cs.CV,Text Line Segmentation of Historical Documents: a Survey
+Presence,URL_ID,Title
+1,1901.01341,Sheaves: A Topological Approach to Big Data
+1,1810.06339,Deep Reinforcement Learning
+1,1808.08497,FinBrain: When Finance Meets AI 2.0
+1,1807.11573,State-of-the-art and gaps for deep learning on limited training data in remote sensing
+1,1806.11484,Deep Learning and its Application to LHC Physics
+1,1806.10897,"Deep learning in business analytics and operations research: Models, applications and managerial implications"
+1,1806.02308,"Model-free, Model-based, and General Intelligence"
+1,1804.08150,Deep Learning in Spiking Neural Networks
+1,1804.06458,Deep Probabilistic Programming Languages: A Qualitative Study
+1,1802.01528,The Matrix Calculus You Need For Deep Learning
+1,1712.04711,Regularization and Optimization strategies in Deep Convolutional Neural Network
+1,1712.03141,Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning
+1,1711.01134,Accountability of AI Under the Law: The Role of Explanation
+1,1709.02779,Machine learning \& artificial intelligence in the quantum domain
+1,1708.07902,Deep Learning for Video Game Playing
+1,1707.08561,Quantum machine learning: a classical perspective
+1,1707.07217,Deep Learning in Robotics: A Review of Recent Research
+1,1706.09077,Super-Resolution via Deep Learning
+1,1705.01509,Neural Models for Information Retrieval
+1,1702.07800,On the Origin of Deep Learning
+1,1701.01887,Deep Learning for Time-Series Analysis
+1,1611.09347,Quantum Machine Learning
+1,1611.08097,Geometric deep learning: going beyond Euclidean data
+1,1606.05386,Model-Agnostic Interpretability of Machine Learning
+1,1606.04838,Optimization Methods for Large-Scale Machine Learning
+1,1603.06430,Deep Learning in Bioinformatics
+0,cs/9904001,A Proposal for the Establishment of Review Boards - a flexible approach to the selection of academic knowledge
+0,cs/0611113,"An Anthological Review of Research Utilizing MontyLingua, a Python-Based End-to-End Text Processor"
+0,cs/0607051,Raisonner avec des diagrammes : perspectives cognitives et computationnelles
+0,cs/0605120,"Understanding Design Fundamentals: How Synthesis and Analysis Drive Creativity, Resulting in Emergence"
+0,cs/0408048,Journal of New Democratic Methods: An Introduction
+0,cs/0312059,"Polyhierarchical Classifications Induced by Criteria Polyhierarchies, and Taxonomy Algebra"
+0,cs/0210026,Encoding a Taxonomy of Web Attacks with Different-Length Vectors
+0,cs/0203012,Interface agents: A review of the field
+0,cmp-lg/9805004,Annotation Style Guide for the Blinker Project
+0,cmp-lg/9506019,"Review of Charniak's ""Statistical Language Learning"""
+0,1812.10111,A Survey on Non-rigid 3D Shape Analysis
+0,1812.08102,The Random Forest Classifier in WEKA: Discussion and New Developments for Imbalanced Data
+0,1812.03362,Letting symmetry guide visualization: multidimensional scaling on groups
+0,1812.02580,Selected Qualitative Spatio-temporal Calculi Developed for Constraint Reasoning: A Review
+0,1812.01259,"Camera Based Optical Communications, Localization, Navigation, and Motion Capture: A Survey"
+0,1812.01077,Brief survey of Mobility Analyses based on Mobile Phone Datasets
+0,1812.01074,Distilling Information from a Flood: A Possibility for the Use of Meta-Analysis and Systematic Review in Machine Learning Research
+0,1811.12787,A Tutorial for Weighted Bipolar Argumentation with Continuous Dynamical Systems and the Java Library Attractor
+0,1811.12455,Unifying Decision-Making: a Review on Evolutionary Theories on Rationality and Cognitive Biases
+0,1811.11815,Unrepresentative video data: A review and evaluation
+0,1811.11277,"Is it Safe to Drive? An Overview of Factors, Challenges, and Datasets for Driveability Assessment in Autonomous Driving"
+0,1811.10120,A Survey of Mobile Computing for the Visually Impaired
+0,1811.07988,Automated Pain Detection from Facial Expressions using FACS: A Review
+0,1811.05724,An Introduction to Fuzzy & Annotated Semantic Web Languages
+0,1810.09729,"Design Challenges of Multi-UAV Systems in Cyber-Physical Applications: A Comprehensive Survey, and Future Directions"
+0,1810.09440,Deep multi-survey classification of variable stars
+0,1810.09245,A Review on Learning Planning Action Models for Socio-Communicative HRI
+0,1810.08649,The Optimal ANN Model for Predicting Bearing Capacity of Shallow Foundations Trained on Scarce Data
+0,1810.06765,A survey of automatic de-identification of longitudinal clinical narratives
+0,1810.02529,An Introduction to fast-Super Paramagnetic Clustering
+0,1809.10959,"Overview of PicTropes, a film trope dataset"
+0,1809.03944,Multilingual Cross-domain Perspectives on Online Hate Speech
+0,1809.02862,A survey of food recommenders
+0,1808.08433,A Tutorial on Modular Ontology Modeling with Ontology Design Patterns: The Cooking Recipes Ontology
+0,1808.05542,Overview of the CLEF-2018 CheckThat! Lab on Automatic Identification and Verification of Political Claims. Task 1: Check-Worthiness
+0,1808.02290,How did the discussion go: Discourse act classification in social media conversations
+0,1808.01690,Error Detection in a Large-Scale Lexical Taxonomy
+0,1806.06876,Diving Deep onto Discriminative Ensemble of Histological Hashing & Class-Specific Manifold Learning for Multi-class Breast Carcinoma Taxonomy
+0,1805.07663,An Evaluation of Trajectory Prediction Approaches and Notes on the TrajNet Benchmark
+0,1804.07958,Expert Finding in Community Question Answering: A Review
+0,1804.00494,A Review on Image Texture Analysis Methods
+0,1804.00038,Overview: A Hierarchical Framework for Plan Generation and Execution in Multi-Robot Systems
+0,1803.06818,Artificial Intelligence Enabled Software Defined Networking: A Comprehensive Overview
+0,1803.05181,Can Autism be Catered with Artificial Intelligence-Assisted Intervention Technology? A Literature Review
+0,1803.02205,Code Review Comments: Language Matters
+0,1801.09036,A Sheaf Model of Contradictions and Disagreements. Preliminary Report and Discussion
+0,1801.00218,Game-theoretic Network Centrality: A Review
+0,1712.08865,Biological Systems as Heterogeneous Information Networks: A Mini-review and Perspectives
+0,1712.01930,"Predicting Demographics, Moral Foundations, and Human Values from Digital Behaviors"
+0,1709.06758,A shared latent space matrix factorisation method for recommending new trial evidence for systematic review updates
+0,1709.05940,Normal Integration: A Survey
+0,1709.04299,A Survey of Calibration Methods for Optical See-Through Head-Mounted Displays
+0,1709.00813,From Review to Rating: Exploring Dependency Measures for Text Classification
+0,1707.09837,Review of Machine Learning Algorithms in Differential Expression Analysis
+0,1707.05413,Photosensor Oculography: Survey and Parametric Analysis of Designs using Model-Based Simulation
+0,1706.00005,Feature Extraction for Machine Learning Based Crackle Detection in Lung Sounds from a Health Survey
+0,1705.08244,On the mathematics of beauty: beautiful images
+0,1705.07606,Guide Actor-Critic for Continuous Control
+0,1705.04009,A survey of Community Question Answering
+0,1705.03967,GQ($λ$) Quick Reference and Implementation Guide
+0,1702.06677,Discussion quality diffuses in the digital public square
+0,1701.02664,ChaLearn Looking at People: A Review of Events and Resources
+0,1701.00991,World Literature According to Wikipedia: Introduction to a DBpedia-Based Framework
+0,1612.06795,Two decades of local binary patterns: A survey
+0,1611.01228,URL ordering policies for distributed crawlers: a review
+0,1610.03793,"Introduction to the ""Industrial Benchmark"""
+0,1609.08049,Towards Evidence-Based Ontology for Supporting Systematic Literature Review
+0,1609.03457,Math-Aware Search Engines: Physics Applications and Overview
+0,1609.00066,A Review of Multivariate Distributions for Count Data Derived from the Poisson Distribution
+0,1608.06582,Approximation and inference methods for stochastic biochemical kinetics - a tutorial review
+0,1608.02441,Proceedings of the Second Summer School on Argumentation: Computational and Linguistic Perspectives (SSA'16)
+0,1607.00331,Machine-based Multimodal Pain Assessment Tool for Infants: A Review
+0,1605.09351,Review of Fall Detection Techniques: A Data Availability Perspective
+0,1605.07912,Review Networks for Caption Generation
+0,1604.00999,"RGBD Datasets: Past, Present and Future"
+0,1603.06028,"A Survey of Stealth Malware: Attacks, Mitigation Measures, and Steps Toward Autonomous Open World Solutions"
+0,1602.08855,Pandora: Description of a Painting Database for Art Movement Recognition with Baselines and Perspectives
+0,1601.05511,RGB-D-based Action Recognition Datasets: A Survey
+0,1512.07454,Evaluation-as-a-Service: Overview and Outlook
+0,1511.08996,Entity Suggestion by Example using a Conceptual Taxonomy
+0,1511.03780,A User's Guide to CARSKit
+0,1511.01960,An Action Language for Multi-Agent Domains: Foundations
+0,1511.01259,Transforming Wikipedia into an Ontology-based Information Retrieval Search Engine for Local Experts using a Third-Party Taxonomy
+0,1510.04585,A Brief Survey of Image Processing Algorithms in Electrical Capacitance Tomography
+0,1510.01077,Nonlinear Spectral Analysis via One-homogeneous Functionals - Overview and Future Prospects
+0,1509.06939,Enabling Depth-driven Visual Attention on the iCub Humanoid Robot: Instructions for Use and New Perspectives
+0,1507.07147,True Online Emphatic TD($λ$): Quick Reference and Implementation Guide
+0,1506.06833,A Survey of Current Datasets for Vision and Language Research
+0,1506.04472,A Survey of Multithreading Image Analysis
+0,1504.07442,Embedded Platforms for Computer Vision-based Advanced Driver Assistance Systems: a Survey
+0,1502.07041,"Describing Colors, Textures and Shapes for Content Based Image Retrieval - A Survey"
+0,1412.6597,An Analysis of Unsupervised Pre-training in Light of Recent Advances
+0,1412.4031,High-level numerical simulations of noise in CCD and CMOS photosensors: review and tutorial
+0,1412.1732,Statistical models and regularization strategies in statistical image reconstruction of low-dose X-ray CT: a survey
+0,1412.0879,Watsonsim: Overview of a Question Answering Engine
+0,1406.7799,Subjective and Objective Quality Assessment of Image: A Survey
+0,1406.2963,A machine-compiled macroevolutionary history of Phanerozoic life
+0,1405.6133,A review over the applicability of image entropy in analyses of remote sensing datasets
+0,1404.2162,The NNN Formalization: Review and Development of Guideline Specification in the Care Domain
+0,1403.5869,Block Motion Based Dynamic Texture Analysis: A Review
+0,1403.0052,TBX goes TEI -- Implementing a TBX basic extension for the Text Encoding Initiative guidelines
+0,1312.4599,Evolution and Computational Learning Theory: A survey on Valiant's paper
+0,1312.3825,Parkinson's Disease Motor Symptoms in Machine Learning: A Review
+0,1311.6063,A Short Introduction to NILE
+0,1311.3674,Diversity and Social Network Structure in Collective Decision Making: Evolutionary Perspectives with Agent-Based Simulations
+0,1311.0124,Reconstruction of Complex-Valued Fractional Brownian Motion Fields Based on Compressive Sampling and Its Application to PSF Interpolation in Weak Lensing Survey
+0,1310.5777,Exploring Scientists' Working Timetable: A Global Survey
+0,1310.2053,The role of RGB-D benchmark datasets: an overview
+0,1310.1863,Empowerment -- an Introduction
+0,1310.0315,Computer Vision Systems in Road Vehicles: A Review
+0,1309.6527,Describing Papers and Reviewers' Competences by Taxonomy of Keywords
+0,1303.5761,Why Do We Need Foundations for Modelling Uncertainties?
+0,1211.4709,A New Similarity Measure for Taxonomy Based on Edge Counting
+0,1211.0817,Discussion: Latent variable graphical model selection via convex optimization
+0,1211.0808,Discussion: Latent variable graphical model selection via convex optimization
+0,1211.0806,Discussion: Latent variable graphical model selection via convex optimization
+0,1211.0801,Discussion: Latent variable graphical model selection via convex optimization
+0,1209.6491,Review of Statistical Shape Spaces for 3D Data with Comparative Analysis for Human Faces
+0,1209.2515,Wavelet Based Image Coding Schemes : A Recent Survey
+0,1203.0747,A review of EO image information mining
+0,1201.1422,Minutiae Extraction from Fingerprint Images - a Review
+0,1110.5863,A Wikipedia Literature Review
+0,1109.5663,The Deterministic Part of IPC-4: An Overview
+0,1011.3244,"""Meaning"" as a sociological concept: A review of the modeling, mapping, and simulation of the communication of knowledge and meaning"
+0,1011.0057,"Discussion of ""Riemann manifold Langevin and Hamiltonian Monte Carlo methods'' by M. Girolami and B. Calderhead"
+0,1010.3177,Introduction to the iDian
+0,1008.4310,Modélisation d'une analyse pragma-linguistique d'un forum de discussion
+0,1003.0931,A student's guide to searching the literature using online databases
+0,0902.3623,A Self-Contained and Easily Accessible Discussion of the Method of Descente Infinie and Fermat's Only Explicitly Known Proof by Descente Infinie
+0,0808.0056,"I'm sorry to say, but your understanding of image processing fundamentals is absolutely wrong"
+0,0801.2618,Survey of Technologies for Web Application Development
+0,0709.4015,From Texts to Structured Documents: The Case of Health Practice Guidelines
+0,0706.1137,Automatically Restructuring Practice Guidelines using the GEM DTD
+0,0704.1267,Text Line Segmentation of Historical Documents: a Survey

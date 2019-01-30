@@ -19,7 +19,7 @@ log.info('Queried arXiv for metadata of %s IDs.', len(results))
 
 for result in results:
     result = Result(result)
-    df.loc[df.URL_ID == result.url_id, ['Category', 'Title']] = result.category, result.title
+    df.loc[df.URL_ID == result.url_id, 'Title'] = result.title
 
 df = df.sort_values(['Presence', 'URL_ID'], ascending=False).drop_duplicates('URL_ID')
 if not df.equals(config.CONFIG_ARTICLES):
