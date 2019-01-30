@@ -64,7 +64,8 @@ class Results:
         are on [arXiv](https://arxiv.org/). \
         Although some of them were written for a specific technical audience or application, the techniques described \
         are nonetheless generally relevant. \
-        The list is sorted reverse chronologically. It was generated on {date.today()}. \
+        The list is sorted reverse chronologically by the review's last updated date. \
+        It was generated on {date.today()}. \
         It includes articles mainly from the arXiv categories {categories}. \
         A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews). \
         The [source code](https://github.com/impredicative/arxiv-ml-reviews) along with \
