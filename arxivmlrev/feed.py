@@ -28,6 +28,8 @@ class Feed:
             entry.guid(link, permalink=True)
             entry.description(result.Abstract)
             entry.published(result.Updated)  # Intentionally not result.Published.
+            for category in result.Categories.split(', '):
+                entry.category(term=category)
             log.debug('Added: %s (%s)', result.Title, result.Updated)
 
         text_: bytes = feed.rss_str(pretty=True)
