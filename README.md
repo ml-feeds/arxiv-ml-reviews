@@ -3,6 +3,11 @@
 articles from [arXiv's](https://arxiv.org/) various [categories](arxivmlrev/_config/categories.txt)
 on machine learning and artificial intelligence.
 
+## Links
+* [Project repo](https://github.com/ml-feeds/arxiv-ml-reviews)
+* [**HTML list**](https://freenode-machinelearning.github.io/Resources/ArticlesReview.html)
+* [**RSS feed**](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews)
+
 ## Requirements
 * Python 3.7+
 * In a new virtual environment or container, run the following, falling back to the versioned `requirements.txt` instead
@@ -53,3 +58,18 @@ In this configuration file, refer to parameters starting with the prefix `GITHUB
 * By default, run an incremental update, and provide an option to do a full rerun.
 An incremental update assumes an unchanged configuration.
 This requires query results to be sorted by *lastUpdatedDate*.
+
+## Deployment
+Serverless deployment of the RSS feed to [Google Cloud Functions](https://console.cloud.google.com/functions/) is
+configured.
+It requires the the following files:
+* requirements.txt
+* main.py (having callable `serve(request: flask.Request) -> Tuple[bytes, int, Dict[str, str]]`)
+
+Deployment version updates are not automated.
+They can be performed manually by editing and saving the function configuration.
+
+These deployment links require access:
+* [Dashboard](https://console.cloud.google.com/functions/details/us-east1/arxiv-ml-reviews?project=ml-feeds)
+* [Logs](https://console.cloud.google.com/logs?service=cloudfunctions.googleapis.com&key1=arxiv-ml-reviews&key2=us-east1&project=ml-feeds)
+* [Repo](https://source.cloud.google.com/ml-feeds/github_ml-feeds_arxiv-ml-reviews)
