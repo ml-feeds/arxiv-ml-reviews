@@ -1,5 +1,4 @@
 import logging
-import time
 
 from cachetools.func import ttl_cache
 from feedgen.feed import FeedGenerator
@@ -41,7 +40,7 @@ class Feed:
         feed.link(href=config.FEED_SOURCE_URL, rel='self')
         feed.description(config.FEED_DESCRIPTION)
 
-    @ttl_cache(maxsize=1, ttl=config.FEED_CACHE_TTL, timer=time.monotonic)
+    @ttl_cache(maxsize=1, ttl=config.FEED_CACHE_TTL)
     def feed(self) -> bytes:
         log.info('Requesting %s results.', config.FEED_NUM_ITEMS)
         results = self._searcher.search()
