@@ -31,7 +31,6 @@ class Feed:
             log.debug('Added: %s (%s)', result.Title, result.Updated)
 
         text_: bytes = feed.rss_str(pretty=True)
-        log.info('XML output has %s items.', text_.count(b'<item>'))
         return text_
 
     def _init_feed(self) -> None:
@@ -44,9 +43,9 @@ class Feed:
     def feed(self) -> bytes:
         log.info('Requesting %s results.', config.FEED_NUM_ITEMS)
         results = self._searcher.search()
-        log.info('Received %s results.', len(results))
+        log.debug('Received %s results.', len(results))
         text = self._output(results)
-        log.info('XML output has size %s.', humanize_len(text))
+        log.info('XML output has %s items and size %s.', text.count(b'<item>'), humanize_len(text))
         return text
 
 

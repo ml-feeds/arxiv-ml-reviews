@@ -73,9 +73,9 @@ class Searcher:
         log.debug('Title search query length is %s characters.', len(query))
         return query
 
-    def _log_memory(self) -> None:
-        log.info('Additional memory used since initialization of searcher is %s. Total memory used is %s.',
-                 humanized_rss(self._rss_start), humanized_rss())
+    def _log_memory(self, level: int = logging.INFO) -> None:
+        log.log(level, 'Additional memory used since initialization of searcher is %s. Total memory used is %s.',
+                humanized_rss(self._rss_start), humanized_rss())
 
     def _log_state(self) -> None:
         log.debug('The %s enabled categories are %s.', len(config.CATEGORIES), readable_list(sorted(config.CATEGORIES)))
@@ -85,7 +85,7 @@ class Searcher:
                   len(config.URL_ID_WHITELIST), len(config.URL_ID_BLACKLIST))
         log.debug('Max results requested is %s.', self._max_results)
         log.debug('Max results per query is set to %s.', self._max_results_per_query)
-        self._log_memory()
+        self._log_memory(logging.DEBUG)
 
     def _run_query(self, *, query_type: str, start: int, interval: float) -> Tuple[List[dict], float]:
         for num_query_attempt in range(1, self._NUM_QUERY_ATTEMPTS + 1):
