@@ -1,5 +1,8 @@
 # Review articles
 This is a mostly auto-generated list of review articles on machine learning and artificial intelligence that         are on [arXiv](https://arxiv.org/).         Although some of them were written for a specific technical audience or application, the techniques described         are nonetheless generally relevant.         The list is sorted reverse chronologically. It was generated on 2019-01-29.         It includes articles mainly from the arXiv categories [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), [eess.IV](https://arxiv.org/list/eess.IV/recent), and [stat.ML](https://arxiv.org/list/stat.ML/recent).         A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews).         The [source code](https://github.com/impredicative/arxiv-ml-reviews) along with         [raw data](https://raw.githubusercontent.com/impredicative/arxiv-ml-reviews/master/data/articles.csv) for         generating this page are linked.         This page is currently not automatically updated.
+* [Guidelines for creating man-machine multimodal interfaces (2019)](https://arxiv.org/abs/1901.10408) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
+* [Approximating Spectral Clustering via Sampling: a Review (2019)](https://arxiv.org/abs/1901.10204) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
+* [A survey of state-of-the-art mixed data clustering algorithms (2018-2019)](https://arxiv.org/abs/1811.04364) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Brief Review of Computational Intelligence Algorithms (2019)](https://arxiv.org/abs/1901.00983) ([cs.NE](https://arxiv.org/list/cs.NE/recent))
 * [Machine Learning: Basic Principles (2018-2019)](https://arxiv.org/abs/1805.05052) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Spatio-temporal Action Recognition: A Survey (2019)](https://arxiv.org/abs/1901.09403) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
@@ -13,7 +16,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Machine Learning and Deep Learning Algorithms for Bearing Fault Diagnostics - A Comprehensive Review (2019)](https://arxiv.org/abs/1901.08247) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Continual Lifelong Learning with Neural Networks: A Review (2018-2019)](https://arxiv.org/abs/1802.07569) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Deep Learning for Anomaly Detection: A Survey (2019)](https://arxiv.org/abs/1901.03407) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
-* [A survey of state-of-the-art mixed data clustering algorithms (2018-2019)](https://arxiv.org/abs/1811.04364) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Pedestrian Attribute Recognition: A Survey (2019)](https://arxiv.org/abs/1901.07474) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Minimal penalties and the slope heuristics: a survey (2019)](https://arxiv.org/abs/1901.07277) ([math.ST](https://arxiv.org/list/math.ST/recent))
 * [A Survey of Model Compression and Acceleration for Deep Neural Networks (2017-2019)](https://arxiv.org/abs/1710.09282) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
