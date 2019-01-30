@@ -105,3 +105,6 @@ ENV/
 
 # IDE
 .idea/
+
+# Data
+data/feed.xml
