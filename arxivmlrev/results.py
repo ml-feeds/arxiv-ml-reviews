@@ -14,7 +14,7 @@ log = logging.getLogger(__name__)
 
 class Results:
     def __init__(self):
-        self._df_results = pd.read_csv(config.DATA_ARTICLES_CSV_PATH)
+        self._df_results = pd.read_csv(config.DATA_ARTICLES_CSV_PATH, parse_dates=['Published', 'Updated'])
 
     def _write_csv(self) -> None:
         self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
@@ -64,7 +64,7 @@ class Results:
         are on [arXiv](https://arxiv.org/). \
         Although some of them were written for a specific technical audience or application, the techniques described \
         are nonetheless generally relevant. \
-        The list is sorted reverse chronologically by the review's last updated date. \
+        The list is sorted reverse chronologically by the last updated date of the reviews. \
         It was generated on {date.today()}. \
         It includes articles mainly from the arXiv categories {categories}. \
         A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews). \
