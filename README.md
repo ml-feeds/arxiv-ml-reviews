@@ -52,4 +52,4 @@ In this configuration file, refer to parameters starting with the prefix `GITHUB
 ## To do
 * By default, run an incremental update, and provide an option to do a full rerun.
 An incremental update assumes an unchanged configuration.
-This also require changing the code to sort the results by *lastUpdatedDate* rather than by *submittedDate*.
+This requires query results to be sorted by *lastUpdatedDate*.
