@@ -51,7 +51,7 @@ class Searcher:
                 continue
             yield result.to_dict
             num_yielded += 1
-        log.info('Processed %s results and yielded %s.', len(results), num_yielded)
+        log.debug('Processed %s results and yielded %s.', len(results), num_yielded)
 
     def _form_title_query(self) -> str:
         category_query = self._set_to_query(config.CATEGORIES, 'cat')
@@ -63,14 +63,14 @@ class Searcher:
             AND {title_whitelist_query}
             ANDNOT {title_blacklist_query}
         '''
-        log.info('Title search query (multiline version): %s', query)
+        log.debug('Title search query (multiline version): %s', query)
         query = query.strip().replace('\n', ' ')
         while '  ' in query:
             query = query.replace('  ', ' ')
         query = query.replace('( ', '(').replace(' )', ')')
         # Note: A sufficiently longer query can very possibly lead to arXiv returning incomplete results.
-        log.info('Title search query (actual single-line version):\n%s', query)
-        log.info('Title search query length is %s characters.', len(query))
+        log.debug('Title search query (actual single-line version):\n%s', query)
+        log.debug('Title search query length is %s characters.', len(query))
         return query
 
     def _log_memory(self) -> None:
