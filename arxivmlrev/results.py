@@ -14,9 +14,7 @@ log = logging.getLogger(__name__)
 
 class Results:
     def __init__(self):
-        self._df_results = pd.read_csv(config.DATA_ARTICLES_CSV_PATH,
-                                       # dtype={'URL_ID': str, 'Category': 'category'}
-                                       )
+        self._df_results = pd.read_csv(config.DATA_ARTICLES_CSV_PATH)
 
     def _write_csv(self) -> None:
         self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
@@ -24,8 +22,12 @@ class Results:
 
     @staticmethod
     def feed() -> bytes:
-        """Query and return a RSS feed of the most recently updated search results."""
-        return Feed().feed()
+        """Return the XML of a RSS feed of the most recently updated search results."""
+        feed = Feed().feed()
+        feed_path = config.DATA_DIR / 'feed.xml'
+        feed_path.write_bytes(feed)
+        log.info('Feed was written to %s.', feed_path)
+        return feed
 
     def refresh(self) -> int:
         """Refresh search results locally."""
