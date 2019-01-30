@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+import datetime
 from string import punctuation
 from typing import Any, Dict, List
 
@@ -87,15 +88,15 @@ class Result:
         return self.result['arxiv_url'].replace(_URL_BASE, '', 1)
 
     @property
-    def version(self) -> str:
+    def version(self) -> int:
         return int(self.url_id_versioned.rsplit('v', 1)[1])
 
     @property
-    def published(self) -> int:
+    def published(self) -> datetime.datetime:
         return dateutil_parse(self.result['published'])  # tz aware
 
     @property
-    def updated(self) -> int:
+    def updated(self) -> datetime.datetime:
         return dateutil_parse(self.result['updated'])  # tz aware
 
     @property
