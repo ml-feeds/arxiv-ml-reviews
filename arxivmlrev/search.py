@@ -41,7 +41,7 @@ class Searcher:
         self._log_state()
 
     @staticmethod
-    def _filter_results(results: List[dict]) -> Iterable[dict]:
+    def _filter_results(results: List[Result]) -> Iterable[dict]:
         log.debug('Processing %s results.', len(results))
         num_yielded = 0
         for result in results:
@@ -110,7 +110,7 @@ class Searcher:
                 log.warning('The %s query returned %s results which is an insufficient number relative to an '
                             'expectation of at least %s. The query will be rerun.',
                             query_type, len(results), min_num_expected_results)
-                verbose_sleep(self._interval)
+                verbose_sleep(interval)
                 interval *= 1.3678794411714423  # 1 + (1/e) == 1.3678794411714423
         else:
             msg = f'Despite multiple attempts, the {query_type} query failed with insufficient results.'
@@ -147,8 +147,8 @@ class Searcher:
     @staticmethod
     def _set_to_query(strset: Set[str], prefix: str) -> str:
         strset = {f'"{s}"' if ' ' in s else s for s in strset}
-        strset = ' OR '.join(f'{prefix}:{s}' for s in sorted(strset))
-        return f'({strset})'
+        strset_ = ' OR '.join(f'{prefix}:{s}' for s in sorted(strset))
+        return f'({strset_})'
 
     def _search(self, *, search_type: str) -> pd.DataFrame:
         results = self._run_search(search_type=search_type)
