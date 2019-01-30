@@ -8,7 +8,7 @@ _PAGESIZE = getpagesize()
 _PATH = Path('/proc/self/statm')
 
 
-def resident_set_size() -> int:
+def _resident_set_size() -> int:
     """Return the current resident set size in bytes."""
     # Ref: https://stackoverflow.com/a/53486808/
     # statm columns are: size resident shared text lib data dt
@@ -17,5 +17,9 @@ def resident_set_size() -> int:
     return int(fields[1]) * _PAGESIZE
 
 
-def humanized_rss() -> str:
-    return humanize_bytes(resident_set_size())
+def resident_set_size(subtract: int = 0) -> int:
+    return _resident_set_size() - subtract
+
+
+def humanized_rss(subtract: int = 0) -> str:
+    return humanize_bytes(resident_set_size(subtract))

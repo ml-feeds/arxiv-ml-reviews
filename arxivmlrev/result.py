@@ -1,10 +1,12 @@
 from dataclasses import dataclass
 from string import punctuation
-from typing import Dict, List, Union
+from typing import Any, Dict, List
 
 from dateutil.parser import parse as dateutil_parse
 
 from arxivmlrev import config
+
+_URL_BASE = 'http://arxiv.org/abs/'
 
 
 @dataclass
@@ -82,11 +84,11 @@ class Result:
 
         Unlike `self.result['id']`, this versioned URL ID is actually unique, especially for results older than 2007.
         """
-        return self.result['arxiv_url'].replace('http://arxiv.org/abs/', '', 1)
+        return self.result['arxiv_url'].replace(_URL_BASE, '', 1)
 
     @property
     def version(self) -> str:
-        return self.url_id_versioned.rsplit('v', 1)[1]
+        return int(self.url_id_versioned.rsplit('v', 1)[1])
 
     @property
     def published(self) -> int:
@@ -105,10 +107,10 @@ class Result:
         return self.updated.year
 
     @property
-    def to_dict(self) -> Dict[str, Union[str, int]]:
-        return {'URL_ID': self.url_id, 'Version': self.version,
-                'Category': self.category, 'Categories': self.categories_str,
-                'Title': self.title, 'Abstract': self.abstract,
-                'Published': self.published, 'Updated': self.updated,
-                'Year_Published': self.published_year, 'Year_Updated': self.updated_year,
-                }
+    def to_dict(self) -> Dict[str, Any]:
+        return {'URL_ID': self.url_id, 'Version': self.version, 'Published': self.published, 'Updated': self.updated,
+                'Title': self.title, 'Categories': self.categories_str, 'Abstract': self.abstract}
+
+
+def versioned_url_id_to_url(url_id: str, version: int) -> str:
+    return f'{_URL_BASE}{url_id}v{version}'

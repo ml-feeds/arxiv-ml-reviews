@@ -74,11 +74,12 @@ class Results:
         with config.DATA_ARTICLES_MD_PATH.open('w') as md:
             md.write(f'# Review articles\n{prologue}\n')
             for _, row in self._df_results.iterrows():
-                cat = _linked_category(row.Category)
-                years = row.Year_Published if (row.Year_Published == row.Year_Updated) else \
-                    f'{row.Year_Published}-{row.Year_Updated}'
+                primary_category = row.Categories.split(', ', 1)[0]
+                primary_category = _linked_category(primary_category)
+                years = row.Published.year if (row.Published.year == row.Updated.year) else \
+                    f'{row.Published.year}-{row.Updated.year}'
                 link = f'https://arxiv.org/abs/{row.URL_ID}'
-                md.write(f'* [{row.Title} ({years})]({link}) ({cat})\n')
+                md.write(f'* [{row.Title} ({years})]({link}) ({primary_category})\n')
         log.info('Finished writing markdown file with %s entries.', len(self._df_results))
 
     @staticmethod

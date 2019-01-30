@@ -27,7 +27,7 @@ CONFIG_ARTICLES_PATH = CONFIG_DIR / 'articles.csv'
 CONFIG_ARTICLES = pd.read_csv(CONFIG_ARTICLES_PATH, dtype={'URL_ID': str})
 CONFIG_TERMS_PATH = CONFIG_DIR / 'terms.csv'
 CONFIG_TERMS = pd.read_csv(CONFIG_TERMS_PATH)
-DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Version', 'Category', 'Title', 'Published', 'Updated', 'Categories', 'Abstract']
+DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Version', 'Published', 'Updated', 'Title', 'Categories', 'Abstract']
 DATA_ARTICLES_CSV_PATH = DATA_DIR / 'articles.csv'
 DATA_ARTICLES_MD_PATH = DATA_DIR / 'articles.md'
 FEED_CACHE_TTL = datetime.timedelta(hours=23).total_seconds()
@@ -41,18 +41,12 @@ GITHUB_MD_PUBLISH_PATH = 'Resources/ArticlesReview.md'
 GITHUB_PUBLISH_REPO = 'freenode-machinelearning/freenode-machinelearning.github.io'
 LOGGING_CONF_PATH = CONFIG_DIR / 'logging.conf'
 MAX_RESULTS_PER_QUERY = 2000 - 2
-MIN_INTERVAL_BETWEEN_QUERIES = max(3., math.log(MAX_RESULTS_PER_QUERY))
-SOURCE_TZ_NAME = 'US/Eastern'
+ON_SERVERLESS = bool(os.getenv('GCLOUD_PROJECT'))  # Approximation.
 TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])
 TERMS_WHITELIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 1]['Term'])  # Lowercase phrases without punctuation.
 URL_ID_BLACKLIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 0]['URL_ID'])
 URL_ID_WHITELIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 1]['URL_ID'])
 URL_ID_WHITELIST_INTERSECTION_IGNORED = ['1707.08561']
-
-
-ON_SERVERLESS = bool(os.getenv('GCLOUD_PROJECT'))  # Approximation.
-
-TZ_NAME = 'US/Pacific'
 
 LOGGING = {  # Ref: https://docs.python.org/3/howto/logging.html#configuring-logging
     'version': 1,
