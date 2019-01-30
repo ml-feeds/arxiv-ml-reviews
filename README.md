@@ -54,11 +54,6 @@ Running `python -m arxivmlrev publish-md` will publish the markdown file `data/a
 This requires GitHub-specific configuration in `config.py`.
 In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
 
-## To do
-* By default, run an incremental update, and provide an option to do a full rerun.
-An incremental update assumes an unchanged configuration.
-This requires query results to be sorted by *lastUpdatedDate*.
-
 ## Deployment
 Serverless deployment of the RSS feed to [Google Cloud Functions](https://console.cloud.google.com/functions/) is
 configured.
@@ -73,3 +68,8 @@ These deployment links require access:
 * [Dashboard](https://console.cloud.google.com/functions/details/us-east1/arxiv-ml-reviews?project=ml-feeds)
 * [Logs](https://console.cloud.google.com/logs?service=cloudfunctions.googleapis.com&key1=arxiv-ml-reviews&key2=us-east1&project=ml-feeds)
 * [Repo](https://source.cloud.google.com/ml-feeds/github_ml-feeds_arxiv-ml-reviews)
+
+## To do
+* By default, run an incremental update, and provide an option to do a full rerun.
+An incremental update assumes an unchanged configuration.
+This requires query results to be sorted by *lastUpdatedDate*.
