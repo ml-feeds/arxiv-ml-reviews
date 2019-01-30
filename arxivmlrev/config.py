@@ -1,6 +1,5 @@
 import datetime
 import logging.config
-import math
 import os
 from pathlib import Path
 from typing import Set
