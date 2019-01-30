@@ -71,7 +71,8 @@ class Results:
         The [source code](https://github.com/ml-feeds/arxiv-ml-reviews) along with \
         [raw data](https://raw.githubusercontent.com/ml-feeds/arxiv-ml-reviews/master/data/articles.csv) for \
         generating this page are linked. \
-        This page is currently not automatically updated.
+        This page is currently not automatically updated. \
+        An auto-updated [**RSS feed**](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews) is available.
         """.strip()
 
         with config.DATA_ARTICLES_MD_PATH.open('w') as md:
