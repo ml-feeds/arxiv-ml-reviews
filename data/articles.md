@@ -1,5 +1,7 @@
 # Review articles
 This is a mostly auto-generated list of review articles on machine learning and artificial intelligence that         are on [arXiv](https://arxiv.org/).         Although some of them were written for a specific technical audience or application, the techniques described         are nonetheless generally relevant.         The list is sorted reverse chronologically by the last updated date of the reviews.         It was generated on 2019-01-30.         It includes articles mainly from the arXiv categories [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), [eess.IV](https://arxiv.org/list/eess.IV/recent), and [stat.ML](https://arxiv.org/list/stat.ML/recent).         A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews).         The [source code](https://github.com/ml-feeds/arxiv-ml-reviews) along with         [raw data](https://raw.githubusercontent.com/ml-feeds/arxiv-ml-reviews/master/data/articles.csv) for         generating this page are linked.         This page is currently not automatically updated.         An auto-updated [RSS feed](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews) is available.
+* [Deep Learning in Mobile and Wireless Networking: A Survey (2018-2019)](https://arxiv.org/abs/1803.04311) ([cs.NI](https://arxiv.org/list/cs.NI/recent))
+* [A short review on Applications of Deep learning for Cyber security (2018-2019)](https://arxiv.org/abs/1812.06292) ([cs.CR](https://arxiv.org/list/cs.CR/recent))
 * [Guidelines for creating man-machine multimodal interfaces (2019)](https://arxiv.org/abs/1901.10408) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [Approximating Spectral Clustering via Sampling: a Review (2019)](https://arxiv.org/abs/1901.10204) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [A survey of state-of-the-art mixed data clustering algorithms (2018-2019)](https://arxiv.org/abs/1811.04364) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
@@ -75,7 +77,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Policy Search in Continuous Action Domains: an Overview (2018)](https://arxiv.org/abs/1803.04706) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [An overview of deep learning in medical imaging focusing on MRI (2018)](https://arxiv.org/abs/1811.10052) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [A Survey on Methods and Theories of Quantized Neural Networks (2018)](https://arxiv.org/abs/1808.04752) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
-* [A short review on Applications of Deep learning for Cyber security (2018)](https://arxiv.org/abs/1812.06292) ([cs.CR](https://arxiv.org/list/cs.CR/recent))
 * [A Tutorial on Distance Metric Learning: Mathematical Foundations, Algorithms and Software (2018)](https://arxiv.org/abs/1812.05944) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Recent Advances in Autoencoder-Based Representation Learning (2018)](https://arxiv.org/abs/1812.05069) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Deep Learning on Graphs: A Survey (2018)](https://arxiv.org/abs/1812.04202) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
@@ -182,7 +183,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Machine Translation Evaluation Resources and Methods: A Survey (2016-2018)](https://arxiv.org/abs/1605.04515) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [Generative Adversarial Network in Medical Imaging: A Review (2018)](https://arxiv.org/abs/1809.07294) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [A survey of advances in epistemic logic program solvers (2018)](https://arxiv.org/abs/1809.07141) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
-* [Deep Learning in Mobile and Wireless Networking: A Survey (2018)](https://arxiv.org/abs/1803.04311) ([cs.NI](https://arxiv.org/list/cs.NI/recent))
 * [A Comprehensive Survey for Low Rank Regularization (2018)](https://arxiv.org/abs/1808.04521) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Not-so-supervised: a survey of semi-supervised, multi-instance, and transfer learning in medical image analysis (2018)](https://arxiv.org/abs/1804.06353) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Review of Visual Saliency Detection with Comprehensive Information (2018)](https://arxiv.org/abs/1803.03391) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
