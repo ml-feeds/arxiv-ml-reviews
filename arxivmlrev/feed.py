@@ -38,7 +38,7 @@ class Feed:
     def _init_feed(self) -> None:
         feed = self._feed
         feed.title(config.FEED_TITLE)
-        feed.link(href=config.FEED_SOURCE_URL, rel='self')
+        feed.link(href=config.REPO_URL, rel='self')
         feed.description(config.FEED_DESCRIPTION)
 
     @ttl_cache(maxsize=1, ttl=config.FEED_CACHE_TTL)
