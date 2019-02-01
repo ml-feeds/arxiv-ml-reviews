@@ -44,14 +44,16 @@ class Searcher:
     def _filter_results(results: List[Result]) -> Iterable[dict]:
         log.debug('Processing %s results.', len(results))
         num_yielded = 0
-        for result in results:
-            result = Result(result)
-            if (not result.is_id_whitelisted) and (result.is_id_blacklisted or (not result.is_title_whitelisted)):
-                # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
-                continue
-            yield result.to_dict
-            num_yielded += 1
-        log.debug('Processed %s results and yielded %s.', len(results), num_yielded)
+        try:
+            for result in results:
+                result = Result(result)
+                if (not result.is_id_whitelisted) and (result.is_id_blacklisted or (not result.is_title_whitelisted)):
+                    # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
+                    continue
+                num_yielded += 1
+                yield result.to_dict
+        finally:
+            log.debug('Yielded %s of %s results.', num_yielded, len(results))
 
     def _form_title_query(self) -> str:
         category_query = self._set_to_query(config.CATEGORIES, 'cat')
@@ -129,6 +131,7 @@ class Searcher:
             results, interval = self._run_query(query_type=search_type, start=start, interval=interval)
             query_completion_time = time.monotonic()
             for result in self._filter_results(results):
+                num_yielded += 1
                 yield result
                 if num_yielded == max_results:
                     break  # Will log and "return".
