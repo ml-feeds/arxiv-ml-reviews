@@ -34,9 +34,9 @@ class Searcher:
         # Note: Using lastUpdatedDate as the sort order when max_results is inf prevents the oldest 80 or so results
         # from being returned. This condition is prevented above by then using submittedDate as the sort order.
 
-        self._max_results_per_query = math.ceil(min(config.MAX_RESULTS_PER_QUERY,
-                                                    self._max_results * math.e  # This allows ample room for filtering.
-                                                    ))
+        self._max_results_per_query = min(config.MAX_RESULTS_PER_QUERY,
+                                          self._max_results * 2  # This allows ample room for filtering.
+                                          )
         self._rss_start = resident_set_size()
         self._log_state()
 
@@ -130,7 +130,6 @@ class Searcher:
             query_completion_time = time.monotonic()
             for result in self._filter_results(results):
                 yield result
-                num_yielded += 1
                 if num_yielded == max_results:
                     break  # Will log and "return".
 
