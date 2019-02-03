@@ -13,7 +13,7 @@ log = logging.getLogger(__name__)
 
 
 class Feed:
-    def __init__(self):
+    def __init__(self) -> None:
         self._searcher = Searcher(max_results=config.FEED_NUM_ITEMS)
 
     def _output(self, results: pd.DataFrame) -> bytes:
