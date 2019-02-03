@@ -14,12 +14,10 @@ log = logging.getLogger(__name__)
 
 class Feed:
     def __init__(self):
-        self._feed = FeedGenerator()
-        self._init_feed()
         self._searcher = Searcher(max_results=config.FEED_NUM_ITEMS)
 
     def _output(self, results: pd.DataFrame) -> bytes:
-        feed = self._feed
+        feed = self._init_feed()
         for _, result in results.iterrows():
             entry = feed.add_entry(order='append')
             entry.title(result.Title)
@@ -35,11 +33,13 @@ class Feed:
         text_: bytes = feed.rss_str(pretty=True)
         return text_
 
-    def _init_feed(self) -> None:
-        feed = self._feed
+    @staticmethod
+    def _init_feed() -> FeedGenerator:
+        feed = FeedGenerator()
         feed.title(config.FEED_TITLE)
         feed.link(href=config.REPO_URL, rel='self')
         feed.description(config.FEED_DESCRIPTION)
+        return feed
 
     @ttl_cache(maxsize=1, ttl=config.FEED_CACHE_TTL)
     def feed(self) -> bytes:
