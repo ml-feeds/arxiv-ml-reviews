@@ -34,19 +34,19 @@ class Searcher:
         # Note: Using lastUpdatedDate as the sort order when max_results is inf prevents the oldest 80 or so results
         # from being returned. This condition is prevented above by then using submittedDate as the sort order.
 
-        self._max_results_per_query = min(config.MAX_RESULTS_PER_QUERY,
-                                          self._max_results * 2  # This allows ample room for filtering.
-                                          )
+        self._max_results_per_query = int(min(config.MAX_RESULTS_PER_QUERY,
+                                              self._max_results * 2  # This allows ample room for filtering.
+                                              ))
         self._rss_start = resident_set_size()
         self._log_state()
 
     @staticmethod
-    def _filter_results(results: List[Result]) -> Iterable[dict]:
+    def _filter_results(results: List[dict]) -> Iterable[dict]:
         log.debug('Processing %s results.', len(results))
         num_yielded = 0
         try:
-            for result in results:
-                result = Result(result)
+            for result_dict in results:
+                result = Result(result_dict)
                 if (not result.is_id_whitelisted) and (result.is_id_blacklisted or (not result.is_title_whitelisted)):
                     # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
                     continue
@@ -120,7 +120,7 @@ class Searcher:
             raise self.ArxivResultsInsufficient(msg)
         return results, interval
 
-    def _run_search(self, *, search_type: str) -> Iterable[Result]:
+    def _run_search(self, *, search_type: str) -> Iterable[dict]:
         max_results = self._max_results
         start = 0
         num_yielded = 0
