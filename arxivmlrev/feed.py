@@ -16,6 +16,14 @@ class Feed:
     def __init__(self) -> None:
         self._searcher = Searcher(max_results=config.FEED_NUM_ITEMS)
 
+    @staticmethod
+    def _init_feed() -> FeedGenerator:
+        feed = FeedGenerator()
+        feed.title(config.FEED_TITLE)
+        feed.link(href=config.REPO_URL, rel='self')
+        feed.description(config.FEED_DESCRIPTION)
+        return feed
+
     def _output(self, results: pd.DataFrame) -> bytes:
         feed = self._init_feed()
         for _, result in results.iterrows():
@@ -32,14 +40,6 @@ class Feed:
 
         text_: bytes = feed.rss_str(pretty=True)
         return text_
-
-    @staticmethod
-    def _init_feed() -> FeedGenerator:
-        feed = FeedGenerator()
-        feed.title(config.FEED_TITLE)
-        feed.link(href=config.REPO_URL, rel='self')
-        feed.description(config.FEED_DESCRIPTION)
-        return feed
 
     @ttl_cache(maxsize=1, ttl=config.FEED_CACHE_TTL)
     def feed(self) -> bytes:
