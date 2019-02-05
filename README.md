@@ -57,7 +57,7 @@ In this configuration file, refer to parameters starting with the prefix `GITHUB
 ## Deployment
 Serverless deployment of the RSS feed to [Google Cloud Functions](https://console.cloud.google.com/functions/) is
 configured.
-It requires the the following files:
+It requires the following files:
 * requirements.txt
 * main.py (having callable `serve(request: flask.Request) -> Tuple[bytes, int, Dict[str, str]]`)
 
