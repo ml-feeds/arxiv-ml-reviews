@@ -35,7 +35,7 @@ class Searcher:
         # from being returned. This condition is prevented above by then using submittedDate as the sort order.
 
         self._max_results_per_query = int(min(config.MAX_RESULTS_PER_QUERY,
-                                              self._max_results * 2  # This allows ample room for filtering.
+                                              self._max_results * math.e  # This allows ample room for filtering.
                                               ))
         self._rss_start = resident_set_size()
         self._log_state()
@@ -49,6 +49,8 @@ class Searcher:
                 result = Result(result_dict)
                 if (not result.is_id_whitelisted) and (result.is_id_blacklisted or (not result.is_title_whitelisted)):
                     # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
+                    log.debug('Skipped result: %s (v%s) (%s) (%s)',
+                              result.title, result.version, result.updated, result.categories_str)
                     continue
                 num_yielded += 1
                 yield result.to_dict
