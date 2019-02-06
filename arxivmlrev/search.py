@@ -174,7 +174,7 @@ class Searcher:
             # Note: df_results_for_title_search doesn't reliably include URL_ID_WHITELIST_INTERSECTION_IGNORED. The
             # reason for this unpredictability is unknown.
             if not unnecessary_whitelisted_ids.empty:
-                csv = unnecessary_whitelisted_ids.to_csv(index=False).rstrip().replace('\n', ', ')
+                csv = unnecessary_whitelisted_ids.to_csv(header=False, index=False).rstrip().replace('\n', ', ')
                 log.warning('URL ID whitelist has %s unnecessary IDs which are already present in the title search '
                             'results: %s', len(unnecessary_whitelisted_ids), csv)
 
