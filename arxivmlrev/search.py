@@ -49,8 +49,8 @@ class Searcher:
                 result = Result(result_dict)
                 if (not result.is_id_whitelisted) and (result.is_id_blacklisted or (not result.is_title_whitelisted)):
                     # Note: Title whitelist is checked to skip erroneous match, e.g. "tours" for search term "tour".
-                    log.debug('Skipped result: %s (v%s) (%s) (%s)',
-                              result.title, result.version, result.updated, result.categories_str)
+                    # log.debug('Skipped result: %s (v%s) (%s) (%s)',
+                    #           result.title, result.version, result.updated, result.categories_str)
                     continue
                 num_yielded += 1
                 yield result.to_dict
