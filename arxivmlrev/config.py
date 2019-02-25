@@ -39,6 +39,7 @@ GITHUB_MD_PUBLISH_PATH = 'Resources/ArticlesReview.md'
 GITHUB_PUBLISH_REPO = 'freenode-machinelearning/freenode-machinelearning.github.io'
 LOGGING_CONF_PATH = CONFIG_DIR / 'logging.conf'
 MAX_RESULTS_PER_QUERY = 2000 - 2
+MAX_QUERY_ATTEMPTS = 5
 ON_SERVERLESS = bool(os.getenv('GCLOUD_PROJECT'))  # Approximation.
 REPO_URL = 'https://github.com/ml-feeds/arxiv-ml-reviews'
 TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])

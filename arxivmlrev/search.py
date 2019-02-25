@@ -17,8 +17,6 @@ log = logging.getLogger(__name__)
 
 class Searcher:
 
-    _NUM_QUERY_ATTEMPTS = 3
-
     # Ref: https://arxiv.org/help/api/user-manual
 
     class QueryTypeInvalid(Exception):
@@ -92,7 +90,7 @@ class Searcher:
         self._log_memory(logging.DEBUG)
 
     def _run_query(self, *, query_type: str, start: int, interval: float) -> Tuple[List[dict], float]:
-        for num_query_attempt in range(1, self._NUM_QUERY_ATTEMPTS + 1):
+        for num_query_attempt in range(1, config.MAX_QUERY_ATTEMPTS + 1):
             log.info('Starting %s query at offset %s.', query_type, start)
             if query_type == 'title':
                 results = arxiv.query(search_query=self._title_query, start=start,
@@ -110,7 +108,7 @@ class Searcher:
             if len(results) >= min_num_expected_results:
                 log.info('The %s query returned %s results which is a sufficient number.', query_type, len(results))
                 break
-            if num_query_attempt != self._NUM_QUERY_ATTEMPTS:
+            if num_query_attempt != config.MAX_QUERY_ATTEMPTS:
                 log.warning('The %s query returned %s results which is an insufficient number relative to an '
                             'expectation of at least %s. The query will be rerun.',
                             query_type, len(results), min_num_expected_results)
