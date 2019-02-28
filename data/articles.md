@@ -1047,6 +1047,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Natural Language Processing - A Survey (2012)](https://arxiv.org/abs/1209.6238) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [Segmentation of Breast Regions in Mammogram Based on Density: A Review (2012)](https://arxiv.org/abs/1209.5494) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Qualitative Modelling via Constraint Programming: Past, Present and Future (2012)](https://arxiv.org/abs/1209.3916) ([cs.CE](https://arxiv.org/list/cs.CE/recent))
+* [Practical recommendations for gradient-based training of deep architectures (2012)](https://arxiv.org/abs/1206.5533) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Guidelines for a Dynamic Ontology - Integrating Tools of Evolution and Versioning in Ontology (2012)](https://arxiv.org/abs/1208.1750) ([cs.SE](https://arxiv.org/list/cs.SE/recent))
 * [A Survey of Recent View-based 3D Model Retrieval Methods (2012)](https://arxiv.org/abs/1208.3670) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Personalization in Geographic information systems: A survey (2012)](https://arxiv.org/abs/1208.0153) ([cs.IR](https://arxiv.org/list/cs.IR/recent))
