@@ -165,6 +165,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [A Very Brief and Critical Discussion on AutoML (2018)](https://arxiv.org/abs/1811.03822) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
 * [Stovepiping and Malicious Software: A Critical Review of AGI Containment (2018)](https://arxiv.org/abs/1811.03653) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
 * [A Survey on Data Collection for Machine Learning: a Big Data - AI Integration Perspective (2018)](https://arxiv.org/abs/1811.03402) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
+* [Activation Functions: Comparison of trends in Practice and Research for Deep Learning (2018)](https://arxiv.org/abs/1811.03378) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Introduction to the 1st Place Winning Model of OpenImages Relationship Detection Challenge (2018)](https://arxiv.org/abs/1811.00662) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Fused Gromov-Wasserstein distance for structured objects: theoretical foundations and mathematical properties (2018)](https://arxiv.org/abs/1811.02834) ([stat.ML](https://arxiv.org/list/stat.ML/recent))
 * [A Pragmatic Guide to Geoparsing Evaluation (2018)](https://arxiv.org/abs/1810.12368) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
