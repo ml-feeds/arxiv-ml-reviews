@@ -28,15 +28,24 @@ class Feed:
         feed = self._init_feed()
         for _, result in results.iterrows():
             entry = feed.add_entry(order='append')
-            entry.title(result.Title)
+
+            # Add title
+            primary_category = result.Categories.split(', ', 1)[0]
+            years = result.Published.year if (result.Published.year == result.Updated.year) else \
+                f'{result.Published.year}-{result.Updated.year}'
+            title = f'{result.Title} ({years}) ({primary_category})'
+            entry.title(title)
+
+            # Add link
             link = versioned_url_id_to_url(result.URL_ID, result.Version)
             entry.link(href=link)
             entry.guid(link, permalink=True)
+
             entry.description(result.Abstract)
             entry.published(result.Updated)  # Intentionally not result.Published.
             for category in result.Categories.split(', '):
                 entry.category(term=category)
-            log.debug('Added: %s (%s)', result.Title, result.Updated)
+            log.debug('Added: %s (%s)', title, result.Updated)
 
         text_: bytes = feed.rss_str(pretty=True)
         return text_
