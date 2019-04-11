@@ -1,8 +1,10 @@
 # Review articles
 This is a mostly auto-generated list of review articles on machine learning and artificial intelligence that         are on [arXiv](https://arxiv.org/).         Although some of them were written for a specific technical audience or application, the techniques described         are nonetheless generally relevant.         The list is sorted reverse chronologically by the last updated date of the reviews.         It was generated on 2019-04-10.         It includes articles mainly from the arXiv categories [cs.AI](https://arxiv.org/list/cs.AI/recent), [cs.CL](https://arxiv.org/list/cs.CL/recent), [cs.CV](https://arxiv.org/list/cs.CV/recent), [cs.IR](https://arxiv.org/list/cs.IR/recent), [cs.LG](https://arxiv.org/list/cs.LG/recent), [cs.NE](https://arxiv.org/list/cs.NE/recent), [eess.IV](https://arxiv.org/list/eess.IV/recent), and [stat.ML](https://arxiv.org/list/stat.ML/recent).         A rememberable short link to this page is [https://j.mp/ml-reviews](https://j.mp/ml-reviews).         The [source code](https://github.com/ml-feeds/arxiv-ml-reviews) along with         [raw data](https://raw.githubusercontent.com/ml-feeds/arxiv-ml-reviews/master/data/articles.csv) for         generating this page are linked.         This page is currently not automatically updated.         An auto-updated [RSS feed](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews) is available.
-* [When Gaussian Process Meets Big Data: A Review of Scalable GPs (2018-2019)](https://arxiv.org/abs/1807.01065) ([stat.ML](https://arxiv.org/list/stat.ML/recent))
-* [A Short Survey on Sense-Annotated Corpora (2018-2019)](https://arxiv.org/abs/1802.04744) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [Image and Video Compression with Neural Networks: A Review (2019)](https://arxiv.org/abs/1904.03567) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
+* [A Recent Survey on the Applications of Genetic Programming in Image Processing (2019)](https://arxiv.org/abs/1901.07387) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
+* [When Gaussian Process Meets Big Data: A Review of Scalable GPs (2018-2019)](https://arxiv.org/abs/1807.01065) ([stat.ML](https://arxiv.org/list/stat.ML/recent))
+* [An overview of embedding models of entities and relationships for knowledge base completion (2017-2019)](https://arxiv.org/abs/1703.08098) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
+* [A Short Survey on Sense-Annotated Corpora (2018-2019)](https://arxiv.org/abs/1802.04744) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [A survey on Deep Learning Advances on Different 3D Data Representations (2018-2019)](https://arxiv.org/abs/1808.01462) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [The Mathematics of Text Structure (2019)](https://arxiv.org/abs/1904.03478) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [An Attentive Survey of Attention Models (2019)](https://arxiv.org/abs/1904.02874) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
@@ -131,7 +133,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Fitting A Mixture Distribution to Data: Tutorial (2019)](https://arxiv.org/abs/1901.06708) ([stat.OT](https://arxiv.org/list/stat.OT/recent))
 * [Deep Learning in Spiking Neural Networks (2018-2019)](https://arxiv.org/abs/1804.08150) ([cs.NE](https://arxiv.org/list/cs.NE/recent))
 * [Combating Fake News: A Survey on Identification and Mitigation Techniques (2019)](https://arxiv.org/abs/1901.06437) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
-* [A Recent Survey on the Applications of Genetic Programming in Image Processing (2019)](https://arxiv.org/abs/1901.07387) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Safety and Trustworthiness of Deep Neural Networks: A Survey (2018-2019)](https://arxiv.org/abs/1812.08342) ([cs.LG](https://arxiv.org/list/cs.LG/recent))
 * [Genetic Algorithms and the Traveling Salesman Problem a historical Review (2019)](https://arxiv.org/abs/1901.05737) ([cs.NE](https://arxiv.org/list/cs.NE/recent))
 * [Taking Human out of Learning Applications: A Survey on Automated Machine Learning (2018-2019)](https://arxiv.org/abs/1810.13306) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
@@ -481,7 +482,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Visual Interpretability for Deep Learning: a Survey (2018)](https://arxiv.org/abs/1802.00614) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [A comprehensive review of 3D point cloud descriptors (2018)](https://arxiv.org/abs/1802.02297) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
 * [Automatic differentiation in machine learning: a survey (2015-2018)](https://arxiv.org/abs/1502.05767) ([cs.SC](https://arxiv.org/list/cs.SC/recent))
-* [An overview of embedding models of entities and relationships for knowledge base completion (2017-2018)](https://arxiv.org/abs/1703.08098) ([cs.CL](https://arxiv.org/list/cs.CL/recent))
 * [A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications (2017-2018)](https://arxiv.org/abs/1709.07604) ([cs.AI](https://arxiv.org/list/cs.AI/recent))
 * [The Benefits of Population Diversity in Evolutionary Algorithms: A Survey of Rigorous Runtime Analyses (2018)](https://arxiv.org/abs/1801.10087) ([cs.NE](https://arxiv.org/list/cs.NE/recent))
 * [An overview of deep learning based methods for unsupervised and semi-supervised anomaly detection in videos (2018)](https://arxiv.org/abs/1801.03149) ([cs.CV](https://arxiv.org/list/cs.CV/recent))
