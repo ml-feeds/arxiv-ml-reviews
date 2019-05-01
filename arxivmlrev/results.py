@@ -82,8 +82,9 @@ class Results:
                 primary_category = _linked_category(primary_category)
                 years = row.Published.year if (row.Published.year == row.Updated.year) else \
                     f'{row.Published.year}-{row.Updated.year}'
-                link = f'https://arxiv.org/abs/{row.URL_ID}'
-                md.write(f'* [{row.Title} ({years})]({link}) ({primary_category})\n')
+                link_abs = f'https://arxiv.org/abs/{row.URL_ID}'
+                link_pdf = f'https://arxiv.org/pdf/{row.URL_ID}'
+                md.write(f'* [{row.Title} ({years})]({link_abs}) ({primary_category}) | [pdf]({link_pdf})\n')
         log.info('Finished writing markdown file with %s entries.', len(self._df_results))
 
     @staticmethod
