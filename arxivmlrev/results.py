@@ -84,7 +84,7 @@ class Results:
                     f'{row.Published.year}-{row.Updated.year}'
                 link_abs = f'https://arxiv.org/abs/{row.URL_ID}'
                 link_pdf = f'https://arxiv.org/pdf/{row.URL_ID}'
-                md.write(f'* [{row.Title} ({years})]({link_abs}) ({primary_category}) | [pdf]({link_pdf})\n')
+                md.write(f'* [{row.Title} ({years})]({link_abs}) ({primary_category}) │ [pdf]({link_pdf})\n')
         log.info('Finished writing markdown file with %s entries.', len(self._df_results))
 
     @staticmethod
