@@ -65,13 +65,13 @@ class Searcher:
             AND {title_whitelist_query}
             ANDNOT {title_blacklist_query}
         '''
-        log.debug('Title search query (multiline version): %s', query)
+        log.debug('Title search query (unsubmitted multiline version): %s', query)
         query = query.strip().replace('\n', ' ')
         while '  ' in query:
             query = query.replace('  ', ' ')
         query = query.replace('( ', '(').replace(' )', ')')
         # Note: A sufficiently longer query can very possibly lead to arXiv returning incomplete results.
-        log.debug('Title search query (actual single-line version):\n%s', query)
+        # log.debug('Title search query (actual single-line version):\n%s', query)
         log.debug('Title search query length is %s characters.', len(query))
         return query
 
