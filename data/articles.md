@@ -1060,6 +1060,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Notes on hierarchical ensemble methods for DAG-structured taxonomies (2014)](https://arxiv.org/abs/1406.4472) │ [pdf](https://arxiv.org/pdf/1406.4472) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [A Hitchhiker's Guide to Search-Based Software Engineering for Software Product Lines (2014)](https://arxiv.org/abs/1406.2823) │ [pdf](https://arxiv.org/pdf/1406.2823) │ [cs.SE](https://arxiv.org/list/cs.SE/recent)
 * [Conceptors: an easy introduction (2014)](https://arxiv.org/abs/1406.2671) │ [pdf](https://arxiv.org/pdf/1406.2671) │ [cs.NE](https://arxiv.org/list/cs.NE/recent)
+* [A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States (2013-2014)](https://arxiv.org/abs/1306.2164) │ [pdf](https://arxiv.org/pdf/1306.2164) │ [cond-mat.str-el](https://arxiv.org/list/cond-mat.str-el/recent)
 * [Web Data Extraction, Applications and Techniques: A Survey (2012-2014)](https://arxiv.org/abs/1207.0246) │ [pdf](https://arxiv.org/pdf/1207.0246) │ [cs.IR](https://arxiv.org/list/cs.IR/recent)
 * [Introduction to Neutrosophic Statistics (2014)](https://arxiv.org/abs/1406.2000) │ [pdf](https://arxiv.org/pdf/1406.2000) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [Real Time Object Tracking Based on Inter-frame Coding: A Review (2014)](https://arxiv.org/abs/1405.4390) │ [pdf](https://arxiv.org/pdf/1405.4390) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)
