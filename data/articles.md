@@ -10,7 +10,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Best Practices for Learning Domain-Specific Cross-Lingual Embeddings (2019)](https://arxiv.org/abs/1907.03112) │ [pdf](https://arxiv.org/pdf/1907.03112) │ [cs.CL](https://arxiv.org/list/cs.CL/recent)
 * [Deep Learning for Fine-Grained Image Analysis: A Survey (2019)](https://arxiv.org/abs/1907.03069) │ [pdf](https://arxiv.org/pdf/1907.03069) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)
 * [Application of Deep Learning in Fundus Image Processing for Ophthalmic Diagnosis -- A Review (2018-2019)](https://arxiv.org/abs/1812.07101) │ [pdf](https://arxiv.org/pdf/1812.07101) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)
-* [The FACTS of Technology-Assisted Sensitivity Review (2019)](https://arxiv.org/abs/1907.02956) │ [pdf](https://arxiv.org/pdf/1907.02956) │ [cs.CY](https://arxiv.org/list/cs.CY/recent)
 * [Extraction and Analysis of Fictional Character Networks: A Survey (2019)](https://arxiv.org/abs/1907.02704) │ [pdf](https://arxiv.org/pdf/1907.02704) │ [cs.SI](https://arxiv.org/list/cs.SI/recent)
 * [A Survey of Pruning Methods for Efficient Person Re-identification Across Domains (2019)](https://arxiv.org/abs/1907.02547) │ [pdf](https://arxiv.org/pdf/1907.02547) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)
 * [Canonical Correlation Analysis (CCA) Based Multi-View Learning: An Overview (2019)](https://arxiv.org/abs/1907.01693) │ [pdf](https://arxiv.org/pdf/1907.01693) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
