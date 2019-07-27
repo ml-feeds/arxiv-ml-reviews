@@ -9,7 +9,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [An Introduction to Variational Autoencoders (2019)](https://arxiv.org/abs/1906.02691) │ [pdf](https://arxiv.org/pdf/1906.02691) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
 * [Blind Deblurring using Deep Learning: A Survey (2019)](https://arxiv.org/abs/1907.10128) │ [pdf](https://arxiv.org/pdf/1907.10128) │ [eess.IV](https://arxiv.org/list/eess.IV/recent)
 * [SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python (2019)](https://arxiv.org/abs/1907.10121) │ [pdf](https://arxiv.org/pdf/1907.10121) │ [cs.MS](https://arxiv.org/list/cs.MS/recent)
-* [Overview and Results: CL-SciSumm Shared Task 2019 (2019)](https://arxiv.org/abs/1907.09854) │ [pdf](https://arxiv.org/pdf/1907.09854) │ [cs.CL](https://arxiv.org/list/cs.CL/recent)
 * [Introduction to Neural Network based Approaches for Question Answering over Knowledge Graphs (2019)](https://arxiv.org/abs/1907.09361) │ [pdf](https://arxiv.org/pdf/1907.09361) │ [cs.CL](https://arxiv.org/list/cs.CL/recent)
 * [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods (2019)](https://arxiv.org/abs/1907.09358) │ [pdf](https://arxiv.org/pdf/1907.09358) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)
 * [Deep Reinforcement Learning for Clinical Decision Support: A Brief Survey (2019)](https://arxiv.org/abs/1907.09475) │ [pdf](https://arxiv.org/pdf/1907.09475) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
