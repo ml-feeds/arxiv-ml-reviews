@@ -25,7 +25,7 @@ Presence,URL_ID,Title
 1,1712.03141,Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning
 1,1711.01134,Accountability of AI Under the Law: The Role of Explanation
 1,1709.02779,Machine learning \& artificial intelligence in the quantum domain
-1,1708.09213,Review of Tensor Network Contraction Approaches
+1,1708.09213,Lecture Notes of Tensor Network Contractions
 1,1708.07902,Deep Learning for Video Game Playing
 1,1708.00006,Tensor Networks in a Nutshell
 1,1707.08561,Quantum machine learning: a classical perspective
@@ -50,6 +50,7 @@ Presence,URL_ID,Title
 0,cs/0203012,Interface agents: A review of the field
 0,cmp-lg/9805004,Annotation Style Guide for the Blinker Project
 0,cmp-lg/9506019,"Review of Charniak's ""Statistical Language Learning"""
+0,1908.04092,Active Annotation: bootstrapping annotation lexicon and guidelines for supervised NLU learning
 0,1907.09854,Overview and Results: CL-SciSumm Shared Task 2019
 0,1907.07631,On the Tour Towards DPLL(MAPF) and Beyond
 0,1907.07514,Self Organizing Supply Chains for Micro-Prediction: Present and Future uses of the ROAR Protocol
