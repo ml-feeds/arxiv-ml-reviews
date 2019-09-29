@@ -74,7 +74,7 @@ class Results:
         Any incorrect or missing entries can be reported as an \
         [issue](https://github.com/ml-feeds/arxiv-ml-reviews/issues). \
         This page is currently not automatically updated. \
-        An auto-updated [RSS feed](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews) is available.
+        An auto-updated [RSS feed](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews) is however available.
         """.strip()
 
         with config.DATA_ARTICLES_MD_PATH.open('w') as md:
