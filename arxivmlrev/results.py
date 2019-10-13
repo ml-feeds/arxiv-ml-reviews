@@ -105,7 +105,7 @@ class Results:
 
         try:
             log.debug('Attempting to read existing markdown file on GitHub.')
-            contents = repo.get_contents(config.GITHUB_MD_PUBLISH_PATH)
+            contents = repo.get_contents(path=config.GITHUB_MD_PUBLISH_PATH)
             log.info('Read existing GitHub file.')
         except github.GithubException.UnknownObjectException:
             log.info('Unable to read existing markdown file on GitHub.')
