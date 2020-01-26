@@ -5,7 +5,7 @@ Presence,URL_ID,Title
 1,1903.04711,Deep Learning for Automated Medical Image Analysis
 1,1902.01724,AlphaStar: An Evolutionary Computation Perspective
 1,1901.01341,Sheaves: A Topological Approach to Big Data
-1,1812.07127,Reinforcement Learning for Online Information Seeking
+1,1812.07127,"Deep reinforcement learning for search, recommendation, and online advertising: a survey"
 1,1811.03378,Activation Functions: Comparison of trends in Practice and Research for Deep Learning
 1,1810.11530,Automatic differentiation in ML: Where we are and where we should be going
 1,1810.06339,Deep Reinforcement Learning
@@ -50,6 +50,7 @@ Presence,URL_ID,Title
 0,cs/0203012,Interface agents: A review of the field
 0,cmp-lg/9805004,Annotation Style Guide for the Blinker Project
 0,cmp-lg/9506019,"Review of Charniak's ""Statistical Language Learning"""
+0,2001.08379,Visual Summary of Value-level Feature Attribution in Prediction Classes with Recurrent Neural Networks
 0,2001.05171,Teddy: A System for Interactive Review Analysis
 0,1912.09581,Line Drawings of Natural Scenes Guide Visual Attention
 0,1912.09318,AI and Holistic Review: Informing Human Reading in College Admissions
