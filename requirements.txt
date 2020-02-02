@@ -10,7 +10,7 @@ certifi==2019.11.28       # via requests
 chardet==3.0.4            # via requests
 click==7.0                # via flask
 deprecated==1.2.7         # via pygithub
-feedgen==0.7.0
+feedgen==0.9.0
 feedparser==5.2.1         # via arxiv
 fire==0.1.3
 flask==1.0.3
