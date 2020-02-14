@@ -93,7 +93,7 @@ class Searcher:
         for num_query_attempt in range(1, config.MAX_QUERY_ATTEMPTS + 1):
             log.info('Starting %s query at offset %s.', query_type, start)
             if query_type == 'title':
-                results = arxiv.query(search_query=self._title_query, start=start,
+                results = arxiv.query(query=self._title_query, start=start,
                                       max_results=self._max_results_per_query, sort_by=self._sort_by)
                 min_num_expected_results = self._max_results_per_query if start == 0 else 1
                 # Note: If start > 0, there can actually genuinely be 0 results, but the chances of this are too low.
