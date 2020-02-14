@@ -22,7 +22,7 @@ lxml==4.5.0               # via feedgen
 markupsafe==1.1.1         # via jinja2
 numpy==1.18.1             # via pandas
 pandas==0.24.2
-pygithub==1.43.8
+pygithub==1.46
 pyjwt==1.7.1              # via pygithub
 pytest-runner==5.2        # via arxiv
 python-dateutil==2.8.1    # via feedgen, pandas

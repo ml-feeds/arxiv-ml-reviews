@@ -5,5 +5,5 @@ flask
 fire
 humanize
 pandas==0.24.*
-pygithub==1.43.*
+pygithub
 pytz
