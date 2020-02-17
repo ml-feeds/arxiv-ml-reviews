@@ -4,26 +4,26 @@ import logging.config
 import os
 from pathlib import Path
 import re
-from typing import Dict, List, Set
+from typing import Dict, List, Optional, Set
 
 import pandas as pd
 from ruamel.yaml import YAML
 
 
-def _term_regex(term, assertions: Dict[str, List[str]]) -> re.Pattern:
+def _term_regex(term, assertions: Optional[Dict[str, List[str]]] = None) -> re.Pattern:
     escape = re.escape
     pattern = escape(term)
-    assertions = assertions or {}
 
-    neg_lookbehinds = assertions.get('startswithout') or []
-    if neg_lookbehinds:
-        neg_lookbehinds = ''.join(fr'(?<!{escape(f"{s} ")})' for s in neg_lookbehinds)
-        pattern = f'{neg_lookbehinds}{pattern}'
+    if assertions:
+        neg_lookbehinds = assertions.get('startswithout') or []
+        if neg_lookbehinds:
+            neg_lookbehinds = ''.join(fr'(?<!{escape(f"{s} ")})' for s in neg_lookbehinds)
+            pattern = f'{neg_lookbehinds}{pattern}'
 
-    neg_lookaheads = assertions.get('endswithout') or []
-    if neg_lookaheads:
-        neg_lookaheads = '|'.join(escape(s) for s in neg_lookaheads)
-        pattern = fr'{pattern}(?!\ (?:{neg_lookaheads})\b)'
+        neg_lookaheads = assertions.get('endswithout') or []
+        if neg_lookaheads:
+            neg_lookaheads = '|'.join(escape(s) for s in neg_lookaheads)
+            pattern = fr'{pattern}(?!\ (?:{neg_lookaheads})\b)'
 
     pattern = fr'\b(?i:{pattern})\b'
     return re.compile(pattern)
@@ -66,6 +66,7 @@ TERMS_PATH = CONFIG_DIR / 'terms.yml'
 TERMS = json.loads(json.dumps(YAML().load(TERMS_PATH)))
 TERMS_BLACKLIST = set(TERMS['blacklist'])
 TERMS_WHITELIST = set(TERMS['whitelist'])
+TERMS_BLACKLIST_REGEXES = [_term_regex(term) for term in TERMS['blacklist']]
 TERMS_WHITELIST_REGEXES = [_term_regex(term, assertions) for term, assertions in TERMS['whitelist'].items()]
 URL_ID_BLACKLIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 0]['URL_ID'])
 URL_ID_WHITELIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 1]['URL_ID'])
