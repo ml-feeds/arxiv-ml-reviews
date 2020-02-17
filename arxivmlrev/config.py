@@ -35,10 +35,6 @@ def _term_whitelist_regex(term, assertions: Dict[str, List[str]]) -> re.Pattern:
     return re.compile(pattern)
 
 
-def _textfile_set(path: Path) -> Set[str]:
-    return set(path.read_text().strip().split('\n'))
-
-
 def configure_logging() -> None:
     logging.config.dictConfig(LOGGING)
     log = logging.getLogger(__name__)
@@ -49,7 +45,8 @@ CONFIG_DIR = Path(__file__).parent / '_config'
 DATA_DIR = Path(__file__).parents[1] / 'data'
 PACKAGE_NAME = Path(__file__).parent.stem
 
-CATEGORIES = _textfile_set(Path(CONFIG_DIR) / 'categories.txt')
+CATEGORIES_PATH = CONFIG_DIR / 'categories.txt'
+CATEGORIES = sorted(set(CATEGORIES_PATH.read_text().strip().split('\n')))
 CONFIG_ARTICLES_PATH = CONFIG_DIR / 'articles.csv'
 CONFIG_ARTICLES = pd.read_csv(CONFIG_ARTICLES_PATH, dtype={'URL_ID': str})
 DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Version', 'Published', 'Updated', 'Title', 'Categories', 'Abstract']
@@ -70,8 +67,8 @@ ON_SERVERLESS = bool(os.getenv('GCLOUD_PROJECT'))  # Approximation.
 REPO_URL = 'https://github.com/ml-feeds/arxiv-ml-reviews'
 TERMS_PATH = CONFIG_DIR / 'terms.yml'
 TERMS = json.loads(json.dumps(YAML().load(TERMS_PATH)))
-TERMS_BLACKLIST = set(TERMS['blacklist'])
-TERMS_WHITELIST = set(TERMS['whitelist'])
+TERMS_BLACKLIST = sorted(set(TERMS['blacklist']))
+TERMS_WHITELIST = sorted(TERMS['whitelist'])
 TERMS_BLACKLIST_REGEX = _terms_blacklist_regex(TERMS['blacklist'])
 TERMS_WHITELIST_REGEXES = [_term_whitelist_regex(term, assertions) for term, assertions in TERMS['whitelist'].items()]
 URL_ID_BLACKLIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 0]['URL_ID'])

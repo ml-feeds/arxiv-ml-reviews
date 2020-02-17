@@ -56,16 +56,16 @@ class Searcher:
             log.debug('Yielded %s of %s results.', num_yielded, len(results))
 
     def _form_title_query(self) -> str:
-        category_query = self._set_to_query(config.CATEGORIES, 'cat')
-        title_whitelist_query = self._set_to_query(config.TERMS_WHITELIST, 'ti')
-        title_blacklist_query = self._set_to_query(config.TERMS_BLACKLIST, 'ti')
+        category_query = self._list_to_query(config.CATEGORIES, 'cat')
+        title_whitelist_query = self._list_to_query(config.TERMS_WHITELIST, 'ti')
+        title_blacklist_query = self._list_to_query(config.TERMS_BLACKLIST, 'ti')
         # Note: Title blacklist has precedence over title whitelist in the query below.
         query = f'''
             {category_query}
             AND {title_whitelist_query}
             ANDNOT {title_blacklist_query}
-        '''
-        log.debug('Title search query (unsubmitted multiline version): %s', query)
+        '''.strip('\n')
+        log.debug('Title search query (unsubmitted multiline version):\n%s', query)
         query = query.strip().replace('\n', ' ')
         while '  ' in query:
             query = query.replace('  ', ' ')
@@ -150,10 +150,11 @@ class Searcher:
             verbose_sleep(sleep_time)
 
     @staticmethod
-    def _set_to_query(strset: Set[str], prefix: str) -> str:
-        strset = {f'"{s}"' if ' ' in s else s for s in strset}
-        strset_ = ' OR '.join(f'{prefix}:{s}' for s in sorted(strset))
-        return f'({strset_})'
+    def _list_to_query(params: List[str], prefix: str) -> str:
+        assert params == sorted(set(p.strip() for p in params))
+        params = [f'"{s}"' if ' ' in s else s for s in params]
+        query = ' OR '.join(f'{prefix}:{s}' for s in params)
+        return f'({query})'
 
     def _search(self, *, search_type: str) -> pd.DataFrame:
         results = self._run_search(search_type=search_type)
