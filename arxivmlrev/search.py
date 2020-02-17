@@ -137,7 +137,7 @@ class Searcher:
                 num_yielded += 1
                 yield result
                 if num_yielded == max_results:
-                    break  # Will log and "return".
+                    break
 
             log.info('Additional memory used since start of %s queries, with %s results yielded, is %s.',
                      search_type, num_yielded, humanized_rss(rss_search_start))
