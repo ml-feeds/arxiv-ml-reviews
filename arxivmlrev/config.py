@@ -22,8 +22,8 @@ def _term_regex(term, assertions: Dict[str, List[str]]) -> re.Pattern:
 
     neg_lookaheads = assertions.get('endswithout') or []
     if neg_lookaheads:
-        neg_lookaheads = '|'.join(escape(f' {s}') for s in neg_lookaheads)
-        pattern = f'{pattern}(?!{neg_lookaheads})'
+        neg_lookaheads = '|'.join(escape(s) for s in neg_lookaheads)
+        pattern = fr'{pattern}(?!\ (?:{neg_lookaheads})\b)'
 
     pattern = fr'\b(?i:{pattern})\b'
     return re.compile(pattern)
