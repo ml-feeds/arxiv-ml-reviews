@@ -1,18 +1,23 @@
 from dataclasses import dataclass
 import datetime
-from string import punctuation
+import re
 from typing import Any, Dict, List
 
 from dateutil.parser import parse as dateutil_parse
 
 from arxivmlrev import config
 
+_REGEX_NOT_ALPHANUM = re.compile(r'\W+')
 _URL_BASE = 'http://arxiv.org/abs/'
 
 
 @dataclass
 class Result:
     result: dict
+
+    @property
+    def _alphanum_title(self) -> str:
+        return _REGEX_NOT_ALPHANUM.sub(' ', self.title).strip()
 
     @property
     def abstract(self) -> str:
@@ -59,12 +64,12 @@ class Result:
     @property
     def is_title_blacklisted(self) -> bool:
         """Return whether the title matches the regular expression of the blacklisted terms."""
-        return bool(config.TERMS_BLACKLIST_REGEX.search(self.title))
+        return bool(config.TERMS_BLACKLIST_REGEX.search(self._alphanum_title))
 
     @property
     def is_title_whitelisted(self) -> bool:
         """Return whether the title matches any of the regular expressions of the whitelisted terms."""
-        title = self.title
+        title = self._alphanum_title
         regexes = config.TERMS_WHITELIST_REGEXES
         return bool(any(regex.search(title) for regex in regexes))
 
