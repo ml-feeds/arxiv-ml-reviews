@@ -7,3 +7,4 @@ humanize
 pandas==0.24.*
 pygithub
 pytz
+ruamel.yaml

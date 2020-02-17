@@ -1,10 +1,32 @@
 import datetime
+import json
 import logging.config
 import os
 from pathlib import Path
-from typing import Set
+import re
+from typing import Dict, List, Set
 
 import pandas as pd
+from ruamel.yaml import YAML
+
+
+def _term_regex(term, assertions: Dict[str, List[str]]) -> re.Pattern:
+    escape = re.escape
+    pattern = escape(term)
+    assertions = assertions or {}
+
+    neg_lookbehinds = assertions.get('startswithout') or []
+    if neg_lookbehinds:
+        neg_lookbehinds = ''.join(fr'(?<!{escape(f"{s} ")})' for s in neg_lookbehinds)
+        pattern = f'{neg_lookbehinds}{pattern}'
+
+    neg_lookaheads = assertions.get('endswithout') or []
+    if neg_lookaheads:
+        neg_lookaheads = '|'.join(escape(f' {s}') for s in neg_lookaheads)
+        pattern = f'{pattern}(?!{neg_lookaheads})'
+
+    pattern = fr'\b(?i:{pattern})\b'
+    return re.compile(pattern)
 
 
 def _textfile_set(path: Path) -> Set[str]:
@@ -24,8 +46,6 @@ PACKAGE_NAME = Path(__file__).parent.stem
 CATEGORIES = _textfile_set(Path(CONFIG_DIR) / 'categories.txt')
 CONFIG_ARTICLES_PATH = CONFIG_DIR / 'articles.csv'
 CONFIG_ARTICLES = pd.read_csv(CONFIG_ARTICLES_PATH, dtype={'URL_ID': str})
-CONFIG_TERMS_PATH = CONFIG_DIR / 'terms.csv'
-CONFIG_TERMS = pd.read_csv(CONFIG_TERMS_PATH)
 DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Version', 'Published', 'Updated', 'Title', 'Categories', 'Abstract']
 DATA_ARTICLES_CSV_PATH = DATA_DIR / 'articles.csv'
 DATA_ARTICLES_MD_PATH = DATA_DIR / 'articles.md'
@@ -42,8 +62,11 @@ MAX_RESULTS_PER_QUERY = 2000 - 2
 MAX_QUERY_ATTEMPTS = 10
 ON_SERVERLESS = bool(os.getenv('GCLOUD_PROJECT'))  # Approximation.
 REPO_URL = 'https://github.com/ml-feeds/arxiv-ml-reviews'
-TERMS_BLACKLIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 0]['Term'])
-TERMS_WHITELIST = set(CONFIG_TERMS[CONFIG_TERMS['Presence'] == 1]['Term'])  # Lowercase phrases without punctuation.
+TERMS_PATH = CONFIG_DIR / 'terms.yml'
+TERMS = json.loads(json.dumps(YAML().load(TERMS_PATH)))
+TERMS_BLACKLIST = set(TERMS['blacklist'])
+TERMS_WHITELIST = set(TERMS['whitelist'])
+TERMS_WHITELIST_REGEXES = [_term_regex(term, assertions) for term, assertions in TERMS['whitelist'].items()]
 URL_ID_BLACKLIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 0]['URL_ID'])
 URL_ID_WHITELIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 1]['URL_ID'])
 URL_ID_WHITELIST_INTERSECTION_IGNORED = ['1707.08561', '1902.01724']

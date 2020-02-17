@@ -1,0 +1,156 @@
+whitelist:  # Entries are unique lowercase phrases without punctuation.
+  basic principles:
+  best practices:
+  brief history:
+  critical appraisal:
+  critical reflection:
+  discussion:
+    startswithout:
+      - online
+    endswithout:
+      - boards
+      - features
+      - forum
+      - points
+      - threads
+  foundations:
+    startswithout:
+      - moral
+  fundamentals:
+    startswithout:
+      - company
+  guide:
+    startswithout:
+      - and
+      - as a
+      - can
+      - exhibition
+  guidelines:
+    startswithout:
+      - medical
+      - prescribing
+      - sampling
+      - to
+  history of:
+  introduction:
+    endswithout:
+      - of
+  mathematics of:
+  notes on:
+  nutshell:
+  overview:
+    startswithout:
+      - challenge
+  perspectives:
+  practical recommendations:
+  present and future:
+  primer:
+  recent advances:
+  review:
+#    match: reviews?
+    startswithout:
+      - airline
+      - app
+      - assisted
+      - book
+      - fake
+      - generate
+      - harvard business
+      - movie
+      - online
+      - peer
+      - peerus
+      - product
+      - user
+    endswithout:
+      - abuse
+      - based
+      - datasets
+      - detection
+      - helpfulness
+      - process
+      - rating
+      - recommendation
+      - representations
+      - scores
+      - selection
+      - spammers
+  summary and:
+  summary description:
+  summary of:
+  survey:
+    startswithout:
+      - aerial
+      - dark energy
+      - experimental
+      - sky
+      - statistical
+      - transient
+      - travel
+    endswithout:
+      - coders
+      - data
+      - evaluation
+      - extraction
+      - problem
+      - propagation
+      - questions
+      - schemes
+  taxonomy:
+    startswithout:
+      - blooms
+      - domain
+      - in a
+      - learning
+      - motion
+      - task
+      - to a
+    endswithout:
+      - augmentation
+      - construction
+      - expansion
+      - extraction
+      - generation
+      - induction
+      - modification
+      - refinement
+  tour:
+    endswithout:
+      - problem
+      - recommendation
+  treatise:
+  tutorial:
+    endswithout:
+      - generation
+blacklist:  # Entries are unique lowercase phrases without punctuation.
+  - arabic
+  - bengali
+  - case study
+  - chinese
+  - comments on
+  - competition
+  - conference
+  - conll
+  - czech
+  - devnagari
+  - eirex
+  - empirical
+  - europe
+  - french
+  - hindi
+  - ibm
+  - indian
+  - kannada
+  - malayalam
+  - matlab toolbox
+  - myanmar
+  - nips
+  - norwegian
+  - patent
+  - punjabi
+  - r package
+  - sinhala
+  - sinographic
+  - wikiconv
+  - workshop
+  - wsdm cup

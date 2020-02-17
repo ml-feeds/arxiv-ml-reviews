@@ -27,8 +27,10 @@ pyjwt==1.7.1              # via pygithub
 python-dateutil==2.8.1    # via feedgen, pandas
 pytz==2019.3
 requests==2.22.0          # via arxiv, pygithub
+ruamel.yaml.clib==0.2.0   # via ruamel.yaml
+ruamel.yaml==0.16.10
 six==1.14.0               # via fire, python-dateutil
 termcolor==1.1.0          # via fire
 urllib3==1.25.8           # via requests
 werkzeug==1.0.0           # via flask
-wrapt==1.11.2             # via deprecated
+wrapt==1.12.0             # via deprecated
