@@ -15,11 +15,6 @@ class Result:
     result: dict
 
     @property
-    def _title_cmp(self) -> str:
-        """Return the modified title used for comparison against a whitelist or blacklist."""
-        return ''.join(c for c in self.title.lower() if c not in punctuation)
-
-    @property
     def abstract(self) -> str:
         return self.abstract_multiline.replace('\n', ' ')
 
@@ -54,17 +49,24 @@ class Result:
         return self.result['arxiv_primary_category']['term']
 
     @property
-    def is_id_blacklisted(self):
+    def is_id_blacklisted(self) -> bool:
         return self.url_id in config.URL_ID_BLACKLIST
 
     @property
-    def is_id_whitelisted(self):
+    def is_id_whitelisted(self) -> bool:
         return self.url_id in config.URL_ID_WHITELIST
 
     @property
-    def is_title_whitelisted(self):
-        """Return whether the title has one or more terms that are whitelisted."""
-        return any(f' {term} ' in f' {self._title_cmp} ' for term in config.TERMS_WHITELIST)
+    def is_title_blacklisted(self) -> bool:
+        """Return whether the title matches the regular expression of the blacklisted terms."""
+        return bool(config.TERMS_BLACKLIST_REGEX.search(self.title))
+
+    @property
+    def is_title_whitelisted(self) -> bool:
+        """Return whether the title matches any of the regular expressions of the whitelisted terms."""
+        title = self.title
+        regexes = config.TERMS_WHITELIST_REGEXES
+        return bool(any(regex.search(title) for regex in regexes))
 
     @property
     def title(self) -> str:
