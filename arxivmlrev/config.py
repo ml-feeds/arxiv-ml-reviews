@@ -4,13 +4,19 @@ import logging.config
 import os
 from pathlib import Path
 import re
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Set
 
 import pandas as pd
 from ruamel.yaml import YAML
 
 
-def _term_regex(term, assertions: Optional[Dict[str, List[str]]] = None) -> re.Pattern:
+def _terms_blacklist_regex(terms: List[str]) -> re.Pattern:
+    pattern = '|'.join(re.escape(term) for term in terms)
+    pattern = fr'\b(?i:{pattern})\b'
+    return re.compile(pattern)
+
+
+def _term_whitelist_regex(term, assertions: Dict[str, List[str]]) -> re.Pattern:
     escape = re.escape
     pattern = escape(term)
 
@@ -66,8 +72,8 @@ TERMS_PATH = CONFIG_DIR / 'terms.yml'
 TERMS = json.loads(json.dumps(YAML().load(TERMS_PATH)))
 TERMS_BLACKLIST = set(TERMS['blacklist'])
 TERMS_WHITELIST = set(TERMS['whitelist'])
-TERMS_BLACKLIST_REGEXES = [_term_regex(term) for term in TERMS['blacklist']]
-TERMS_WHITELIST_REGEXES = [_term_regex(term, assertions) for term, assertions in TERMS['whitelist'].items()]
+TERMS_BLACKLIST_REGEX = _terms_blacklist_regex(TERMS['blacklist'])
+TERMS_WHITELIST_REGEXES = [_term_whitelist_regex(term, assertions) for term, assertions in TERMS['whitelist'].items()]
 URL_ID_BLACKLIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 0]['URL_ID'])
 URL_ID_WHITELIST = set(CONFIG_ARTICLES[CONFIG_ARTICLES['Presence'] == 1]['URL_ID'])
 URL_ID_WHITELIST_INTERSECTION_IGNORED = ['1707.08561', '1902.01724']

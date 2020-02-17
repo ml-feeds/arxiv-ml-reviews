@@ -83,6 +83,9 @@ class Searcher:
         log.debug('The %s enabled categories are %s.', len(config.CATEGORIES), readable_list(sorted(config.CATEGORIES)))
         log.debug('The number of title search terms whitelisted and blacklisted are %s and %s respectively.',
                   len(config.TERMS_WHITELIST), len(config.TERMS_BLACKLIST))
+        # log.debug('The %s whitelisted regexes are:\n• %s', len(config.TERMS_WHITELIST_REGEXES),
+        #           '\n• '.join(regex.pattern for regex in config.TERMS_WHITELIST_REGEXES))
+        # log.debug('The blacklisted regex is:\n%s', config.TERMS_BLACKLIST_REGEX.pattern)
         log.debug('The number of search IDs whitelisted and blacklisted are %s and %s respectively.',
                   len(config.URL_ID_WHITELIST), len(config.URL_ID_BLACKLIST))
         log.debug('Max results requested is %s.', self._max_results)
