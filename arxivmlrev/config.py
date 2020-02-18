@@ -4,7 +4,7 @@ import logging.config
 import os
 from pathlib import Path
 import re
-from typing import Dict, List, Set
+from typing import Dict, List
 
 import pandas as pd
 from ruamel.yaml import YAML
