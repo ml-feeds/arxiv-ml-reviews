@@ -1,5 +1,5 @@
 # arxiv-ml-reviews
-**arxiv-ml-reviews** mainly uses a [keyword](arxivmlrev/_config/terms.csv)-based search to extract a list of review
+**arxiv-ml-reviews** mainly uses a [keyword](arxivmlrev/_config/terms.yml)-based search to extract a list of review
 articles from [arXiv's](https://arxiv.org/) various [categories](arxivmlrev/_config/categories.txt)
 on machine learning and artificial intelligence.
 
