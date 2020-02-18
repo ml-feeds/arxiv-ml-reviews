@@ -11,6 +11,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - boards
       - features
       - forum
+      - forums
       - points
       - threads
   foundations:
@@ -25,8 +26,10 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - as a
       - can
       - exhibition
+      - to
   guidelines:
     startswithout:
+      - annotation
       - medical
       - prescribing
       - sampling
@@ -64,9 +67,12 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - user
     endswithout:
       - abuse
+      - aware
       - based
       - datasets
       - detection
+      - driven
+      - generation
       - helpfulness
       - process
       - rating
@@ -107,6 +113,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - to a
     endswithout:
       - augmentation
+      - aware
       - construction
       - expansion
       - extraction
