@@ -50,12 +50,12 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
   primer:
   recent advances:
   review:
-#    match: reviews?
     startswithout:
       - airline
       - app
       - assisted
       - book
+      - collusive
       - fake
       - generate
       - harvard business
@@ -69,15 +69,18 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - abuse
       - aware
       - based
+      - dataset
       - datasets
       - detection
       - driven
       - generation
       - helpfulness
+      - level
       - process
       - rating
       - recommendation
       - representations
+      - score
       - scores
       - selection
       - spammers
@@ -99,7 +102,9 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - evaluation
       - extraction
       - problem
+      - problems
       - propagation
+      - question
       - questions
       - schemes
   taxonomy:
