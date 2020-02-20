@@ -1,7 +1,8 @@
 from dataclasses import dataclass
 import datetime
+import logging
 import re
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from dateutil.parser import parse as dateutil_parse
 
@@ -9,6 +10,8 @@ from arxivmlrev import config
 
 _REGEX_NOT_ALPHANUM = re.compile(r'\W+')
 _URL_BASE = 'http://arxiv.org/abs/'
+
+log = logging.getLogger(__name__)
 
 
 @dataclass
@@ -62,16 +65,21 @@ class Result:
         return self.url_id in config.URL_ID_WHITELIST
 
     @property
-    def is_title_blacklisted(self) -> bool:
-        """Return whether the title matches the regular expression of the blacklisted terms."""
-        return bool(config.TERMS_BLACKLIST_REGEX.search(self._alphanum_title))
+    def title_blacklist_match(self) -> Optional[str]:
+        """Return the matching string, if any, of the title against the blacklisted terms regular expression."""
+        match = config.TERMS_BLACKLIST_REGEX.search(self._alphanum_title)
+        if match:
+            return match.group()
 
     @property
-    def is_title_whitelisted(self) -> bool:
-        """Return whether the title matches any of the regular expressions of the whitelisted terms."""
+    def title_whitelist_match(self) -> Optional[str]:
+        """Return the matching string, if any, of the title against the regular expressions of the whitelisted terms."""
         title = self._alphanum_title
         regexes = config.TERMS_WHITELIST_REGEXES
-        return bool(any(regex.search(title) for regex in regexes))
+        for regex in regexes:
+            match = regex.search(title)
+            if match:
+                return match.group()
 
     @property
     def title(self) -> str:
@@ -117,7 +125,9 @@ class Result:
     @property
     def to_dict(self) -> Dict[str, Any]:
         return {'URL_ID': self.url_id, 'Version': self.version, 'Published': self.published, 'Updated': self.updated,
-                'Title': self.title, 'Categories': self.categories_str, 'Abstract': self.abstract}
+                'Title': self.title, 'Match': self.title_whitelist_match, 'Categories': self.categories_str,
+                'Abstract': self.abstract,
+                }
 
 
 def versioned_url_id_to_url(url_id: str, version: int) -> str:

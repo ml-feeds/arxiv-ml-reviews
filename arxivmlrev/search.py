@@ -46,7 +46,7 @@ class Searcher:
             for result_dict in results:
                 result = Result(result_dict)
                 if not result.is_id_whitelisted:
-                    if result.is_id_blacklisted or result.is_title_blacklisted or (not result.is_title_whitelisted):
+                    if result.is_id_blacklisted or result.title_blacklist_match or (not result.title_whitelist_match):
                         # log.debug('Skipped result: %s (v%s) (%s) (%s)',
                         #           result.title, result.version, result.updated, result.categories_str)
                         continue

@@ -49,7 +49,7 @@ CATEGORIES_PATH = CONFIG_DIR / 'categories.txt'
 CATEGORIES = sorted(set(CATEGORIES_PATH.read_text().strip().split('\n')))
 CONFIG_ARTICLES_PATH = CONFIG_DIR / 'articles.csv'
 CONFIG_ARTICLES = pd.read_csv(CONFIG_ARTICLES_PATH, dtype={'URL_ID': str})
-DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Version', 'Published', 'Updated', 'Title', 'Categories', 'Abstract']
+DATA_ARTICLES_CSV_COLUMNS = ['URL_ID', 'Version', 'Published', 'Updated', 'Title', 'Match', 'Categories', 'Abstract']
 DATA_ARTICLES_CSV_PATH = DATA_DIR / 'articles.csv'
 DATA_ARTICLES_MD_PATH = DATA_DIR / 'articles.md'
 FEED_CACHE_TTL = datetime.timedelta(hours=23).total_seconds()

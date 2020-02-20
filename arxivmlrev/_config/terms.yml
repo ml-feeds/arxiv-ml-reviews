@@ -35,6 +35,8 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - sampling
       - to
   history of:
+    endswithout:
+      - galaxies
   introduction:
     endswithout:
       - of

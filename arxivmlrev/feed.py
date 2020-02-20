@@ -45,7 +45,7 @@ class Feed:
             entry.published(result.Updated)  # Intentionally not result.Published.
             for category in result.Categories.split(', '):
                 entry.category(term=category)
-            log.debug('Added: %s (%s)', title, result.Updated)
+            log.debug('Added: %s (%s). It matched %s.', title, result.Updated, repr(result.Match))
 
         text_: bytes = feed.rss_str(pretty=True)
         return text_
