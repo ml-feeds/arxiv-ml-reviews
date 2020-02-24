@@ -82,6 +82,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - rating
       - recommendation
       - representations
+      - screenings
       - score
       - scores
       - selection
