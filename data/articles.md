@@ -15,7 +15,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Deep Neural Networks for Automatic Speech Processing: A Survey from Large Corpora to Limited Data (2020)](https://arxiv.org/abs/2003.04241) │ [pdf](https://arxiv.org/pdf/2003.04241) │ [eess.AS](https://arxiv.org/list/eess.AS/recent)
 * [Overview of Tools Supporting Planning for Automated Driving (2020)](https://arxiv.org/abs/2003.04081) │ [pdf](https://arxiv.org/pdf/2003.04081) │ [cs.RO](https://arxiv.org/list/cs.RO/recent)
 * [A Survey on The Expressive Power of Graph Neural Networks (2020)](https://arxiv.org/abs/2003.04078) │ [pdf](https://arxiv.org/pdf/2003.04078) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
-* [Overview of the CCKS 2019 Knowledge Graph Evaluation Track: Entity, Relation, Event and QA (2020)](https://arxiv.org/abs/2003.03875) │ [pdf](https://arxiv.org/pdf/2003.03875) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [Reinforcement Learning for Combinatorial Optimization: A Survey (2020)](https://arxiv.org/abs/2003.03600) │ [pdf](https://arxiv.org/pdf/2003.03600) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
 * [Adversarial Machine Learning: Perspectives from Adversarial Risk Analysis (2020)](https://arxiv.org/abs/2003.03546) │ [pdf](https://arxiv.org/pdf/2003.03546) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [A Human-Centered Review of the Algorithms used within the U.S. Child Welfare System (2020)](https://arxiv.org/abs/2003.03541) │ [pdf](https://arxiv.org/pdf/2003.03541) │ [cs.CY](https://arxiv.org/list/cs.CY/recent)
