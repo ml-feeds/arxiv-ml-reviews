@@ -143,6 +143,7 @@ blacklist:  # Entries are unique lowercase phrases without punctuation.
   - arabic
   - bengali
   - case study
+  - ccks
   - chinese
   - comments on
   - competition
