@@ -169,6 +169,7 @@ blacklist:  # Entries are unique lowercase phrases without punctuation.
   - r package
   - sinhala
   - sinographic
+  - trec
   - wikiconv
   - workshop
   - wsdm cup
