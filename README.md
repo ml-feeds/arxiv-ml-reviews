@@ -9,7 +9,7 @@ on machine learning and artificial intelligence.
 * [**RSS feed**](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews)
 
 ## Requirements
-* Python 3.8+
+* Python 3.7+
 * In a new virtual environment or container, run the following, falling back to the versioned `requirements.txt` instead
 if there are any issues.
 ```
