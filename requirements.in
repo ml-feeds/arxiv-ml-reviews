@@ -4,7 +4,7 @@ feedgen
 flask
 fire
 humanize
-pandas==0.24.*
+pandas==0.*
 pygithub
 pytz
 ruamel.yaml
