@@ -1,5 +1,6 @@
 from datetime import date
 import logging
+import os
 
 from github import Github
 import pandas as pd
@@ -93,7 +94,7 @@ class Results:
     def publish_md() -> None:
         """Conditionally publish the markdown file to GitHub."""
         log.info('The currently existing markdown file will conditionally be published to GitHub.')
-        github_token = config.GITHUB_ACCESS_TOKEN_PATH.read_text().strip()
+        github_token = os.environ['GITHUB_ACCESS_TOKEN'].strip()
         log.debug('GitHub access token was read.')
         log.info('The target GitHub repo is "%s" and markdown file path is "%s".',
                  config.GITHUB_PUBLISH_REPO, config.GITHUB_MD_PUBLISH_PATH)

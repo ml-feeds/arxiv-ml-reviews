@@ -40,6 +40,7 @@ Running `python -m arxivmlrev refresh-and-publish` will refresh and also conditi
 Specifically, if the `data/results.csv` file changed but didn't decrease in its number of rows, the command will publish
 the written markdown file to GitHub per the GitHub-specific configuration in `config.py`.
 In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
+The environment variable `GITHUB_ACCESS_TOKEN` is also required.
 
 ### write-feed
 Running `python -m arxivmlrev write-feed` will perform an online search to write the XML file `data/feed.xml`.
@@ -53,6 +54,7 @@ Running `python -m arxivmlrev write-md` will perform an offline refresh of the m
 Running `python -m arxivmlrev publish-md` will publish the markdown file `data/articles.md` to GitHub.
 This requires GitHub-specific configuration in `config.py`.
 In this configuration file, refer to parameters starting with the prefix `GITHUB_`.
+The environment variable `GITHUB_ACCESS_TOKEN` is also required.
 
 ## Deployment
 Serverless deployment of the RSS feed to [Google Cloud Functions](https://console.cloud.google.com/functions/) is
