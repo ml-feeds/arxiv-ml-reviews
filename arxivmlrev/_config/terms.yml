@@ -139,6 +139,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
   tutorial:
     endswithout:
       - generation
+  walkthrough:
 blacklist:  # Entries are unique lowercase phrases without punctuation.
   - arabic
   - bengali
