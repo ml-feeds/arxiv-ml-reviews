@@ -98,9 +98,11 @@ class Searcher:
             results = arxiv.query(query=self._title_query, start=start,
                                   max_results=self._max_results_per_query, sort_by=self._sort_by)
         elif query_type == 'ID':
-            assert len(config.URL_ID_WHITELIST) <= self._max_results_per_query
-            results = arxiv.query(id_list=sorted(config.URL_ID_WHITELIST), start=start,
-                                  max_results=self._max_results_per_query, sort_by=self._sort_by)
+            if config.URL_ID_WHITELIST:
+                results = arxiv.query(id_list=sorted(config.URL_ID_WHITELIST), start=start,
+                                      max_results=self._max_results_per_query, sort_by=self._sort_by)
+            else:
+                results = []
         else:
             msg = f'The query type "{query_type}" is invalid.'
             log.error(msg)
