@@ -145,8 +145,11 @@ class Searcher:
 
     def _search(self, *, search_type: str) -> pd.DataFrame:
         results = self._run_search(search_type=search_type)
-        df = pd.DataFrame(results)
-        df = df[config.DATA_ARTICLES_CSV_COLUMNS]
+        if results:
+            df = pd.DataFrame(results)
+            df = df[config.DATA_ARTICLES_CSV_COLUMNS]
+        else:
+            df = pd.DataFrame(columns=config.DATA_ARTICLES_CSV_COLUMNS)
         return df
 
     def search(self) -> pd.DataFrame:
