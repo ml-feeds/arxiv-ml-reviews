@@ -18,8 +18,9 @@ class Results:
         self._df_results = pd.read_csv(config.DATA_ARTICLES_CSV_PATH, parse_dates=['Published', 'Updated'])
 
     def _write_csv(self) -> None:
-        self._df_results.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
-        log.info('Finished writing CSV file with %s rows.', len(self._df_results))
+        df = self._df_results[config.DATA_ARTICLES_CSV_COLUMNS]
+        df.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
+        log.info('Finished writing CSV file with %s rows.', len(df))
 
     def refresh(self) -> int:
         """Refresh search results locally."""
