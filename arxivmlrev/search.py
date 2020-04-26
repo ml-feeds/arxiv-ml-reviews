@@ -144,12 +144,10 @@ class Searcher:
 
     def _search(self, *, search_type: str) -> pd.DataFrame:
         results = self._run_search(search_type=search_type)
-        if results:
-            df = pd.DataFrame(results)
-            df = df[config.DATA_ARTICLES_CSV_COLUMNS]
-        else:
-            df = pd.DataFrame(columns=config.DATA_ARTICLES_CSV_COLUMNS)
-        return df
+        df = pd.DataFrame(results)
+        if df.empty:
+            return pd.DataFrame(columns=config.DATA_ARTICLES_CSV_COLUMNS)
+        return df[config.DATA_ARTICLES_CSV_COLUMNS]
 
     def search(self) -> pd.DataFrame:
         df_results_for_title_search = df_results = self._search(search_type='title')
