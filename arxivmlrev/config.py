@@ -63,6 +63,7 @@ LOGGING_CONF_PATH = CONFIG_DIR / 'logging.conf'
 MAX_RESULTS_PER_QUERY = 2000 - 2
 MAX_QUERY_ATTEMPTS = 10
 ON_SERVERLESS = bool(os.getenv('GCLOUD_PROJECT'))  # Approximation.
+QUERY_INTERVAL = 3
 REPO_URL = 'https://github.com/ml-feeds/arxiv-ml-reviews'
 TERMS_PATH = CONFIG_DIR / 'terms.yml'
 TERMS = json.loads(json.dumps(YAML().load(TERMS_PATH)))

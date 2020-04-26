@@ -113,7 +113,6 @@ class Searcher:
     def _run_search(self, *, search_type: str) -> Iterable[dict]:
         max_results = self._max_results
         start, num_yielded, num_successive_empty_results = 0, 0, 0
-        interval = max(3., math.log(self._max_results_per_query))
         rss_search_start = resident_set_size()
         self._log_memory()
         while True:
@@ -133,7 +132,7 @@ class Searcher:
                 return
             start += len(results)
 
-            sleep_time = max(0., interval - (time.monotonic() - query_completion_time))
+            sleep_time = max(0., config.QUERY_INTERVAL - (time.monotonic() - query_completion_time))
             verbose_sleep(sleep_time)
 
     @staticmethod
