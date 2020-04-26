@@ -4,32 +4,32 @@ import logging.config
 import os
 from pathlib import Path
 import re
-from typing import Dict, List
+from typing import Dict, List, Pattern
 
 import pandas as pd
 from ruamel.yaml import YAML
 
 
-def _terms_blacklist_regex(terms: List[str]) -> re.Pattern:
+def _terms_blacklist_regex(terms: List[str]) -> Pattern:
     pattern = '|'.join(re.escape(term) for term in terms)
     pattern = fr'\b(?i:{pattern})\b'
     return re.compile(pattern)
 
 
-def _term_whitelist_regex(term, assertions: Dict[str, List[str]]) -> re.Pattern:
+def _term_whitelist_regex(term: str, assertions: Dict[str, List[str]]) -> Pattern:
     escape = re.escape
     pattern = escape(term)
 
     if assertions:
         neg_lookbehinds = assertions.get('startswithout') or []
         if neg_lookbehinds:
-            neg_lookbehinds = ''.join(fr'(?<!{escape(f"{s} ")})' for s in neg_lookbehinds)
-            pattern = f'{neg_lookbehinds}{pattern}'
+            neg_lookbehinds_str = ''.join(fr'(?<!{escape(f"{s} ")})' for s in neg_lookbehinds)
+            pattern = f'{neg_lookbehinds_str}{pattern}'
 
         neg_lookaheads = assertions.get('endswithout') or []
         if neg_lookaheads:
-            neg_lookaheads = '|'.join(escape(s) for s in neg_lookaheads)
-            pattern = fr'{pattern}(?!\ (?:{neg_lookaheads})\b)'
+            neg_lookaheads_str = '|'.join(escape(s) for s in neg_lookaheads)
+            pattern = fr'{pattern}(?!\ (?:{neg_lookaheads_str})\b)'
 
     pattern = fr'\b(?i:{pattern})\b'
     return re.compile(pattern)

@@ -68,8 +68,7 @@ class Result:
     def title_blacklist_match(self) -> Optional[str]:
         """Return the matching string, if any, of the title against the blacklisted terms regular expression."""
         match = config.TERMS_BLACKLIST_REGEX.search(self._alphanum_title)
-        if match:
-            return match.group()
+        return match.group() if match else None
 
     @property
     def title_whitelist_match(self) -> Optional[str]:
@@ -80,6 +79,7 @@ class Result:
             match = regex.search(title)
             if match:
                 return match.group()
+        return None
 
     @property
     def title(self) -> str:
