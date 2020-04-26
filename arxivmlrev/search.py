@@ -92,47 +92,32 @@ class Searcher:
         log.debug('Max results per query is set to %s.', self._max_results_per_query)
         self._log_memory(logging.DEBUG)
 
-    def _run_query(self, *, query_type: str, start: int, interval: float) -> Tuple[List[dict], float]:
-        for num_query_attempt in range(1, config.MAX_QUERY_ATTEMPTS + 1):
-            log.info('Starting %s query at offset %s.', query_type, start)
-            if query_type == 'title':
-                results = arxiv.query(query=self._title_query, start=start,
-                                      max_results=self._max_results_per_query, sort_by=self._sort_by)
-                min_num_expected_results = self._max_results_per_query if start == 0 else 1
-                # Note: If start > 0, there can actually genuinely be 0 results, but the chances of this are too low.
-            elif query_type == 'ID':
-                results = arxiv.query(id_list=sorted(config.URL_ID_WHITELIST), start=start,
-                                      max_results=self._max_results_per_query, sort_by=self._sort_by)
-                min_num_expected_results = min(len(config.URL_ID_WHITELIST) - start, self._max_results_per_query)
-            else:
-                msg = f'The query type "{query_type}" is invalid.'
-                log.error(msg)
-                raise self.QueryTypeInvalid(msg)
-            if len(results) >= min_num_expected_results:
-                log.info('The %s query returned %s results which is a sufficient number.', query_type, len(results))
-                break
-            if num_query_attempt != config.MAX_QUERY_ATTEMPTS:
-                log.warning('The %s query returned %s results which is an insufficient number relative to an '
-                            'expectation of at least %s. The query will be rerun.',
-                            query_type, len(results), min_num_expected_results)
-                verbose_sleep(interval)
-                interval *= 1.3678794411714423  # 1 + (1/e) == 1.3678794411714423
+    def _run_query(self, *, query_type: str, start: int) -> List[dict]:
+        log.info('Starting %s query at offset %s.', query_type, start)
+        if query_type == 'title':
+            results = arxiv.query(query=self._title_query, start=start,
+                                  max_results=self._max_results_per_query, sort_by=self._sort_by)
+        elif query_type == 'ID':
+            assert len(config.URL_ID_WHITELIST) <= self._max_results_per_query
+            results = arxiv.query(id_list=sorted(config.URL_ID_WHITELIST), start=start,
+                                  max_results=self._max_results_per_query, sort_by=self._sort_by)
         else:
-            msg = f'Despite multiple attempts, the {query_type} query failed with insufficient results.'
+            msg = f'The query type "{query_type}" is invalid.'
             log.error(msg)
-            raise self.ArxivResultsInsufficient(msg)
-        return results, interval
+            raise self.QueryTypeInvalid(msg)
+        log.info('The %s query at offset %s returned %s results.', query_type, start, len(results))
+        return results
 
     def _run_search(self, *, search_type: str) -> Iterable[dict]:
         max_results = self._max_results
-        start = 0
-        num_yielded = 0
+        start, num_yielded, num_successive_empty_results = 0, 0, 0
         interval = max(3., math.log(self._max_results_per_query))
         rss_search_start = resident_set_size()
         self._log_memory()
         while True:
-            results, interval = self._run_query(query_type=search_type, start=start, interval=interval)
+            results = self._run_query(query_type=search_type, start=start)
             query_completion_time = time.monotonic()
+            num_successive_empty_results = 0 if results else (num_successive_empty_results + 1)
             for result in self._filter_results(results):
                 num_yielded += 1
                 yield result
@@ -141,11 +126,11 @@ class Searcher:
 
             log.info('Additional memory used since start of %s queries, with %s results yielded, is %s.',
                      search_type, num_yielded, humanized_rss(rss_search_start))
-            if (num_yielded >= max_results) or (len(results) < self._max_results_per_query):
+            if (num_yielded >= max_results) or (num_successive_empty_results >= 2):
                 log.info('Completed all %s queries, yielding %s results.', search_type, num_yielded)
                 return
+            start += len(results)
 
-            start += self._max_results_per_query
             sleep_time = max(0., interval - (time.monotonic() - query_completion_time))
             verbose_sleep(sleep_time)
 
