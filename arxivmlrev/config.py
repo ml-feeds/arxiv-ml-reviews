@@ -101,7 +101,7 @@ LOGGING = {  # Ref: https://docs.python.org/3/howto/logging.html#configuring-log
             'propagate': False,
         },
         '': {
-            'level': 'WARNING',
+            'level': 'INFO',
             'handlers': ['console'],
          },
     },
