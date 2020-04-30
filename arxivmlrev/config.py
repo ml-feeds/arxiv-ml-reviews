@@ -95,6 +95,10 @@ LOGGING = {  # Ref: https://docs.python.org/3/howto/logging.html#configuring-log
         },
     },
     'loggers': {
+        'arxiv': {
+            'level': 'WARNING',
+            'handlers': ['console'],
+         },
         PACKAGE_NAME: {
             'level': 'INFO' if ON_SERVERLESS else 'DEBUG',
             'handlers': ['console'],
