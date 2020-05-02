@@ -5,7 +5,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2003.04339,2,2020-03-09 18:14:00+00:00,2020-04-30 03:07:15+00:00,Revisiting SGD with Increasingly Weighted Averaging: Optimization and Generalization Perspectives,Perspectives,"cs.LG, stat.ML"
 2003.12948,2,2020-03-29 04:50:22+00:00,2020-04-30 02:27:09+00:00,When Autonomous Systems Meet Accuracy and Transferability through AI: A Survey,Survey,"cs.LG, cs.AI"
 2004.14545,1,2020-04-30 02:09:02+00:00,2020-04-30 02:09:02+00:00,Explainable Deep Learning: A Field Guide for the Uninitiated,Guide,"cs.LG, cs.AI, stat.ML"
-2004.14283,1,2020-04-29 15:59:30+00:00,2020-04-29 15:59:30+00:00,SubjQA: A Dataset for Subjectivity and Review Comprehension,Review,"cs.CL, cs.AI"
 2004.14143,1,2020-04-29 12:45:35+00:00,2020-04-29 12:45:35+00:00,Zero-Shot Learning and its Applications from Autonomous Vehicles to COVID-19 Diagnosis: A Review,Review,"cs.CV, cs.LG, stat.ML"
 2004.12158,3,2020-04-25 14:45:15+00:00,2020-04-29 11:43:46+00:00,How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence,Summary of,cs.CL
 2004.04523,2,2020-04-09 13:00:05+00:00,2020-04-29 11:07:06+00:00,k-Nearest Neighbour Classifiers: 2nd Edition (with Python examples),,"cs.LG, stat.ML"
@@ -82,7 +81,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2001.11486,2,2020-01-30 18:13:28+00:00,2020-04-07 15:19:48+00:00,MNIST-NET10: A heterogeneous deep networks fusion based on the degree of certainty to reach 0.1 error rate. Ensembles overview and proposal,overview,"cs.LG, stat.ML"
 2004.02731,2,2020-04-06 15:21:34+00:00,2020-04-07 08:18:43+00:00,"Review of Artificial Intelligence Techniques in Imaging Data Acquisition, Segmentation and Diagnosis for COVID-19",Review,"eess.IV, cs.CV, q-bio.QM"
 2004.03186,1,2020-04-07 08:15:21+00:00,2020-04-07 08:15:21+00:00,"More Data, More Relations, More Context and More Openness: A Review and Outlook for Relation Extraction",Review,cs.CL
-2004.03020,1,2020-04-06 22:11:30+00:00,2020-04-06 22:11:30+00:00,Enhancing Review Comprehension with Domain-Specific Commonsense,Review,cs.CL
 1903.08552,2,2019-03-20 15:21:52+00:00,2020-04-06 15:59:52+00:00,Traversing the noise of dynamic mini-batch sub-sampled loss functions: A visual guide,guide,"stat.ML, cs.LG"
 2003.14263,2,2020-03-31 14:48:36+00:00,2020-04-06 11:16:10+00:00,A survey of bias in Machine Learning through the prism of Statistical Parity for the Adult Data Set,survey,"stat.ML, cs.CY, cs.LG"
 2004.03705,1,2020-04-06 02:00:30+00:00,2020-04-06 02:00:30+00:00,Deep Learning Based Text Classification: A Comprehensive Review,Review,"cs.CL, cs.LG, stat.ML"

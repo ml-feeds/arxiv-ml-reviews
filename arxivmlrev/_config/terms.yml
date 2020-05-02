@@ -73,6 +73,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - abuse
       - aware
       - based
+      - comprehension
       - dataset
       - datasets
       - detection
