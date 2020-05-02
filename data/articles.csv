@@ -1,15 +1,19 @@
 URL_ID,Version,Published,Updated,Title,Match,Categories
+2004.14936,1,2020-04-30 16:38:06+00:00,2020-04-30 16:38:06+00:00,Generative Adversarial Networks in Digital Pathology: A Survey on Trends and Future Potential,Survey,"eess.IV, cs.CV, cs.LG"
+2004.13303,2,2020-04-28 05:12:31+00:00,2020-04-30 11:46:43+00:00,Heterogeneous Representation Learning: A Review,Review,"cs.LG, stat.ML"
+1912.07796,4,2019-12-17 03:00:36+00:00,2020-04-30 05:26:22+00:00,A Comprehensive Review of Shepherding as a Bio-inspired Swarm-Robotics Guidance Approach,Review,"cs.RO, cs.AI, cs.SY, eess.SY"
+2003.04339,2,2020-03-09 18:14:00+00:00,2020-04-30 03:07:15+00:00,Revisiting SGD with Increasingly Weighted Averaging: Optimization and Generalization Perspectives,Perspectives,"cs.LG, stat.ML"
+2003.12948,2,2020-03-29 04:50:22+00:00,2020-04-30 02:27:09+00:00,When Autonomous Systems Meet Accuracy and Transferability through AI: A Survey,Survey,"cs.LG, cs.AI"
+2004.14545,1,2020-04-30 02:09:02+00:00,2020-04-30 02:09:02+00:00,Explainable Deep Learning: A Field Guide for the Uninitiated,Guide,"cs.LG, cs.AI, stat.ML"
 2004.14283,1,2020-04-29 15:59:30+00:00,2020-04-29 15:59:30+00:00,SubjQA: A Dataset for Subjectivity and Review Comprehension,Review,"cs.CL, cs.AI"
 2004.14143,1,2020-04-29 12:45:35+00:00,2020-04-29 12:45:35+00:00,Zero-Shot Learning and its Applications from Autonomous Vehicles to COVID-19 Diagnosis: A Review,Review,"cs.CV, cs.LG, stat.ML"
 2004.12158,3,2020-04-25 14:45:15+00:00,2020-04-29 11:43:46+00:00,How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence,Summary of,cs.CL
 2004.04523,2,2020-04-09 13:00:05+00:00,2020-04-29 11:07:06+00:00,k-Nearest Neighbour Classifiers: 2nd Edition (with Python examples),,"cs.LG, stat.ML"
-1912.07796,3,2019-12-17 03:00:36+00:00,2020-04-29 08:08:18+00:00,A Comprehensive Review of Shepherding as a Bio-inspired Swarm-Robotics Guidance Approach,Review,"cs.RO, cs.AI, cs.SY, eess.SY"
 2004.08555,2,2020-04-18 08:28:10+00:00,2020-04-29 05:37:40+00:00,A Comprehensive Survey on Traffic Prediction,Survey,"eess.SP, cs.AI"
 2004.11149,2,2020-04-17 03:11:08+00:00,2020-04-29 02:10:16+00:00,A Comprehensive Overview and Survey of Recent Advances in Meta-Learning,Overview,"cs.LG, stat.ML"
 2004.13408,1,2020-04-28 10:32:26+00:00,2020-04-28 10:32:26+00:00,Time Series Forecasting With Deep Learning: A Survey,Survey,"stat.ML, cs.LG"
 2004.13328,1,2020-04-28 06:44:14+00:00,2020-04-28 06:44:14+00:00,Privacy Guidelines for Contact Tracing Applications,Guidelines,"cs.LG, cs.CR, cs.CY, cs.DC"
 2004.12150,2,2020-04-25 14:27:47+00:00,2020-04-28 05:25:11+00:00,A Survey on Domain Knowledge Powered Deep Learning for Medical Image Analysis,Survey,"eess.IV, cs.CV"
-2004.13303,1,2020-04-28 05:12:31+00:00,2020-04-28 05:12:31+00:00,Heterogeneous Representation Learning: A Review,Review,"cs.LG, stat.ML"
 1908.09257,3,2019-08-25 06:14:08+00:00,2020-04-28 01:45:47+00:00,Normalizing Flows: An Introduction and Review of Current Methods,Introduction,"stat.ML, cs.LG"
 2004.13175,1,2020-04-27 21:01:45+00:00,2020-04-27 21:01:45+00:00,A scoping review of transfer learning research on medical image analysis using ImageNet,review,"eess.IV, cs.CV, cs.LG"
 1905.10048,4,2019-05-24 06:27:32+00:00,2020-04-27 15:35:46+00:00,Beyond Intra-modality: A Survey of Heterogeneous Person Re-identification,Survey,cs.CV
@@ -109,7 +113,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2003.13551,1,2020-03-30 15:25:34+00:00,2020-03-30 15:25:34+00:00,European Language Grid: An Overview,Overview,cs.CL
 2003.13084,1,2020-03-29 17:40:04+00:00,2020-03-29 17:40:04+00:00,Best Practices for Implementing FAIR Vocabularies and Ontologies on the Web,Best Practices,"cs.DL, cs.AI, cs.DB"
 1904.05046,3,2019-04-10 08:05:48+00:00,2020-03-29 16:47:41+00:00,Generalizing from a Few Examples: A Survey on Few-Shot Learning,Survey,"cs.LG, cs.AI"
-2003.12948,1,2020-03-29 04:50:22+00:00,2020-03-29 04:50:22+00:00,When Autonomous Systems Meet Accuracy and Transferability through AI: A Survey,Survey,"cs.LG, cs.AI"
 2003.12783,1,2020-03-28 13:17:30+00:00,2020-03-28 13:17:30+00:00,CNN-based Density Estimation and Crowd Counting: A Survey,Survey,cs.CV
 2003.14304,1,2020-03-27 09:44:57+00:00,2020-03-27 09:44:57+00:00,New Perspectives on the Use of Online Learning for Congestion Level Prediction over Traffic Data,Perspectives,"cs.LG, eess.SP, stat.ML"
 2003.12255,1,2020-03-27 06:53:41+00:00,2020-03-27 06:53:41+00:00,A Comprehensive Review for Breast Histopathology Image Analysis Using Classical and Deep Neural Networks,Review,"eess.IV, cs.CV"
@@ -165,7 +168,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2003.05730,1,2020-03-10 12:48:00+00:00,2020-03-10 12:48:00+00:00,A Survey of Adversarial Learning on Graphs,Survey,"cs.LG, cs.AI, stat.ML"
 2003.04664,1,2020-03-10 12:38:31+00:00,2020-03-10 12:38:31+00:00,Automatic Curriculum Learning For Deep RL: A Short Survey,Survey,"cs.LG, cs.AI, stat.ML"
 2003.06307,1,2020-03-10 05:42:44+00:00,2020-03-10 05:42:44+00:00,Communication-Efficient Distributed Deep Learning: A Comprehensive Survey,Survey,"cs.DC, cs.LG, eess.SP"
-2003.04339,1,2020-03-09 18:14:00+00:00,2020-03-09 18:14:00+00:00,Revisiting SGD with Increasingly Weighted Averaging: Optimization and Generalization Perspectives,Perspectives,"cs.LG, stat.ML"
 2003.04241,1,2020-03-09 16:26:30+00:00,2020-03-09 16:26:30+00:00,Deep Neural Networks for Automatic Speech Processing: A Survey from Large Corpora to Limited Data,Survey,"eess.AS, cs.LG, cs.SD, stat.ML"
 2003.04081,1,2020-03-09 12:38:12+00:00,2020-03-09 12:38:12+00:00,Overview of Tools Supporting Planning for Automated Driving,Overview,"cs.RO, cs.AI"
 2003.03600,1,2020-03-07 16:19:45+00:00,2020-03-07 16:19:45+00:00,Reinforcement Learning for Combinatorial Optimization: A Survey,Survey,"cs.LG, math.CO, math.OC, stat.ML"
