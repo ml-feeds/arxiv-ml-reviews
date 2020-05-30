@@ -2,6 +2,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
   basic principles:
   best practices:
   brief history:
+  comparative study:
   critical appraisal:
   critical reflection:
   discussion:
@@ -52,6 +53,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
   practical recommendations:
   present and future:
   primer:
+  qualitative study:
   recent advances:
   review:
     startswithout:
