@@ -47,6 +47,8 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
   overview:
     startswithout:
       - challenge
+    endswithout:
+      - composition
   perspectives:
     startswithout:
       - robotic
