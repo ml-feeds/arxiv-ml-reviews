@@ -6,10 +6,10 @@
 #
 arxiv==0.5.3              # via -r requirements.in
 cachetools==4.1.0         # via -r requirements.in
-certifi==2020.4.5.1       # via requests
+certifi==2020.4.5.2       # via requests
 chardet==3.0.4            # via requests
 click==7.1.2              # via flask
-deprecated==1.2.9         # via pygithub
+deprecated==1.2.10        # via pygithub
 feedgen==0.9.0            # via -r requirements.in
 feedparser==5.2.1         # via arxiv
 fire==0.3.1               # via -r requirements.in
@@ -18,18 +18,18 @@ humanize==2.4.0           # via -r requirements.in
 idna==2.9                 # via requests
 itsdangerous==1.1.0       # via flask
 jinja2==2.11.2            # via flask
-lxml==4.5.0               # via feedgen
+lxml==4.5.1               # via feedgen
 markupsafe==1.1.1         # via jinja2
-numpy==1.18.3             # via pandas
+numpy==1.18.5             # via pandas
 pandas==0.25.3            # via -r requirements.in
-pygithub==1.50            # via -r requirements.in
+pygithub==1.51            # via -r requirements.in
 pyjwt==1.7.1              # via pygithub
 python-dateutil==2.8.1    # via feedgen, pandas
 pytz==2020.1              # via -r requirements.in, pandas
 requests==2.23.0          # via arxiv, pygithub
 ruamel.yaml.clib==0.2.0   # via ruamel.yaml
 ruamel.yaml==0.16.10      # via -r requirements.in
-six==1.14.0               # via fire, python-dateutil
+six==1.15.0               # via fire, python-dateutil
 termcolor==1.1.0          # via fire
 urllib3==1.25.9           # via requests
 werkzeug==1.0.1           # via flask
