@@ -130,6 +130,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - augmentation
       - aware
       - construction
+      - enrichment
       - expansion
       - extraction
       - generation
