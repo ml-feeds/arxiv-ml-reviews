@@ -9,7 +9,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [A Survey on Self-supervised Pre-training for Sequential Transfer Learning in Neural Networks (2020)](https://arxiv.org/abs/2007.00800) │ [pdf](https://arxiv.org/pdf/2007.00800) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
 * [Opportunities and Challenges in Deep Learning Adversarial Robustness: A Survey (2020)](https://arxiv.org/abs/2007.00753) │ [pdf](https://arxiv.org/pdf/2007.00753) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
 * [Benchmarking for Metaheuristic Black-Box Optimization: Perspectives and Open Challenges (2020)](https://arxiv.org/abs/2007.00541) │ [pdf](https://arxiv.org/pdf/2007.00541) │ [cs.NE](https://arxiv.org/list/cs.NE/recent)
-* [De-anonymization of authors through arXiv submissions during double-blind review (2020)](https://arxiv.org/abs/2007.00177) │ [pdf](https://arxiv.org/pdf/2007.00177) │ [cs.CY](https://arxiv.org/list/cs.CY/recent)
 * [The computerization of archaeology: survey on AI techniques (2020)](https://arxiv.org/abs/2005.02863) │ [pdf](https://arxiv.org/pdf/2005.02863) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [Text Detection and Recognition in the Wild: A Review (2020)](https://arxiv.org/abs/2006.04305) │ [pdf](https://arxiv.org/pdf/2006.04305) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)
 * [Deep Learning for Vision-based Prediction: A Survey (2020)](https://arxiv.org/abs/2007.00095) │ [pdf](https://arxiv.org/pdf/2007.00095) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)

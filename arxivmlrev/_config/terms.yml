@@ -63,6 +63,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - airline
       - app
       - assisted
+      - blind
       - book
       - collusive
       - fake
