@@ -7,7 +7,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 1604.01662,3,2016-04-06 15:35:08+00:00,2020-07-02 03:52:57+00:00,A Survey on Bayesian Deep Learning,Survey,"stat.ML, cs.AI, cs.CV, cs.LG, cs.NE"
 2007.00800,1,2020-07-01 22:55:48+00:00,2020-07-01 22:55:48+00:00,A Survey on Self-supervised Pre-training for Sequential Transfer Learning in Neural Networks,Survey,"cs.LG, stat.ML"
 2007.00753,1,2020-07-01 21:00:32+00:00,2020-07-01 21:00:32+00:00,Opportunities and Challenges in Deep Learning Adversarial Robustness: A Survey,Survey,"cs.LG, cs.AI, stat.ML"
-2007.00709,1,2020-07-01 19:21:10+00:00,2020-07-01 19:21:10+00:00,Computing Conceptual Distances between Breast Cancer Screening Guidelines: An Implementation of a Near-Peer Epistemic Model ofMedical Disagreement,Guidelines,"cs.IR, cs.CL"
 2007.00541,1,2020-07-01 15:09:40+00:00,2020-07-01 15:09:40+00:00,Benchmarking for Metaheuristic Black-Box Optimization: Perspectives and Open Challenges,Perspectives,"cs.NE, cs.PF, math.OC"
 2007.00177,1,2020-07-01 01:40:06+00:00,2020-07-01 01:40:06+00:00,De-anonymization of authors through arXiv submissions during double-blind review,review,"cs.CY, cs.IR, cs.LG"
 2005.02863,2,2020-05-05 17:09:48+00:00,2020-06-30 23:50:14+00:00,The computerization of archaeology: survey on AI techniques,survey,cs.AI
