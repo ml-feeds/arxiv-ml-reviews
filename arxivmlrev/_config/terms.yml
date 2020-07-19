@@ -164,6 +164,7 @@ blacklist:  # Entries are unique lowercase phrases without punctuation.
   - empirical
   - europe
   - french
+  - german
   - hindi
   - ibm
   - indian
