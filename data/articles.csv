@@ -19,7 +19,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2007.10760,3,2020-07-21 12:49:12+00:00,2020-08-02 08:38:25+00:00,Backdoor Attacks and Countermeasures on Deep Learning: A Comprehensive Review,Review,"cs.CR, cs.CV, cs.LG"
 2008.00380,1,2020-08-02 02:06:44+00:00,2020-08-02 02:06:44+00:00,Vision and Inertial Sensing Fusion for Human Action Recognition : A Review,Review,"cs.HC, cs.CV, cs.LG"
 2007.11845,2,2020-07-23 08:16:47+00:00,2020-08-01 23:30:12+00:00,"Time Perception: A Review on Psychological, Computational and Robotic Models",Review,"cs.AI, F.1.2, cs.CY, cs.NE, cs.RO"
-2008.00345,1,2020-08-01 21:39:54+00:00,2020-08-01 21:39:54+00:00,Overview of CLEF 2019 Lab ProtestNews: Extracting Protests from News in a Cross-context Setting,Overview,cs.CL
 2006.03669,2,2020-06-05 20:28:56+00:00,2020-08-01 16:55:53+00:00,An Overview of Neural Network Compression,Overview,"cs.LG, stat.ML"
 1804.06655,9,2018-04-18 11:20:32+00:00,2020-08-01 13:12:07+00:00,Deep Face Recognition: A Survey,Survey,cs.CV
 2008.00230,1,2020-08-01 10:01:32+00:00,2020-08-01 10:01:32+00:00,RGB-D Salient Object Detection: A Survey,Survey,cs.CV
@@ -44,7 +43,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2007.15546,1,2020-07-29 10:40:39+00:00,2020-07-29 10:40:39+00:00,"Comparative study of deep learning methods for the automatic segmentation of lung, lesion and lesion type in CT scans of COVID-19 patients",Comparative study,"eess.IV, cs.CV"
 2007.14706,1,2020-07-29 09:36:42+00:00,2020-07-29 09:36:42+00:00,Kernel Methods and their derivatives: Concept and perspectives for the Earth system sciences,perspectives,"cs.LG, stat.ML"
 1909.11573,2,2019-09-25 16:03:45+00:00,2020-07-28 17:54:11+00:00,Deep Learning for Deepfakes Creation and Detection: A Survey,Survey,"cs.CV, cs.LG, eess.IV"
-2008.01544,1,2020-07-28 16:42:41+00:00,2020-07-28 16:42:41+00:00,Deep Learning Brasil -- NLP at SemEval-2020 Task 9: Overview of Sentiment Analysis of Code-Mixed Tweets,Overview,"cs.CL, cs.IR, cs.LG"
 2007.16063,1,2020-07-28 11:18:38+00:00,2020-07-28 11:18:38+00:00,A Review on the State of the Art in Non Contact Sensing for COVID-19,Review,"cs.CY, eess.IV, physics.med-ph"
 2007.14009,1,2020-07-28 06:24:39+00:00,2020-07-28 06:24:39+00:00,The Minimum Description Length Principle for Pattern Mining: A Survey,Survey,"cs.DB, cs.AI, cs.IT, math.IT"
 1901.05331,4,2019-01-16 15:04:16+00:00,2020-07-27 14:51:18+00:00,Optimization Models for Machine Learning: A Survey,Survey,"math.OC, cs.LG"
@@ -2175,7 +2173,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 1210.8099,1,2012-10-30 17:50:49+00:00,2012-10-30 17:50:49+00:00,An Atypical Survey of Typical-Case Heuristic Algorithms,Survey,"cs.CC, cs.AI, cs.DS"
 1210.7959,1,2012-10-30 10:48:21+00:00,2012-10-30 10:48:21+00:00,Algorithm Selection for Combinatorial Search Problems: A Survey,Survey,cs.AI
 1210.6119,1,2012-10-23 03:45:57+00:00,2012-10-23 03:45:57+00:00,Time After Time: Notes on Delays In Spiking Neural P Systems,Notes on,"cs.NE, 97P20, F.1, cs.DC, cs.ET"
-1210.5560,1,2012-10-19 23:12:43+00:00,2012-10-19 23:12:43+00:00,Wikipedia Vandalism Detection Through Machine Learning: Feature Review and New Proposals: Lab Report for PAN at CLEF 2010,Review,"cs.IR, cs.AI"
 1210.4657,1,2012-10-17 07:51:56+00:00,2012-10-17 07:51:56+00:00,Mean-Field Learning: a Survey,Survey,"cs.LG, cs.GT, cs.MA, math.DS, stat.ML"
 1210.3448,1,2012-10-12 07:52:38+00:00,2012-10-12 07:52:38+00:00,Notes on image annotation,Notes on,"cs.CV, cs.HC"
 1210.3131,1,2012-10-11 05:58:41+00:00,2012-10-11 05:58:41+00:00,A Survey on Web Spam Detection Methods: Taxonomy,Survey,"cs.IR, cs.CR"
