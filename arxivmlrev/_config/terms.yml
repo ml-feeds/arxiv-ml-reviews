@@ -151,9 +151,11 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
 blacklist:  # Entries are unique lowercase phrases without punctuation.
   - arabic
   - bengali
+  - brasil
   - case study
   - ccks
   - chinese
+  - clef
   - comments on
   - competition
   - conference
