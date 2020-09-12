@@ -19,7 +19,7 @@ class Results:
 
     def _write_csv(self) -> None:
         df = self._df_results[config.DATA_ARTICLES_CSV_COLUMNS]
-        df.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False)
+        df.to_csv(config.DATA_ARTICLES_CSV_PATH, index=False, date_format="%Y-%m-%d")
         log.info('Finished writing CSV file with %s rows.', len(df))
 
     def refresh(self) -> int:
