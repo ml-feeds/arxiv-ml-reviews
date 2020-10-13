@@ -8,14 +8,9 @@ on machine learning and artificial intelligence.
 * [**HTML list**](https://freenode-machinelearning.github.io/Resources/ArticlesReview.html)
 * [**RSS feed**](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews)
 
-## Requirements
-* Python 3.7+
-* In a new virtual environment or container, run the following, falling back to the versioned `requirements.txt` instead
-if there are any issues.
-```
-pip install -U pip
-pip install -r requirements.txt
-```
+## Setup
+1. Ensure Python 3.7+
+1. In a new virtual environment or container, run `make install` from the project's directory.
 
 ## Usage commands
 ### refresh
