@@ -19,7 +19,7 @@ and `data/articles.md`.
 
 Use git to discern whether the diff of this updated CSV file looks acceptable.
 If the CSV file is smaller for any reason, it means the search query failed, in which case it should be rerun.
-**As a warning, this command should not be run excessively** as it burdens the arXiv search server.
+**This command should not be run excessively** as it burdens the arXiv search server.
 
 If there is any extraneous new entry in `data/articles.csv`, update either `arxivmlrev/_config/articles.csv` and/or
 `arxivmlrev/_config/terms.csv` with a new blacklist entry. This is expected to be be done rarely.
@@ -27,7 +27,7 @@ Blacklisted entries are those with *Presence* = 0.
 Before committing these updated configuration files to revision control, consider running
 `scripts/sort_config_articles.py` and/or `scripts/sort_config_terms.py` respectively.
 If a configuration file was updated, rerun the command.
-**Be warned that a sufficiently longer query can very possibly lead to arXiv returning incomplete results,** and this
+Note that **a sufficiently longer query can very possibly lead to arXiv returning incomplete results,** and this
 will require a rearchitecture of the search.
 
 ### refresh-and-publish
