@@ -9,7 +9,7 @@ on machine learning and artificial intelligence.
 * [**RSS feed**](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews)
 
 ## Setup
-1. Ensure Python 3.7+
+1. Ensure Python 3.8.
 1. In a new virtual environment or container, run `make install` from the project's directory.
 
 ## Usage commands
