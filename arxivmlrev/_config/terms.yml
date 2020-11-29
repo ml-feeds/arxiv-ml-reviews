@@ -185,5 +185,6 @@ blacklist:  # Entries are unique lowercase phrases without punctuation.
   - technology challenge
   - trec
   - wikiconv
+  - wnut
   - workshop
   - wsdm cup
