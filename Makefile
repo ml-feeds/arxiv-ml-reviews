@@ -14,7 +14,7 @@ compile:
 
 install:
 	pip install -U pip wheel
-	pip install --use-feature=2020-resolver -U -r ./requirements.txt -U -r ./requirements-dev.in
+	pip install -U -r ./requirements.txt -U -r ./requirements-dev.in
 
 test:
 	mypy .
