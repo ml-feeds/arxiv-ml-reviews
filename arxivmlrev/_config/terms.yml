@@ -131,6 +131,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
     endswithout:
       - augmentation
       - aware
+      - completion
       - construction
       - enrichment
       - expansion
