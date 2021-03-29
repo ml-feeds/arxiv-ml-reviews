@@ -1,14 +1,17 @@
 URL_ID,Version,Published,Updated,Title,Match,Categories
+2103.14636,1,2021-03-26,2021-03-26,A Practical Survey on Faster and Lighter Transformers,Survey,cs.LG
+2103.14624,1,2021-03-26,2021-03-26,"Randomization-based Machine Learning in Renewable Energy Prediction Problems: Critical Literature Review, New Results and Perspectives",Perspectives,"cs.LG, cs.NE"
+1910.03970,2,2019-10-07,2021-03-26,A systematic review of smartphone-based human activity recognition for health research,review,"cs.HC, cs.LG, q-bio.QM"
+2103.13477,2,2021-03-24,2021-03-26,A Survey of Multimedia Technologies and Robust Algorithms,Survey,"cs.MM, cs.CV"
+2010.07279,2,2020-10-14,2021-03-26,Positioning yourself in the maze of Neural Text Generation: A Task-Agnostic Survey,Survey,cs.CL
 2103.14000,1,2021-03-25,2021-03-25,Fairness in Ranking: A Survey,Survey,"cs.IR, cs.DB"
 2012.15445,2,2020-12-31,2021-03-25,Explainability in Graph Neural Networks: A Taxonomic Survey,Survey,"cs.LG, cs.AI"
-2103.13924,1,2021-03-25,2021-03-25,Computational Mechanism for the Effect of Psychosis Community Treatment: A Conceptual Review from Neurobiology to Social Interaction,Review,"cs.CY, cs.AI"
 2102.11965,2,2021-02-23,2021-03-25,"Modular Design Patterns for Hybrid Learning and Reasoning Systems: a taxonomy, patterns and use cases",taxonomy,"cs.AI, cs.LG"
 2103.13630,1,2021-03-25,2021-03-25,A Survey of Quantization Methods for Efficient Neural Network Inference,Survey,cs.CV
 2103.13625,1,2021-03-25,2021-03-25,A Comprehensive Review of Image Analysis Methods for Microorganism Counting: From Classical Image Processing to Deep Learning Approaches,Review,"eess.IV, q-bio.QM"
 2103.13598,1,2021-03-25,2021-03-25,Recent Advances in Large Margin Learning,Recent Advances,"cs.LG, cs.CR, cs.CV, cs.NE"
 2010.13166,2,2020-10-25,2021-03-25,A Survey on Curriculum Learning,Survey,"cs.LG, cs.AI"
 2103.13588,1,2021-03-25,2021-03-25,Artificial Intelligence in Tumor Subregion Analysis Based on Medical Imaging: A Review,Review,"eess.IV, cs.CV, physics.med-ph"
-2103.13477,1,2021-03-24,2021-03-24,A Survey of Multimedia Technologies and Robust Algorithms,Survey,"cs.MM, cs.CV"
 2008.13690,2,2020-08-31,2021-03-24,Evaluation of machine learning algorithms for Health and Wellness applications: a tutorial,tutorial,"cs.LG, stat.ML"
 2103.13136,1,2021-03-24,2021-03-24,Representing Numbers in NLP: a Survey and a Vision,Survey,"cs.CL, I.2.7, cs.AI, cs.LG"
 2005.11041,3,2020-05-22,2021-03-24,"A Survey of Information Cascade Analysis: Models, Predictions, and Recent Advances",Recent Advances,"cs.SI, cs.IR, cs.LG"
@@ -1564,7 +1567,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 1909.08072,2,2019-09-17,2019-10-09,"Adversarial Attacks and Defenses in Images, Graphs and Text: A Review",Review,"cs.LG, cs.CR, stat.ML"
 1910.03734,1,2019-10-09,2019-10-09,Comparative study of panel and panelless-based reflectance conversion techniques for agricultural remote sensing,Comparative study,eess.IV
 1910.03118,1,2019-10-07,2019-10-07,The Query Translation Landscape: a Survey,Survey,"cs.DB, cs.CL, cs.IR"
-1910.03970,1,2019-10-07,2019-10-07,A systematic review of human activity recognition using smartphones,review,"cs.HC, cs.LG, q-bio.QM"
 1910.02923,1,2019-10-07,2019-10-07,A Survey on Active Learning and Human-in-the-Loop Deep Learning for Medical Image Analysis,Survey,"cs.LG, cs.CV, cs.HC, eess.IV"
 1910.02564,1,2019-10-07,2019-10-07,Action-conditioned Benchmarking of Robotic Video Prediction Models: a Comparative Study,Comparative Study,"cs.CV, cs.RO, eess.IV"
 1910.02433,1,2019-10-06,2019-10-06,Weighted Clustering Ensemble: A Review,Review,"cs.CV, stat.ML"
