@@ -1,4 +1,40 @@
 URL_ID,Version,Published,Updated,Title,Match,Categories
+2104.07406,1,2021-04-15,2021-04-15,A systematic review of Python packages for time series analysis,review,"cs.MS, 68-04, I.5.5"
+2104.07245,1,2021-04-15,2021-04-15,Towards Handling Uncertainty-at-Source in AI -- A Review and Next Steps for Interval Regression,Review,"cs.LG, cs.AI"
+2104.07225,1,2021-04-15,2021-04-15,Text Guide: Improving the quality of long text classification by a text selection method based on feature importance,Guide,cs.AI
+2102.12578,2,2021-02-20,2021-04-15,A Comprehensive Review on the NILM Algorithms for Energy Disaggregation,Review,"eess.SP, cs.LG"
+2104.07084,1,2021-04-14,2021-04-14,Grouped Variable Selection with Discrete Optimization: Computational and Statistical Perspectives,Perspectives,"stat.ME, cs.LG, math.OC, stat.CO, stat.ML"
+2104.06951,1,2021-04-14,2021-04-14,Domain Adaptation and Multi-Domain Adaptation for Neural Machine Translation: A Survey,Survey,cs.CL
+2104.07469,1,2021-04-14,2021-04-14,A comparative study of Different Machine Learning Regressors For Stock Market Prediction,comparative study,"q-fin.ST, cs.LG"
+2103.04922,2,2021-03-08,2021-04-14,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",Review,"cs.LG, cs.CV, stat.ML"
+2006.00119,2,2020-05-29,2021-04-13,Constructing Explainable Opinion Graphs from Review,Review,cs.CL
+2104.06523,1,2021-04-13,2021-04-13,A Review of Anonymization for Healthcare Data,Review,"cs.CR, cs.LG"
+2104.06456,1,2021-04-13,2021-04-13,Single Image Depth Estimation: An Overview,Overview,cs.CV
+2103.14983,2,2021-03-27,2021-04-13,Going Deeper Into Face Detection: A Survey,Survey,cs.CV
+2104.06365,1,2021-04-13,2021-04-13,Neuro-Symbolic VQA: A review from the perspective of AGI desiderata,review,"cs.LG, cs.CV"
+2104.06243,1,2021-04-13,2021-04-13,A State-of-the-art Survey of Artificial Neural Networks for Whole-slide Image Analysis:from Popular Convolutional Neural Networks to Potential Visual Transformers,Survey,"eess.IV, cs.CV, cs.LG"
+2009.08340,2,2020-09-17,2021-04-13,Complex-Valued vs. Real-Valued Neural Networks for Classification Perspectives: An Example on Non-Circular Data,Perspectives,"stat.ML, cs.LG"
+2104.04764,2,2021-04-10,2021-04-13,Applications of physics-informed scientific machine learning in subsurface science: A survey,survey,"physics.geo-ph, cs.LG"
+2012.02364,2,2020-12-04,2021-04-13,Deep Learning for Medical Anomaly Detection -- A Survey,Survey,"cs.LG, cs.CV, eess.IV, stat.ML"
+2104.04046,2,2021-04-08,2021-04-13,Semi-Supervised Learning of Classifiers from a Statistical Perspective: A Brief Review,Review,"stat.ML, cs.LG"
+2104.05837,1,2021-04-12,2021-04-12,Relational world knowledge representation in contextual language models: A review,review,"cs.CL, cs.AI, cs.LG"
+2104.05565,1,2021-04-12,2021-04-12,Survey on reinforcement learning for language processing,Survey,"cs.CL, cs.AI, cs.LG"
+2103.15599,4,2021-03-29,2021-04-12,"Graph-based Facial Affect Analysis: A Review of Methods, Applications and Challenges",Review,cs.CV
+2002.12493,2,2020-02-28,2021-04-12,"Optimization with Momentum: Dynamical, Control-Theoretic, and Symplectic Perspectives",Perspectives,"math.OC, cs.NA, math.NA, stat.ML"
+2104.04144,2,2021-04-09,2021-04-12,Individual Explanations in Machine Learning Models: A Survey for Practitioners,Survey,"cs.LG, cs.AI, stat.AP"
+2103.05180,2,2021-03-09,2021-04-12,An Introduction to Deep Generative Modeling,Introduction,"cs.LG, 68T07"
+2104.05710,1,2021-04-11,2021-04-11,Systemic formalisation of Cyber-Physical-Social System (CPSS): A systematic literature review,review,"cs.AI, cs.HC"
+2010.12742,2,2020-10-24,2021-04-11,Text Style Transfer: A Review and Experimental Evaluation,Review,cs.CL
+2008.05221,3,2020-08-12,2021-04-11,Compression of Deep Learning Models for Text: A Survey,Survey,"cs.CL, cs.AI, cs.CV, cs.LG"
+2104.04958,1,2021-04-11,2021-04-11,Supervised Feature Selection Techniques in Network Intrusion Detection: a Critical Review,Review,"cs.CR, cs.AI, cs.LG"
+2004.09705,4,2020-04-21,2021-04-10,Explainable Goal-Driven Agents and Robots -- A Comprehensive Review,Review,"cs.RO, cs.AI"
+2104.01789,2,2021-04-05,2021-04-10,Deep Learning-Based Autonomous Driving Systems: A Survey of Attacks and Defenses,Survey,"cs.LG, cs.CR, cs.CV, cs.DC"
+1908.11199,5,2019-08-23,2021-04-09,Parkinson's Disease Recognition Using SPECT Image and Interpretable AI: A Tutorial,Tutorial,"eess.IV, cs.LG, stat.ML"
+2104.04430,1,2021-04-09,2021-04-09,Ice Core Science Meets Computer Vision: Challenges and Perspectives,Perspectives,"cs.CV, physics.geo-ph"
+2010.12309,3,2020-10-23,2021-04-09,A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios,Survey,"cs.CL, cs.LG"
+2009.13721,3,2020-09-29,2021-04-09,A Comprehensive Review for MRF and CRF Approaches in Pathology Image Analysis,Review,cs.CV
+1812.08434,5,2018-12-20,2021-04-09,Graph Neural Networks: A Review of Methods and Applications,Review,"cs.LG, cs.AI, stat.ML"
+2104.06309,1,2021-04-09,2021-04-09,Signal Processing and Machine Learning Techniques for Terahertz Sensing: An Overview,Overview,"eess.SP, cs.AI"
 2103.12057,2,2021-03-22,2021-04-08,An Experimental Review on Deep Learning Architectures for Time Series Forecasting,Review,"cs.LG, cs.AI"
 2104.03528,1,2021-04-08,2021-04-08,Neural Temporal Point Processes: A Review,Review,cs.LG
 2002.04210,2,2020-02-11,2021-04-07,Hardware Trust and Assurance through Reverse Engineering: A Survey and Outlook from Image Analysis and Machine Learning Perspectives,Perspectives,"eess.IV, cs.CR"
@@ -14,15 +50,15 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2104.02240,1,2021-04-06,2021-04-06,Survey of Imbalanced Data Methodologies,Survey,"stat.ML, cs.LG"
 2104.02214,1,2021-04-06,2021-04-06,Intelligent Building Control Systems for Thermal Comfort and Energy-Efficiency: A Systematic Review of Artificial Intelligence-Assisted Techniques,Review,"cs.AI, cs.LG, cs.SY, eess.SY"
 2104.02144,1,2021-04-05,2021-04-05,A Concise Review of Transfer Learning,Review,"cs.LG, cs.AI"
-2103.15599,3,2021-03-29,2021-04-05,"Graph-based Facial Affect Analysis: A Review of Methods, Applications and Challenges",Review,cs.CV
-2104.01789,1,2021-04-05,2021-04-05,Deep Learning-Based Autonomous Driving Systems: A Survey of Attacks and Defenses,Survey,"cs.LG, cs.CR, cs.CV, cs.DC"
 2007.08199,4,2020-07-16,2021-04-05,Learning from Noisy Labels with Deep Neural Networks: A Survey,Survey,"cs.LG, cs.CV, stat.ML"
+2104.04599,1,2021-04-05,2021-04-05,A review of artificial intelligence methods combined with Raman spectroscopy to identify the composition of substances,review,"eess.SP, cs.LG, physics.chem-ph"
 2104.01713,1,2021-04-04,2021-04-04,Identification of Nonlinear Dynamic Systems Using Type-2 Fuzzy Neural Networks -- A Novel Learning Algorithm and a Comparative Study,Comparative Study,"eess.SY, cs.LG, cs.SY"
 2104.01536,1,2021-04-04,2021-04-04,Performance analysis of facial recognition: A critical review through glass factor,review,"cs.CV, cs.LG"
 2104.01360,1,2021-04-03,2021-04-03,A Survey on Social-Physical Sensing,Survey,"cs.SI, eess.IV, stat.CO"
 2104.01301,1,2021-04-03,2021-04-03,Multimedia Technology Applications and Algorithms: A Survey,Survey,"cs.MM, cs.CV"
 2008.08264,2,2020-08-19,2021-04-02,Intelligent Radio Signal Processing: A Survey,Survey,"eess.SP, cs.AI, cs.IT, cs.NI, math.IT"
 2104.00950,1,2021-04-02,2021-04-02,Explainable Artificial Intelligence (XAI) on TimeSeries Data: A Survey,Survey,"cs.LG, cs.AI"
+2104.04147,1,2021-04-02,2021-04-02,"Artificial intelligence, human rights, democracy, and the rule of law: a primer",primer,"cs.CY, cs.AI, cs.HC, cs.LG"
 2104.00871,1,2021-04-02,2021-04-02,A Survey on Semi-parametric Machine Learning Technique for Time Series Forecasting,Survey,"cs.LG, cs.AI"
 2104.00273,2,2021-04-01,2021-04-02,"Perspective, Survey and Trends: Public Driving Datasets and Toolsets for Autonomous Driving Virtual Test",Survey,"cs.RO, cs.AI"
 2009.06472,3,2020-09-14,2021-04-01,Estimating Individual Treatment Effects using Non-Parametric Regression Models: a Review,Review,"stat.ME, cs.LG, stat.ML"
@@ -47,13 +83,11 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2103.15990,1,2021-03-29,2021-03-29,An Overview of Human Activity Recognition Using Wearable Sensors: Healthcare and Artificial Intelligence,Overview,"cs.HC, cs.LG"
 2103.15980,1,2021-03-29,2021-03-29,A tutorial on $\mathbf{SE}(3)$ transformation parameterizations and on-manifold optimization,tutorial,"cs.RO, cs.CV"
 2103.15910,1,2021-03-29,2021-03-29,Sign Language Production: A Review,Review,cs.CV
-2010.12309,2,2020-10-23,2021-03-29,A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios,Survey,"cs.CL, cs.LG"
 1707.08114,3,2017-07-25,2021-03-29,A Survey on Multi-Task Learning,Survey,"cs.LG, cs.AI"
 2103.15447,1,2021-03-29,2021-03-29,Dynamic Network Embedding Survey,Survey,"cs.SI, cs.AI"
 2103.15323,1,2021-03-29,2021-03-29,Classifying Video based on Automatic Content Detection Overview,Overview,cs.CV
 2103.15203,1,2021-03-28,2021-03-28,Mathematics of Digital Hyperspace,Mathematics of,"cs.MS, cs.DB, cs.DM, cs.NE, math.RA"
 2103.15059,1,2021-03-28,2021-03-28,A Comprehensive Survey on Knowledge Graph Entity Alignment via Representation Learning,Survey,cs.AI
-2103.14983,1,2021-03-27,2021-03-27,Going Deeper Into Face Detection: A Survey,Survey,cs.CV
 2103.14896,1,2021-03-27,2021-03-27,"Representation, Analysis of Bayesian Refinement Approximation Network: A Survey",Survey,cs.CV
 2103.14872,1,2021-03-27,2021-03-27,Deep Learning Techniques for In-Crop Weed Identification: A Review,Review,cs.CV
 2103.14807,1,2021-03-27,2021-03-27,An Introduction to Robust Graph Convolutional Networks,Introduction,cs.LG
@@ -119,13 +153,13 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2103.15555,1,2021-03-16,2021-03-16,Selective Survey: Most Efficient Models and Solvers for Integrative Multimodal Transport,Survey,"cs.AI, cs.CY, math.OC"
 2103.08700,1,2021-03-15,2021-03-15,Deep Learning for Chest X-ray Analysis: A Survey,Survey,"eess.IV, cs.CV"
 2012.09632,2,2020-12-16,2021-03-15,"From Weakly Supervised Learning to Biquality Learning, a brief introduction",introduction,cs.LG
-2004.09705,3,2020-04-21,2021-03-15,Explainable Goal-Driven Agents and Robots -- A Comprehensive Review,Review,"cs.RO, cs.AI"
 2008.01466,2,2020-08-04,2021-03-14,Taking Notes on the Fly Helps BERT Pre-training,Notes on,cs.CL
 2103.04918,4,2021-03-08,2021-03-14,A Survey of Embodied AI: From Simulators to Research Tasks,Survey,"cs.AI, cs.LG"
 2102.01375,2,2021-02-02,2021-03-14,"Applications of Federated Learning in Smart Cities: Recent Advances, Taxonomy, and Open Challenges",Recent Advances,"cs.LG, cs.CR"
 2103.07789,1,2021-03-13,2021-03-13,A Methodology for Bi-Directional Knowledge-Based Assessment of Compliance to Continuous Application of Clinical Guidelines,Guidelines,cs.AI
 2103.12541,1,2021-03-13,2021-03-13,A Survey on Multimodal Disinformation Detection,Survey,"cs.MM, 68T50, I.2.7, cs.AI, cs.CL, cs.CR, cs.CY, cs.LG, cs.SI"
 2103.07678,1,2021-03-13,2021-03-13,A review of machine learning in processing remote sensing data for mineral exploration,review,"cs.LG, cs.CV, stat.AP"
+2104.04059,1,2021-03-13,2021-03-13,"Machine Learning on the COVID-19 Pandemic, Human Mobility and Air Quality: A Review",Review,"cs.CY, cs.LG"
 2103.07575,1,2021-03-12,2021-03-12,A Review on Semi-Supervised Relation Extraction,Review,"cs.CL, cs.AI, cs.IR"
 2008.09586,2,2020-08-21,2021-03-12,An Overview of Deep-Learning-Based Audio-Visual Speech Enhancement and Separation,Overview,"eess.AS, cs.LG, eess.IV"
 2103.07466,1,2021-03-12,2021-03-12,3D Semantic Scene Completion: a Survey,Survey,cs.CV
@@ -148,10 +182,8 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2103.05772,1,2021-03-09,2021-03-09,Introduction to Brain and Medical Images,Introduction,eess.IV
 2103.04931,2,2021-03-08,2021-03-09,Monte Carlo Tree Search: A Review of Recent Modifications and Applications,Review,"cs.AI, cs.LG, cs.MA"
 2103.05292,1,2021-03-09,2021-03-09,Deep Learning for Android Malware Defenses: a Systematic Literature Review,Review,"cs.CR, cs.LG, cs.SE"
-2103.05180,1,2021-03-09,2021-03-09,An Introduction to Deep Generative Modeling,Introduction,"cs.LG, 68T07"
 2103.05127,1,2021-03-08,2021-03-08,Model Complexity of Deep Learning: A Survey,Survey,"cs.LG, cs.AI"
 2002.00269,2,2020-02-01,2021-03-08,A Tutorial on Learning With Bayesian Networks,Tutorial,"cs.LG, cs.AI, stat.ML"
-2103.04922,1,2021-03-08,2021-03-08,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",Review,"cs.LG, cs.CV, stat.ML"
 2101.10599,2,2021-01-26,2021-03-08,A Survey and Analysis on Automated Glioma Brain Tumor Segmentation and Overall Patient Survival Prediction,Survey,"eess.IV, cs.CV, cs.LG"
 2103.04749,1,2021-03-08,2021-03-08,Towards Human-Like Automated Test Generation: Perspectives from Cognition and Problem Solving,Perspectives,"cs.SE, cs.AI"
 2103.04706,1,2021-03-08,2021-03-08,A Taxonomy of Similarity Metrics for Markov Decision Processes,Taxonomy,cs.LG
@@ -245,13 +277,11 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2102.10788,1,2021-02-22,2021-02-22,Attention Models for Point Clouds in Deep Learning: A Survey,Survey,"cs.CV, cs.AI"
 2101.08091,3,2021-01-20,2021-02-22,A survey of joint intent detection and slot-filling models in natural language understanding,survey,cs.CL
 2102.10553,1,2021-02-21,2021-02-21,"A Comprehensive Review of Computer-aided Whole-slide Image Analysis: from Datasets to Feature Extraction, Segmentation, Classification, and Detection Approaches",Review,"cs.CV, cs.AI"
-2102.12578,1,2021-02-20,2021-02-20,A Comprehensive Review on the NILM Algorithms for Energy Disaggregation,Review,"eess.SP, cs.LG"
 2102.10326,1,2021-02-20,2021-02-20,Automated identification of transiting exoplanet candidates in NASA Transiting Exoplanets Survey Satellite (TESS) data with machine learning methods,Survey,"astro-ph.EP, astro-ph.IM, cs.LG"
 2102.10293,1,2021-02-20,2021-02-20,Discussion Tracker: Supporting Teacher Learning about Students' Collaborative Argumentation in High School Classrooms,Discussion,cs.CL
 2011.04406,2,2020-11-09,2021-02-20,"A Survey of Label-noise Representation Learning: Past, Present and Future",Present and Future,cs.LG
 2101.10531,2,2021-01-26,2021-02-20,Deep Learning for Scene Classification: A Survey,Survey,cs.CV
 2003.06979,2,2020-03-16,2021-02-19,Anomalous Example Detection in Deep Learning: A Survey,Survey,"cs.LG, cs.CR, cs.CV, stat.ML"
-1908.11199,4,2019-08-23,2021-02-19,Parkinson's Disease Recognition Using SPECT Image and Interpretable-AI: A Tutorial,Tutorial,"eess.IV, cs.LG, stat.ML"
 2102.09759,1,2021-02-19,2021-02-19,Applications of deep learning in traffic congestion alleviation: A survey,survey,"cs.LG, stat.ML"
 2102.09744,1,2021-02-19,2021-02-19,"Trends in Vehicle Re-identification Past, Present, and Future: A Comprehensive Review",Present and Future,"cs.CV, cs.AI, cs.MM"
 2009.04964,3,2020-09-10,2021-02-18,"News Recommender System: A review of recent progress, challenges, and opportunities",review,cs.IR
@@ -577,7 +607,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2012.04080,1,2020-12-07,2020-12-07,A Taxonomy of Empathetic Response Intents in Human Social Conversations,Taxonomy,cs.CL
 1804.02969,6,2018-04-09,2020-12-07,A review of possible effects of cognitive biases on the interpretation of rule-based machine learning models,review,"stat.ML, cs.AI, cs.LG"
 2012.03755,1,2020-12-07,2020-12-07,Foundations for Near-Term Quantum Natural Language Processing,Foundations,"quant-ph, cs.CL"
-2009.13721,2,2020-09-29,2020-12-07,A Comprehensive Review for MRF and CRF Approaches in Pathology Image Analysis,Review,cs.CV
 2012.05795,1,2020-12-07,2020-12-07,"Machine Learning Information Fusion in Earth Observation: A Comprehensive Review of Methods, Applications and Data Sources",Review,"cs.CV, cs.LG"
 2012.03656,1,2020-12-07,2020-12-07,An Enhanced MeanSum Method For Generating Hotel Multi-Review Summarizations,Review,"cs.CL, cs.AI"
 2012.04555,1,2020-12-07,2020-12-07,Quantifying vegetation biophysical variables from imaging spectroscopy data: a review on retrieval methods,review,"q-bio.QM, eess.IV"
@@ -592,7 +621,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2012.02891,1,2020-12-04,2020-12-04,Review: Deep Learning Methods for Cybersecurity and Intrusion Detection Systems,Review,"cs.CR, cs.LG"
 2012.07532,1,2020-12-04,2020-12-04,An overview of 11 proposals for building safe advanced AI,overview,"cs.LG, cs.AI"
 2012.02825,1,2020-12-04,2020-12-04,Deep Learning for Human Mobility: a Survey on Data and Models,Survey,"cs.LG, I.2, cs.AI, cs.GL, cs.SI"
-2012.02364,1,2020-12-04,2020-12-04,Deep Learning for Medical Anomaly Detection -- A Survey,Survey,"cs.LG, cs.CV, eess.IV, stat.ML"
 2007.11354,7,2020-07-22,2020-12-04,A Systematic Literature Review on Federated Machine Learning: From A Software Engineering Perspective,Review,"cs.SE, cs.DC, cs.LG"
 2012.01805,1,2020-12-03,2020-12-03,Interpretability and Explainability: A Machine Learning Zoo Mini-tour,tour,cs.LG
 2005.03492,3,2020-05-07,2020-12-03,Text Recognition in the Wild: A Survey,Survey,cs.CV
@@ -738,7 +766,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2008.00364,5,2020-08-02,2020-10-26,A Survey on Text Classification: From Shallow to Deep Learning,Survey,cs.CL
 2010.12896,1,2020-10-24,2020-10-24,Abduction and Argumentation for Explainable Machine Learning: A Position Survey,Survey,"cs.AI, cs.LG, cs.LO"
 2010.12751,1,2020-10-24,2020-10-24,Model Extraction Attacks on Graph Neural Networks: Taxonomy and Realization,Taxonomy,"cs.LG, cs.CR"
-2010.12742,1,2020-10-24,2020-10-24,Text Style Transfer: A Review and Experiment Evaluation,Review,cs.CL
 2010.12505,1,2020-10-23,2020-10-23,Helping users discover perspectives: Enhancing opinion mining with joint topic models,perspectives,cs.CL
 2010.12470,1,2020-10-23,2020-10-23,A Practical Guide of Off-Policy Evaluation for Bandit Problems,Guide,"cs.LG, econ.EM, stat.ML"
 2010.10614,2,2020-10-04,2020-10-23,A primer on model-guided exploration of fitness landscapes for biological sequence design,primer,"q-bio.QM, cs.LG, q-bio.BM, q-bio.PE"
@@ -862,7 +889,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2009.08920,1,2020-09-18,2020-09-18,Deep Learning for 3D Point Cloud Understanding: A Survey,Survey,"cs.CV, cs.LG"
 2003.04960,2,2020-03-10,2020-09-17,Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey,Survey,"cs.LG, cs.AI, stat.ML"
 2009.08395,1,2020-09-17,2020-09-17,A Multimodal Memes Classification: A Survey and Open Research Issues,Survey,"cs.CV, cs.AI, cs.CL, cs.LG, cs.MM"
-2009.08340,1,2020-09-17,2020-09-17,Complex-Valued vs. Real-Valued Neural Networks for Classification Perspectives: An Example on Non-Circular Data,Perspectives,"stat.ML, cs.LG"
 2009.04978,2,2020-09-10,2020-09-17,Defeasible reasoning in Description Logics: an overview on DL^N,overview,cs.AI
 2009.08136,1,2020-09-17,2020-09-17,"Multidimensional Scaling, Sammon Mapping, and Isomap: Tutorial and Survey",Survey,"stat.ML, cs.CV, cs.LG"
 2008.08548,2,2020-08-19,2020-09-16,A Survey of Knowledge-based Sequential Decision Making under Uncertainty,Survey,cs.AI
@@ -951,7 +977,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2004.05993,2,2020-04-13,2020-08-14,A Survey of Single-Scene Video Anomaly Detection,Survey,cs.CV
 2008.06353,1,2020-08-14,2020-08-14,Survey of XAI in digital pathology,Survey,"cs.CV, cs.LG, eess.IV"
 2008.05972,1,2020-08-13,2020-08-13,A Survey on Knowledge integration techniques with Artificial Neural Networks for seq-2-seq/time series models,Survey,"cs.LG, cs.AI, cs.CL"
-2008.05221,2,2020-08-12,2020-08-13,Compression of Deep Learning Models for Text: A Survey,Survey,"cs.CL, cs.AI, cs.CV, cs.LG"
 2008.05756,1,2020-08-13,2020-08-13,Metrics for Multi-Class Classification: an Overview,Overview,"stat.ML, cs.LG"
 2008.05850,1,2020-08-12,2020-08-12,Revealing the Hidden Patterns: A Comparative Study on Profiling Subpopulations of MOOC Students,Comparative Study,"cs.HC, cs.LG"
 2008.04970,1,2020-08-11,2020-08-11,Metaheuristics for the operating theater planning and scheduling: A systematic review,review,"cs.AI, math.OC"
@@ -1170,7 +1195,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2005.09459,2,2020-05-17,2020-05-31,Review on Computer Vision in Gastric Cancer: Potential Efficient Tools for Diagnosis,Review,"eess.IV, cs.CV"
 1812.08342,5,2018-12-18,2020-05-31,"A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability",Survey,"cs.LG, cs.AI"
 2006.01632,1,2020-05-31,2020-05-31,A Review on End-To-End Methods for Brain Tumor Segmentation and Overall Survival Prediction,Review,"eess.IV, cs.CV, cs.LG"
-2006.00119,1,2020-05-29,2020-05-29,ExplainIt: Explainable Review Summarization with Opinion Causality Graphs,Review,cs.CL
 2006.00115,1,2020-05-29,2020-05-29,Overview of Scanner Invariant Representations,Overview,"q-bio.QM, cs.CV, cs.LG, eess.IV"
 2006.00113,1,2020-05-29,2020-05-29,A frame semantics based approach to comparative study of digitized corpus,comparative study,"cs.CL, cs.AI"
 1910.05433,5,2019-10-11,2020-05-29,Orchestrating the Development Lifecycle of Machine Learning-Based IoT Applications: A Taxonomy and Survey,Survey,"cs.DC, cs.LG, cs.NI"
@@ -1385,7 +1409,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 1904.03478,2,2019-04-06,2020-02-28,The Mathematics of Text Structure,Mathematics of,"cs.CL, math.CT, quant-ph"
 2002.08627,2,2020-02-20,2020-02-28,"A Comprehensive Scoping Review of Bayesian Networks in Healthcare: Past, Present and Future",Present and Future,cs.AI
 2003.00911,1,2020-02-28,2020-02-28,A Survey on Knowledge Graph-Based Recommender Systems,Survey,"cs.IR, cs.LG, stat.ML"
-2002.12493,1,2020-02-28,2020-02-28,"Optimization with Momentum: Dynamical, Control-Theoretic, and Symplectic Perspectives",Perspectives,"math.OC, cs.NA, math.NA, stat.ML"
 2002.12450,1,2020-02-27,2020-02-27,Do ML Experts Discuss Explainability for AI Systems? A discussion case in the industry for a domain-specific solution,discussion,"cs.HC, cs.AI"
 2002.11945,1,2020-02-27,2020-02-27,"Is my Neural Network Neuromorphic? Taxonomy, Recent Trends and Future Directions in Neuromorphic Engineering",Taxonomy,"cs.ET, cs.LG, cs.NE, stat.ML"
 2002.12351,1,2020-02-26,2020-02-26,Deep Learning for Biomedical Image Reconstruction: A Survey,Survey,"eess.IV, cs.LG"
@@ -1749,7 +1772,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 1902.01724,3,2019-02-05,2019-07-14,AlphaStar: An Evolutionary Computation Perspective,,"cs.NE, cs.AI, cs.LG"
 1908.04404,1,2019-07-12,2019-07-12,Face Recognition in Unconstrained Conditions: A Systematic Review,Review,cs.CV
 1808.03344,3,2018-08-09,2019-07-12,Deep Learning for Single Image Super-Resolution: A Brief Review,Review,cs.CV
-1812.08434,4,2018-12-20,2019-07-10,Graph Neural Networks: A Review of Methods and Applications,Review,"cs.LG, cs.AI, stat.ML"
 1707.07435,7,2017-07-24,2019-07-10,Deep Learning based Recommender System: A Survey and New Perspectives,Perspectives,cs.IR
 1907.04444,1,2019-07-09,2019-07-09,A review on deep learning techniques for 3D sensed data classification,review,cs.CV
 1905.13294,3,2019-05-30,2019-07-09,"A Review of Deep Learning with Special Emphasis on Architectures, Applications and Recent Trends",Review,"cs.LG, stat.ML"
@@ -1757,7 +1779,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 1907.03112,1,2019-07-06,2019-07-06,Best Practices for Learning Domain-Specific Cross-Lingual Embeddings,Best Practices,cs.CL
 1907.03069,1,2019-07-06,2019-07-06,Deep Learning for Fine-Grained Image Analysis: A Survey,Survey,cs.CV
 1812.07101,3,2018-12-09,2019-07-05,Application of Deep Learning in Fundus Image Processing for Ophthalmic Diagnosis -- A Review,Review,"cs.CV, cs.LG, stat.ML"
-1907.02547,1,2019-07-04,2019-07-04,A Survey of Pruning Methods for Efficient Person Re-identification Across Domains,Survey,"cs.CV, cs.LG"
 1907.01693,1,2019-07-03,2019-07-03,Canonical Correlation Analysis (CCA) Based Multi-View Learning: An Overview,Overview,"cs.LG, cs.IR, stat.ML"
 1907.01629,1,2019-07-02,2019-07-02,An Updated Review of Methods and Advancements in Microvascular Blood Flow Imaging,Review,"physics.med-ph, eess.IV, physics.bio-ph, physics.ins-det"
 1906.02989,2,2019-06-07,2019-07-01,Learning Representations of Graph Data -- A Survey,Survey,"cs.LG, stat.ML"
