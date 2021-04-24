@@ -6,7 +6,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Accented Speech Recognition: A Survey (2021)](https://arxiv.org/abs/2104.10747) │ [pdf](https://arxiv.org/pdf/2104.10747) │ [cs.CL](https://arxiv.org/list/cs.CL/recent)
 * [Knowledge-aware Zero-Shot Learning: Survey and Perspective (2021)](https://arxiv.org/abs/2103.00070) │ [pdf](https://arxiv.org/pdf/2103.00070) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [A Comparative Study of Using Spatial-Temporal Graph Convolutional Networks for Predicting Availability in Bike Sharing Schemes (2021)](https://arxiv.org/abs/2104.10644) │ [pdf](https://arxiv.org/pdf/2104.10644) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
-* [Semantic Knowledge Discovery and Discussion Mining of Incel Online Community: Topic modeling (2021)](https://arxiv.org/abs/2104.09586) │ [pdf](https://arxiv.org/pdf/2104.09586) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [Neural Temporal Point Processes: A Review (2021)](https://arxiv.org/abs/2104.03528) │ [pdf](https://arxiv.org/pdf/2104.03528) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
 * [A Review of Formal Methods applied to Machine Learning (2021)](https://arxiv.org/abs/2104.02466) │ [pdf](https://arxiv.org/pdf/2104.02466) │ [cs.PL](https://arxiv.org/list/cs.PL/recent)
 * [A Survey of Deep Meta-Learning (2020-2021)](https://arxiv.org/abs/2010.03522) │ [pdf](https://arxiv.org/pdf/2010.03522) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
