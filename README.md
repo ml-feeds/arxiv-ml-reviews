@@ -9,7 +9,7 @@ on machine learning and artificial intelligence.
 * [**RSS feed**](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews)
 
 ## Setup
-In a new Python 3.8 virtual environment or container, run `make install` from the project's directory.
+In a new Python 3.9 virtual environment or container, run `make install` from the project's directory.
 
 ## Usage commands
 ### refresh
