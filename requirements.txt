@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-arxiv==0.5.3
+arxiv==0.5.4
     # via -r requirements.in
 cachetools==4.2.1
     # via -r requirements.in
@@ -53,7 +53,9 @@ pytz==2021.1
     #   -r requirements.in
     #   pandas
 requests==2.25.1
-    # via pygithub
+    # via
+    #   arxiv
+    #   pygithub
 ruamel.yaml.clib==0.2.2
     # via ruamel.yaml
 ruamel.yaml==0.17.4
