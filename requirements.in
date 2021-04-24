@@ -1,10 +1,10 @@
 cachetools
-arxiv==0.5.4
+arxiv==0.5.3  # Note: result 'tags' key is not returned with v0.5.4.
 feedgen
 flask
 fire
 humanize
-pandas==0.*
+pandas
 pygithub
 pytz
 ruamel.yaml
