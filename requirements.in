@@ -1,5 +1,5 @@
 cachetools
-arxiv
+arxiv==0.5.3
 feedgen
 flask
 fire

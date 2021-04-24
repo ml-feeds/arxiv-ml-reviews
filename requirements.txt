@@ -24,7 +24,7 @@ fire==0.4.0
     # via -r requirements.in
 flask==1.1.2
     # via -r requirements.in
-humanize==3.3.0
+humanize==3.4.1
     # via -r requirements.in
 idna==2.10
     # via requests
@@ -53,12 +53,10 @@ pytz==2021.1
     #   -r requirements.in
     #   pandas
 requests==2.25.1
-    # via
-    #   arxiv
-    #   pygithub
+    # via pygithub
 ruamel.yaml.clib==0.2.2
     # via ruamel.yaml
-ruamel.yaml==0.17.2
+ruamel.yaml==0.17.4
     # via -r requirements.in
 sgmllib3k==1.0.0
     # via feedparser
