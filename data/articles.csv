@@ -433,6 +433,7 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2103.03927,1,2021-02-18,2021-02-18,AudioVisual Speech Synthesis: A brief literature review,review,"cs.SD, cs.CV, cs.LG, eess.AS, eess.IV"
 2102.09553,1,2021-02-18,2021-02-18,A Systematic Review of Natural Language Processing Applied to Radiology Reports,Review,cs.CL
 2102.09546,1,2021-02-18,2021-02-18,Deep Gait Recognition: A Survey,Survey,cs.CV
+2102.09517,1,2021-02-18,2021-02-18,Essentials for Class Incremental Learning,Essentials,"cs.CV, cs.LG"
 2003.05251,3,2020-03-11,2021-02-18,Explainable Agents Through Social Cues: A Review,Review,"cs.RO, cs.HC, cs.LG"
 2102.09508,1,2021-02-18,2021-02-18,Domain Adaptation for Medical Image Analysis: A Survey,Survey,"cs.CV, cs.LG, eess.IV"
 2102.09351,1,2021-02-18,2021-02-18,A Comprehensive Review of Deep Learning-based Single Image Super-resolution,Review,"cs.CV, cs.LG, eess.IV"
@@ -2355,6 +2356,7 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 1803.07278,2,2018-03-20,2018-05-02,Text Detection and Recognition in images: A survey,survey,cs.CV
 1805.00327,1,2018-05-01,2018-05-01,A Taxonomy for Neural Memory Networks,Taxonomy,"cs.LG, stat.ML"
 1804.09671,2,2018-04-25,2018-04-28,Artificial Intelligence-Based Techniques for Emerging Robotics Communication: A Survey and Future Perspectives,Perspectives,eess.SP
+1804.01193,2,2018-04-03,2018-04-27,The Logical Essentials of Bayesian Reasoning,Essentials,cs.AI
 1804.09849,2,2018-04-26,2018-04-27,The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation,Recent Advances,"cs.CL, cs.AI"
 1804.10085,1,2018-04-25,2018-04-25,Notes on stable learning with piecewise-linear basis functions,Notes on,"math.OC, cs.LG"
 1711.08362,2,2017-10-31,2018-04-24,RGB-D-based Human Motion Recognition with Deep Learning: A Survey,Survey,cs.CV
