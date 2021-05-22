@@ -15,6 +15,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - forums
       - points
       - threads
+  essentials:
   foundations:
     startswithout:
       - moral
