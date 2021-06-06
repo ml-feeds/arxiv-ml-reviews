@@ -152,6 +152,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
   walkthrough:
 blacklist:  # Entries are unique lowercase phrases without punctuation.
   - arabic
+  - bangla
   - bengali
   - brasil
   - case study
