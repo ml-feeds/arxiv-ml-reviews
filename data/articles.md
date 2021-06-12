@@ -4,7 +4,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [Composition and Application of Current Advanced Driving Assistance System: A Review (2021)](https://arxiv.org/abs/2105.12348) │ [pdf](https://arxiv.org/pdf/2105.12348) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [Low-Light Image and Video Enhancement Using Deep Learning: A Survey (2021)](https://arxiv.org/abs/2104.10729) │ [pdf](https://arxiv.org/pdf/2104.10729) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)
 * [Artificial Intelligence in Drug Discovery:Applications and Techniques (2021)](https://arxiv.org/abs/2106.05386) │ [pdf](https://arxiv.org/pdf/2106.05386) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
-* [A Comparative Study on Neural Architectures and Training Methods for Japanese Speech Recognition (2021)](https://arxiv.org/abs/2106.05111) │ [pdf](https://arxiv.org/pdf/2106.05111) │ [cs.CL](https://arxiv.org/list/cs.CL/recent)
 * [Machine Learning for Cataract Classification and Grading on Ophthalmic Imaging Modalities: A Survey (2020-2021)](https://arxiv.org/abs/2012.04830) │ [pdf](https://arxiv.org/pdf/2012.04830) │ [eess.IV](https://arxiv.org/list/eess.IV/recent)
 * [Unsupervised Automatic Speech Recognition: A Review (2021)](https://arxiv.org/abs/2106.04897) │ [pdf](https://arxiv.org/pdf/2106.04897) │ [cs.CL](https://arxiv.org/list/cs.CL/recent)
 * [Practical Machine Learning Safety: A Survey and Primer (2021)](https://arxiv.org/abs/2106.04823) │ [pdf](https://arxiv.org/pdf/2106.04823) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
