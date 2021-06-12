@@ -127,7 +127,7 @@ class Searcher:
 
             log.info('Additional memory used since start of %s queries, with %s results yielded, is %s.',
                      search_type, num_yielded, humanized_rss(rss_search_start))
-            if (num_yielded >= max_results) or (num_successive_empty_results >= 2):
+            if (num_yielded >= max_results) or (num_successive_empty_results >= 3):
                 log.info('Completed all %s queries, yielding %s results.', search_type, num_yielded)
                 return
             start += len(results)
