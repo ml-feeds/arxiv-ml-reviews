@@ -69,7 +69,7 @@ class Results:
         The list is sorted reverse chronologically by the last updated date of the reviews. \
         It was generated on {date.today()}. \
         It includes articles mainly from the arXiv categories {categories}. \
-        A rememberable short link to this page is [https://j.mp/lc-ml-reviews](https://j.mp/lc-ml-reviews). \
+        A short link to this page is [https://j.mp/lc-ml-reviews](https://j.mp/lc-ml-reviews). \
         The [source code](https://github.com/ml-feeds/arxiv-ml-reviews) along with the \
         [CSV data](https://github.com/ml-feeds/arxiv-ml-reviews/blob/master/data/articles.csv) for \
         generating this page are linked. \
