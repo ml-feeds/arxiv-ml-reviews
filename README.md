@@ -5,7 +5,7 @@ on machine learning and artificial intelligence.
 
 ## Links
 * [Project repo](https://github.com/ml-feeds/arxiv-ml-reviews)
-* [**HTML list**](https://freenode-machinelearning.github.io/Resources/ArticlesReview.html)
+* [**HTML list**](https://libera-machinelearning.github.io/Resources/ArticlesReview.html) ([short URL](https://j.mp/lc-ml-reviews))
 * [**RSS feed**](https://us-east1-ml-feeds.cloudfunctions.net/arxiv-ml-reviews)
 
 ## Setup
