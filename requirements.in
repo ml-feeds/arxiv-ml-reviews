@@ -1,7 +1,7 @@
 cachetools
 arxiv==0.5.3  # Note: result 'tags' key is not returned with v0.5.4.  Ref: https://github.com/lukasschwab/arxiv.py/issues/65
 feedgen
-flask
+flask<2.0,>=1.0
 fire
 humanize
 pandas
