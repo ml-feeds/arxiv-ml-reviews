@@ -4,7 +4,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2108.06181,1,2021-08-13,2021-08-13,"Detecting socially interacting groups using f-formation: A survey of taxonomy, methods, datasets, applications, challenges, and future research directions",survey,"cs.AI, cs.CV, cs.HC, cs.LG, cs.RO"
 2101.05278,4,2021-01-14,2021-08-13,GAN Inversion: A Survey,Survey,cs.CV
 2107.07338,2,2021-06-20,2021-08-12,An Overview of Machine Learning-aided Optical Performance Monitoring Techniques,Overview,"cs.LG, eess.SP"
-2108.05927,1,2021-08-12,2021-08-12,Overview of the HASOC track at FIRE 2020: Hate Speech and Offensive Content Identification in Indo-European Languages,Overview,"cs.CL, cs.CY"
 2012.12556,4,2020-12-23,2021-08-12,A Survey on Vision Transformer,Survey,"cs.CV, cs.AI"
 2108.05542,1,2021-08-12,2021-08-12,AMMUS : A Survey of Transformer-based Pretrained Models in Natural Language Processing,Survey,cs.CL
 1901.03450,2,2019-01-11,2021-08-12,Ubiquitous Acoustic Sensing on Commodity IoT Devices: A Survey,Survey,"cs.SD, cs.HC, cs.LG, eess.AS"
@@ -1741,7 +1740,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2004.03333,1,2020-03-31,2020-03-31,Binary Neural Networks: A Survey,Survey,"cs.NE, cs.CV, cs.LG"
 1912.10867,2,2019-12-23,2020-03-31,Analysis of the hands in egocentric vision: A survey,survey,"cs.CV, eess.IV"
 2003.13644,1,2020-03-30,2020-03-30,Supervised and Unsupervised Detections for Multiple Object Tracking in Traffic Scenes: A Comparative Study,Comparative Study,cs.CV
-2003.13551,1,2020-03-30,2020-03-30,European Language Grid: An Overview,Overview,cs.CL
 2003.13084,1,2020-03-29,2020-03-29,Best Practices for Implementing FAIR Vocabularies and Ontologies on the Web,Best Practices,"cs.DL, cs.AI, cs.DB"
 1904.05046,3,2019-04-10,2020-03-29,Generalizing from a Few Examples: A Survey on Few-Shot Learning,Survey,"cs.LG, cs.AI"
 2003.12783,1,2020-03-28,2020-03-28,CNN-based Density Estimation and Crowd Counting: A Survey,Survey,cs.CV
