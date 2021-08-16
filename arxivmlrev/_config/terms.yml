@@ -168,6 +168,7 @@ blacklist:  # Entries are unique lowercase phrases without punctuation.
   - eirex
   - empirical
   - europe
+  - european
   - french
   - german
   - hindi
