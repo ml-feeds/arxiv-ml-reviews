@@ -32,7 +32,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [A Comprehensive Overview of Recommender System and Sentiment Analysis (2021)](https://arxiv.org/abs/2109.08794) │ [pdf](https://arxiv.org/pdf/2109.08794) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [A Comparative Study of Modular and Joint Approaches for Speaker-Attributed ASR on Monaural Long-Form Audio (2021)](https://arxiv.org/abs/2107.02852) │ [pdf](https://arxiv.org/pdf/2107.02852) │ [eess.AS](https://arxiv.org/list/eess.AS/recent)
 * [Forgetting in Answer Set Programming -- A Survey (2021)](https://arxiv.org/abs/2107.07016) │ [pdf](https://arxiv.org/pdf/2107.07016) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
-* [Primer: Searching for Efficient Transformers for Language Modeling (2021)](https://arxiv.org/abs/2109.08668) │ [pdf](https://arxiv.org/pdf/2109.08668) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
 * [Self-supervised learning methods and applications in medical imaging analysis: A survey (2021)](https://arxiv.org/abs/2109.08685) │ [pdf](https://arxiv.org/pdf/2109.08685) │ [eess.IV](https://arxiv.org/list/eess.IV/recent)
 * [A review of deep learning methods for MRI reconstruction (2021)](https://arxiv.org/abs/2109.08618) │ [pdf](https://arxiv.org/pdf/2109.08618) │ [eess.IV](https://arxiv.org/list/eess.IV/recent)
 * [On In-network learning. A Comparative Study with Federated and Split Learning (2021)](https://arxiv.org/abs/2104.14929) │ [pdf](https://arxiv.org/pdf/2104.14929) │ [stat.ML](https://arxiv.org/list/stat.ML/recent)
