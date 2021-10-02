@@ -27,7 +27,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2109.12839,1,2021-09-27,2021-09-27,Review of Clustering-Based Recommender Systems,Review,cs.IR
 2101.06072,2,2021-01-15,2021-09-27,Video Summarization Using Deep Neural Networks: A Survey,Survey,"cs.CV, cs.LG, cs.MM"
 2109.12800,1,2021-09-27,2021-09-27,Machine Learning based Medical Image Deepfake Detection: A Comparative Study,Comparative Study,"cs.CV, cs.LG"
-2109.12777,1,2021-09-27,2021-09-27,ReINTEL Challenge 2020: A Comparative Study of Hybrid Deep Neural Network for Reliable Intelligence Identification on Vietnamese SNSs,Comparative Study,"cs.LG, cs.CL"
 2109.12769,1,2021-09-27,2021-09-27,Heterogeneous Treatment Effect Estimation using machine learning for Healthcare application: tutorial and benchmark,tutorial,"cs.LG, cs.IR, stat.AP"
 2109.13233,1,2021-09-27,2021-09-27,Bayesian Transfer Learning: An Overview of Probabilistic Graphical Models for Transfer Learning,Overview,"cs.LG, cs.AI"
 2104.00164,2,2021-03-31,2021-09-26,Time Series Analysis and Modeling to Forecast: a Survey,Survey,"cs.LG, 68Txx, I.2.6, cs.AI"
