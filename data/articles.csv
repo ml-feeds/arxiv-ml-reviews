@@ -6,7 +6,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2108.06181,2,2021-08-13,2021-10-13,"Detecting socially interacting groups using f-formation: A survey of taxonomy, methods, datasets, applications, challenges, and future research directions",survey,"cs.AI, cs.CV, cs.HC, cs.LG, cs.RO"
 2110.06006,2,2021-10-12,2021-10-13,"Robust Glare Detection: Review, Analysis, and Dataset Release",Review,"cs.RO, cs.AI, eess.IV"
 2110.06663,1,2021-10-13,2021-10-13,Tutorial on Deep Learning for Human Activity Recognition,Tutorial,"cs.HC, cs.LG"
-2105.02544,2,2021-05-06,2021-10-13,"SGG: Learning to Select, Guide, and Generate for Keyphrase Generation",Guide,"cs.CL, cs.AI"
 2110.06397,1,2021-10-12,2021-10-12,An Overview of Ontologies and Tool Support for COVID-19 Analytics,Overview,"cs.SE, cs.CL, cs.SC"
 2110.06382,1,2021-10-12,2021-10-12,A Survey of Open Source User Activity Traces with Applications to User Mobility Characterization and Modeling,Survey,"cs.CV, cs.SI"
 2110.06354,1,2021-10-12,2021-10-12,Tell Me How to Survey: Literature Review Made Simple with Automatic Reading Path Generation,Review,"cs.CL, cs.IR, cs.LG"
