@@ -97,6 +97,7 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - scores
       - selection
       - spammers
+      - summarization
   summary and:
   summary description:
   summary of:
@@ -177,6 +178,7 @@ blacklist:  # Entries are unique lowercase phrases without punctuation.
   - indian
   - japanese
   - kannada
+  - korean
   - malayalam
   - matlab toolbox
   - myanmar
