@@ -182,6 +182,7 @@ blacklist:  # Entries are unique lowercase phrases without punctuation.
   - korean
   - malayalam
   - matlab toolbox
+  - money laundering
   - myanmar
   - nips
   - norwegian
