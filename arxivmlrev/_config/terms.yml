@@ -156,6 +156,7 @@ blacklist:  # Entries are unique lowercase phrases without punctuation.
   - bangla
   - bengali
   - brasil
+  - cantonese
   - case study
   - ccks
   - chinese

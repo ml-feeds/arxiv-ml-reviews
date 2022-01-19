@@ -9,7 +9,6 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [A Comprehensive Survey on Knowledge Graph Entity Alignment via Representation Learning (2021-2022)](https://arxiv.org/abs/2103.15059) │ [pdf](https://arxiv.org/pdf/2103.15059) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [Black-box error diagnosis in deep neural networks: a survey of tools (2022)](https://arxiv.org/abs/2201.06444) │ [pdf](https://arxiv.org/pdf/2201.06444) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
 * [A Comparative study of Hyper-Parameter Optimization Tools (2022)](https://arxiv.org/abs/2201.06433) │ [pdf](https://arxiv.org/pdf/2201.06433) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
-* [Automatic Speech Recognition Datasets in Cantonese: A Survey and New Dataset (2022)](https://arxiv.org/abs/2201.02419) │ [pdf](https://arxiv.org/pdf/2201.02419) │ [cs.CL](https://arxiv.org/list/cs.CL/recent)
 * [A survey study of success factors in data science projects (2022)](https://arxiv.org/abs/2201.06310) │ [pdf](https://arxiv.org/pdf/2201.06310) │ [cs.DB](https://arxiv.org/list/cs.DB/recent)
 * [A Taxonomy of Information Attributes for Test Case Prioritisation: Applicability, Machine Learning (2022)](https://arxiv.org/abs/2201.06044) │ [pdf](https://arxiv.org/pdf/2201.06044) │ [cs.SE](https://arxiv.org/list/cs.SE/recent)
 * [Video Transformers: A Survey (2022)](https://arxiv.org/abs/2201.05991) │ [pdf](https://arxiv.org/pdf/2201.05991) │ [cs.CV](https://arxiv.org/list/cs.CV/recent)
