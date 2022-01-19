@@ -67,6 +67,7 @@ This is a mostly auto-generated list of review articles on machine learning and 
 * [An Opinion Mining of Text in COVID-19 Issues along with Comparative Study in ML, BERT & RNN (2022)](https://arxiv.org/abs/2201.02119) │ [pdf](https://arxiv.org/pdf/2201.02119) │ [cs.NE](https://arxiv.org/list/cs.NE/recent)
 * [ConTrip: Consensus Sentiment review Analysis and Platform ratings in a single score (2022)](https://arxiv.org/abs/2201.02113) │ [pdf](https://arxiv.org/pdf/2201.02113) │ [cs.CL](https://arxiv.org/list/cs.CL/recent)
 * [Survey Descent: A Multipoint Generalization of Gradient Descent for Nonsmooth Optimization (2021-2022)](https://arxiv.org/abs/2111.15645) │ [pdf](https://arxiv.org/pdf/2111.15645) │ [math.OC](https://arxiv.org/list/math.OC/recent)
+* [Forecasting: theory and practice (2020-2022)](https://arxiv.org/abs/2012.03854) │ [pdf](https://arxiv.org/pdf/2012.03854) │ [stat.AP](https://arxiv.org/list/stat.AP/recent)
 * [A Survey on Brain-Computer Interaction (2022)](https://arxiv.org/abs/2201.00997) │ [pdf](https://arxiv.org/pdf/2201.00997) │ [cs.HC](https://arxiv.org/list/cs.HC/recent)
 * [A Survey of Embodied AI: From Simulators to Research Tasks (2021-2022)](https://arxiv.org/abs/2103.04918) │ [pdf](https://arxiv.org/pdf/2103.04918) │ [cs.AI](https://arxiv.org/list/cs.AI/recent)
 * [Multimodal Co-learning: Challenges, Applications with Datasets, Recent Advances and Future Directions (2021-2022)](https://arxiv.org/abs/2107.13782) │ [pdf](https://arxiv.org/pdf/2107.13782) │ [cs.LG](https://arxiv.org/list/cs.LG/recent)
