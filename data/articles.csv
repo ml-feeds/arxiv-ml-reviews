@@ -1,5 +1,15 @@
 URL_ID,Version,Published,Updated,Title,Match,Categories
+2110.09461,2,2021-10-18,2022-02-24,"In a Nutshell, the Human Asked for This: Latent Goals for Following Temporal Specifications",Nutshell,"cs.AI, cs.LG"
+2202.12205,1,2022-02-24,2022-02-24,Is Neuro-Symbolic AI Meeting its Promise in Natural Language Processing? A Structured Review,Review,"cs.AI, cs.CL, cs.LG"
+2202.12165,1,2022-02-24,2022-02-24,Transformers in Medical Image Analysis: A Review,Review,cs.CV
+2202.12139,1,2022-02-24,2022-02-24,Testing Deep Learning Models: A First Comparative Study of Multiple Testing Techniques,Comparative Study,"cs.SE, cs.LG"
+2202.12040,1,2022-02-24,2022-02-24,Self-Training: A Survey,Survey,cs.LG
+2112.13112,2,2021-12-24,2022-02-24,A Survey on Interpretable Reinforcement Learning,Survey,"cs.LG, I.2.6, cs.AI"
+2202.11766,1,2022-02-23,2022-02-23,A gentle introduction to Quantum Natural Language Processing,introduction,cs.CL
+2202.11748,1,2022-02-23,2022-02-23,The Need for Interpretable Features: Motivation and Taxonomy,Taxonomy,cs.LG
 2108.09499,2,2021-08-21,2022-02-23,MITI Minimum Information guidelines for highly multiplexed tissue images,guidelines,"q-bio.OT, eess.IV"
+2202.12237,1,2022-02-23,2022-02-23,A comparative study of in-air trajectories at short and long distances in online handwriting,comparative study,"cs.CV, cs.LG"
+2202.12269,1,2022-02-23,2022-02-23,Systematic review of deep learning and machine learning for building energy,review,"cs.LG, 68T07"
 2012.12556,5,2020-12-23,2022-02-23,A Survey on Vision Transformer,Survey,"cs.CV, cs.AI"
 2202.09050,2,2022-02-18,2022-02-23,Guide Local Feature Matching by Overlap Estimation,Guide,cs.CV
 2202.11249,1,2022-02-23,2022-02-23,"Virtual, Augmented, and Mixed Reality for Human-Robot Interaction: A Survey and Virtual Design Element Taxonomy",Survey,"cs.RO, cs.AI, cs.GR, cs.HC"
@@ -42,6 +52,7 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2202.08871,1,2022-02-17,2022-02-17,Graph Data Augmentation for Graph Machine Learning: A Survey,Survey,cs.LG
 2202.08981,1,2022-02-17,2022-02-17,A Summary of the ComParE COVID-19 Challenges,Summary of,"cs.SD, cs.LG, eess.AS"
 2202.08772,1,2022-02-17,2022-02-17,A Survey of Knowledge-Intensive NLP with Pre-Trained Language Models,Survey,cs.CL
+2202.11763,1,2022-02-17,2022-02-17,Single Image Super-Resolution Methods: A Survey,Survey,"eess.IV, cs.CV, cs.LG"
 2202.07820,2,2022-02-16,2022-02-17,A Survey of Semen Quality Evaluation in Microscopic Videos Using Computer Assisted Sperm Analysis,Survey,"eess.IV, cs.CV"
 2201.04138,2,2022-01-11,2022-02-17,Overview of the HECKTOR Challenge at MICCAI 2021: Automatic Head and Neck Tumor Segmentation and Outcome Prediction in PET/CT Images,Overview,"eess.IV, cs.CV"
 2202.08546,1,2022-02-17,2022-02-17,An overview of deep learning in medical imaging,overview,"eess.IV, cs.CV"
@@ -358,7 +369,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2010.05234,3,2020-10-11,2021-12-25,A Practical Tutorial on Graph Neural Networks,Tutorial,"cs.LG, cs.AI, cs.SI"
 2112.13196,1,2021-12-25,2021-12-25,A comparative study on machine learning models combining with outlier detection and balanced sampling methods for credit scoring,comparative study,cs.LG
 2112.12705,2,2021-12-23,2021-12-25,Explainable Artificial Intelligence Methods in Combating Pandemics: A Systematic Review,Review,"cs.AI, cs.LG"
-2112.13112,1,2021-12-24,2021-12-24,A Survey on Interpretable Reinforcement Learning,Survey,"cs.LG, I.2.6, cs.AI"
 2112.12966,1,2021-12-24,2021-12-24,"Machine learning for Earth System Science (ESS): A survey, status and future directions for South Asia",survey,"cs.LG, physics.ao-ph"
 2112.12910,1,2021-12-24,2021-12-24,Towards Understanding Human Functional Brain Development with Explainable Artificial Intelligence: Challenges and Perspectives,Perspectives,"q-bio.NC, cs.AI"
 2112.12744,1,2021-12-23,2021-12-23,AI-based Reconstruction for Fast MRI -- A Systematic Review and Meta-analysis,Review,"eess.IV, cs.AI, cs.CV, physics.med-ph"
@@ -645,7 +655,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2110.11240,1,2021-10-18,2021-10-18,A Systematic Review on the Detection of Fake News Articles,Review,"cs.CL, cs.AI, cs.LG"
 2110.09620,1,2021-10-18,2021-10-18,Sufficient Dimension Reduction for High-Dimensional Regression and Low-Dimensional Embedding: Tutorial and Survey,Survey,"stat.ME, cs.LG, math.ST, stat.ML, stat.TH"
 2110.09610,1,2021-10-18,2021-10-18,A Survey on Machine Learning Techniques for Source Code Analysis,Survey,"cs.SE, cs.LG"
-2110.09461,1,2021-10-18,2021-10-18,"In a Nutshell, the Human Asked for This: Latent Goals for Following Temporal Specifications",Nutshell,"cs.AI, cs.LG"
 2110.09431,1,2021-10-18,2021-10-18,Comparing Deep Neural Nets with UMAP Tour,Tour,"cs.HC, cs.CV, cs.LG"
 2110.09327,1,2021-10-18,2021-10-18,"Self-Supervised Representation Learning: Introduction, Advances and Challenges",Introduction,"cs.LG, cs.CV, stat.ML"
 2111.04418,1,2021-10-18,2021-10-18,"A Survey of Human Activity Recognition in Smart Homes Based on IoT Sensors Algorithms: Taxonomies, Challenges, and Opportunities with Deep Learning",Survey,"cs.HC, cs.AI, cs.LG, eess.SP"
@@ -1026,7 +1035,6 @@ URL_ID,Version,Published,Updated,Title,Match,Categories
 2106.12985,2,2021-06-23,2021-07-09,Stock Market Analysis with Text Data: A Review,Review,"q-fin.ST, cs.LG"
 2107.04132,1,2021-07-08,2021-07-08,A Systematic Survey of Text Worlds as Embodied Natural Language Environments,Survey,"cs.CL, cs.AI"
 2009.13303,2,2020-09-24,2021-07-08,Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey,Survey,"cs.LG, cs.RO"
-2106.08934,2,2021-06-16,2021-07-08,Personalized News Recommendation: A Survey,Survey,cs.IR
 2006.16709,3,2020-06-30,2021-07-08,A Survey on Recent Progress in the Theory of Evolutionary Algorithms for Discrete Optimization,Survey,"cs.NE, cs.AI"
 2107.03361,1,2021-07-07,2021-07-07,A comparative study of various Deep Learning techniques for spatio-temporal Super-Resolution reconstruction of Forced Isotropic Turbulent flows,comparative study,"physics.flu-dyn, cs.LG"
 2101.04869,2,2021-01-13,2021-07-07,"Convolutional Neural Nets in Chemical Engineering: Foundations, Computations, and Applications",Foundations,"cs.LG, cs.AI"
