@@ -29,6 +29,8 @@ whitelist:  # Entries are unique lowercase phrases without punctuation.
       - can
       - exhibition
       - to
+    endswithout:
+      - the
   guidelines:
     startswithout:
       - annotation
