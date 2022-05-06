@@ -3,7 +3,7 @@ arxiv==0.5.3  # Note: result 'tags' key is not returned with v0.5.4.  Ref: https
 feedgen
 flask<2.0,>=1.0
 fire
-humanize
+humanize<4.0,>=3.0
 pandas
 pygithub
 pytz
