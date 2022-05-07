@@ -166,7 +166,7 @@ class Searcher:
                 log.warning('URL ID whitelist has %s unnecessary IDs which are already present in the title search '
                             'results: %s', len(unnecessary_whitelisted_ids), csv)
 
-            df_results = df_results_for_title_search.append(df_results_for_id_search, ignore_index=True)
+            df_results = pd.concat([df_results_for_title_search, df_results_for_id_search], ignore_index=True)
             df_results.drop_duplicates('URL_ID', inplace=True)  # In case duplicated from ID whitelist.
             log.info('Concatenated %s title and %s ID search results dataframes into a single dataframe with %s '
                      'results.',
