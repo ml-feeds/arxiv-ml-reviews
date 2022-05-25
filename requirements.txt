@@ -46,7 +46,7 @@ pycparser==2.21
     # via cffi
 pygithub==1.55
     # via -r requirements.in
-pyjwt==2.3.0
+pyjwt==2.4.0
     # via pygithub
 pynacl==1.5.0
     # via pygithub
@@ -62,10 +62,10 @@ requests==2.27.1
     # via
     #   arxiv
     #   pygithub
-ruamel.yaml==0.17.21
+ruamel-yaml==0.17.21
     # via -r requirements.in
-ruamel.yaml.clib==0.2.6
-    # via ruamel.yaml
+ruamel-yaml-clib==0.2.6
+    # via ruamel-yaml
 sgmllib3k==1.0.0
     # via feedparser
 six==1.16.0
