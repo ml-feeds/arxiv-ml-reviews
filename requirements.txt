@@ -34,7 +34,7 @@ itsdangerous==1.1.0
     # via flask
 jinja2==2.11.3
     # via flask
-lxml==4.8.0
+lxml==4.9.1
     # via feedgen
 markupsafe==2.1.1
     # via jinja2
@@ -62,10 +62,10 @@ requests==2.27.1
     # via
     #   arxiv
     #   pygithub
-ruamel.yaml==0.17.21
+ruamel-yaml==0.17.21
     # via -r requirements.in
-ruamel.yaml.clib==0.2.6
-    # via ruamel.yaml
+ruamel-yaml-clib==0.2.6
+    # via ruamel-yaml
 sgmllib3k==1.0.0
     # via feedparser
 six==1.16.0
