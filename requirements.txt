@@ -8,7 +8,7 @@ arxiv==0.5.3
     # via -r requirements.in
 cachetools==5.0.0
     # via -r requirements.in
-certifi==2021.10.8
+certifi==2022.12.7
     # via requests
 cffi==1.15.0
     # via pynacl
@@ -62,10 +62,8 @@ requests==2.27.1
     # via
     #   arxiv
     #   pygithub
-ruamel.yaml==0.17.21
+ruamel-yaml==0.17.21
     # via -r requirements.in
-ruamel.yaml.clib==0.2.6
-    # via ruamel.yaml
 sgmllib3k==1.0.0
     # via feedparser
 six==1.16.0
